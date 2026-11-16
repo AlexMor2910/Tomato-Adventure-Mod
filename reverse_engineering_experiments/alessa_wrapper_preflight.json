@@ -1,0 +1,394 @@
+﻿{
+  "status": "STOPPED: safe payload allocation not established; no patch constructed",
+  "protected_file_count": 79,
+  "protected_before": {
+    "entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "Tomato Adventure (Japan) (patched).sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "tools\\patch\\output\\gearyo-reference-validation\\balanced.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "tools\\patch\\output\\hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf\\hanzo_dojo_pup.gba": "749762aa8c3c0fae433d46c0ebbcbf4f54646790baf4b6129414e6e5832cdfea",
+    "tools\\patch\\output\\hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf\\hanzo_dojo_pup.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools\\patch\\output\\mayonen-caverns-map001e-86d6efb0c6824c9c851fb5602c4e4746\\mayonen_caverns_map001e.gba": "7fc50105e340510079158ca74e61f778b63b3276793ec9b6ffbe29c2af75c761",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\rom\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\states\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\states\\source-node3.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-45d355b68953\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-45d355b68953\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\experiment-stop.ss0": "079055064db34325edff27576977dbeca6fb6e93eebea6d5659d002da69058f3",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\states\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\states\\route-selection-stop.ss0": "4cd1b66dab75cb8d6bfa84c867427def623749d2b3683d8d142af804b1535bd3",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\states\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\states\\route-selection-stop.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\experiment-stop.ss0": "5d9258dc36758d6599fa72548c65a90e7336855a513d2c6c1893e7ec8e8609cc",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-24f08599ee6a\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-2000e25a7706\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\saves\\1b5bd9a89e03\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\saves\\37d6e3a90afe\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\rom\\mayonen_caverns_map001e.gba": "7fc50105e340510079158ca74e61f778b63b3276793ec9b6ffbe29c2af75c761",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\states\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\states\\60f8bac3aa29\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\saves\\60f8bac3aa29\\mayonen_caverns_map001e.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan) (patched).sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\route-selection-stop.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\rom\\gearyo_attack_22.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\rom\\gearyo_attack_22.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\saves\\gearyo_attack_22.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230"
+  },
+  "protected_after_equal": true,
+  "baseline_sha256": {
+    "Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29"
+  },
+  "commands": {
+    "0x0010D693": "FD 0B 1A 83 00 FD 0B 1C 1B 00 FD 2F 33 4B 12 08",
+    "0x00127326": "FD 49 17 01 FE 49 FE 53 6B",
+    "0x00124BF0": "FD 7C"
+  },
+  "dispatch_thumb_pointers": {
+    "FD 2F": "0x0802896D",
+    "FD 30": "0x08029F2D",
+    "FD 7C": "0x08028A99",
+    "FE 49": "0x080252F5",
+    "FE 53": "0x08025625"
+  },
+  "checkpoint_saved_bytes": {
+    "0x03001AB4": 16,
+    "0x030035F0": 1,
+    "0x03001F43": 0,
+    "0x0300196E": 1
+  },
+  "alessa_saved_name_record_prefix": "01 8c 85 93 05 81 00",
+  "tail": {
+    "start": "0x007F1BE0",
+    "end_exclusive": "0x00800000",
+    "english_all_ff": true,
+    "japanese_all_ff": true,
+    "confidence": "Candidate only; no allocation ownership proof",
+    "pointer_shaped_candidates": [
+      {
+        "file_offset": "0x0007A431",
+        "value": "0x087F60DA"
+      },
+      {
+        "file_offset": "0x00093ACF",
+        "value": "0x087FA101"
+      },
+      {
+        "file_offset": "0x00093BBB",
+        "value": "0x087F6120"
+      },
+      {
+        "file_offset": "0x00093BD7",
+        "value": "0x087F6120"
+      },
+      {
+        "file_offset": "0x00093C1D",
+        "value": "0x087F6120"
+      },
+      {
+        "file_offset": "0x00093CA7",
+        "value": "0x087F6120"
+      },
+      {
+        "file_offset": "0x00093CD3",
+        "value": "0x087F6120"
+      },
+      {
+        "file_offset": "0x000A7B6F",
+        "value": "0x0A7F2608"
+      },
+      {
+        "file_offset": "0x000A7B73",
+        "value": "0x0A7F4208"
+      },
+      {
+        "file_offset": "0x000A7B77",
+        "value": "0x0A7F9A08"
+      },
+      {
+        "file_offset": "0x000A7B7B",
+        "value": "0x0A7FB608"
+      },
+      {
+        "file_offset": "0x000A7B7F",
+        "value": "0x0A7FEA08"
+      },
+      {
+        "file_offset": "0x000C7E2B",
+        "value": "0x0C7F1C08"
+      },
+      {
+        "file_offset": "0x000C7E2F",
+        "value": "0x0C7F5A08"
+      },
+      {
+        "file_offset": "0x000C7F5F",
+        "value": "0x0C7F78FF"
+      },
+      {
+        "file_offset": "0x000C7F63",
+        "value": "0x0C7F7E08"
+      },
+      {
+        "file_offset": "0x000C7F67",
+        "value": "0x0C7FCC08"
+      },
+      {
+        "file_offset": "0x000CB5C8",
+        "value": "0x0C7F6008"
+      },
+      {
+        "file_offset": "0x000CB5E2",
+        "value": "0x0C7F6008"
+      },
+      {
+        "file_offset": "0x000CB61C",
+        "value": "0x0C7F6008"
+      },
+      {
+        "file_offset": "0x000CB650",
+        "value": "0x0C7F6008"
+      },
+      {
+        "file_offset": "0x000CB66A",
+        "value": "0x0C7F6008"
+      },
+      {
+        "file_offset": "0x000CB67C",
+        "value": "0x0C7F6008"
+      },
+      {
+        "file_offset": "0x0010252D",
+        "value": "0x087F54FD"
+      },
+      {
+        "file_offset": "0x0012457B",
+        "value": "0x0A7F54FD"
+      },
+      {
+        "file_offset": "0x00178A3E",
+        "value": "0x087F3C0E"
+      },
+      {
+        "file_offset": "0x001881A7",
+        "value": "0x087F2288"
+      },
+      {
+        "file_offset": "0x0018D124",
+        "value": "0x0A7FD022"
+      },
+      {
+        "file_offset": "0x00193B78",
+        "value": "0x087F1F9E"
+      },
+      {
+        "file_offset": "0x0019445D",
+        "value": "0x0A7FA7A5"
+      },
+      {
+        "file_offset": "0x0019544B",
+        "value": "0x0C7F1E00"
+      },
+      {
+        "file_offset": "0x001D149E",
+        "value": "0x087FD87E"
+      },
+      {
+        "file_offset": "0x001D8F5B",
+        "value": "0x0A7F60DF"
+      },
+      {
+        "file_offset": "0x001DB56B",
+        "value": "0x0C7F8DAD"
+      },
+      {
+        "file_offset": "0x001E4B89",
+        "value": "0x0C7F525F"
+      },
+      {
+        "file_offset": "0x001E9853",
+        "value": "0x087F807B"
+      },
+      {
+        "file_offset": "0x001EE5B5",
+        "value": "0x0C7FF66F"
+      },
+      {
+        "file_offset": "0x001EE7C7",
+        "value": "0x087FC005"
+      },
+      {
+        "file_offset": "0x00204D2F",
+        "value": "0x087F4903"
+      },
+      {
+        "file_offset": "0x00207769",
+        "value": "0x087F729F"
+      },
+      {
+        "file_offset": "0x002205D9",
+        "value": "0x0C7FA680"
+      },
+      {
+        "file_offset": "0x00225FD3",
+        "value": "0x0A7F70C6"
+      },
+      {
+        "file_offset": "0x002265F4",
+        "value": "0x0C7FC183"
+      },
+      {
+        "file_offset": "0x0022A518",
+        "value": "0x087F9999"
+      },
+      {
+        "file_offset": "0x0023C4C9",
+        "value": "0x087FD247"
+      },
+      {
+        "file_offset": "0x0023E286",
+        "value": "0x0A7FF00F"
+      },
+      {
+        "file_offset": "0x00254A59",
+        "value": "0x087F3603"
+      },
+      {
+        "file_offset": "0x0043CC95",
+        "value": "0x0C7F9500"
+      },
+      {
+        "file_offset": "0x0049DD3F",
+        "value": "0x087FA018"
+      },
+      {
+        "file_offset": "0x004A18CD",
+        "value": "0x0A7F4E8A"
+      },
+      {
+        "file_offset": "0x0052279E",
+        "value": "0x0A7F2001"
+      },
+      {
+        "file_offset": "0x005405AA",
+        "value": "0x087F3111"
+      },
+      {
+        "file_offset": "0x00541457",
+        "value": "0x0C7F527F"
+      },
+      {
+        "file_offset": "0x00548927",
+        "value": "0x0A7F778A"
+      },
+      {
+        "file_offset": "0x00574153",
+        "value": "0x0C7FCC80"
+      },
+      {
+        "file_offset": "0x0059C602",
+        "value": "0x0C7FF7C0"
+      },
+      {
+        "file_offset": "0x005F9CF4",
+        "value": "0x0C7F507F"
+      },
+      {
+        "file_offset": "0x005FB6C6",
+        "value": "0x0A7F5077"
+      },
+      {
+        "file_offset": "0x0062CA2B",
+        "value": "0x0C7F6008"
+      },
+      {
+        "file_offset": "0x006449D3",
+        "value": "0x0A7F8004"
+      },
+      {
+        "file_offset": "0x00644AD1",
+        "value": "0x0A7F8004"
+      },
+      {
+        "file_offset": "0x00645751",
+        "value": "0x0A7F8004"
+      },
+      {
+        "file_offset": "0x00646057",
+        "value": "0x087F8004"
+      },
+      {
+        "file_offset": "0x00646493",
+        "value": "0x0A7F8015"
+      },
+      {
+        "file_offset": "0x0064730F",
+        "value": "0x0A7F8004"
+      },
+      {
+        "file_offset": "0x00647457",
+        "value": "0x0A7F8015"
+      },
+      {
+        "file_offset": "0x0068AD38",
+        "value": "0x087F9090"
+      },
+      {
+        "file_offset": "0x0068E23D",
+        "value": "0x0A7F3073"
+      }
+    ]
+  },
+  "output_rom": null,
+  "modified_rom_offsets": [],
+  "runtime_tested": false
+}

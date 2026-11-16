@@ -1,0 +1,3410 @@
+{
+  "status": "static preflight passed; runtime patch untested",
+  "commands": [
+    {
+      "bus": "0x08107E81",
+      "bytes": "fe 01 00 90 7e 10 08"
+    },
+    {
+      "bus": "0x08107E88",
+      "bytes": "fd 84 00 36 06 08"
+    },
+    {
+      "bus": "0x08107E8E",
+      "bytes": "2f 00"
+    },
+    {
+      "bus": "0x08107E90",
+      "bytes": "fd 35 fc 01 cc 81 10 08"
+    },
+    {
+      "bus": "0x08107E98",
+      "bytes": "fe c8 07 f9 65 08"
+    },
+    {
+      "bus": "0x08107E9E",
+      "bytes": "fd 35 ba 00 c0 7f 10 08"
+    },
+    {
+      "bus": "0x08107EA6",
+      "bytes": "fd 35 c4 01 d7 7e 10 08"
+    },
+    {
+      "bus": "0x08107EAE",
+      "bytes": "fe c0 01"
+    },
+    {
+      "bus": "0x08107EB1",
+      "bytes": "fd 3b 40 00 bf 7e 10 08"
+    },
+    {
+      "bus": "0x08107EB9",
+      "bytes": "fd 30 25 80 10 08"
+    },
+    {
+      "bus": "0x08107EBF",
+      "bytes": "fe bc 7d f9 65 08"
+    },
+    {
+      "bus": "0x08107EC5",
+      "bytes": "fe 7a 9c 81 10 08"
+    },
+    {
+      "bus": "0x08107ECB",
+      "bytes": "fe b5 b4 81 10 08"
+    },
+    {
+      "bus": "0x08107ED1",
+      "bytes": "fd 30 52 7f 10 08"
+    },
+    {
+      "bus": "0x08107ED7",
+      "bytes": "fe c0 01"
+    },
+    {
+      "bus": "0x08107EDA",
+      "bytes": "fd 3b 40 00 f3 7e 10 08"
+    },
+    {
+      "bus": "0x08107EE2",
+      "bytes": "fe c0 02"
+    },
+    {
+      "bus": "0x08107EE5",
+      "bytes": "fd 3b 40 00 04 7f 10 08"
+    },
+    {
+      "bus": "0x08107EED",
+      "bytes": "fd 30 25 80 10 08"
+    },
+    {
+      "bus": "0x08107EF3",
+      "bytes": "fe c0 02"
+    },
+    {
+      "bus": "0x08107EF6",
+      "bytes": "fd 3b 40 00 34 7f 10 08"
+    },
+    {
+      "bus": "0x08107EFE",
+      "bytes": "fd 30 1c 7f 10 08"
+    },
+    {
+      "bus": "0x08107F04",
+      "bytes": "fe bc c6 f9 65 08"
+    },
+    {
+      "bus": "0x08107F0A",
+      "bytes": "fe 7a 9c 81 10 08"
+    },
+    {
+      "bus": "0x08107F10",
+      "bytes": "fe b5 b4 81 10 08"
+    },
+    {
+      "bus": "0x08107F16",
+      "bytes": "fd 30 89 7f 10 08"
+    },
+    {
+      "bus": "0x08107F1C",
+      "bytes": "fe bc 7d f9 65 08"
+    },
+    {
+      "bus": "0x08107F22",
+      "bytes": "fe 7a 9c 81 10 08"
+    },
+    {
+      "bus": "0x08107F28",
+      "bytes": "fe b5 b4 81 10 08"
+    },
+    {
+      "bus": "0x08107F2E",
+      "bytes": "fd 30 2e 81 10 08"
+    },
+    {
+      "bus": "0x08107F34",
+      "bytes": "fe bc 58 fa 65 08"
+    },
+    {
+      "bus": "0x08107F3A",
+      "bytes": "fe 7a 89 7f 10 08"
+    },
+    {
+      "bus": "0x08107F40",
+      "bytes": "fe b5 9c 81 10 08"
+    },
+    {
+      "bus": "0x08107F46",
+      "bytes": "fe b6 b4 81 10 08"
+    },
+    {
+      "bus": "0x08107F4C",
+      "bytes": "fd 30 2e 81 10 08"
+    },
+    {
+      "bus": "0x08107F52",
+      "bytes": "fd 00 01 00"
+    },
+    {
+      "bus": "0x08107F56",
+      "bytes": "fe 31 03 01"
+    },
+    {
+      "bus": "0x08107F5A",
+      "bytes": "fe c8 c2 fb 65 08"
+    },
+    {
+      "bus": "0x08107F60",
+      "bytes": "fe 7a b4 81 10 08"
+    },
+    {
+      "bus": "0x08107F66",
+      "bytes": "fe 5c 37"
+    },
+    {
+      "bus": "0x08107F69",
+      "bytes": "fd 1f 63 00"
+    },
+    {
+      "bus": "0x08107F6D",
+      "bytes": "fd 45 c0 81 10 08"
+    },
+    {
+      "bus": "0x08107F73",
+      "bytes": "fe 55 37 01 d8 81 10 08"
+    },
+    {
+      "bus": "0x08107F7B",
+      "bytes": "fe b0 3a"
+    },
+    {
+      "bus": "0x08107F7E",
+      "bytes": "fe 66 a1 a9 65 08"
+    },
+    {
+      "bus": "0x08107F84",
+      "bytes": "fe c1 01"
+    },
+    {
+      "bus": "0x08107F87",
+      "bytes": "fd 7d"
+    },
+    {
+      "bus": "0x08107F89",
+      "bytes": "fd 00 01 00"
+    },
+    {
+      "bus": "0x08107F8D",
+      "bytes": "fe 31 03 01"
+    },
+    {
+      "bus": "0x08107F91",
+      "bytes": "fe c8 c2 fb 65 08"
+    },
+    {
+      "bus": "0x08107F97",
+      "bytes": "fe 7a b4 81 10 08"
+    },
+    {
+      "bus": "0x08107F9D",
+      "bytes": "fe 5c 37"
+    },
+    {
+      "bus": "0x08107FA0",
+      "bytes": "fd 1f 63 00"
+    },
+    {
+      "bus": "0x08107FA4",
+      "bytes": "fd 45 c0 81 10 08"
+    },
+    {
+      "bus": "0x08107FAA",
+      "bytes": "fe 55 37 01 d8 81 10 08"
+    },
+    {
+      "bus": "0x08107FB2",
+      "bytes": "fe b0 3a"
+    },
+    {
+      "bus": "0x08107FB5",
+      "bytes": "fe 66 a1 a9 65 08"
+    },
+    {
+      "bus": "0x08107FBB",
+      "bytes": "fe c1 02"
+    },
+    {
+      "bus": "0x08107FBE",
+      "bytes": "fd 7d"
+    },
+    {
+      "bus": "0x08107FC0",
+      "bytes": "fe c0 01"
+    },
+    {
+      "bus": "0x08107FC3",
+      "bytes": "fd 3b 40 00 e7 7f 10 08"
+    },
+    {
+      "bus": "0x08107FCB",
+      "bytes": "fe c0 02"
+    },
+    {
+      "bus": "0x08107FCE",
+      "bytes": "fd 3b 40 00 03 80 10 08"
+    },
+    {
+      "bus": "0x08107FD6",
+      "bytes": "fe c0 03"
+    },
+    {
+      "bus": "0x08107FD9",
+      "bytes": "fd 3b 40 00 67 80 10 08"
+    },
+    {
+      "bus": "0x08107FE1",
+      "bytes": "fd 30 25 80 10 08"
+    },
+    {
+      "bus": "0x08107FE7",
+      "bytes": "fe c0 02"
+    },
+    {
+      "bus": "0x08107FEA",
+      "bytes": "fd 3b 40 00 14 80 10 08"
+    },
+    {
+      "bus": "0x08107FF2",
+      "bytes": "fe c0 03"
+    },
+    {
+      "bus": "0x08107FF5",
+      "bytes": "fd 3b 40 00 9d 80 10 08"
+    },
+    {
+      "bus": "0x08107FFD",
+      "bytes": "fd 30 37 80 10 08"
+    },
+    {
+      "bus": "0x08108003",
+      "bytes": "fe c0 03"
+    },
+    {
+      "bus": "0x08108006",
+      "bytes": "fd 3b 40 00 bb 80 10 08"
+    },
+    {
+      "bus": "0x0810800E",
+      "bytes": "fd 30 4f 80 10 08"
+    },
+    {
+      "bus": "0x08108014",
+      "bytes": "fe c0 03"
+    },
+    {
+      "bus": "0x08108017",
+      "bytes": "fd 3b 40 00 d9 80 10 08"
+    },
+    {
+      "bus": "0x0810801F",
+      "bytes": "fd 30 7f 80 10 08"
+    },
+    {
+      "bus": "0x08108025",
+      "bytes": "fe c8 15 fd 65 08"
+    },
+    {
+      "bus": "0x0810802B",
+      "bytes": "fe 7a 9c 81 10 08"
+    },
+    {
+      "bus": "0x08108031",
+      "bytes": "fd 30 b4 81 10 08"
+    },
+    {
+      "bus": "0x08108037",
+      "bytes": "fe bc 7d f9 65 08"
+    },
+    {
+      "bus": "0x0810803D",
+      "bytes": "fe 7a 9c 81 10 08"
+    },
+    {
+      "bus": "0x08108043",
+      "bytes": "fe b5 b4 81 10 08"
+    },
+    {
+      "bus": "0x08108049",
+      "bytes": "fd 30 f7 80 10 08"
+    },
+    {
+      "bus": "0x0810804F",
+      "bytes": "fe bc c6 f9 65 08"
+    },
+    {
+      "bus": "0x08108055",
+      "bytes": "fe 7a 9c 81 10 08"
+    },
+    {
+      "bus": "0x0810805B",
+      "bytes": "fe b5 b4 81 10 08"
+    },
+    {
+      "bus": "0x08108061",
+      "bytes": "fd 30 89 7f 10 08"
+    },
+    {
+      "bus": "0x08108067",
+      "bytes": "fe bc 0f fa 65 08"
+    },
+    {
+      "bus": "0x0810806D",
+      "bytes": "fe 7a 9c 81 10 08"
+    },
+    {
+      "bus": "0x08108073",
+      "bytes": "fe b5 b4 81 10 08"
+    },
+    {
+      "bus": "0x08108079",
+      "bytes": "fd 30 65 81 10 08"
+    },
+    {
+      "bus": "0x0810807F",
+      "bytes": "fe bc 58 fa 65 08"
+    },
+    {
+      "bus": "0x08108085",
+      "bytes": "fe 7a 89 7f 10 08"
+    },
+    {
+      "bus": "0x0810808B",
+      "bytes": "fe b5 9c 81 10 08"
+    },
+    {
+      "bus": "0x08108091",
+      "bytes": "fe b6 b4 81 10 08"
+    },
+    {
+      "bus": "0x08108097",
+      "bytes": "fd 30 f7 80 10 08"
+    },
+    {
+      "bus": "0x0810809D",
+      "bytes": "fe bc af fa 65 08"
+    },
+    {
+      "bus": "0x081080A3",
+      "bytes": "fe 7a 65 81 10 08"
+    },
+    {
+      "bus": "0x081080A9",
+      "bytes": "fe b5 9c 81 10 08"
+    },
+    {
+      "bus": "0x081080AF",
+      "bytes": "fe b6 b4 81 10 08"
+    },
+    {
+      "bus": "0x081080B5",
+      "bytes": "fd 30 f7 80 10 08"
+    },
+    {
+      "bus": "0x081080BB",
+      "bytes": "fe bc 06 fb 65 08"
+    },
+    {
+      "bus": "0x081080C1",
+      "bytes": "fe 7a 65 81 10 08"
+    },
+    {
+      "bus": "0x081080C7",
+      "bytes": "fe b5 9c 81 10 08"
+    },
+    {
+      "bus": "0x081080CD",
+      "bytes": "fe b6 b4 81 10 08"
+    },
+    {
+      "bus": "0x081080D3",
+      "bytes": "fd 30 89 7f 10 08"
+    },
+    {
+      "bus": "0x081080D9",
+      "bytes": "fe bc 5d fb 65 08"
+    },
+    {
+      "bus": "0x081080DF",
+      "bytes": "fe 7a 89 7f 10 08"
+    },
+    {
+      "bus": "0x081080E5",
+      "bytes": "fe b5 65 81 10 08"
+    },
+    {
+      "bus": "0x081080EB",
+      "bytes": "fe b6 9c 81 10 08"
+    },
+    {
+      "bus": "0x081080F1",
+      "bytes": "fe b7 b4 81 10 08"
+    },
+    {
+      "bus": "0x081080F7",
+      "bytes": "fd 00 03 00"
+    },
+    {
+      "bus": "0x081080FB",
+      "bytes": "fe 31 03 01"
+    },
+    {
+      "bus": "0x081080FF",
+      "bytes": "fe c8 c2 fb 65 08"
+    },
+    {
+      "bus": "0x08108105",
+      "bytes": "fe 7a b4 81 10 08"
+    },
+    {
+      "bus": "0x0810810B",
+      "bytes": "fe 5c 37"
+    },
+    {
+      "bus": "0x0810810E",
+      "bytes": "fd 1f 61 00"
+    },
+    {
+      "bus": "0x08108112",
+      "bytes": "fd 45 c0 81 10 08"
+    },
+    {
+      "bus": "0x08108118",
+      "bytes": "fe 55 37 03 d8 81 10 08"
+    },
+    {
+      "bus": "0x08108120",
+      "bytes": "fe b0 3a"
+    },
+    {
+      "bus": "0x08108123",
+      "bytes": "fe 66 a1 a9 65 08"
+    },
+    {
+      "bus": "0x08108129",
+      "bytes": "fe c1 01"
+    },
+    {
+      "bus": "0x0810812C",
+      "bytes": "fd 7d"
+    },
+    {
+      "bus": "0x0810812E",
+      "bytes": "fd 00 02 00"
+    },
+    {
+      "bus": "0x08108132",
+      "bytes": "fe 31 03 01"
+    },
+    {
+      "bus": "0x08108136",
+      "bytes": "fe c8 c2 fb 65 08"
+    },
+    {
+      "bus": "0x0810813C",
+      "bytes": "fe 7a b4 81 10 08"
+    },
+    {
+      "bus": "0x08108142",
+      "bytes": "fe 5c 37"
+    },
+    {
+      "bus": "0x08108145",
+      "bytes": "fd 1f 62 00"
+    },
+    {
+      "bus": "0x08108149",
+      "bytes": "fd 45 c0 81 10 08"
+    },
+    {
+      "bus": "0x0810814F",
+      "bytes": "fe 55 37 02 d8 81 10 08"
+    },
+    {
+      "bus": "0x08108157",
+      "bytes": "fe b0 3a"
+    },
+    {
+      "bus": "0x0810815A",
+      "bytes": "fe 66 a1 a9 65 08"
+    },
+    {
+      "bus": "0x08108160",
+      "bytes": "fe c1 01"
+    },
+    {
+      "bus": "0x08108163",
+      "bytes": "fd 7d"
+    },
+    {
+      "bus": "0x08108165",
+      "bytes": "fd 00 02 00"
+    },
+    {
+      "bus": "0x08108169",
+      "bytes": "fe 31 03 01"
+    },
+    {
+      "bus": "0x0810816D",
+      "bytes": "fe c8 c2 fb 65 08"
+    },
+    {
+      "bus": "0x08108173",
+      "bytes": "fe 7a b4 81 10 08"
+    },
+    {
+      "bus": "0x08108179",
+      "bytes": "fe 5c 37"
+    },
+    {
+      "bus": "0x0810817C",
+      "bytes": "fd 1f 62 00"
+    },
+    {
+      "bus": "0x08108180",
+      "bytes": "fd 45 c0 81 10 08"
+    },
+    {
+      "bus": "0x08108186",
+      "bytes": "fe 55 37 02 d8 81 10 08"
+    },
+    {
+      "bus": "0x0810818E",
+      "bytes": "fe b0 3a"
+    },
+    {
+      "bus": "0x08108191",
+      "bytes": "fe 66 a1 a9 65 08"
+    },
+    {
+      "bus": "0x08108197",
+      "bytes": "fe c1 03"
+    },
+    {
+      "bus": "0x0810819A",
+      "bytes": "fd 7d"
+    },
+    {
+      "bus": "0x0810819C",
+      "bytes": "fe 31 03 01"
+    },
+    {
+      "bus": "0x081081A0",
+      "bytes": "fe c8 48 fc 65 08"
+    },
+    {
+      "bus": "0x081081A6",
+      "bytes": "fd 7d"
+    },
+    {
+      "bus": "0x081081A8",
+      "bytes": "fe 31 03 01"
+    },
+    {
+      "bus": "0x081081AC",
+      "bytes": "fe c8 15 fd 65 08"
+    },
+    {
+      "bus": "0x081081B2",
+      "bytes": "fd 7d"
+    },
+    {
+      "bus": "0x081081B4",
+      "bytes": "fe 31 03 01"
+    },
+    {
+      "bus": "0x081081B8",
+      "bytes": "fe c8 35 fc 65 08"
+    },
+    {
+      "bus": "0x081081BE",
+      "bytes": "fd 7d"
+    },
+    {
+      "bus": "0x081081C0",
+      "bytes": "fe 31 03 01"
+    },
+    {
+      "bus": "0x081081C4",
+      "bytes": "fe c8 98 fd 65 08"
+    },
+    {
+      "bus": "0x081081CA",
+      "bytes": "fd 7d"
+    },
+    {
+      "bus": "0x081081CC",
+      "bytes": "fe 31 03 01"
+    },
+    {
+      "bus": "0x081081D0",
+      "bytes": "fe c8 ff fd 65 08"
+    },
+    {
+      "bus": "0x081081D6",
+      "bytes": "fd 7d"
+    },
+    {
+      "bus": "0x081081D8",
+      "bytes": "fd 7d"
+    }
+  ],
+  "boundary": "exact scoped end",
+  "blocks": [
+    {
+      "file_start": "0x107f52",
+      "original_quantity": 1,
+      "reset_character": 1
+    },
+    {
+      "file_start": "0x107f89",
+      "original_quantity": 1,
+      "reset_character": 2
+    },
+    {
+      "file_start": "0x1080f7",
+      "original_quantity": 3,
+      "reset_character": 1
+    },
+    {
+      "file_start": "0x10812e",
+      "original_quantity": 2,
+      "reset_character": 1
+    },
+    {
+      "file_start": "0x108165",
+      "original_quantity": 2,
+      "reset_character": 3
+    }
+  ],
+  "operations": [
+    {
+      "offset": "0x107f54",
+      "old": "01",
+      "new": "02",
+      "role": "display"
+    },
+    {
+      "offset": "0x107f6b",
+      "old": "63",
+      "new": "62",
+      "role": "capacity cutoff"
+    },
+    {
+      "offset": "0x107f76",
+      "old": "01",
+      "new": "02",
+      "role": "actual grant"
+    },
+    {
+      "offset": "0x107f8b",
+      "old": "01",
+      "new": "02",
+      "role": "display"
+    },
+    {
+      "offset": "0x107fa2",
+      "old": "63",
+      "new": "62",
+      "role": "capacity cutoff"
+    },
+    {
+      "offset": "0x107fad",
+      "old": "01",
+      "new": "02",
+      "role": "actual grant"
+    },
+    {
+      "offset": "0x1080f9",
+      "old": "03",
+      "new": "02",
+      "role": "display"
+    },
+    {
+      "offset": "0x108110",
+      "old": "61",
+      "new": "62",
+      "role": "capacity cutoff"
+    },
+    {
+      "offset": "0x10811b",
+      "old": "03",
+      "new": "02",
+      "role": "actual grant"
+    },
+    {
+      "offset": "0x65fc48",
+      "old": "19 8f 95 00 8e 99 8f 1d 1d 1d ff 01 09 00 97 8f 8e 7d 94 00 ff 32 94 92 81 84 85 ff 30 00 99 8f 95 00 81 8e 99 ff 05 82 89 8e 8b 89 85 93 00 95 8e 8c 85 93 93 00 99 8f 95 00 82 92 89 8e 87 ff 02 8d 85 00 81 00 ff 32 86 95 8c 8c 00 01 17 05 7b 00 87 81 95 87 85 ff 30 1d ff 01 01 93 00 99 8f 95 00 8d 81 8b 85 00 8d 8f 92 85 00 86 92 89 85 8e 84 93 1c ff 05 94 88 85 00 ff 32 81 8d 8f 95 8e 94 ff 30 00 8f 86 00 82 89 8e 8b 89 85 93 00 09 ff 02 8f 86 86 85 92 00 99 8f 95 00 86 8f 92 00 89 94 00 8d 81 99 ff 05 83 88 81 8e 87 85 00 81 93 00 97 85 8c 8c 1d 1d 1d ff 01 0e 99 8f 1b 88 8f 1b 88 8f 1d 1d 1d ff 40 ff 00",
+      "new": "19 8f 95 00 8e 99 8f 1d 1d 1d ff 01 09 00 97 8f 8e 7d 94 00 ff 32 94 92 81 84 85 ff 30 00 99 8f 95 00 81 8e 99 ff 05 82 89 8e 8b 89 85 93 00 95 8e 8c 85 93 93 00 99 8f 95 00 82 92 89 8e 87 ff 02 8d 85 00 81 00 ff 32 86 95 8c 8c 00 01 17 05 7b 00 87 81 95 87 85 ff 30 1d ff 01 05 96 85 92 99 00 86 95 8c 8c 00 01 17 05 7b 00 87 81 95 87 85 ff 05 89 93 00 97 8f 92 94 88 00 94 97 8f 00 82 89 8e 8b 89 85 93 1c ff 02 86 92 8f 8d 00 81 8e 99 00 83 88 81 92 81 83 94 85 92 1d ff 01 0e 99 8f 1b 88 8f 1b 88 8f 1d 1d 1d ff 40 ff 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff",
+      "role": "correct obsolete progression advice"
+    }
+  ],
+  "original_advice": "You nyo...[WAIT]I won't [COLOR_ON]trade[COLOR_OFF] you any[BREAK]binkies unless you bring[CONTINUE]me a [COLOR_ON]full AWE! gauge[COLOR_OFF].[WAIT]As you make more friends,[BREAK]the [COLOR_ON]amount[COLOR_OFF] of binkies I[CONTINUE]offer you for it may[BREAK]change as well...[WAIT]Nyo-ho-ho...[SIMPLEWAIT][END]",
+  "replacement_advice": "You nyo...[WAIT]I won't [COLOR_ON]trade[COLOR_OFF] you any[BREAK]binkies unless you bring[CONTINUE]me a [COLOR_ON]full AWE! gauge[COLOR_OFF].[WAIT]Every full AWE! gauge[BREAK]is worth two binkies,[CONTINUE]from any character.[WAIT]Nyo-ho-ho...[SIMPLEWAIT][END]",
+  "native_windows": [
+    {
+      "role": "FD00 display accumulator",
+      "file_range": [
+        "0x28c7c",
+        "0x28c90"
+      ],
+      "sha256": "909e24c1d853f0bc0e9146b46f2db2688c418049c0f1db3fa15b37db967f7c10",
+      "instructions": [
+        {
+          "bus": "0x8028c7c",
+          "bytes": "00 b5",
+          "text": "push {lr}"
+        },
+        {
+          "bus": "0x8028c7e",
+          "bytes": "f9 f7 b7 fd",
+          "text": "bl 0x080227F0"
+        },
+        {
+          "bus": "0x8028c82",
+          "bytes": "02 49",
+          "text": "ldr r1, [pc, #8] ; slot 0x08028C8C = 0x03003A24"
+        },
+        {
+          "bus": "0x8028c84",
+          "bytes": "08 80",
+          "text": "strh r0, [r1, #0]"
+        },
+        {
+          "bus": "0x8028c86",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x8028c88",
+          "bytes": "00 47",
+          "text": "bx r0"
+        },
+        {
+          "bus": "0x8028c8a",
+          "bytes": "00 00",
+          "text": "lsl r0, r0, #0"
+        }
+      ]
+    },
+    {
+      "role": "FE55 item/quantity",
+      "file_range": [
+        "0x25634",
+        "0x2565c"
+      ],
+      "sha256": "21188b396c6be4d87c0abb750f41f122f596abdbed18bf708fec394389ffc865",
+      "instructions": [
+        {
+          "bus": "0x8025634",
+          "bytes": "30 b5",
+          "text": "push {r4, r5, lr}"
+        },
+        {
+          "bus": "0x8025636",
+          "bytes": "fc f7 7d ff",
+          "text": "bl 0x08022534"
+        },
+        {
+          "bus": "0x802563a",
+          "bytes": "06 4d",
+          "text": "ldr r5, [pc, #24] ; slot 0x08025654 = 0x03003A34"
+        },
+        {
+          "bus": "0x802563c",
+          "bytes": "06 4c",
+          "text": "ldr r4, [pc, #24] ; slot 0x08025658 = 0x030018BC"
+        },
+        {
+          "bus": "0x802563e",
+          "bytes": "60 78",
+          "text": "ldrb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x8025640",
+          "bytes": "28 70",
+          "text": "strb r0, [r5, #0]"
+        },
+        {
+          "bus": "0x8025642",
+          "bytes": "fc f7 77 ff",
+          "text": "bl 0x08022534"
+        },
+        {
+          "bus": "0x8025646",
+          "bytes": "60 78",
+          "text": "ldrb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x8025648",
+          "bytes": "68 70",
+          "text": "strb r0, [r5, #1]"
+        },
+        {
+          "bus": "0x802564a",
+          "bytes": "03 f0 c3 fd",
+          "text": "bl 0x080291D4"
+        },
+        {
+          "bus": "0x802564e",
+          "bytes": "30 bc",
+          "text": "pop {r4, r5}"
+        },
+        {
+          "bus": "0x8025650",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x8025652",
+          "bytes": "00 47",
+          "text": "bx r0"
+        }
+      ]
+    },
+    {
+      "role": "FE5C count",
+      "file_range": [
+        "0x257c4",
+        "0x257e4"
+      ],
+      "sha256": "1b8d0e807f0ae968346d2437b301571d9df9badf80ca99ede2a9689136eb79db",
+      "instructions": [
+        {
+          "bus": "0x80257c4",
+          "bytes": "00 b5",
+          "text": "push {lr}"
+        },
+        {
+          "bus": "0x80257c6",
+          "bytes": "fc f7 b5 fe",
+          "text": "bl 0x08022534"
+        },
+        {
+          "bus": "0x80257ca",
+          "bytes": "02 f0 bd ff",
+          "text": "bl 0x08028748"
+        },
+        {
+          "bus": "0x80257ce",
+          "bytes": "03 48",
+          "text": "ldr r0, [pc, #12] ; slot 0x080257DC = 0x03003A24"
+        },
+        {
+          "bus": "0x80257d0",
+          "bytes": "03 49",
+          "text": "ldr r1, [pc, #12] ; slot 0x080257E0 = 0x030018BC"
+        },
+        {
+          "bus": "0x80257d2",
+          "bytes": "49 78",
+          "text": "ldrb r1, [r1, #1]"
+        },
+        {
+          "bus": "0x80257d4",
+          "bytes": "01 80",
+          "text": "strh r1, [r0, #0]"
+        },
+        {
+          "bus": "0x80257d6",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x80257d8",
+          "bytes": "00 47",
+          "text": "bx r0"
+        },
+        {
+          "bus": "0x80257da",
+          "bytes": "00 00",
+          "text": "lsl r0, r0, #0"
+        }
+      ]
+    },
+    {
+      "role": "item search/count",
+      "file_range": [
+        "0x28748",
+        "0x28830"
+      ],
+      "sha256": "754365b10f789a0523ef153a60421ba51fa569a0524fdb28ae5b8b93d940fd57",
+      "instructions": [
+        {
+          "bus": "0x8028748",
+          "bytes": "f0 b5",
+          "text": "push {r4, r5, r6, r7, lr}"
+        },
+        {
+          "bus": "0x802874a",
+          "bytes": "0e 4c",
+          "text": "ldr r4, [pc, #56] ; slot 0x08028784 = 0x030018BC"
+        },
+        {
+          "bus": "0x802874c",
+          "bytes": "61 78",
+          "text": "ldrb r1, [r4, #1]"
+        },
+        {
+          "bus": "0x802874e",
+          "bytes": "21 71",
+          "text": "strb r1, [r4, #4]"
+        },
+        {
+          "bus": "0x8028750",
+          "bytes": "0d 4e",
+          "text": "ldr r6, [pc, #52] ; slot 0x08028788 = 0x03000600"
+        },
+        {
+          "bus": "0x8028752",
+          "bytes": "7f 25",
+          "text": "mov r5, #127"
+        },
+        {
+          "bus": "0x8028754",
+          "bytes": "28 1c",
+          "text": "add r0, r5, #0"
+        },
+        {
+          "bus": "0x8028756",
+          "bytes": "08 40",
+          "text": "and r0, r1"
+        },
+        {
+          "bus": "0x8028758",
+          "bytes": "60 70",
+          "text": "strb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x802875a",
+          "bytes": "07 f0 c9 fb",
+          "text": "bl 0x0802FEF0"
+        },
+        {
+          "bus": "0x802875e",
+          "bytes": "22 79",
+          "text": "ldrb r2, [r4, #4]"
+        },
+        {
+          "bus": "0x8028760",
+          "bytes": "80 20",
+          "text": "mov r0, #128"
+        },
+        {
+          "bus": "0x8028762",
+          "bytes": "10 40",
+          "text": "and r0, r2"
+        },
+        {
+          "bus": "0x8028764",
+          "bytes": "00 06",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x8028766",
+          "bytes": "00 0e",
+          "text": "lsr r0, r0, #24"
+        },
+        {
+          "bus": "0x8028768",
+          "bytes": "30 80",
+          "text": "strh r0, [r6, #0]"
+        },
+        {
+          "bus": "0x802876a",
+          "bytes": "00 04",
+          "text": "lsl r0, r0, #16"
+        },
+        {
+          "bus": "0x802876c",
+          "bytes": "01 14",
+          "text": "asr r1, r0, #16"
+        },
+        {
+          "bus": "0x802876e",
+          "bytes": "00 29",
+          "text": "cmp r1, #0"
+        },
+        {
+          "bus": "0x8028770",
+          "bytes": "0e d1",
+          "text": "bne 0x08028790"
+        },
+        {
+          "bus": "0x8028772",
+          "bytes": "60 78",
+          "text": "ldrb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x8028774",
+          "bytes": "20 71",
+          "text": "strb r0, [r4, #4]"
+        },
+        {
+          "bus": "0x8028776",
+          "bytes": "61 71",
+          "text": "strb r1, [r4, #5]"
+        },
+        {
+          "bus": "0x8028778",
+          "bytes": "04 48",
+          "text": "ldr r0, [pc, #16] ; slot 0x0802878C = 0x030019D5"
+        },
+        {
+          "bus": "0x802877a",
+          "bytes": "e0 60",
+          "text": "str r0, [r4, #12]"
+        },
+        {
+          "bus": "0x802877c",
+          "bytes": "01 38",
+          "text": "sub r0, #1"
+        },
+        {
+          "bus": "0x802877e",
+          "bytes": "00 78",
+          "text": "ldrb r0, [r0, #0]"
+        },
+        {
+          "bus": "0x8028780",
+          "bytes": "60 70",
+          "text": "strb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x8028782",
+          "bytes": "10 e0",
+          "text": "b 0x080287A6"
+        },
+        {
+          "bus": "0x8028790",
+          "bytes": "0a 48",
+          "text": "ldr r0, [pc, #40] ; slot 0x080287BC = 0x03001A70"
+        },
+        {
+          "bus": "0x8028792",
+          "bytes": "e0 60",
+          "text": "str r0, [r4, #12]"
+        },
+        {
+          "bus": "0x8028794",
+          "bytes": "01 38",
+          "text": "sub r0, #1"
+        },
+        {
+          "bus": "0x8028796",
+          "bytes": "00 78",
+          "text": "ldrb r0, [r0, #0]"
+        },
+        {
+          "bus": "0x8028798",
+          "bytes": "60 70",
+          "text": "strb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x802879a",
+          "bytes": "28 1c",
+          "text": "add r0, r5, #0"
+        },
+        {
+          "bus": "0x802879c",
+          "bytes": "10 40",
+          "text": "and r0, r2"
+        },
+        {
+          "bus": "0x802879e",
+          "bytes": "20 71",
+          "text": "strb r0, [r4, #4]"
+        },
+        {
+          "bus": "0x80287a0",
+          "bytes": "07 f0 a6 fb",
+          "text": "bl 0x0802FEF0"
+        },
+        {
+          "bus": "0x80287a4",
+          "bytes": "30 80",
+          "text": "strh r0, [r6, #0]"
+        },
+        {
+          "bus": "0x80287a6",
+          "bytes": "06 49",
+          "text": "ldr r1, [pc, #24] ; slot 0x080287C0 = 0x030018BC"
+        },
+        {
+          "bus": "0x80287a8",
+          "bytes": "48 78",
+          "text": "ldrb r0, [r1, #1]"
+        },
+        {
+          "bus": "0x80287aa",
+          "bytes": "48 71",
+          "text": "strb r0, [r1, #5]"
+        },
+        {
+          "bus": "0x80287ac",
+          "bytes": "00 06",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x80287ae",
+          "bytes": "0d 1c",
+          "text": "add r5, r1, #0"
+        },
+        {
+          "bus": "0x80287b0",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x80287b2",
+          "bytes": "09 d1",
+          "text": "bne 0x080287C8"
+        },
+        {
+          "bus": "0x80287b4",
+          "bytes": "01 20",
+          "text": "mov r0, #1"
+        },
+        {
+          "bus": "0x80287b6",
+          "bytes": "68 71",
+          "text": "strb r0, [r5, #5]"
+        },
+        {
+          "bus": "0x80287b8",
+          "bytes": "02 4f",
+          "text": "ldr r7, [pc, #8] ; slot 0x080287C4 = 0x03000600"
+        },
+        {
+          "bus": "0x80287ba",
+          "bytes": "1d e0",
+          "text": "b 0x080287F8"
+        },
+        {
+          "bus": "0x80287c8",
+          "bytes": "09 4a",
+          "text": "ldr r2, [pc, #36] ; slot 0x080287F0 = 0x030018BC"
+        },
+        {
+          "bus": "0x80287ca",
+          "bytes": "d4 68",
+          "text": "ldr r4, [r2, #12]"
+        },
+        {
+          "bus": "0x80287cc",
+          "bytes": "20 78",
+          "text": "ldrb r0, [r4, #0]"
+        },
+        {
+          "bus": "0x80287ce",
+          "bytes": "50 70",
+          "text": "strb r0, [r2, #1]"
+        },
+        {
+          "bus": "0x80287d0",
+          "bytes": "66 1c",
+          "text": "add r6, r4, #1"
+        },
+        {
+          "bus": "0x80287d2",
+          "bytes": "d6 60",
+          "text": "str r6, [r2, #12]"
+        },
+        {
+          "bus": "0x80287d4",
+          "bytes": "07 4b",
+          "text": "ldr r3, [pc, #28] ; slot 0x080287F4 = 0x03000600"
+        },
+        {
+          "bus": "0x80287d6",
+          "bytes": "51 78",
+          "text": "ldrb r1, [r2, #1]"
+        },
+        {
+          "bus": "0x80287d8",
+          "bytes": "10 79",
+          "text": "ldrb r0, [r2, #4]"
+        },
+        {
+          "bus": "0x80287da",
+          "bytes": "09 1a",
+          "text": "sub r1, r1, r0"
+        },
+        {
+          "bus": "0x80287dc",
+          "bytes": "19 80",
+          "text": "strh r1, [r3, #0]"
+        },
+        {
+          "bus": "0x80287de",
+          "bytes": "15 1c",
+          "text": "add r5, r2, #0"
+        },
+        {
+          "bus": "0x80287e0",
+          "bytes": "1f 1c",
+          "text": "add r7, r3, #0"
+        },
+        {
+          "bus": "0x80287e2",
+          "bytes": "00 29",
+          "text": "cmp r1, #0"
+        },
+        {
+          "bus": "0x80287e4",
+          "bytes": "08 d1",
+          "text": "bne 0x080287F8"
+        },
+        {
+          "bus": "0x80287e6",
+          "bytes": "60 78",
+          "text": "ldrb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x80287e8",
+          "bytes": "68 70",
+          "text": "strb r0, [r5, #1]"
+        },
+        {
+          "bus": "0x80287ea",
+          "bytes": "70 1c",
+          "text": "add r0, r6, #1"
+        },
+        {
+          "bus": "0x80287ec",
+          "bytes": "e8 60",
+          "text": "str r0, [r5, #12]"
+        },
+        {
+          "bus": "0x80287ee",
+          "bytes": "16 e0",
+          "text": "b 0x0802881E"
+        },
+        {
+          "bus": "0x80287f8",
+          "bytes": "e8 68",
+          "text": "ldr r0, [r5, #12]"
+        },
+        {
+          "bus": "0x80287fa",
+          "bytes": "01 30",
+          "text": "add r0, #1"
+        },
+        {
+          "bus": "0x80287fc",
+          "bytes": "e8 60",
+          "text": "str r0, [r5, #12]"
+        },
+        {
+          "bus": "0x80287fe",
+          "bytes": "07 f0 77 fb",
+          "text": "bl 0x0802FEF0"
+        },
+        {
+          "bus": "0x8028802",
+          "bytes": "38 80",
+          "text": "strh r0, [r7, #0]"
+        },
+        {
+          "bus": "0x8028804",
+          "bytes": "68 79",
+          "text": "ldrb r0, [r5, #5]"
+        },
+        {
+          "bus": "0x8028806",
+          "bytes": "01 38",
+          "text": "sub r0, #1"
+        },
+        {
+          "bus": "0x8028808",
+          "bytes": "68 71",
+          "text": "strb r0, [r5, #5]"
+        },
+        {
+          "bus": "0x802880a",
+          "bytes": "00 06",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x802880c",
+          "bytes": "00 0e",
+          "text": "lsr r0, r0, #24"
+        },
+        {
+          "bus": "0x802880e",
+          "bytes": "07 f0 6f fb",
+          "text": "bl 0x0802FEF0"
+        },
+        {
+          "bus": "0x8028812",
+          "bytes": "38 80",
+          "text": "strh r0, [r7, #0]"
+        },
+        {
+          "bus": "0x8028814",
+          "bytes": "00 04",
+          "text": "lsl r0, r0, #16"
+        },
+        {
+          "bus": "0x8028816",
+          "bytes": "00 14",
+          "text": "asr r0, r0, #16"
+        },
+        {
+          "bus": "0x8028818",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x802881a",
+          "bytes": "d5 d1",
+          "text": "bne 0x080287C8"
+        },
+        {
+          "bus": "0x802881c",
+          "bytes": "68 70",
+          "text": "strb r0, [r5, #1]"
+        },
+        {
+          "bus": "0x802881e",
+          "bytes": "f0 bc",
+          "text": "pop {r4, r5, r6, r7}"
+        },
+        {
+          "bus": "0x8028820",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x8028822",
+          "bytes": "00 47",
+          "text": "bx r0"
+        },
+        {
+          "bus": "0x8028824",
+          "bytes": "00 b5",
+          "text": "push {lr}"
+        },
+        {
+          "bus": "0x8028826",
+          "bytes": "f9 f7 85 fe",
+          "text": "bl 0x08022534"
+        },
+        {
+          "bus": "0x802882a",
+          "bytes": "08 49",
+          "text": "ldr r1, [pc, #32] ; slot 0x0802884C = 0x030019C0"
+        },
+        {
+          "bus": "0x802882c",
+          "bytes": "08 4a",
+          "text": "ldr r2, [pc, #32] ; slot 0x08028850 = 0x030018BC"
+        },
+        {
+          "bus": "0x802882e",
+          "bytes": "50 78",
+          "text": "ldrb r0, [r2, #1]"
+        }
+      ]
+    },
+    {
+      "role": "item add/failure continuation",
+      "file_range": [
+        "0x291d4",
+        "0x29260"
+      ],
+      "sha256": "712a12fe65dd7471886ad8cc5f5cb905d0ee0a968d9e9d391f6b33beff24241c",
+      "instructions": [
+        {
+          "bus": "0x80291d4",
+          "bytes": "30 b5",
+          "text": "push {r4, r5, lr}"
+        },
+        {
+          "bus": "0x80291d6",
+          "bytes": "0a 4a",
+          "text": "ldr r2, [pc, #40] ; slot 0x08029200 = 0x030018BC"
+        },
+        {
+          "bus": "0x80291d8",
+          "bytes": "0a 48",
+          "text": "ldr r0, [pc, #40] ; slot 0x08029204 = 0x03003A34"
+        },
+        {
+          "bus": "0x80291da",
+          "bytes": "03 78",
+          "text": "ldrb r3, [r0, #0]"
+        },
+        {
+          "bus": "0x80291dc",
+          "bytes": "53 70",
+          "text": "strb r3, [r2, #1]"
+        },
+        {
+          "bus": "0x80291de",
+          "bytes": "0a 49",
+          "text": "ldr r1, [pc, #40] ; slot 0x08029208 = 0x03000600"
+        },
+        {
+          "bus": "0x80291e0",
+          "bytes": "80 20",
+          "text": "mov r0, #128"
+        },
+        {
+          "bus": "0x80291e2",
+          "bytes": "18 40",
+          "text": "and r0, r3"
+        },
+        {
+          "bus": "0x80291e4",
+          "bytes": "00 06",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x80291e6",
+          "bytes": "00 0e",
+          "text": "lsr r0, r0, #24"
+        },
+        {
+          "bus": "0x80291e8",
+          "bytes": "08 80",
+          "text": "strh r0, [r1, #0]"
+        },
+        {
+          "bus": "0x80291ea",
+          "bytes": "00 04",
+          "text": "lsl r0, r0, #16"
+        },
+        {
+          "bus": "0x80291ec",
+          "bytes": "01 14",
+          "text": "asr r1, r0, #16"
+        },
+        {
+          "bus": "0x80291ee",
+          "bytes": "15 1c",
+          "text": "add r5, r2, #0"
+        },
+        {
+          "bus": "0x80291f0",
+          "bytes": "00 29",
+          "text": "cmp r1, #0"
+        },
+        {
+          "bus": "0x80291f2",
+          "bytes": "0d d1",
+          "text": "bne 0x08029210"
+        },
+        {
+          "bus": "0x80291f4",
+          "bytes": "05 48",
+          "text": "ldr r0, [pc, #20] ; slot 0x0802920C = 0x030018F0"
+        },
+        {
+          "bus": "0x80291f6",
+          "bytes": "43 70",
+          "text": "strb r3, [r0, #1]"
+        },
+        {
+          "bus": "0x80291f8",
+          "bytes": "01 70",
+          "text": "strb r1, [r0, #0]"
+        },
+        {
+          "bus": "0x80291fa",
+          "bytes": "04 1c",
+          "text": "add r4, r0, #0"
+        },
+        {
+          "bus": "0x80291fc",
+          "bytes": "10 e0",
+          "text": "b 0x08029220"
+        },
+        {
+          "bus": "0x80291fe",
+          "bytes": "00 00",
+          "text": "lsl r0, r0, #0"
+        },
+        {
+          "bus": "0x8029210",
+          "bytes": "7f 20",
+          "text": "mov r0, #127"
+        },
+        {
+          "bus": "0x8029212",
+          "bytes": "18 40",
+          "text": "and r0, r3"
+        },
+        {
+          "bus": "0x8029214",
+          "bytes": "0c 49",
+          "text": "ldr r1, [pc, #48] ; slot 0x08029248 = 0x030018F0"
+        },
+        {
+          "bus": "0x8029216",
+          "bytes": "48 70",
+          "text": "strb r0, [r1, #1]"
+        },
+        {
+          "bus": "0x8029218",
+          "bytes": "01 20",
+          "text": "mov r0, #1"
+        },
+        {
+          "bus": "0x802921a",
+          "bytes": "68 70",
+          "text": "strb r0, [r5, #1]"
+        },
+        {
+          "bus": "0x802921c",
+          "bytes": "08 70",
+          "text": "strb r0, [r1, #0]"
+        },
+        {
+          "bus": "0x802921e",
+          "bytes": "0c 1c",
+          "text": "add r4, r1, #0"
+        },
+        {
+          "bus": "0x8029220",
+          "bytes": "0a 48",
+          "text": "ldr r0, [pc, #40] ; slot 0x0802924C = 0x03003A35"
+        },
+        {
+          "bus": "0x8029222",
+          "bytes": "00 78",
+          "text": "ldrb r0, [r0, #0]"
+        },
+        {
+          "bus": "0x8029224",
+          "bytes": "68 70",
+          "text": "strb r0, [r5, #1]"
+        },
+        {
+          "bus": "0x8029226",
+          "bytes": "a0 70",
+          "text": "strb r0, [r4, #2]"
+        },
+        {
+          "bus": "0x8029228",
+          "bytes": "57 f0 fc f8",
+          "text": "bl 0x08080424"
+        },
+        {
+          "bus": "0x802922c",
+          "bytes": "20 78",
+          "text": "ldrb r0, [r4, #0]"
+        },
+        {
+          "bus": "0x802922e",
+          "bytes": "08 4c",
+          "text": "ldr r4, [pc, #32] ; slot 0x08029250 = 0x03000600"
+        },
+        {
+          "bus": "0x8029230",
+          "bytes": "00 40",
+          "text": "and r0, r0"
+        },
+        {
+          "bus": "0x8029232",
+          "bytes": "68 70",
+          "text": "strb r0, [r5, #1]"
+        },
+        {
+          "bus": "0x8029234",
+          "bytes": "06 f0 5c fe",
+          "text": "bl 0x0802FEF0"
+        },
+        {
+          "bus": "0x8029238",
+          "bytes": "20 80",
+          "text": "strh r0, [r4, #0]"
+        },
+        {
+          "bus": "0x802923a",
+          "bytes": "00 04",
+          "text": "lsl r0, r0, #16"
+        },
+        {
+          "bus": "0x802923c",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x802923e",
+          "bytes": "09 d0",
+          "text": "beq 0x08029254"
+        },
+        {
+          "bus": "0x8029240",
+          "bytes": "00 f0 74 fe",
+          "text": "bl 0x08029F2C"
+        },
+        {
+          "bus": "0x8029244",
+          "bytes": "08 e0",
+          "text": "b 0x08029258"
+        },
+        {
+          "bus": "0x8029246",
+          "bytes": "00 00",
+          "text": "lsl r0, r0, #0"
+        },
+        {
+          "bus": "0x8029254",
+          "bytes": "f9 f7 0e fb",
+          "text": "bl 0x08022874"
+        },
+        {
+          "bus": "0x8029258",
+          "bytes": "30 bc",
+          "text": "pop {r4, r5}"
+        },
+        {
+          "bus": "0x802925a",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x802925c",
+          "bytes": "00 47",
+          "text": "bx r0"
+        },
+        {
+          "bus": "0x802925e",
+          "bytes": "00 00",
+          "text": "lsl r0, r0, #0"
+        }
+      ]
+    },
+    {
+      "role": "actual item count update",
+      "file_range": [
+        "0x80424",
+        "0x8054e"
+      ],
+      "sha256": "6df70cab05ca192c159ea9f689450b05f64351d46c133565dff7f2b93e793848",
+      "instructions": [
+        {
+          "bus": "0x8080424",
+          "bytes": "f0 b5",
+          "text": "push {r4, r5, r6, r7, lr}"
+        },
+        {
+          "bus": "0x8080426",
+          "bytes": "47 46",
+          "text": "mov r7, r8"
+        },
+        {
+          "bus": "0x8080428",
+          "bytes": "80 b4",
+          "text": "push {r7}"
+        },
+        {
+          "bus": "0x808042a",
+          "bytes": "00 23",
+          "text": "mov r3, #0"
+        },
+        {
+          "bus": "0x808042c",
+          "bytes": "98 46",
+          "text": "mov r8, r3"
+        },
+        {
+          "bus": "0x808042e",
+          "bytes": "05 48",
+          "text": "ldr r0, [pc, #20] ; slot 0x08080444 = 0x030018BC"
+        },
+        {
+          "bus": "0x8080430",
+          "bytes": "43 71",
+          "text": "strb r3, [r0, #5]"
+        },
+        {
+          "bus": "0x8080432",
+          "bytes": "05 49",
+          "text": "ldr r1, [pc, #20] ; slot 0x08080448 = 0x030018F0"
+        },
+        {
+          "bus": "0x8080434",
+          "bytes": "0a 78",
+          "text": "ldrb r2, [r1, #0]"
+        },
+        {
+          "bus": "0x8080436",
+          "bytes": "06 1c",
+          "text": "add r6, r0, #0"
+        },
+        {
+          "bus": "0x8080438",
+          "bytes": "0d 1c",
+          "text": "add r5, r1, #0"
+        },
+        {
+          "bus": "0x808043a",
+          "bytes": "00 2a",
+          "text": "cmp r2, #0"
+        },
+        {
+          "bus": "0x808043c",
+          "bytes": "08 d1",
+          "text": "bne 0x08080450"
+        },
+        {
+          "bus": "0x808043e",
+          "bytes": "03 49",
+          "text": "ldr r1, [pc, #12] ; slot 0x0808044C = 0x030019D5"
+        },
+        {
+          "bus": "0x8080440",
+          "bytes": "07 e0",
+          "text": "b 0x08080452"
+        },
+        {
+          "bus": "0x8080442",
+          "bytes": "00 00",
+          "text": "lsl r0, r0, #0"
+        },
+        {
+          "bus": "0x8080450",
+          "bytes": "01 49",
+          "text": "ldr r1, [pc, #4] ; slot 0x08080458 = 0x03001A70"
+        },
+        {
+          "bus": "0x8080452",
+          "bytes": "4a 1e",
+          "text": "sub r2, r1, #1"
+        },
+        {
+          "bus": "0x8080454",
+          "bytes": "0a e0",
+          "text": "b 0x0808046C"
+        },
+        {
+          "bus": "0x8080456",
+          "bytes": "00 00",
+          "text": "lsl r0, r0, #0"
+        },
+        {
+          "bus": "0x808045c",
+          "bytes": "cc 18",
+          "text": "add r4, r1, r3"
+        },
+        {
+          "bus": "0x808045e",
+          "bytes": "20 78",
+          "text": "ldrb r0, [r4, #0]"
+        },
+        {
+          "bus": "0x8080460",
+          "bytes": "6f 78",
+          "text": "ldrb r7, [r5, #1]"
+        },
+        {
+          "bus": "0x8080462",
+          "bytes": "b8 42",
+          "text": "cmp r0, r7"
+        },
+        {
+          "bus": "0x8080464",
+          "bytes": "4a d0",
+          "text": "beq 0x080804FC"
+        },
+        {
+          "bus": "0x8080466",
+          "bytes": "98 1c",
+          "text": "add r0, r3, #2"
+        },
+        {
+          "bus": "0x8080468",
+          "bytes": "00 06",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x808046a",
+          "bytes": "03 0e",
+          "text": "lsr r3, r0, #24"
+        },
+        {
+          "bus": "0x808046c",
+          "bytes": "70 79",
+          "text": "ldrb r0, [r6, #5]"
+        },
+        {
+          "bus": "0x808046e",
+          "bytes": "01 30",
+          "text": "add r0, #1"
+        },
+        {
+          "bus": "0x8080470",
+          "bytes": "70 71",
+          "text": "strb r0, [r6, #5]"
+        },
+        {
+          "bus": "0x8080472",
+          "bytes": "c8 18",
+          "text": "add r0, r1, r3"
+        },
+        {
+          "bus": "0x8080474",
+          "bytes": "00 78",
+          "text": "ldrb r0, [r0, #0]"
+        },
+        {
+          "bus": "0x8080476",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x8080478",
+          "bytes": "f0 d1",
+          "text": "bne 0x0808045C"
+        },
+        {
+          "bus": "0x808047a",
+          "bytes": "c9 18",
+          "text": "add r1, r1, r3"
+        },
+        {
+          "bus": "0x808047c",
+          "bytes": "68 78",
+          "text": "ldrb r0, [r5, #1]"
+        },
+        {
+          "bus": "0x808047e",
+          "bytes": "08 70",
+          "text": "strb r0, [r1, #0]"
+        },
+        {
+          "bus": "0x8080480",
+          "bytes": "a8 78",
+          "text": "ldrb r0, [r5, #2]"
+        },
+        {
+          "bus": "0x8080482",
+          "bytes": "48 70",
+          "text": "strb r0, [r1, #1]"
+        },
+        {
+          "bus": "0x8080484",
+          "bytes": "f1 60",
+          "text": "str r1, [r6, #12]"
+        },
+        {
+          "bus": "0x8080486",
+          "bytes": "10 78",
+          "text": "ldrb r0, [r2, #0]"
+        },
+        {
+          "bus": "0x8080488",
+          "bytes": "01 30",
+          "text": "add r0, #1"
+        },
+        {
+          "bus": "0x808048a",
+          "bytes": "10 70",
+          "text": "strb r0, [r2, #0]"
+        },
+        {
+          "bus": "0x808048c",
+          "bytes": "b2 60",
+          "text": "str r2, [r6, #8]"
+        },
+        {
+          "bus": "0x808048e",
+          "bytes": "00 22",
+          "text": "mov r2, #0"
+        },
+        {
+          "bus": "0x8080490",
+          "bytes": "04 48",
+          "text": "ldr r0, [pc, #16] ; slot 0x080804A4 = 0x030019D4"
+        },
+        {
+          "bus": "0x8080492",
+          "bytes": "41 78",
+          "text": "ldrb r1, [r0, #1]"
+        },
+        {
+          "bus": "0x8080494",
+          "bytes": "03 1c",
+          "text": "add r3, r0, #0"
+        },
+        {
+          "bus": "0x8080496",
+          "bytes": "57 29",
+          "text": "cmp r1, #87"
+        },
+        {
+          "bus": "0x8080498",
+          "bytes": "06 d1",
+          "text": "bne 0x080804A8"
+        },
+        {
+          "bus": "0x808049a",
+          "bytes": "36 20",
+          "text": "mov r0, #54"
+        },
+        {
+          "bus": "0x808049c",
+          "bytes": "58 70",
+          "text": "strb r0, [r3, #1]"
+        },
+        {
+          "bus": "0x808049e",
+          "bytes": "01 20",
+          "text": "mov r0, #1"
+        },
+        {
+          "bus": "0x80804a0",
+          "bytes": "80 46",
+          "text": "mov r8, r0"
+        },
+        {
+          "bus": "0x80804a2",
+          "bytes": "0e e0",
+          "text": "b 0x080804C2"
+        },
+        {
+          "bus": "0x80804a8",
+          "bytes": "01 32",
+          "text": "add r2, #1"
+        },
+        {
+          "bus": "0x80804aa",
+          "bytes": "4c 2a",
+          "text": "cmp r2, #76"
+        },
+        {
+          "bus": "0x80804ac",
+          "bytes": "09 dc",
+          "text": "bgt 0x080804C2"
+        },
+        {
+          "bus": "0x80804ae",
+          "bytes": "50 00",
+          "text": "lsl r0, r2, #1"
+        },
+        {
+          "bus": "0x80804b0",
+          "bytes": "59 1c",
+          "text": "add r1, r3, #1"
+        },
+        {
+          "bus": "0x80804b2",
+          "bytes": "41 18",
+          "text": "add r1, r0, r1"
+        },
+        {
+          "bus": "0x80804b4",
+          "bytes": "08 78",
+          "text": "ldrb r0, [r1, #0]"
+        },
+        {
+          "bus": "0x80804b6",
+          "bytes": "57 28",
+          "text": "cmp r0, #87"
+        },
+        {
+          "bus": "0x80804b8",
+          "bytes": "f6 d1",
+          "text": "bne 0x080804A8"
+        },
+        {
+          "bus": "0x80804ba",
+          "bytes": "36 20",
+          "text": "mov r0, #54"
+        },
+        {
+          "bus": "0x80804bc",
+          "bytes": "08 70",
+          "text": "strb r0, [r1, #0]"
+        },
+        {
+          "bus": "0x80804be",
+          "bytes": "01 27",
+          "text": "mov r7, #1"
+        },
+        {
+          "bus": "0x80804c0",
+          "bytes": "b8 46",
+          "text": "mov r8, r7"
+        },
+        {
+          "bus": "0x80804c2",
+          "bytes": "00 f0 c3 f8",
+          "text": "bl 0x0808064C"
+        },
+        {
+          "bus": "0x80804c6",
+          "bytes": "40 46",
+          "text": "mov r0, r8"
+        },
+        {
+          "bus": "0x80804c8",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x80804ca",
+          "bytes": "29 d0",
+          "text": "beq 0x08080520"
+        },
+        {
+          "bus": "0x80804cc",
+          "bytes": "00 22",
+          "text": "mov r2, #0"
+        },
+        {
+          "bus": "0x80804ce",
+          "bytes": "04 48",
+          "text": "ldr r0, [pc, #16] ; slot 0x080804E0 = 0x030019D4"
+        },
+        {
+          "bus": "0x80804d0",
+          "bytes": "41 78",
+          "text": "ldrb r1, [r0, #1]"
+        },
+        {
+          "bus": "0x80804d2",
+          "bytes": "03 1c",
+          "text": "add r3, r0, #0"
+        },
+        {
+          "bus": "0x80804d4",
+          "bytes": "36 29",
+          "text": "cmp r1, #54"
+        },
+        {
+          "bus": "0x80804d6",
+          "bytes": "05 d1",
+          "text": "bne 0x080804E4"
+        },
+        {
+          "bus": "0x80804d8",
+          "bytes": "57 20",
+          "text": "mov r0, #87"
+        },
+        {
+          "bus": "0x80804da",
+          "bytes": "58 70",
+          "text": "strb r0, [r3, #1]"
+        },
+        {
+          "bus": "0x80804dc",
+          "bytes": "20 e0",
+          "text": "b 0x08080520"
+        },
+        {
+          "bus": "0x80804de",
+          "bytes": "00 00",
+          "text": "lsl r0, r0, #0"
+        },
+        {
+          "bus": "0x80804e4",
+          "bytes": "01 32",
+          "text": "add r2, #1"
+        },
+        {
+          "bus": "0x80804e6",
+          "bytes": "4c 2a",
+          "text": "cmp r2, #76"
+        },
+        {
+          "bus": "0x80804e8",
+          "bytes": "1a dc",
+          "text": "bgt 0x08080520"
+        },
+        {
+          "bus": "0x80804ea",
+          "bytes": "50 00",
+          "text": "lsl r0, r2, #1"
+        },
+        {
+          "bus": "0x80804ec",
+          "bytes": "59 1c",
+          "text": "add r1, r3, #1"
+        },
+        {
+          "bus": "0x80804ee",
+          "bytes": "41 18",
+          "text": "add r1, r0, r1"
+        },
+        {
+          "bus": "0x80804f0",
+          "bytes": "08 78",
+          "text": "ldrb r0, [r1, #0]"
+        },
+        {
+          "bus": "0x80804f2",
+          "bytes": "36 28",
+          "text": "cmp r0, #54"
+        },
+        {
+          "bus": "0x80804f4",
+          "bytes": "f6 d1",
+          "text": "bne 0x080804E4"
+        },
+        {
+          "bus": "0x80804f6",
+          "bytes": "57 20",
+          "text": "mov r0, #87"
+        },
+        {
+          "bus": "0x80804f8",
+          "bytes": "08 70",
+          "text": "strb r0, [r1, #0]"
+        },
+        {
+          "bus": "0x80804fa",
+          "bytes": "11 e0",
+          "text": "b 0x08080520"
+        },
+        {
+          "bus": "0x80804fc",
+          "bytes": "28 78",
+          "text": "ldrb r0, [r5, #0]"
+        },
+        {
+          "bus": "0x80804fe",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x8080500",
+          "bytes": "18 d1",
+          "text": "bne 0x08080534"
+        },
+        {
+          "bus": "0x8080502",
+          "bytes": "22 1c",
+          "text": "add r2, r4, #0"
+        },
+        {
+          "bus": "0x8080504",
+          "bytes": "51 78",
+          "text": "ldrb r1, [r2, #1]"
+        },
+        {
+          "bus": "0x8080506",
+          "bytes": "63 29",
+          "text": "cmp r1, #99"
+        },
+        {
+          "bus": "0x8080508",
+          "bytes": "18 d0",
+          "text": "beq 0x0808053C"
+        },
+        {
+          "bus": "0x808050a",
+          "bytes": "a8 78",
+          "text": "ldrb r0, [r5, #2]"
+        },
+        {
+          "bus": "0x808050c",
+          "bytes": "08 18",
+          "text": "add r0, r1, r0"
+        },
+        {
+          "bus": "0x808050e",
+          "bytes": "00 06",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x8080510",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x8080512",
+          "bytes": "0f db",
+          "text": "blt 0x08080534"
+        },
+        {
+          "bus": "0x8080514",
+          "bytes": "51 78",
+          "text": "ldrb r1, [r2, #1]"
+        },
+        {
+          "bus": "0x8080516",
+          "bytes": "a8 78",
+          "text": "ldrb r0, [r5, #2]"
+        },
+        {
+          "bus": "0x8080518",
+          "bytes": "09 18",
+          "text": "add r1, r1, r0"
+        },
+        {
+          "bus": "0x808051a",
+          "bytes": "64 29",
+          "text": "cmp r1, #100"
+        },
+        {
+          "bus": "0x808051c",
+          "bytes": "0c dc",
+          "text": "bgt 0x08080538"
+        },
+        {
+          "bus": "0x808051e",
+          "bytes": "51 70",
+          "text": "strb r1, [r2, #1]"
+        },
+        {
+          "bus": "0x8080520",
+          "bytes": "02 48",
+          "text": "ldr r0, [pc, #8] ; slot 0x0808052C = 0x030018F0"
+        },
+        {
+          "bus": "0x8080522",
+          "bytes": "00 21",
+          "text": "mov r1, #0"
+        },
+        {
+          "bus": "0x8080524",
+          "bytes": "01 70",
+          "text": "strb r1, [r0, #0]"
+        },
+        {
+          "bus": "0x8080526",
+          "bytes": "02 48",
+          "text": "ldr r0, [pc, #8] ; slot 0x08080530 = 0x030018BC"
+        },
+        {
+          "bus": "0x8080528",
+          "bytes": "01 70",
+          "text": "strb r1, [r0, #0]"
+        },
+        {
+          "bus": "0x808052a",
+          "bytes": "0b e0",
+          "text": "b 0x08080544"
+        },
+        {
+          "bus": "0x8080534",
+          "bytes": "ff 20",
+          "text": "mov r0, #255"
+        },
+        {
+          "bus": "0x8080536",
+          "bytes": "02 e0",
+          "text": "b 0x0808053E"
+        },
+        {
+          "bus": "0x8080538",
+          "bytes": "63 20",
+          "text": "mov r0, #99"
+        },
+        {
+          "bus": "0x808053a",
+          "bytes": "60 70",
+          "text": "strb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x808053c",
+          "bytes": "fe 20",
+          "text": "mov r0, #254"
+        },
+        {
+          "bus": "0x808053e",
+          "bytes": "28 70",
+          "text": "strb r0, [r5, #0]"
+        },
+        {
+          "bus": "0x8080540",
+          "bytes": "10 20",
+          "text": "mov r0, #16"
+        },
+        {
+          "bus": "0x8080542",
+          "bytes": "30 70",
+          "text": "strb r0, [r6, #0]"
+        },
+        {
+          "bus": "0x8080544",
+          "bytes": "08 bc",
+          "text": "pop {r3}"
+        },
+        {
+          "bus": "0x8080546",
+          "bytes": "98 46",
+          "text": "mov r8, r3"
+        },
+        {
+          "bus": "0x8080548",
+          "bytes": "f0 bc",
+          "text": "pop {r4, r5, r6, r7}"
+        },
+        {
+          "bus": "0x808054a",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x808054c",
+          "bytes": "00 47",
+          "text": "bx r0"
+        }
+      ]
+    },
+    {
+      "role": "FD1F count comparison",
+      "file_range": [
+        "0x29aac",
+        "0x29afc"
+      ],
+      "sha256": "1fa020a61bbd7e932eb874f25285f1d184843f278fa23d4c0aade8134b4f630b",
+      "instructions": [
+        {
+          "bus": "0x8029aac",
+          "bytes": "00 b5",
+          "text": "push {lr}"
+        },
+        {
+          "bus": "0x8029aae",
+          "bytes": "f8 f7 9f fe",
+          "text": "bl 0x080227F0"
+        },
+        {
+          "bus": "0x8029ab2",
+          "bytes": "07 4a",
+          "text": "ldr r2, [pc, #28] ; slot 0x08029AD0 = 0x030018BC"
+        },
+        {
+          "bus": "0x8029ab4",
+          "bytes": "90 80",
+          "text": "strh r0, [r2, #4]"
+        },
+        {
+          "bus": "0x8029ab6",
+          "bytes": "00 04",
+          "text": "lsl r0, r0, #16"
+        },
+        {
+          "bus": "0x8029ab8",
+          "bytes": "01 0c",
+          "text": "lsr r1, r0, #16"
+        },
+        {
+          "bus": "0x8029aba",
+          "bytes": "06 48",
+          "text": "ldr r0, [pc, #24] ; slot 0x08029AD4 = 0x03003A24"
+        },
+        {
+          "bus": "0x8029abc",
+          "bytes": "00 88",
+          "text": "ldrh r0, [r0, #0]"
+        },
+        {
+          "bus": "0x8029abe",
+          "bytes": "10 80",
+          "text": "strh r0, [r2, #0]"
+        },
+        {
+          "bus": "0x8029ac0",
+          "bytes": "10 88",
+          "text": "ldrh r0, [r2, #0]"
+        },
+        {
+          "bus": "0x8029ac2",
+          "bytes": "41 1a",
+          "text": "sub r1, r0, r1"
+        },
+        {
+          "bus": "0x8029ac4",
+          "bytes": "04 48",
+          "text": "ldr r0, [pc, #16] ; slot 0x08029AD8 = 0xFFFF0000"
+        },
+        {
+          "bus": "0x8029ac6",
+          "bytes": "08 40",
+          "text": "and r0, r1"
+        },
+        {
+          "bus": "0x8029ac8",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x8029aca",
+          "bytes": "07 d0",
+          "text": "beq 0x08029ADC"
+        },
+        {
+          "bus": "0x8029acc",
+          "bytes": "10 20",
+          "text": "mov r0, #16"
+        },
+        {
+          "bus": "0x8029ace",
+          "bytes": "0a e0",
+          "text": "b 0x08029AE6"
+        },
+        {
+          "bus": "0x8029adc",
+          "bytes": "00 29",
+          "text": "cmp r1, #0"
+        },
+        {
+          "bus": "0x8029ade",
+          "bytes": "01 d1",
+          "text": "bne 0x08029AE4"
+        },
+        {
+          "bus": "0x8029ae0",
+          "bytes": "80 20",
+          "text": "mov r0, #128"
+        },
+        {
+          "bus": "0x8029ae2",
+          "bytes": "00 e0",
+          "text": "b 0x08029AE6"
+        },
+        {
+          "bus": "0x8029ae4",
+          "bytes": "00 20",
+          "text": "mov r0, #0"
+        },
+        {
+          "bus": "0x8029ae6",
+          "bytes": "50 70",
+          "text": "strb r0, [r2, #1]"
+        },
+        {
+          "bus": "0x8029ae8",
+          "bytes": "02 48",
+          "text": "ldr r0, [pc, #8] ; slot 0x08029AF4 = 0x030039C0"
+        },
+        {
+          "bus": "0x8029aea",
+          "bytes": "03 49",
+          "text": "ldr r1, [pc, #12] ; slot 0x08029AF8 = 0x030018BC"
+        },
+        {
+          "bus": "0x8029aec",
+          "bytes": "49 78",
+          "text": "ldrb r1, [r1, #1]"
+        },
+        {
+          "bus": "0x8029aee",
+          "bytes": "01 75",
+          "text": "strb r1, [r0, #20]"
+        },
+        {
+          "bus": "0x8029af0",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x8029af2",
+          "bytes": "00 47",
+          "text": "bx r0"
+        }
+      ]
+    },
+    {
+      "role": "FD45 capacity branch",
+      "file_range": [
+        "0x2984c",
+        "0x29880"
+      ],
+      "sha256": "9a7b6c8732259b75e5804c73aef7a8a3c7197605b57ccec0de5416a4c37a86a9",
+      "instructions": [
+        {
+          "bus": "0x802984c",
+          "bytes": "00 b5",
+          "text": "push {lr}"
+        },
+        {
+          "bus": "0x802984e",
+          "bytes": "07 4a",
+          "text": "ldr r2, [pc, #28] ; slot 0x0802986C = 0x030018BC"
+        },
+        {
+          "bus": "0x8029850",
+          "bytes": "07 48",
+          "text": "ldr r0, [pc, #28] ; slot 0x08029870 = 0x030039C0"
+        },
+        {
+          "bus": "0x8029852",
+          "bytes": "01 7d",
+          "text": "ldrb r1, [r0, #20]"
+        },
+        {
+          "bus": "0x8029854",
+          "bytes": "51 70",
+          "text": "strb r1, [r2, #1]"
+        },
+        {
+          "bus": "0x8029856",
+          "bytes": "07 4a",
+          "text": "ldr r2, [pc, #28] ; slot 0x08029874 = 0x03000600"
+        },
+        {
+          "bus": "0x8029858",
+          "bytes": "10 20",
+          "text": "mov r0, #16"
+        },
+        {
+          "bus": "0x802985a",
+          "bytes": "08 40",
+          "text": "and r0, r1"
+        },
+        {
+          "bus": "0x802985c",
+          "bytes": "00 06",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x802985e",
+          "bytes": "00 0e",
+          "text": "lsr r0, r0, #24"
+        },
+        {
+          "bus": "0x8029860",
+          "bytes": "10 80",
+          "text": "strh r0, [r2, #0]"
+        },
+        {
+          "bus": "0x8029862",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x8029864",
+          "bytes": "08 d1",
+          "text": "bne 0x08029878"
+        },
+        {
+          "bus": "0x8029866",
+          "bytes": "00 f0 61 fb",
+          "text": "bl 0x08029F2C"
+        },
+        {
+          "bus": "0x802986a",
+          "bytes": "07 e0",
+          "text": "b 0x0802987C"
+        },
+        {
+          "bus": "0x8029878",
+          "bytes": "f8 f7 fc ff",
+          "text": "bl 0x08022874"
+        },
+        {
+          "bus": "0x802987c",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x802987e",
+          "bytes": "00 47",
+          "text": "bx r0"
+        }
+      ]
+    },
+    {
+      "role": "FD3B exact full-charge comparison",
+      "file_range": [
+        "0x2a43c",
+        "0x2a4e8"
+      ],
+      "sha256": "a4b0c2f9e2a7be2e24f2c25a9471eb0f3fd2b9060f4530ae3f6ddc3e699fb7aa",
+      "instructions": [
+        {
+          "bus": "0x802a43c",
+          "bytes": "10 b5",
+          "text": "push {r4, lr}"
+        },
+        {
+          "bus": "0x802a43e",
+          "bytes": "f8 f7 d7 f9",
+          "text": "bl 0x080227F0"
+        },
+        {
+          "bus": "0x802a442",
+          "bytes": "09 4b",
+          "text": "ldr r3, [pc, #36] ; slot 0x0802A468 = 0x030018BC"
+        },
+        {
+          "bus": "0x802a444",
+          "bytes": "98 80",
+          "text": "strh r0, [r3, #4]"
+        },
+        {
+          "bus": "0x802a446",
+          "bytes": "09 48",
+          "text": "ldr r0, [pc, #36] ; slot 0x0802A46C = 0x03003A24"
+        },
+        {
+          "bus": "0x802a448",
+          "bytes": "00 21",
+          "text": "mov r1, #0"
+        },
+        {
+          "bus": "0x802a44a",
+          "bytes": "40 5e",
+          "text": "ldrsh r0, [r0, r1]"
+        },
+        {
+          "bus": "0x802a44c",
+          "bytes": "ff 21",
+          "text": "mov r1, #255"
+        },
+        {
+          "bus": "0x802a44e",
+          "bytes": "09 02",
+          "text": "lsl r1, r1, #8"
+        },
+        {
+          "bus": "0x802a450",
+          "bytes": "08 40",
+          "text": "and r0, r1"
+        },
+        {
+          "bus": "0x802a452",
+          "bytes": "00 12",
+          "text": "asr r0, r0, #8"
+        },
+        {
+          "bus": "0x802a454",
+          "bytes": "58 70",
+          "text": "strb r0, [r3, #1]"
+        },
+        {
+          "bus": "0x802a456",
+          "bytes": "06 4a",
+          "text": "ldr r2, [pc, #24] ; slot 0x0802A470 = 0x03000600"
+        },
+        {
+          "bus": "0x802a458",
+          "bytes": "58 78",
+          "text": "ldrb r0, [r3, #1]"
+        },
+        {
+          "bus": "0x802a45a",
+          "bytes": "59 79",
+          "text": "ldrb r1, [r3, #5]"
+        },
+        {
+          "bus": "0x802a45c",
+          "bytes": "40 1a",
+          "text": "sub r0, r0, r1"
+        },
+        {
+          "bus": "0x802a45e",
+          "bytes": "10 80",
+          "text": "strh r0, [r2, #0]"
+        },
+        {
+          "bus": "0x802a460",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x802a462",
+          "bytes": "07 d1",
+          "text": "bne 0x0802A474"
+        },
+        {
+          "bus": "0x802a464",
+          "bytes": "80 20",
+          "text": "mov r0, #128"
+        },
+        {
+          "bus": "0x802a466",
+          "bytes": "06 e0",
+          "text": "b 0x0802A476"
+        },
+        {
+          "bus": "0x802a474",
+          "bytes": "00 20",
+          "text": "mov r0, #0"
+        },
+        {
+          "bus": "0x802a476",
+          "bytes": "18 70",
+          "text": "strb r0, [r3, #0]"
+        },
+        {
+          "bus": "0x802a478",
+          "bytes": "0c 48",
+          "text": "ldr r0, [pc, #48] ; slot 0x0802A4AC = 0x030018BC"
+        },
+        {
+          "bus": "0x802a47a",
+          "bytes": "41 78",
+          "text": "ldrb r1, [r0, #1]"
+        },
+        {
+          "bus": "0x802a47c",
+          "bytes": "02 1c",
+          "text": "add r2, r0, #0"
+        },
+        {
+          "bus": "0x802a47e",
+          "bytes": "50 79",
+          "text": "ldrb r0, [r2, #5]"
+        },
+        {
+          "bus": "0x802a480",
+          "bytes": "81 42",
+          "text": "cmp r1, r0"
+        },
+        {
+          "bus": "0x802a482",
+          "bytes": "01 d2",
+          "text": "bcs 0x0802A488"
+        },
+        {
+          "bus": "0x802a484",
+          "bytes": "10 20",
+          "text": "mov r0, #16"
+        },
+        {
+          "bus": "0x802a486",
+          "bytes": "10 70",
+          "text": "strb r0, [r2, #0]"
+        },
+        {
+          "bus": "0x802a488",
+          "bytes": "09 48",
+          "text": "ldr r0, [pc, #36] ; slot 0x0802A4B0 = 0x03000600"
+        },
+        {
+          "bus": "0x802a48a",
+          "bytes": "00 21",
+          "text": "mov r1, #0"
+        },
+        {
+          "bus": "0x802a48c",
+          "bytes": "43 5e",
+          "text": "ldrsh r3, [r0, r1]"
+        },
+        {
+          "bus": "0x802a48e",
+          "bytes": "04 1c",
+          "text": "add r4, r0, #0"
+        },
+        {
+          "bus": "0x802a490",
+          "bytes": "00 2b",
+          "text": "cmp r3, #0"
+        },
+        {
+          "bus": "0x802a492",
+          "bytes": "18 d1",
+          "text": "bne 0x0802A4C6"
+        },
+        {
+          "bus": "0x802a494",
+          "bytes": "07 48",
+          "text": "ldr r0, [pc, #28] ; slot 0x0802A4B4 = 0x03003A24"
+        },
+        {
+          "bus": "0x802a496",
+          "bytes": "00 88",
+          "text": "ldrh r0, [r0, #0]"
+        },
+        {
+          "bus": "0x802a498",
+          "bytes": "50 70",
+          "text": "strb r0, [r2, #1]"
+        },
+        {
+          "bus": "0x802a49a",
+          "bytes": "50 78",
+          "text": "ldrb r0, [r2, #1]"
+        },
+        {
+          "bus": "0x802a49c",
+          "bytes": "11 79",
+          "text": "ldrb r1, [r2, #4]"
+        },
+        {
+          "bus": "0x802a49e",
+          "bytes": "40 1a",
+          "text": "sub r0, r0, r1"
+        },
+        {
+          "bus": "0x802a4a0",
+          "bytes": "20 80",
+          "text": "strh r0, [r4, #0]"
+        },
+        {
+          "bus": "0x802a4a2",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x802a4a4",
+          "bytes": "08 d1",
+          "text": "bne 0x0802A4B8"
+        },
+        {
+          "bus": "0x802a4a6",
+          "bytes": "80 20",
+          "text": "mov r0, #128"
+        },
+        {
+          "bus": "0x802a4a8",
+          "bytes": "10 70",
+          "text": "strb r0, [r2, #0]"
+        },
+        {
+          "bus": "0x802a4aa",
+          "bytes": "06 e0",
+          "text": "b 0x0802A4BA"
+        },
+        {
+          "bus": "0x802a4b8",
+          "bytes": "13 70",
+          "text": "strb r3, [r2, #0]"
+        },
+        {
+          "bus": "0x802a4ba",
+          "bytes": "50 78",
+          "text": "ldrb r0, [r2, #1]"
+        },
+        {
+          "bus": "0x802a4bc",
+          "bytes": "11 79",
+          "text": "ldrb r1, [r2, #4]"
+        },
+        {
+          "bus": "0x802a4be",
+          "bytes": "88 42",
+          "text": "cmp r0, r1"
+        },
+        {
+          "bus": "0x802a4c0",
+          "bytes": "01 d2",
+          "text": "bcs 0x0802A4C6"
+        },
+        {
+          "bus": "0x802a4c2",
+          "bytes": "10 20",
+          "text": "mov r0, #16"
+        },
+        {
+          "bus": "0x802a4c4",
+          "bytes": "10 70",
+          "text": "strb r0, [r2, #0]"
+        },
+        {
+          "bus": "0x802a4c6",
+          "bytes": "05 48",
+          "text": "ldr r0, [pc, #20] ; slot 0x0802A4DC = 0x030039C0"
+        },
+        {
+          "bus": "0x802a4c8",
+          "bytes": "11 78",
+          "text": "ldrb r1, [r2, #0]"
+        },
+        {
+          "bus": "0x802a4ca",
+          "bytes": "01 75",
+          "text": "strb r1, [r0, #20]"
+        },
+        {
+          "bus": "0x802a4cc",
+          "bytes": "00 21",
+          "text": "mov r1, #0"
+        },
+        {
+          "bus": "0x802a4ce",
+          "bytes": "60 5e",
+          "text": "ldrsh r0, [r4, r1]"
+        },
+        {
+          "bus": "0x802a4d0",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x802a4d2",
+          "bytes": "05 d1",
+          "text": "bne 0x0802A4E0"
+        },
+        {
+          "bus": "0x802a4d4",
+          "bytes": "ff f7 2a fd",
+          "text": "bl 0x08029F2C"
+        },
+        {
+          "bus": "0x802a4d8",
+          "bytes": "04 e0",
+          "text": "b 0x0802A4E4"
+        },
+        {
+          "bus": "0x802a4da",
+          "bytes": "00 00",
+          "text": "lsl r0, r0, #0"
+        },
+        {
+          "bus": "0x802a4e0",
+          "bytes": "f8 f7 c8 f9",
+          "text": "bl 0x08022874"
+        },
+        {
+          "bus": "0x802a4e4",
+          "bytes": "10 bc",
+          "text": "pop {r4}"
+        },
+        {
+          "bus": "0x802a4e6",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        }
+      ]
+    },
+    {
+      "role": "FEC0 charge read",
+      "file_range": [
+        "0x29bb8",
+        "0x29bec"
+      ],
+      "sha256": "5d5ec6f0c96a4f11baeed6ef81312b13bb3b94084da50e38b61ea2f1a80f433c",
+      "instructions": [
+        {
+          "bus": "0x8029bb8",
+          "bytes": "10 b5",
+          "text": "push {r4, lr}"
+        },
+        {
+          "bus": "0x8029bba",
+          "bytes": "f8 f7 bb fc",
+          "text": "bl 0x08022534"
+        },
+        {
+          "bus": "0x8029bbe",
+          "bytes": "08 4c",
+          "text": "ldr r4, [pc, #32] ; slot 0x08029BE0 = 0x03003A24"
+        },
+        {
+          "bus": "0x8029bc0",
+          "bytes": "08 4b",
+          "text": "ldr r3, [pc, #32] ; slot 0x08029BE4 = 0x030018BC"
+        },
+        {
+          "bus": "0x8029bc2",
+          "bytes": "09 4a",
+          "text": "ldr r2, [pc, #36] ; slot 0x08029BE8 = 0x03001EDC"
+        },
+        {
+          "bus": "0x8029bc4",
+          "bytes": "59 78",
+          "text": "ldrb r1, [r3, #1]"
+        },
+        {
+          "bus": "0x8029bc6",
+          "bytes": "48 00",
+          "text": "lsl r0, r1, #1"
+        },
+        {
+          "bus": "0x8029bc8",
+          "bytes": "40 18",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x8029bca",
+          "bytes": "40 01",
+          "text": "lsl r0, r0, #5"
+        },
+        {
+          "bus": "0x8029bcc",
+          "bytes": "80 18",
+          "text": "add r0, r0, r2"
+        },
+        {
+          "bus": "0x8029bce",
+          "bytes": "58 30",
+          "text": "add r0, #88"
+        },
+        {
+          "bus": "0x8029bd0",
+          "bytes": "01 78",
+          "text": "ldrb r1, [r0, #0]"
+        },
+        {
+          "bus": "0x8029bd2",
+          "bytes": "59 70",
+          "text": "strb r1, [r3, #1]"
+        },
+        {
+          "bus": "0x8029bd4",
+          "bytes": "00 78",
+          "text": "ldrb r0, [r0, #0]"
+        },
+        {
+          "bus": "0x8029bd6",
+          "bytes": "20 80",
+          "text": "strh r0, [r4, #0]"
+        },
+        {
+          "bus": "0x8029bd8",
+          "bytes": "10 bc",
+          "text": "pop {r4}"
+        },
+        {
+          "bus": "0x8029bda",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x8029bdc",
+          "bytes": "00 47",
+          "text": "bx r0"
+        },
+        {
+          "bus": "0x8029bde",
+          "bytes": "00 00",
+          "text": "lsl r0, r0, #0"
+        }
+      ]
+    },
+    {
+      "role": "FEC1 charge and ready reset",
+      "file_range": [
+        "0x29bec",
+        "0x29c24"
+      ],
+      "sha256": "a1dae4755538e819d0af916712b7615380b56807931d95f016d1124c8cb62b28",
+      "instructions": [
+        {
+          "bus": "0x8029bec",
+          "bytes": "10 b5",
+          "text": "push {r4, lr}"
+        },
+        {
+          "bus": "0x8029bee",
+          "bytes": "f8 f7 a1 fc",
+          "text": "bl 0x08022534"
+        },
+        {
+          "bus": "0x8029bf2",
+          "bytes": "0a 4c",
+          "text": "ldr r4, [pc, #40] ; slot 0x08029C1C = 0x03001EDC"
+        },
+        {
+          "bus": "0x8029bf4",
+          "bytes": "0a 4b",
+          "text": "ldr r3, [pc, #40] ; slot 0x08029C20 = 0x030018BC"
+        },
+        {
+          "bus": "0x8029bf6",
+          "bytes": "59 78",
+          "text": "ldrb r1, [r3, #1]"
+        },
+        {
+          "bus": "0x8029bf8",
+          "bytes": "48 00",
+          "text": "lsl r0, r1, #1"
+        },
+        {
+          "bus": "0x8029bfa",
+          "bytes": "40 18",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x8029bfc",
+          "bytes": "40 01",
+          "text": "lsl r0, r0, #5"
+        },
+        {
+          "bus": "0x8029bfe",
+          "bytes": "00 19",
+          "text": "add r0, r0, r4"
+        },
+        {
+          "bus": "0x8029c00",
+          "bytes": "58 30",
+          "text": "add r0, #88"
+        },
+        {
+          "bus": "0x8029c02",
+          "bytes": "00 22",
+          "text": "mov r2, #0"
+        },
+        {
+          "bus": "0x8029c04",
+          "bytes": "02 70",
+          "text": "strb r2, [r0, #0]"
+        },
+        {
+          "bus": "0x8029c06",
+          "bytes": "59 78",
+          "text": "ldrb r1, [r3, #1]"
+        },
+        {
+          "bus": "0x8029c08",
+          "bytes": "48 00",
+          "text": "lsl r0, r1, #1"
+        },
+        {
+          "bus": "0x8029c0a",
+          "bytes": "40 18",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x8029c0c",
+          "bytes": "40 01",
+          "text": "lsl r0, r0, #5"
+        },
+        {
+          "bus": "0x8029c0e",
+          "bytes": "00 19",
+          "text": "add r0, r0, r4"
+        },
+        {
+          "bus": "0x8029c10",
+          "bytes": "59 30",
+          "text": "add r0, #89"
+        },
+        {
+          "bus": "0x8029c12",
+          "bytes": "02 70",
+          "text": "strb r2, [r0, #0]"
+        },
+        {
+          "bus": "0x8029c14",
+          "bytes": "10 bc",
+          "text": "pop {r4}"
+        },
+        {
+          "bus": "0x8029c16",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x8029c18",
+          "bytes": "00 47",
+          "text": "bx r0"
+        },
+        {
+          "bus": "0x8029c1a",
+          "bytes": "00 00",
+          "text": "lsl r0, r0, #0"
+        }
+      ]
+    }
+  ],
+  "checkpoints": [
+    {
+      "path": "before_oystown.ss0",
+      "sha256": "d20fc78972641d76e1b56f23daa80c9fedd4c07fa22edb63e69d37371db21c53",
+      "map": 223,
+      "pc": "0x8021eb0",
+      "scheduler": "00 00 00 00",
+      "binky_entries": [
+        [
+          55,
+          2,
+          "0x30019da"
+        ]
+      ],
+      "charge": 5
+    },
+    {
+      "path": "after_exchange_oystown.ss0",
+      "sha256": "aca4eb6751d66949e74a137217e92f79eaa0e85039f11f09d9821ea9a2cb5646",
+      "map": 260,
+      "pc": "0x80226e2",
+      "scheduler": "00 00 00 00",
+      "binky_entries": [
+        [
+          55,
+          3,
+          "0x30019da"
+        ]
+      ],
+      "charge": 0
+    }
+  ],
+  "protected_count": 86,
+  "protected_before": {
+    "after_exchange_oystown.ss0": "aca4eb6751d66949e74a137217e92f79eaa0e85039f11f09d9821ea9a2cb5646",
+    "before_oystown.ss0": "d20fc78972641d76e1b56f23daa80c9fedd4c07fa22edb63e69d37371db21c53",
+    "entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "Tomato Adventure (Japan) (patched).sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "tools\\patch\\output\\alessa-recruitment-wrapper-38386dab64e249cb9dfb4b205620053f\\alessa_recruitment_wrapper.gba": "3bba82ba6c581ca598aea1e21ecd654b41418f946e88ea6c5021d89b0357d7c6",
+    "tools\\patch\\output\\alessa-recruitment-wrapper-38386dab64e249cb9dfb4b205620053f\\alessa_recruitment_wrapper.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools\\patch\\output\\gearyo-reference-validation\\balanced.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "tools\\patch\\output\\hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf\\hanzo_dojo_pup.gba": "749762aa8c3c0fae433d46c0ebbcbf4f54646790baf4b6129414e6e5832cdfea",
+    "tools\\patch\\output\\hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf\\hanzo_dojo_pup.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools\\patch\\output\\mayonen-caverns-map001e-86d6efb0c6824c9c851fb5602c4e4746\\mayonen_caverns_map001e.gba": "7fc50105e340510079158ca74e61f778b63b3276793ec9b6ffbe29c2af75c761",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\rom\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\states\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\states\\source-node3.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-45d355b68953\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-45d355b68953\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\experiment-stop.ss0": "079055064db34325edff27576977dbeca6fb6e93eebea6d5659d002da69058f3",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\states\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\states\\route-selection-stop.ss0": "4cd1b66dab75cb8d6bfa84c867427def623749d2b3683d8d142af804b1535bd3",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\states\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\states\\route-selection-stop.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\experiment-stop.ss0": "5d9258dc36758d6599fa72548c65a90e7336855a513d2c6c1893e7ec8e8609cc",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-24f08599ee6a\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-2000e25a7706\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\saves\\1b5bd9a89e03\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\saves\\37d6e3a90afe\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\rom\\mayonen_caverns_map001e.gba": "7fc50105e340510079158ca74e61f778b63b3276793ec9b6ffbe29c2af75c761",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\states\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\states\\60f8bac3aa29\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\saves\\60f8bac3aa29\\mayonen_caverns_map001e.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775\\captures\\post-recruitment.ss0": "4eb81a006e852955556664f8c76c4526458048dab644dfa6f36a4b20d352946f",
+    "reverse_engineering\\experiments\\testing\\pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775\\inputs\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\experiments\\testing\\pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775\\rom\\alessa_recruitment_wrapper.gba": "3bba82ba6c581ca598aea1e21ecd654b41418f946e88ea6c5021d89b0357d7c6",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan) (patched).sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\route-selection-stop.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\rom\\gearyo_attack_22.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\rom\\gearyo_attack_22.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\saves\\gearyo_attack_22.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230"
+  },
+  "protected_after": {
+    "after_exchange_oystown.ss0": "aca4eb6751d66949e74a137217e92f79eaa0e85039f11f09d9821ea9a2cb5646",
+    "before_oystown.ss0": "d20fc78972641d76e1b56f23daa80c9fedd4c07fa22edb63e69d37371db21c53",
+    "entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "Tomato Adventure (Japan) (patched).sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "tools\\patch\\output\\alessa-recruitment-wrapper-38386dab64e249cb9dfb4b205620053f\\alessa_recruitment_wrapper.gba": "3bba82ba6c581ca598aea1e21ecd654b41418f946e88ea6c5021d89b0357d7c6",
+    "tools\\patch\\output\\alessa-recruitment-wrapper-38386dab64e249cb9dfb4b205620053f\\alessa_recruitment_wrapper.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools\\patch\\output\\gearyo-reference-validation\\balanced.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "tools\\patch\\output\\hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf\\hanzo_dojo_pup.gba": "749762aa8c3c0fae433d46c0ebbcbf4f54646790baf4b6129414e6e5832cdfea",
+    "tools\\patch\\output\\hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf\\hanzo_dojo_pup.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools\\patch\\output\\mayonen-caverns-map001e-86d6efb0c6824c9c851fb5602c4e4746\\mayonen_caverns_map001e.gba": "7fc50105e340510079158ca74e61f778b63b3276793ec9b6ffbe29c2af75c761",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\rom\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\states\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\states\\source-node3.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-45d355b68953\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-45d355b68953\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\experiment-stop.ss0": "079055064db34325edff27576977dbeca6fb6e93eebea6d5659d002da69058f3",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\states\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\states\\route-selection-stop.ss0": "4cd1b66dab75cb8d6bfa84c867427def623749d2b3683d8d142af804b1535bd3",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\states\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\states\\route-selection-stop.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\experiment-stop.ss0": "5d9258dc36758d6599fa72548c65a90e7336855a513d2c6c1893e7ec8e8609cc",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-24f08599ee6a\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-2000e25a7706\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\saves\\1b5bd9a89e03\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\saves\\37d6e3a90afe\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\rom\\mayonen_caverns_map001e.gba": "7fc50105e340510079158ca74e61f778b63b3276793ec9b6ffbe29c2af75c761",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\states\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\states\\60f8bac3aa29\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\saves\\60f8bac3aa29\\mayonen_caverns_map001e.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775\\captures\\post-recruitment.ss0": "4eb81a006e852955556664f8c76c4526458048dab644dfa6f36a4b20d352946f",
+    "reverse_engineering\\experiments\\testing\\pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775\\inputs\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\experiments\\testing\\pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775\\rom\\alessa_recruitment_wrapper.gba": "3bba82ba6c581ca598aea1e21ecd654b41418f946e88ea6c5021d89b0357d7c6",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan) (patched).sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\route-selection-stop.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\rom\\gearyo_attack_22.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\rom\\gearyo_attack_22.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\saves\\gearyo_attack_22.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230"
+  },
+  "protected_unchanged": true
+}

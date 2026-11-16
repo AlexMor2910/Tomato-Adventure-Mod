@@ -1,0 +1,663 @@
+{
+  "scope": "Session 5 documentation and read-only audit; no runtime execution or ROM construction",
+  "source_rom": "tools\\patch\\output\\binky-rate-two-recruitment-test-aaee9ff3918c42aabf6d9bec7cff611f\\binky_exchange_rate_two.gba",
+  "source_sha256": "d356a6979c497524d1e94306989e09cf8dfe96334a22c664eb3a9570f3ab3ea3",
+  "runtime_evidence": [
+    {
+      "character": "Alessa",
+      "stage": "early",
+      "result": "user-confirmed passed",
+      "full_charge": 64,
+      "reward": 2,
+      "gauge_reset": true,
+      "normal_completion": true
+    },
+    {
+      "character": "Alessa",
+      "stage": "intermediate",
+      "result": "user-confirmed passed",
+      "full_charge": 64,
+      "reward": 2,
+      "gauge_reset": true,
+      "normal_completion": true
+    },
+    {
+      "character": "Alessa",
+      "stage": "late",
+      "result": "user-confirmed passed",
+      "full_charge": 64,
+      "reward": 2,
+      "gauge_reset": true,
+      "normal_completion": true
+    },
+    {
+      "character": "Sofoubi",
+      "stage": "early",
+      "result": "user-confirmed passed",
+      "full_charge": 64,
+      "reward": 2,
+      "gauge_reset": true,
+      "normal_completion": true,
+      "before": 4,
+      "after": 6
+    },
+    {
+      "character": "Sofoubi",
+      "stage": "late",
+      "result": "user-confirmed passed",
+      "full_charge": 64,
+      "reward": 2,
+      "gauge_reset": true,
+      "normal_completion": true,
+      "after": 8,
+      "after_source": "offline checkpoint; user reported two-Binky success"
+    },
+    {
+      "character": "Relleck",
+      "stage": "late",
+      "result": "user-confirmed passed",
+      "full_charge": 64,
+      "reward": 2,
+      "gauge_reset": true,
+      "normal_completion": true,
+      "before": 4,
+      "after": 6
+    }
+  ],
+  "checkpoint_evidence": [
+    {
+      "path": "C:\\Users\\gm347\\Documents\\NewerCat\\Programas\\Workspaces\\TomatoAdventure\\after_exchange_oystown.ss0",
+      "size": 35239,
+      "sha256": "aca4eb6751d66949e74a137217e92f79eaa0e85039f11f09d9821ea9a2cb5646",
+      "format": "PNG 240x160; CRC-checked chunks; gbAs zlib 0x61000; state magic 0x01000007",
+      "rom_identity": {
+        "sha256": "3bba82ba6c581ca598aea1e21ecd654b41418f946e88ea6c5021d89b0357d7c6",
+        "crc32": "E9ACB98F"
+      },
+      "membership": "0x31",
+      "cached_party_count": 2,
+      "map_id": "0x0104",
+      "binkies": 3,
+      "flags": {
+        "BA": false,
+        "1C4": false,
+        "1FC": false
+      },
+      "characters": [
+        {
+          "character": 0,
+          "count": 2,
+          "entries": [
+            "01 01 00",
+            "1B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "824df7097345406e41af1d6a76134dc2453ba705e1bc3deea355ff83683513bc"
+        },
+        {
+          "character": 1,
+          "count": 1,
+          "entries": [
+            "2B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "2403c8a9b0636fbb3f5bcd5c9abff982b5709fb40d581364e15b0b0a1ff8cedd"
+        },
+        {
+          "character": 2,
+          "count": 0,
+          "entries": [],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "826569445f39704c3e6ace2614d51ff2686463c22ebd1e692f18d58854c10d8e"
+        },
+        {
+          "character": 3,
+          "count": 0,
+          "entries": [],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "293ac6d815ea0e8a192790e9179d9f3751fa8d37b653f1b3ae8b1c4b30bb96bb"
+        }
+      ],
+      "active_bitmap": "00000000",
+      "all_slot_flags_zero": true,
+      "all_saved_returns_zero": true,
+      "pc": "0x080226E2"
+    },
+    {
+      "path": "C:\\Users\\gm347\\Documents\\NewerCat\\Programas\\Workspaces\\TomatoAdventure\\after_exchange_oystown_alessa_test.ss0",
+      "size": 34120,
+      "sha256": "85110875375c28ab412e4413e986d9cb65eb81353d1214f3b86e6d7b7a02f1cf",
+      "format": "PNG 240x160; CRC-checked chunks; gbAs zlib 0x61000; state magic 0x01000007",
+      "rom_identity": {
+        "sha256": "d356a6979c497524d1e94306989e09cf8dfe96334a22c664eb3a9570f3ab3ea3",
+        "crc32": "AB34C118"
+      },
+      "membership": "0x31",
+      "cached_party_count": 2,
+      "map_id": "0x0104",
+      "binkies": 4,
+      "flags": {
+        "BA": false,
+        "1C4": false,
+        "1FC": false
+      },
+      "characters": [
+        {
+          "character": 0,
+          "count": 2,
+          "entries": [
+            "01 01 00",
+            "1B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "824df7097345406e41af1d6a76134dc2453ba705e1bc3deea355ff83683513bc"
+        },
+        {
+          "character": 1,
+          "count": 1,
+          "entries": [
+            "2B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "2403c8a9b0636fbb3f5bcd5c9abff982b5709fb40d581364e15b0b0a1ff8cedd"
+        },
+        {
+          "character": 2,
+          "count": 0,
+          "entries": [],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "826569445f39704c3e6ace2614d51ff2686463c22ebd1e692f18d58854c10d8e"
+        },
+        {
+          "character": 3,
+          "count": 0,
+          "entries": [],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "293ac6d815ea0e8a192790e9179d9f3751fa8d37b653f1b3ae8b1c4b30bb96bb"
+        }
+      ],
+      "active_bitmap": "00000000",
+      "all_slot_flags_zero": true,
+      "all_saved_returns_zero": true,
+      "pc": "0x08031D7C"
+    },
+    {
+      "path": "C:\\Users\\gm347\\Documents\\NewerCat\\Programas\\Workspaces\\TomatoAdventure\\after_exchange_oystown_alessa_test_three_tiers_passed.ss0",
+      "size": 34732,
+      "sha256": "ad5042fb906a2c8105325b04acd9eb611593f6c8a2484543192f01891bf47017",
+      "format": "PNG 240x160; CRC-checked chunks; gbAs zlib 0x61000; state magic 0x01000007",
+      "rom_identity": {
+        "sha256": "d356a6979c497524d1e94306989e09cf8dfe96334a22c664eb3a9570f3ab3ea3",
+        "crc32": "AB34C118"
+      },
+      "membership": "0x31",
+      "cached_party_count": 2,
+      "map_id": "0x0104",
+      "binkies": 8,
+      "flags": {
+        "BA": true,
+        "1C4": true,
+        "1FC": false
+      },
+      "characters": [
+        {
+          "character": 0,
+          "count": 2,
+          "entries": [
+            "01 01 00",
+            "1B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "824df7097345406e41af1d6a76134dc2453ba705e1bc3deea355ff83683513bc"
+        },
+        {
+          "character": 1,
+          "count": 1,
+          "entries": [
+            "2B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "2403c8a9b0636fbb3f5bcd5c9abff982b5709fb40d581364e15b0b0a1ff8cedd"
+        },
+        {
+          "character": 2,
+          "count": 0,
+          "entries": [],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "826569445f39704c3e6ace2614d51ff2686463c22ebd1e692f18d58854c10d8e"
+        },
+        {
+          "character": 3,
+          "count": 0,
+          "entries": [],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "293ac6d815ea0e8a192790e9179d9f3751fa8d37b653f1b3ae8b1c4b30bb96bb"
+        }
+      ],
+      "active_bitmap": "00000000",
+      "all_slot_flags_zero": true,
+      "all_saved_returns_zero": true,
+      "pc": "0x080226C0"
+    },
+    {
+      "path": "C:\\Users\\gm347\\Documents\\NewerCat\\Programas\\Workspaces\\TomatoAdventure\\relleck_initialized_guarded.ss0",
+      "size": 39629,
+      "sha256": "c3a01888ee451731f4d6f073a652d382c1e712ac1f3590622e54bec6654d3ba8",
+      "format": "PNG 240x160; CRC-checked chunks; gbAs zlib 0x61000; state magic 0x01000007",
+      "rom_identity": {
+        "sha256": "1ab6bc9c2be38c914f7d0780f21b2211d9f64ac34c5588b43da5e36d9f1fd5f8",
+        "crc32": "83BCAD12"
+      },
+      "membership": "0xF1",
+      "cached_party_count": 4,
+      "map_id": "0x0104",
+      "binkies": 4,
+      "flags": {
+        "BA": false,
+        "1C4": false,
+        "1FC": false
+      },
+      "characters": [
+        {
+          "character": 0,
+          "count": 2,
+          "entries": [
+            "01 01 00",
+            "1B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "824df7097345406e41af1d6a76134dc2453ba705e1bc3deea355ff83683513bc"
+        },
+        {
+          "character": 1,
+          "count": 1,
+          "entries": [
+            "2B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "2403c8a9b0636fbb3f5bcd5c9abff982b5709fb40d581364e15b0b0a1ff8cedd"
+        },
+        {
+          "character": 2,
+          "count": 1,
+          "entries": [
+            "15 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "4ea80562148fba6932969bf3734570901cd882cf0ae3344156437364bf9d6904"
+        },
+        {
+          "character": 3,
+          "count": 2,
+          "entries": [
+            "31 01 00",
+            "25 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "fedbbeb285bfe7f763f55f6e273ed847699257011d86e30072b72b61ed3d84dd"
+        }
+      ],
+      "active_bitmap": "00000000",
+      "all_slot_flags_zero": true,
+      "all_saved_returns_zero": true,
+      "pc": "0x0000001C"
+    },
+    {
+      "path": "C:\\Users\\gm347\\Documents\\NewerCat\\Programas\\Workspaces\\TomatoAdventure\\relleck_initialized_guarded_successful.ss0",
+      "size": 26683,
+      "sha256": "9de814b789f88989c1a4f0330ff024d4b0d81a7031e15d4c3c2c2bf55ec5ec9c",
+      "format": "PNG 240x160; CRC-checked chunks; gbAs zlib 0x61000; state magic 0x01000007",
+      "rom_identity": {
+        "sha256": "d356a6979c497524d1e94306989e09cf8dfe96334a22c664eb3a9570f3ab3ea3",
+        "crc32": "AB34C118"
+      },
+      "membership": "0xF1",
+      "cached_party_count": 4,
+      "map_id": "0x0104",
+      "binkies": 6,
+      "flags": {
+        "BA": true,
+        "1C4": false,
+        "1FC": false
+      },
+      "characters": [
+        {
+          "character": 0,
+          "count": 2,
+          "entries": [
+            "01 01 00",
+            "1B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "824df7097345406e41af1d6a76134dc2453ba705e1bc3deea355ff83683513bc"
+        },
+        {
+          "character": 1,
+          "count": 1,
+          "entries": [
+            "2B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "2403c8a9b0636fbb3f5bcd5c9abff982b5709fb40d581364e15b0b0a1ff8cedd"
+        },
+        {
+          "character": 2,
+          "count": 1,
+          "entries": [
+            "15 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "4ea80562148fba6932969bf3734570901cd882cf0ae3344156437364bf9d6904"
+        },
+        {
+          "character": 3,
+          "count": 2,
+          "entries": [
+            "31 01 00",
+            "25 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "fedbbeb285bfe7f763f55f6e273ed847699257011d86e30072b72b61ed3d84dd"
+        }
+      ],
+      "active_bitmap": "00000000",
+      "all_slot_flags_zero": true,
+      "all_saved_returns_zero": true,
+      "pc": "0x080942E8"
+    },
+    {
+      "path": "C:\\Users\\gm347\\Documents\\NewerCat\\Programas\\Workspaces\\TomatoAdventure\\sofoubi_initialized_guarded.ss0",
+      "size": 35310,
+      "sha256": "9abd5427393c027bfd25ac50395e7546337e7331114b2d1a70ba9dcdf3ceebcf",
+      "format": "PNG 240x160; CRC-checked chunks; gbAs zlib 0x61000; state magic 0x01000007",
+      "rom_identity": {
+        "sha256": "f796526a8f7baa15edf844bf799d66b202cc8542bc8d5e694b52b53214c143f9",
+        "crc32": "44C01F96"
+      },
+      "membership": "0x71",
+      "cached_party_count": 2,
+      "map_id": "0x0104",
+      "binkies": 4,
+      "flags": {
+        "BA": false,
+        "1C4": false,
+        "1FC": false
+      },
+      "characters": [
+        {
+          "character": 0,
+          "count": 2,
+          "entries": [
+            "01 01 00",
+            "1B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "824df7097345406e41af1d6a76134dc2453ba705e1bc3deea355ff83683513bc"
+        },
+        {
+          "character": 1,
+          "count": 1,
+          "entries": [
+            "2B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "2403c8a9b0636fbb3f5bcd5c9abff982b5709fb40d581364e15b0b0a1ff8cedd"
+        },
+        {
+          "character": 2,
+          "count": 1,
+          "entries": [
+            "15 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "4ea80562148fba6932969bf3734570901cd882cf0ae3344156437364bf9d6904"
+        },
+        {
+          "character": 3,
+          "count": 0,
+          "entries": [],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "293ac6d815ea0e8a192790e9179d9f3751fa8d37b653f1b3ae8b1c4b30bb96bb"
+        }
+      ],
+      "active_bitmap": "00000000",
+      "all_slot_flags_zero": true,
+      "all_saved_returns_zero": true,
+      "pc": "0x0802EACA"
+    },
+    {
+      "path": "C:\\Users\\gm347\\Documents\\NewerCat\\Programas\\Workspaces\\TomatoAdventure\\sofoubi_initialized_guarded_confirmed.ss0",
+      "size": 24962,
+      "sha256": "c7a1fb18eea144858fe2982fd5441a24a0758dc3579792a98431db8807cacd30",
+      "format": "PNG 240x160; CRC-checked chunks; gbAs zlib 0x61000; state magic 0x01000007",
+      "rom_identity": {
+        "sha256": "d356a6979c497524d1e94306989e09cf8dfe96334a22c664eb3a9570f3ab3ea3",
+        "crc32": "AB34C118"
+      },
+      "membership": "0x71",
+      "cached_party_count": 3,
+      "map_id": "0x0104",
+      "binkies": 4,
+      "flags": {
+        "BA": false,
+        "1C4": false,
+        "1FC": false
+      },
+      "characters": [
+        {
+          "character": 0,
+          "count": 2,
+          "entries": [
+            "01 01 00",
+            "1B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "824df7097345406e41af1d6a76134dc2453ba705e1bc3deea355ff83683513bc"
+        },
+        {
+          "character": 1,
+          "count": 1,
+          "entries": [
+            "2B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "2403c8a9b0636fbb3f5bcd5c9abff982b5709fb40d581364e15b0b0a1ff8cedd"
+        },
+        {
+          "character": 2,
+          "count": 1,
+          "entries": [
+            "15 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "4ea80562148fba6932969bf3734570901cd882cf0ae3344156437364bf9d6904"
+        },
+        {
+          "character": 3,
+          "count": 0,
+          "entries": [],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "293ac6d815ea0e8a192790e9179d9f3751fa8d37b653f1b3ae8b1c4b30bb96bb"
+        }
+      ],
+      "active_bitmap": "00000000",
+      "all_slot_flags_zero": true,
+      "all_saved_returns_zero": true,
+      "pc": "0x0000001C"
+    },
+    {
+      "path": "C:\\Users\\gm347\\Documents\\NewerCat\\Programas\\Workspaces\\TomatoAdventure\\sofoubi_initialized_guarded_confirmed_first.ss0",
+      "size": 35408,
+      "sha256": "4f63cd1d61486ad01f8004fc2141686c7819438e7c83c6d31d98267afe3f5f3a",
+      "format": "PNG 240x160; CRC-checked chunks; gbAs zlib 0x61000; state magic 0x01000007",
+      "rom_identity": {
+        "sha256": "d356a6979c497524d1e94306989e09cf8dfe96334a22c664eb3a9570f3ab3ea3",
+        "crc32": "AB34C118"
+      },
+      "membership": "0x71",
+      "cached_party_count": 3,
+      "map_id": "0x0104",
+      "binkies": 6,
+      "flags": {
+        "BA": false,
+        "1C4": true,
+        "1FC": false
+      },
+      "characters": [
+        {
+          "character": 0,
+          "count": 2,
+          "entries": [
+            "01 01 00",
+            "1B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "824df7097345406e41af1d6a76134dc2453ba705e1bc3deea355ff83683513bc"
+        },
+        {
+          "character": 1,
+          "count": 1,
+          "entries": [
+            "2B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "2403c8a9b0636fbb3f5bcd5c9abff982b5709fb40d581364e15b0b0a1ff8cedd"
+        },
+        {
+          "character": 2,
+          "count": 1,
+          "entries": [
+            "15 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "4ea80562148fba6932969bf3734570901cd882cf0ae3344156437364bf9d6904"
+        },
+        {
+          "character": 3,
+          "count": 0,
+          "entries": [],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "293ac6d815ea0e8a192790e9179d9f3751fa8d37b653f1b3ae8b1c4b30bb96bb"
+        }
+      ],
+      "active_bitmap": "00000000",
+      "all_slot_flags_zero": true,
+      "all_saved_returns_zero": true,
+      "pc": "0x03006074"
+    },
+    {
+      "path": "C:\\Users\\gm347\\Documents\\NewerCat\\Programas\\Workspaces\\TomatoAdventure\\sofoubi_initialized_guarded_confirmed_full.ss0",
+      "size": 35406,
+      "sha256": "f51ec4a4b3bd8c05bd1af01d6a00a4e8d9c2c8b6f80ddc5de3a9d3deef06197d",
+      "format": "PNG 240x160; CRC-checked chunks; gbAs zlib 0x61000; state magic 0x01000007",
+      "rom_identity": {
+        "sha256": "d356a6979c497524d1e94306989e09cf8dfe96334a22c664eb3a9570f3ab3ea3",
+        "crc32": "AB34C118"
+      },
+      "membership": "0x71",
+      "cached_party_count": 3,
+      "map_id": "0x0104",
+      "binkies": 8,
+      "flags": {
+        "BA": true,
+        "1C4": true,
+        "1FC": false
+      },
+      "characters": [
+        {
+          "character": 0,
+          "count": 2,
+          "entries": [
+            "01 01 00",
+            "1B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "824df7097345406e41af1d6a76134dc2453ba705e1bc3deea355ff83683513bc"
+        },
+        {
+          "character": 1,
+          "count": 1,
+          "entries": [
+            "2B 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "2403c8a9b0636fbb3f5bcd5c9abff982b5709fb40d581364e15b0b0a1ff8cedd"
+        },
+        {
+          "character": 2,
+          "count": 1,
+          "entries": [
+            "15 01 00"
+          ],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "4ea80562148fba6932969bf3734570901cd882cf0ae3344156437364bf9d6904"
+        },
+        {
+          "character": 3,
+          "count": 0,
+          "entries": [],
+          "charge": 0,
+          "readiness": 0,
+          "record_sha256": "293ac6d815ea0e8a192790e9179d9f3751fa8d37b653f1b3ae8b1c4b30bb96bb"
+        }
+      ],
+      "active_bitmap": "00000000",
+      "all_slot_flags_zero": true,
+      "all_saved_returns_zero": true,
+      "pc": "0x0000000C"
+    }
+  ],
+  "checkpoint_limit": "Snapshots certify retained values, not the prior charge, exchange count, order, or causation.",
+  "character_comparison": "Final Relleck four 0x60-byte records equal guarded pre-exchange records; DeMille/Alessa/Sofoubi records equal clean Sofoubi checkpoint.",
+  "pending": [
+    "cancellation",
+    "partial AWE rejection",
+    "inventory-capacity rejection at 98/99 and acceptance at 97",
+    "multiple full gauges and nonselected gauge preservation",
+    "additional save/reload regression"
+  ],
+  "protected_audit": {
+    "before_count": 388,
+    "after_count": 388,
+    "changed": [],
+    "added": [],
+    "removed": [],
+    "unchanged": true,
+    "scope": "ROMs, saves, savestates, scripts, manifest.json and all prior tools/patch/output files; authorized documentation updates excluded"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "session": 7,
+  "date": "2026-10-15",
+  "status": "COMPLETE - user-confirmed runtime success for 24/24 Kaizo rewards",
+  "evidence_provenance": "User supplied Session 7 report in this conversation; no new emulator execution, final-checkpoint inspection or console transcript invented",
+  "rom": {
+    "path": "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/kaizo_binky_100.gba",
+    "sha256": "7e7603816afb0990eea51ed2c49ab4b4afd5596ff1c4211c656d608e94ed2aa2",
+    "identity_independently_rehashed_this_session": true
+  },
+  "stages": [
+    {
+      "stage": "Before Hanzo Lab 4",
+      "prerequisite_flag": null,
+      "new_rewards": [
+        "UFO-Cast",
+        "Lucky Cat"
+      ],
+      "result": "PASS - user-confirmed runtime",
+      "functional_registration": "User reports registered and functional in tested gameplay; earlier direct menu validation, later explicit functional reports"
+    },
+    {
+      "stage": "Hanzo Lab 4",
+      "prerequisite_flag": "0x22B",
+      "new_rewards": [
+        "Cyclooka",
+        "Rocket Pak",
+        "Kendama",
+        "Bouncer"
+      ],
+      "result": "PASS - user-confirmed runtime",
+      "functional_registration": "User reports registered and functional in tested gameplay; earlier direct menu validation, later explicit functional reports"
+    },
+    {
+      "stage": "Hanzo Lab 5",
+      "prerequisite_flag": "0x22C",
+      "new_rewards": [
+        "Bee Gatling",
+        "Pyramet",
+        "Fart Horn",
+        "Origami"
+      ],
+      "result": "PASS - user-confirmed runtime",
+      "functional_registration": "User reports registered and functional in tested gameplay; earlier direct menu validation, later explicit functional reports"
+    },
+    {
+      "stage": "Hanzo Lab 6",
+      "prerequisite_flag": "0x22D",
+      "new_rewards": [
+        "Popocon",
+        "BowlingRice",
+        "Bunny Hop",
+        "Shadowreel",
+        "SlotZooka"
+      ],
+      "result": "PASS - user-confirmed runtime",
+      "functional_registration": "User reports registered and functional in tested gameplay; earlier direct menu validation, later explicit functional reports"
+    },
+    {
+      "stage": "Last Hanzo Lab 1",
+      "prerequisite_flag": "0x096",
+      "new_rewards": [
+        "Flame Doll",
+        "TwinDragon",
+        "SesameTop",
+        "Judgment",
+        "Mansnow",
+        "Dragonfire",
+        "Momotaro",
+        "StarScope",
+        "Choo-Choo"
+      ],
+      "result": "PASS - user-confirmed runtime",
+      "functional_registration": "User reports registered and functional in tested gameplay; earlier direct menu validation, later explicit functional reports"
+    }
+  ],
+  "total_rewards": 24,
+  "distribution_decision": "Preserve all 24 rewards and nine final-prerequisite rewards unchanged",
+  "native_binky_acquisition": {
+    "status": "PASS - user-confirmed manual runtime",
+    "initial_donated": 6,
+    "initial_carried": 0,
+    "initial_record_count": 3,
+    "initial_records": "27 01 0D 01 5F 01 00 00",
+    "entry_breakpoint": "0x08029220",
+    "pending_item_read": "0x03003A34 = 0x37",
+    "pending_quantity_read": "0x03003A35 = 0x02",
+    "sole_temporary_parameter_write": "0x03003A35 = 0x5E (94 decimal)",
+    "return_breakpoint": "0x0802922C",
+    "reported_result": "Native acquisition succeeded; occupied records 4; normal exchange completed",
+    "reported_result_records": "27 01 0D 01 37 5E 5F 01 00 00",
+    "menu_quantity": 94,
+    "last_direct_donation_counter_read": {
+      "address": "0x030032B7",
+      "value": 6,
+      "when": "Before donating the 94-Binky stack"
+    },
+    "final_counter_100_direct_readback_provided": false,
+    "later_result": "Remaining rewards received through normal Kaizo interactions as prerequisite flags were enabled"
+  },
+  "inventory_correction": {
+    "structure": "count byte 0x030019D4; movable ID/quantity records at 0x030019D5, stride 2",
+    "binky_id": "0x37",
+    "failed_address": "0x030019DA",
+    "actual_item_in_inspected_clean_checkpoint": "0x5F Hotpot; quantity at 0x030019DA",
+    "interpretation": "The failed quantity write did not create an item 0x37 record"
+  },
+  "flags": [
+    {
+      "id": "0x22B",
+      "address": "0x0300332C",
+      "mask": "0x08",
+      "reported_cumulative_byte": "0x08"
+    },
+    {
+      "id": "0x22C",
+      "address": "0x0300332C",
+      "mask": "0x10",
+      "reported_cumulative_byte": "0x18"
+    },
+    {
+      "id": "0x22D",
+      "address": "0x0300332C",
+      "mask": "0x20",
+      "intended_cumulative_byte": "0x38",
+      "exact_byte_readback_not_invented": true
+    },
+    {
+      "id": "0x096",
+      "address": "0x030032F9",
+      "mask": "0x40",
+      "reported_set_value": "0x40"
+    }
+  ],
+  "flag_test_interpretation": "Completion flags sufficed for later Kaizo gates in this controlled state; associated Hanzo Gimmick insertion was unnecessary. Does not establish safe normal-story skipping or absence of other encounter effects.",
+  "residual_coverage": [
+    "Duplicate-claim regressions",
+    "Inventory capacity boundaries",
+    "Retirement/follow-up behavior",
+    "Dedicated ordinary save/reload",
+    "Separately measured final cumulative counter"
+  ],
+  "next_objectives": {
+    "palace_enemy_hp_research": "CURRENT",
+    "hawker_placement": "DEFERRED - FINAL MAJOR OBJECTIVE; Mayonen 0x0048 and Namp Lagoon second screen, map/position unresolved"
+  },
+  "restrictions": "Documentation only; no further Kaizo development, gameplay edits or runtime execution"
+}

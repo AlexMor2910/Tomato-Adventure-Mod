@@ -1,0 +1,2171 @@
+{
+  "mode": "read-only remaining-test planning; no ROM/state construction",
+  "verified_outputs": [
+    {
+      "profile": "baseline",
+      "path": "tools\\patch\\output\\binky-rate-two-baseline-c4ec3611142c49cf93d891cbfc10f056",
+      "sha256": "b9967b15193b5aec701032742d322a1040373e76b176b1aeb1e65ce2c06078b6",
+      "verification": {
+        "full_file_comparison_passed": true,
+        "compared_bytes": 8388608,
+        "changed_bytes": 118,
+        "actual_modified_ranges": [
+          {
+            "start": "0x107f54",
+            "end_exclusive": "0x107f55",
+            "old": "01",
+            "new": "02"
+          },
+          {
+            "start": "0x107f6b",
+            "end_exclusive": "0x107f6c",
+            "old": "63",
+            "new": "62"
+          },
+          {
+            "start": "0x107f76",
+            "end_exclusive": "0x107f77",
+            "old": "01",
+            "new": "02"
+          },
+          {
+            "start": "0x107f8b",
+            "end_exclusive": "0x107f8c",
+            "old": "01",
+            "new": "02"
+          },
+          {
+            "start": "0x107fa2",
+            "end_exclusive": "0x107fa3",
+            "old": "63",
+            "new": "62"
+          },
+          {
+            "start": "0x107fad",
+            "end_exclusive": "0x107fae",
+            "old": "01",
+            "new": "02"
+          },
+          {
+            "start": "0x1080f9",
+            "end_exclusive": "0x1080fa",
+            "old": "03",
+            "new": "02"
+          },
+          {
+            "start": "0x108110",
+            "end_exclusive": "0x108111",
+            "old": "61",
+            "new": "62"
+          },
+          {
+            "start": "0x10811b",
+            "end_exclusive": "0x10811c",
+            "old": "03",
+            "new": "02"
+          },
+          {
+            "start": "0x65fca4",
+            "end_exclusive": "0x65fcb8",
+            "old": "01 93 00 99 8f 95 00 8d 81 8b 85 00 8d 8f 92 85 00 86 92 89",
+            "new": "05 96 85 92 99 00 86 95 8c 8c 00 01 17 05 7b 00 87 81 95 87"
+          },
+          {
+            "start": "0x65fcb9",
+            "end_exclusive": "0x65fd03",
+            "old": "8e 84 93 1c ff 05 94 88 85 00 ff 32 81 8d 8f 95 8e 94 ff 30 00 8f 86 00 82 89 8e 8b 89 85 93 00 09 ff 02 8f 86 86 85 92 00 99 8f 95 00 86 8f 92 00 89 94 00 8d 81 99 ff 05 83 88 81 8e 87 85 00 81 93 00 97 85 8c 8c 1d 1d 1d",
+            "new": "ff 05 89 93 00 97 8f 92 94 88 00 94 97 8f 00 82 89 8e 8b 89 85 93 1c ff 02 86 92 8f 8d 00 81 8e 99 00 83 88 81 92 81 83 94 85 92 1d ff 01 0e 99 8f 1b 88 8f 1b 88 8f 1d 1d 1d ff 40 ff 00 ff ff ff ff ff ff ff ff ff ff ff ff"
+          },
+          {
+            "start": "0x65fd04",
+            "end_exclusive": "0x65fd11",
+            "old": "01 0e 99 8f 1b 88 8f 1b 88 8f 1d 1d 1d",
+            "new": "ff ff ff ff ff ff ff ff ff ff ff ff ff"
+          },
+          {
+            "start": "0x65fd12",
+            "end_exclusive": "0x65fd13",
+            "old": "40",
+            "new": "ff"
+          },
+          {
+            "start": "0x65fd14",
+            "end_exclusive": "0x65fd15",
+            "old": "00",
+            "new": "ff"
+          }
+        ],
+        "all_five_transaction_blocks_quantity_two": true,
+        "header_preserved": true,
+        "recruitment_payload_preserved": false,
+        "runtime_validation": "untested"
+      }
+    },
+    {
+      "profile": "recruitment-test",
+      "path": "tools\\patch\\output\\binky-rate-two-recruitment-test-aaee9ff3918c42aabf6d9bec7cff611f",
+      "sha256": "d356a6979c497524d1e94306989e09cf8dfe96334a22c664eb3a9570f3ab3ea3",
+      "verification": {
+        "full_file_comparison_passed": true,
+        "compared_bytes": 16777216,
+        "changed_bytes": 118,
+        "actual_modified_ranges": [
+          {
+            "start": "0x107f54",
+            "end_exclusive": "0x107f55",
+            "old": "01",
+            "new": "02"
+          },
+          {
+            "start": "0x107f6b",
+            "end_exclusive": "0x107f6c",
+            "old": "63",
+            "new": "62"
+          },
+          {
+            "start": "0x107f76",
+            "end_exclusive": "0x107f77",
+            "old": "01",
+            "new": "02"
+          },
+          {
+            "start": "0x107f8b",
+            "end_exclusive": "0x107f8c",
+            "old": "01",
+            "new": "02"
+          },
+          {
+            "start": "0x107fa2",
+            "end_exclusive": "0x107fa3",
+            "old": "63",
+            "new": "62"
+          },
+          {
+            "start": "0x107fad",
+            "end_exclusive": "0x107fae",
+            "old": "01",
+            "new": "02"
+          },
+          {
+            "start": "0x1080f9",
+            "end_exclusive": "0x1080fa",
+            "old": "03",
+            "new": "02"
+          },
+          {
+            "start": "0x108110",
+            "end_exclusive": "0x108111",
+            "old": "61",
+            "new": "62"
+          },
+          {
+            "start": "0x10811b",
+            "end_exclusive": "0x10811c",
+            "old": "03",
+            "new": "02"
+          },
+          {
+            "start": "0x65fca4",
+            "end_exclusive": "0x65fcb8",
+            "old": "01 93 00 99 8f 95 00 8d 81 8b 85 00 8d 8f 92 85 00 86 92 89",
+            "new": "05 96 85 92 99 00 86 95 8c 8c 00 01 17 05 7b 00 87 81 95 87"
+          },
+          {
+            "start": "0x65fcb9",
+            "end_exclusive": "0x65fd03",
+            "old": "8e 84 93 1c ff 05 94 88 85 00 ff 32 81 8d 8f 95 8e 94 ff 30 00 8f 86 00 82 89 8e 8b 89 85 93 00 09 ff 02 8f 86 86 85 92 00 99 8f 95 00 86 8f 92 00 89 94 00 8d 81 99 ff 05 83 88 81 8e 87 85 00 81 93 00 97 85 8c 8c 1d 1d 1d",
+            "new": "ff 05 89 93 00 97 8f 92 94 88 00 94 97 8f 00 82 89 8e 8b 89 85 93 1c ff 02 86 92 8f 8d 00 81 8e 99 00 83 88 81 92 81 83 94 85 92 1d ff 01 0e 99 8f 1b 88 8f 1b 88 8f 1d 1d 1d ff 40 ff 00 ff ff ff ff ff ff ff ff ff ff ff ff"
+          },
+          {
+            "start": "0x65fd04",
+            "end_exclusive": "0x65fd11",
+            "old": "01 0e 99 8f 1b 88 8f 1b 88 8f 1d 1d 1d",
+            "new": "ff ff ff ff ff ff ff ff ff ff ff ff ff"
+          },
+          {
+            "start": "0x65fd12",
+            "end_exclusive": "0x65fd13",
+            "old": "40",
+            "new": "ff"
+          },
+          {
+            "start": "0x65fd14",
+            "end_exclusive": "0x65fd15",
+            "old": "00",
+            "new": "ff"
+          }
+        ],
+        "all_five_transaction_blocks_quantity_two": true,
+        "header_preserved": true,
+        "recruitment_payload_preserved": true,
+        "runtime_validation": "untested"
+      }
+    }
+  ],
+  "checkpoints": [
+    {
+      "path": "before_oystown.ss0",
+      "sha256": "d20fc78972641d76e1b56f23daa80c9fedd4c07fa22edb63e69d37371db21c53",
+      "bytes": 29297,
+      "rom_crc32": "E9ACB98F",
+      "state_magic": "0x1000007",
+      "bios_checksum": "59FE2303",
+      "membership": 49,
+      "derived_party_count": 2,
+      "map_id": 223,
+      "characters": [
+        {
+          "index": 0,
+          "record_address": "0x3001edc",
+          "record_hex": "04 85 0d 89 07 8c 8c 02 01 01 00 1b 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 1e 00 00 00 03 01 11 00 00 00 05 00 00 00 22 00 00 00 00 00 01 1b 00 00 85 00",
+          "inventory_count": 2,
+          "inventory": [
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              27,
+              1,
+              0
+            ]
+          ],
+          "inventory_count_in_bounds": true
+        },
+        {
+          "index": 1,
+          "record_address": "0x3001f3c",
+          "record_hex": "01 8c 85 93 05 81 00 01 2b 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 00 3a 00 00 00 09 0a 44 00 00 00 08 00 00 00 47 00 00 00 05 00 2b 00 00 00 00 00",
+          "inventory_count": 1,
+          "inventory": [
+            [
+              43,
+              1,
+              0
+            ]
+          ],
+          "inventory_count_in_bounds": true
+        }
+      ],
+      "alessa_charge": 5,
+      "alessa_ready": 0,
+      "oystown_intro_flag_1F4": false,
+      "classification": "confirmed static saved bytes; stable field context not certified",
+      "cached_node": 7,
+      "scheduler_bitmap": "00 00 00 00",
+      "tier_bytes": {
+        "0x30032fe": "0x0",
+        "0x300331f": "0x0",
+        "0x3003326": "0x0"
+      },
+      "all_character_records": [
+        {
+          "index": 0,
+          "base": "0x3001edc",
+          "membership_mask": "0x10",
+          "present": true,
+          "inventory_count": 2,
+          "charge": 0,
+          "ready": 0,
+          "raw": "04 85 0d 89 07 8c 8c 02 01 01 00 1b 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 1e 00 00 00 03 01 11 00 00 00 05 00 00 00 22 00 00 00 00 00 01 1b 00 00 85 00"
+        },
+        {
+          "index": 1,
+          "base": "0x3001f3c",
+          "membership_mask": "0x20",
+          "present": true,
+          "inventory_count": 1,
+          "charge": 5,
+          "ready": 0,
+          "raw": "01 8c 85 93 05 81 00 01 2b 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 00 3a 00 00 00 09 0a 44 00 00 00 08 00 00 00 47 00 00 00 05 00 2b 00 00 00 00 00"
+        },
+        {
+          "index": 2,
+          "base": "0x3001f9c",
+          "membership_mask": "0x40",
+          "present": false,
+          "inventory_count": 0,
+          "charge": 0,
+          "ready": 0,
+          "raw": "13 8f 86 95 06 82 89 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 e9 00 e9 00 00 00 15 00 41 00 00 00 00 00 00 00 23 00 00 00 00 00 00 00 00 00 00 00"
+        },
+        {
+          "index": 3,
+          "base": "0x3001ffc",
+          "membership_mask": "0x80",
+          "present": false,
+          "inventory_count": 0,
+          "charge": 0,
+          "ready": 0,
+          "raw": "12 85 8c 8c 06 85 8b 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9d 00 9d 00 00 00 1b 00 46 01 00 00 00 00 00 00 29 00 00 00 00 00 00 00 00 00 00 00"
+        }
+      ],
+      "binky_entries": [
+        {
+          "id_address": "0x30019d9",
+          "count_address": "0x30019da",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "after_exchange_oystown.ss0",
+      "sha256": "aca4eb6751d66949e74a137217e92f79eaa0e85039f11f09d9821ea9a2cb5646",
+      "bytes": 35239,
+      "rom_crc32": "E9ACB98F",
+      "state_magic": "0x1000007",
+      "bios_checksum": "59FE2303",
+      "membership": 49,
+      "derived_party_count": 2,
+      "map_id": 260,
+      "characters": [
+        {
+          "index": 0,
+          "record_address": "0x3001edc",
+          "record_hex": "04 85 0d 89 07 8c 8c 02 01 01 00 1b 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 1e 00 00 00 03 01 11 00 00 00 05 00 00 00 22 00 00 00 00 00 01 1b 00 00 85 00",
+          "inventory_count": 2,
+          "inventory": [
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              27,
+              1,
+              0
+            ]
+          ],
+          "inventory_count_in_bounds": true
+        },
+        {
+          "index": 1,
+          "record_address": "0x3001f3c",
+          "record_hex": "01 8c 85 93 05 81 00 01 2b 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 00 3a 00 00 00 09 0a 44 00 00 00 08 00 00 00 47 00 00 00 00 00 2b 00 00 00 00 00",
+          "inventory_count": 1,
+          "inventory": [
+            [
+              43,
+              1,
+              0
+            ]
+          ],
+          "inventory_count_in_bounds": true
+        }
+      ],
+      "alessa_charge": 0,
+      "alessa_ready": 0,
+      "oystown_intro_flag_1F4": true,
+      "classification": "confirmed static saved bytes; stable field context not certified",
+      "cached_node": 8,
+      "scheduler_bitmap": "00 00 00 00",
+      "tier_bytes": {
+        "0x30032fe": "0x0",
+        "0x300331f": "0x0",
+        "0x3003326": "0x0"
+      },
+      "all_character_records": [
+        {
+          "index": 0,
+          "base": "0x3001edc",
+          "membership_mask": "0x10",
+          "present": true,
+          "inventory_count": 2,
+          "charge": 0,
+          "ready": 0,
+          "raw": "04 85 0d 89 07 8c 8c 02 01 01 00 1b 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 1e 00 00 00 03 01 11 00 00 00 05 00 00 00 22 00 00 00 00 00 01 1b 00 00 85 00"
+        },
+        {
+          "index": 1,
+          "base": "0x3001f3c",
+          "membership_mask": "0x20",
+          "present": true,
+          "inventory_count": 1,
+          "charge": 0,
+          "ready": 0,
+          "raw": "01 8c 85 93 05 81 00 01 2b 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 00 3a 00 00 00 09 0a 44 00 00 00 08 00 00 00 47 00 00 00 00 00 2b 00 00 00 00 00"
+        },
+        {
+          "index": 2,
+          "base": "0x3001f9c",
+          "membership_mask": "0x40",
+          "present": false,
+          "inventory_count": 0,
+          "charge": 0,
+          "ready": 0,
+          "raw": "13 8f 86 95 06 82 89 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 e9 00 e9 00 00 00 15 00 41 00 00 00 00 00 00 00 23 00 00 00 00 00 00 00 00 00 00 00"
+        },
+        {
+          "index": 3,
+          "base": "0x3001ffc",
+          "membership_mask": "0x80",
+          "present": false,
+          "inventory_count": 0,
+          "charge": 0,
+          "ready": 0,
+          "raw": "12 85 8c 8c 06 85 8b 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9d 00 9d 00 00 00 1b 00 46 01 00 00 00 00 00 00 29 00 00 00 00 00 00 00 00 00 00 00"
+        }
+      ],
+      "binky_entries": [
+        {
+          "id_address": "0x30019d9",
+          "count_address": "0x30019da",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "path": "after_exchange_oystown_alessa_test.ss0",
+      "sha256": "85110875375c28ab412e4413e986d9cb65eb81353d1214f3b86e6d7b7a02f1cf",
+      "bytes": 34120,
+      "rom_crc32": "AB34C118",
+      "state_magic": "0x1000007",
+      "bios_checksum": "59FE2303",
+      "membership": 49,
+      "derived_party_count": 2,
+      "map_id": 260,
+      "characters": [
+        {
+          "index": 0,
+          "record_address": "0x3001edc",
+          "record_hex": "04 85 0d 89 07 8c 8c 02 01 01 00 1b 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 1e 00 00 00 03 01 11 00 00 00 05 00 00 00 22 00 00 00 00 00 01 1b 00 00 85 00",
+          "inventory_count": 2,
+          "inventory": [
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              27,
+              1,
+              0
+            ]
+          ],
+          "inventory_count_in_bounds": true
+        },
+        {
+          "index": 1,
+          "record_address": "0x3001f3c",
+          "record_hex": "01 8c 85 93 05 81 00 01 2b 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 00 3a 00 00 00 09 0a 44 00 00 00 08 00 00 00 47 00 00 00 00 00 2b 00 00 00 00 00",
+          "inventory_count": 1,
+          "inventory": [
+            [
+              43,
+              1,
+              0
+            ]
+          ],
+          "inventory_count_in_bounds": true
+        }
+      ],
+      "alessa_charge": 0,
+      "alessa_ready": 0,
+      "oystown_intro_flag_1F4": true,
+      "classification": "confirmed static saved bytes; stable field context not certified",
+      "cached_node": 8,
+      "scheduler_bitmap": "00 00 00 00",
+      "tier_bytes": {
+        "0x30032fe": "0x0",
+        "0x300331f": "0x0",
+        "0x3003326": "0x0"
+      },
+      "all_character_records": [
+        {
+          "index": 0,
+          "base": "0x3001edc",
+          "membership_mask": "0x10",
+          "present": true,
+          "inventory_count": 2,
+          "charge": 0,
+          "ready": 0,
+          "raw": "04 85 0d 89 07 8c 8c 02 01 01 00 1b 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 1e 00 00 00 03 01 11 00 00 00 05 00 00 00 22 00 00 00 00 00 01 1b 00 00 85 00"
+        },
+        {
+          "index": 1,
+          "base": "0x3001f3c",
+          "membership_mask": "0x20",
+          "present": true,
+          "inventory_count": 1,
+          "charge": 0,
+          "ready": 0,
+          "raw": "01 8c 85 93 05 81 00 01 2b 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 00 3a 00 00 00 09 0a 44 00 00 00 08 00 00 00 47 00 00 00 00 00 2b 00 00 00 00 00"
+        },
+        {
+          "index": 2,
+          "base": "0x3001f9c",
+          "membership_mask": "0x40",
+          "present": false,
+          "inventory_count": 0,
+          "charge": 0,
+          "ready": 0,
+          "raw": "13 8f 86 95 06 82 89 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 e9 00 e9 00 00 00 15 00 41 00 00 00 00 00 00 00 23 00 00 00 00 00 00 00 00 00 00 00"
+        },
+        {
+          "index": 3,
+          "base": "0x3001ffc",
+          "membership_mask": "0x80",
+          "present": false,
+          "inventory_count": 0,
+          "charge": 0,
+          "ready": 0,
+          "raw": "12 85 8c 8c 06 85 8b 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9d 00 9d 00 00 00 1b 00 46 01 00 00 00 00 00 00 29 00 00 00 00 00 00 00 00 00 00 00"
+        }
+      ],
+      "binky_entries": [
+        {
+          "id_address": "0x30019d9",
+          "count_address": "0x30019da",
+          "count": 4
+        }
+      ]
+    }
+  ],
+  "initialization_windows": [
+    {
+      "role": "FE49 first-absent companion initializer",
+      "range": [
+        "0x252f4",
+        "0x25374"
+      ],
+      "instructions": [
+        {
+          "bus": "0x80252f4",
+          "bytes": "30 b5",
+          "text": "push {r4, r5, lr}"
+        },
+        {
+          "bus": "0x80252f6",
+          "bytes": "0a 4c",
+          "text": "ldr r4, [pc, #40] ; slot 0x08025320 = 0x030018BC"
+        },
+        {
+          "bus": "0x80252f8",
+          "bytes": "0a 48",
+          "text": "ldr r0, [pc, #40] ; slot 0x08025324 = 0x030019D4"
+        },
+        {
+          "bus": "0x80252fa",
+          "bytes": "e0 30",
+          "text": "add r0, #224"
+        },
+        {
+          "bus": "0x80252fc",
+          "bytes": "01 78",
+          "text": "ldrb r1, [r0, #0]"
+        },
+        {
+          "bus": "0x80252fe",
+          "bytes": "00 22",
+          "text": "mov r2, #0"
+        },
+        {
+          "bus": "0x8025300",
+          "bytes": "61 70",
+          "text": "strb r1, [r4, #1]"
+        },
+        {
+          "bus": "0x8025302",
+          "bytes": "09 4d",
+          "text": "ldr r5, [pc, #36] ; slot 0x08025328 = 0x03000600"
+        },
+        {
+          "bus": "0x8025304",
+          "bytes": "20 20",
+          "text": "mov r0, #32"
+        },
+        {
+          "bus": "0x8025306",
+          "bytes": "08 40",
+          "text": "and r0, r1"
+        },
+        {
+          "bus": "0x8025308",
+          "bytes": "00 06",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x802530a",
+          "bytes": "00 0e",
+          "text": "lsr r0, r0, #24"
+        },
+        {
+          "bus": "0x802530c",
+          "bytes": "28 80",
+          "text": "strh r0, [r5, #0]"
+        },
+        {
+          "bus": "0x802530e",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x8025310",
+          "bytes": "0c d1",
+          "text": "bne 0x0802532C"
+        },
+        {
+          "bus": "0x8025312",
+          "bytes": "f0 20",
+          "text": "mov r0, #240"
+        },
+        {
+          "bus": "0x8025314",
+          "bytes": "08 40",
+          "text": "and r0, r1"
+        },
+        {
+          "bus": "0x8025316",
+          "bytes": "21 21",
+          "text": "mov r1, #33"
+        },
+        {
+          "bus": "0x8025318",
+          "bytes": "08 43",
+          "text": "orr r0, r1"
+        },
+        {
+          "bus": "0x802531a",
+          "bytes": "60 70",
+          "text": "strb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x802531c",
+          "bytes": "01 20",
+          "text": "mov r0, #1"
+        },
+        {
+          "bus": "0x802531e",
+          "bytes": "1a e0",
+          "text": "b 0x08025356"
+        },
+        {
+          "bus": "0x802532c",
+          "bytes": "40 20",
+          "text": "mov r0, #64"
+        },
+        {
+          "bus": "0x802532e",
+          "bytes": "08 40",
+          "text": "and r0, r1"
+        },
+        {
+          "bus": "0x8025330",
+          "bytes": "00 06",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x8025332",
+          "bytes": "00 0e",
+          "text": "lsr r0, r0, #24"
+        },
+        {
+          "bus": "0x8025334",
+          "bytes": "28 80",
+          "text": "strh r0, [r5, #0]"
+        },
+        {
+          "bus": "0x8025336",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x8025338",
+          "bytes": "04 d1",
+          "text": "bne 0x08025344"
+        },
+        {
+          "bus": "0x802533a",
+          "bytes": "40 20",
+          "text": "mov r0, #64"
+        },
+        {
+          "bus": "0x802533c",
+          "bytes": "08 43",
+          "text": "orr r0, r1"
+        },
+        {
+          "bus": "0x802533e",
+          "bytes": "60 70",
+          "text": "strb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x8025340",
+          "bytes": "02 20",
+          "text": "mov r0, #2"
+        },
+        {
+          "bus": "0x8025342",
+          "bytes": "08 e0",
+          "text": "b 0x08025356"
+        },
+        {
+          "bus": "0x8025344",
+          "bytes": "80 20",
+          "text": "mov r0, #128"
+        },
+        {
+          "bus": "0x8025346",
+          "bytes": "08 43",
+          "text": "orr r0, r1"
+        },
+        {
+          "bus": "0x8025348",
+          "bytes": "60 70",
+          "text": "strb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x802534a",
+          "bytes": "00 06",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x802534c",
+          "bytes": "00 0e",
+          "text": "lsr r0, r0, #24"
+        },
+        {
+          "bus": "0x802534e",
+          "bytes": "0a f0 cf fd",
+          "text": "bl 0x0802FEF0"
+        },
+        {
+          "bus": "0x8025352",
+          "bytes": "28 80",
+          "text": "strh r0, [r5, #0]"
+        },
+        {
+          "bus": "0x8025354",
+          "bytes": "03 20",
+          "text": "mov r0, #3"
+        },
+        {
+          "bus": "0x8025356",
+          "bytes": "60 72",
+          "text": "strb r0, [r4, #9]"
+        },
+        {
+          "bus": "0x8025358",
+          "bytes": "04 48",
+          "text": "ldr r0, [pc, #16] ; slot 0x0802536C = 0x030019D4"
+        },
+        {
+          "bus": "0x802535a",
+          "bytes": "05 49",
+          "text": "ldr r1, [pc, #20] ; slot 0x08025370 = 0x030018BC"
+        },
+        {
+          "bus": "0x802535c",
+          "bytes": "49 78",
+          "text": "ldrb r1, [r1, #1]"
+        },
+        {
+          "bus": "0x802535e",
+          "bytes": "e0 30",
+          "text": "add r0, #224"
+        },
+        {
+          "bus": "0x8025360",
+          "bytes": "01 70",
+          "text": "strb r1, [r0, #0]"
+        },
+        {
+          "bus": "0x8025362",
+          "bytes": "0d f0 45 fc",
+          "text": "bl 0x08032BF0"
+        },
+        {
+          "bus": "0x8025366",
+          "bytes": "30 bc",
+          "text": "pop {r4, r5}"
+        },
+        {
+          "bus": "0x8025368",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x802536a",
+          "bytes": "00 47",
+          "text": "bx r0"
+        }
+      ]
+    },
+    {
+      "role": "FE4A membership-only enable",
+      "range": [
+        "0x25374",
+        "0x253a4"
+      ],
+      "instructions": [
+        {
+          "bus": "0x8025374",
+          "bytes": "00 b5",
+          "text": "push {lr}"
+        },
+        {
+          "bus": "0x8025376",
+          "bytes": "fd f7 dd f8",
+          "text": "bl 0x08022534"
+        },
+        {
+          "bus": "0x802537a",
+          "bytes": "07 4a",
+          "text": "ldr r2, [pc, #28] ; slot 0x08025398 = 0x03000600"
+        },
+        {
+          "bus": "0x802537c",
+          "bytes": "07 49",
+          "text": "ldr r1, [pc, #28] ; slot 0x0802539C = 0x030018BC"
+        },
+        {
+          "bus": "0x802537e",
+          "bytes": "48 78",
+          "text": "ldrb r0, [r1, #1]"
+        },
+        {
+          "bus": "0x8025380",
+          "bytes": "04 30",
+          "text": "add r0, #4"
+        },
+        {
+          "bus": "0x8025382",
+          "bytes": "48 70",
+          "text": "strb r0, [r1, #1]"
+        },
+        {
+          "bus": "0x8025384",
+          "bytes": "00 06",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x8025386",
+          "bytes": "00 0e",
+          "text": "lsr r0, r0, #24"
+        },
+        {
+          "bus": "0x8025388",
+          "bytes": "10 80",
+          "text": "strh r0, [r2, #0]"
+        },
+        {
+          "bus": "0x802538a",
+          "bytes": "05 48",
+          "text": "ldr r0, [pc, #20] ; slot 0x080253A0 = 0x03001AB4"
+        },
+        {
+          "bus": "0x802538c",
+          "bytes": "49 78",
+          "text": "ldrb r1, [r1, #1]"
+        },
+        {
+          "bus": "0x802538e",
+          "bytes": "45 f0 d7 f8",
+          "text": "bl 0x0806A540"
+        },
+        {
+          "bus": "0x8025392",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x8025394",
+          "bytes": "00 47",
+          "text": "bx r0"
+        },
+        {
+          "bus": "0x8025396",
+          "bytes": "00 00",
+          "text": "lsl r0, r0, #0"
+        }
+      ]
+    },
+    {
+      "role": "FE4B membership-only disable",
+      "range": [
+        "0x253a4",
+        "0x253d4"
+      ],
+      "instructions": [
+        {
+          "bus": "0x80253a4",
+          "bytes": "00 b5",
+          "text": "push {lr}"
+        },
+        {
+          "bus": "0x80253a6",
+          "bytes": "fd f7 c5 f8",
+          "text": "bl 0x08022534"
+        },
+        {
+          "bus": "0x80253aa",
+          "bytes": "07 4a",
+          "text": "ldr r2, [pc, #28] ; slot 0x080253C8 = 0x03000600"
+        },
+        {
+          "bus": "0x80253ac",
+          "bytes": "07 49",
+          "text": "ldr r1, [pc, #28] ; slot 0x080253CC = 0x030018BC"
+        },
+        {
+          "bus": "0x80253ae",
+          "bytes": "48 78",
+          "text": "ldrb r0, [r1, #1]"
+        },
+        {
+          "bus": "0x80253b0",
+          "bytes": "04 30",
+          "text": "add r0, #4"
+        },
+        {
+          "bus": "0x80253b2",
+          "bytes": "48 70",
+          "text": "strb r0, [r1, #1]"
+        },
+        {
+          "bus": "0x80253b4",
+          "bytes": "00 06",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x80253b6",
+          "bytes": "00 0e",
+          "text": "lsr r0, r0, #24"
+        },
+        {
+          "bus": "0x80253b8",
+          "bytes": "10 80",
+          "text": "strh r0, [r2, #0]"
+        },
+        {
+          "bus": "0x80253ba",
+          "bytes": "05 48",
+          "text": "ldr r0, [pc, #20] ; slot 0x080253D0 = 0x03001AB4"
+        },
+        {
+          "bus": "0x80253bc",
+          "bytes": "49 78",
+          "text": "ldrb r1, [r1, #1]"
+        },
+        {
+          "bus": "0x80253be",
+          "bytes": "45 f0 ef f8",
+          "text": "bl 0x0806A5A0"
+        },
+        {
+          "bus": "0x80253c2",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x80253c4",
+          "bytes": "00 47",
+          "text": "bx r0"
+        },
+        {
+          "bus": "0x80253c6",
+          "bytes": "00 00",
+          "text": "lsl r0, r0, #0"
+        }
+      ]
+    },
+    {
+      "role": "initializer bridge",
+      "range": [
+        "0x32bf0",
+        "0x32c10"
+      ],
+      "instructions": [
+        {
+          "bus": "0x8032bf0",
+          "bytes": "00 b5",
+          "text": "push {lr}"
+        },
+        {
+          "bus": "0x8032bf2",
+          "bytes": "05 4a",
+          "text": "ldr r2, [pc, #20] ; slot 0x08032C08 = 0x03001AD2"
+        },
+        {
+          "bus": "0x8032bf4",
+          "bytes": "05 48",
+          "text": "ldr r0, [pc, #20] ; slot 0x08032C0C = 0x030018BC"
+        },
+        {
+          "bus": "0x8032bf6",
+          "bytes": "41 7a",
+          "text": "ldrb r1, [r0, #9]"
+        },
+        {
+          "bus": "0x8032bf8",
+          "bytes": "51 70",
+          "text": "strb r1, [r2, #1]"
+        },
+        {
+          "bus": "0x8032bfa",
+          "bytes": "0f 20",
+          "text": "mov r0, #15"
+        },
+        {
+          "bus": "0x8032bfc",
+          "bytes": "08 40",
+          "text": "and r0, r1"
+        },
+        {
+          "bus": "0x8032bfe",
+          "bytes": "10 70",
+          "text": "strb r0, [r2, #0]"
+        },
+        {
+          "bus": "0x8032c00",
+          "bytes": "00 f0 5a f8",
+          "text": "bl 0x08032CB8"
+        },
+        {
+          "bus": "0x8032c04",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x8032c06",
+          "bytes": "00 47",
+          "text": "bx r0"
+        }
+      ]
+    },
+    {
+      "role": "generic character initializer",
+      "range": [
+        "0x32cb8",
+        "0x32e50"
+      ],
+      "instructions": [
+        {
+          "bus": "0x8032cb8",
+          "bytes": "f0 b5",
+          "text": "push {r4, r5, r6, r7, lr}"
+        },
+        {
+          "bus": "0x8032cba",
+          "bytes": "4f 46",
+          "text": "mov r7, r9"
+        },
+        {
+          "bus": "0x8032cbc",
+          "bytes": "46 46",
+          "text": "mov r6, r8"
+        },
+        {
+          "bus": "0x8032cbe",
+          "bytes": "c0 b4",
+          "text": "push {r6, r7}"
+        },
+        {
+          "bus": "0x8032cc0",
+          "bytes": "45 4b",
+          "text": "ldr r3, [pc, #276] ; slot 0x08032DD8 = 0x03001EDC"
+        },
+        {
+          "bus": "0x8032cc2",
+          "bytes": "46 4a",
+          "text": "ldr r2, [pc, #280] ; slot 0x08032DDC = 0x03001AD2"
+        },
+        {
+          "bus": "0x8032cc4",
+          "bytes": "11 78",
+          "text": "ldrb r1, [r2, #0]"
+        },
+        {
+          "bus": "0x8032cc6",
+          "bytes": "48 00",
+          "text": "lsl r0, r1, #1"
+        },
+        {
+          "bus": "0x8032cc8",
+          "bytes": "40 18",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x8032cca",
+          "bytes": "40 01",
+          "text": "lsl r0, r0, #5"
+        },
+        {
+          "bus": "0x8032ccc",
+          "bytes": "c0 18",
+          "text": "add r0, r0, r3"
+        },
+        {
+          "bus": "0x8032cce",
+          "bytes": "00 21",
+          "text": "mov r1, #0"
+        },
+        {
+          "bus": "0x8032cd0",
+          "bytes": "c1 71",
+          "text": "strb r1, [r0, #7]"
+        },
+        {
+          "bus": "0x8032cd2",
+          "bytes": "00 24",
+          "text": "mov r4, #0"
+        },
+        {
+          "bus": "0x8032cd4",
+          "bytes": "42 48",
+          "text": "ldr r0, [pc, #264] ; slot 0x08032DE0 = 0x08630BDC"
+        },
+        {
+          "bus": "0x8032cd6",
+          "bytes": "81 46",
+          "text": "mov r9, r0"
+        },
+        {
+          "bus": "0x8032cd8",
+          "bytes": "08 33",
+          "text": "add r3, #8"
+        },
+        {
+          "bus": "0x8032cda",
+          "bytes": "00 25",
+          "text": "mov r5, #0"
+        },
+        {
+          "bus": "0x8032cdc",
+          "bytes": "10 78",
+          "text": "ldrb r0, [r2, #0]"
+        },
+        {
+          "bus": "0x8032cde",
+          "bytes": "41 00",
+          "text": "lsl r1, r0, #1"
+        },
+        {
+          "bus": "0x8032ce0",
+          "bytes": "09 18",
+          "text": "add r1, r1, r0"
+        },
+        {
+          "bus": "0x8032ce2",
+          "bytes": "49 01",
+          "text": "lsl r1, r1, #5"
+        },
+        {
+          "bus": "0x8032ce4",
+          "bytes": "61 18",
+          "text": "add r1, r4, r1"
+        },
+        {
+          "bus": "0x8032ce6",
+          "bytes": "c9 18",
+          "text": "add r1, r1, r3"
+        },
+        {
+          "bus": "0x8032ce8",
+          "bytes": "0d 70",
+          "text": "strb r5, [r1, #0]"
+        },
+        {
+          "bus": "0x8032cea",
+          "bytes": "60 1c",
+          "text": "add r0, r4, #1"
+        },
+        {
+          "bus": "0x8032cec",
+          "bytes": "00 06",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x8032cee",
+          "bytes": "04 0e",
+          "text": "lsr r4, r0, #24"
+        },
+        {
+          "bus": "0x8032cf0",
+          "bytes": "1d 2c",
+          "text": "cmp r4, #29"
+        },
+        {
+          "bus": "0x8032cf2",
+          "bytes": "f3 d9",
+          "text": "bls 0x08032CDC"
+        },
+        {
+          "bus": "0x8032cf4",
+          "bytes": "4b 46",
+          "text": "mov r3, r9"
+        },
+        {
+          "bus": "0x8032cf6",
+          "bytes": "39 4f",
+          "text": "ldr r7, [pc, #228] ; slot 0x08032DDC = 0x03001AD2"
+        },
+        {
+          "bus": "0x8032cf8",
+          "bytes": "39 78",
+          "text": "ldrb r1, [r7, #0]"
+        },
+        {
+          "bus": "0x8032cfa",
+          "bytes": "c8 00",
+          "text": "lsl r0, r1, #3"
+        },
+        {
+          "bus": "0x8032cfc",
+          "bytes": "40 1a",
+          "text": "sub r0, r0, r1"
+        },
+        {
+          "bus": "0x8032cfe",
+          "bytes": "80 00",
+          "text": "lsl r0, r0, #2"
+        },
+        {
+          "bus": "0x8032d00",
+          "bytes": "c0 18",
+          "text": "add r0, r0, r3"
+        },
+        {
+          "bus": "0x8032d02",
+          "bytes": "82 8a",
+          "text": "ldrh r2, [r0, #20]"
+        },
+        {
+          "bus": "0x8032d04",
+          "bytes": "34 48",
+          "text": "ldr r0, [pc, #208] ; slot 0x08032DD8 = 0x03001EDC"
+        },
+        {
+          "bus": "0x8032d06",
+          "bytes": "80 46",
+          "text": "mov r8, r0"
+        },
+        {
+          "bus": "0x8032d08",
+          "bytes": "48 00",
+          "text": "lsl r0, r1, #1"
+        },
+        {
+          "bus": "0x8032d0a",
+          "bytes": "40 18",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x8032d0c",
+          "bytes": "40 01",
+          "text": "lsl r0, r0, #5"
+        },
+        {
+          "bus": "0x8032d0e",
+          "bytes": "40 44",
+          "text": "add r0, r8"
+        },
+        {
+          "bus": "0x8032d10",
+          "bytes": "44 30",
+          "text": "add r0, #68"
+        },
+        {
+          "bus": "0x8032d12",
+          "bytes": "02 80",
+          "text": "strh r2, [r0, #0]"
+        },
+        {
+          "bus": "0x8032d14",
+          "bytes": "39 78",
+          "text": "ldrb r1, [r7, #0]"
+        },
+        {
+          "bus": "0x8032d16",
+          "bytes": "48 00",
+          "text": "lsl r0, r1, #1"
+        },
+        {
+          "bus": "0x8032d18",
+          "bytes": "40 18",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x8032d1a",
+          "bytes": "40 01",
+          "text": "lsl r0, r0, #5"
+        },
+        {
+          "bus": "0x8032d1c",
+          "bytes": "40 44",
+          "text": "add r0, r8"
+        },
+        {
+          "bus": "0x8032d1e",
+          "bytes": "46 30",
+          "text": "add r0, #70"
+        },
+        {
+          "bus": "0x8032d20",
+          "bytes": "02 80",
+          "text": "strh r2, [r0, #0]"
+        },
+        {
+          "bus": "0x8032d22",
+          "bytes": "39 78",
+          "text": "ldrb r1, [r7, #0]"
+        },
+        {
+          "bus": "0x8032d24",
+          "bytes": "c8 00",
+          "text": "lsl r0, r1, #3"
+        },
+        {
+          "bus": "0x8032d26",
+          "bytes": "40 1a",
+          "text": "sub r0, r0, r1"
+        },
+        {
+          "bus": "0x8032d28",
+          "bytes": "80 00",
+          "text": "lsl r0, r0, #2"
+        },
+        {
+          "bus": "0x8032d2a",
+          "bytes": "c0 18",
+          "text": "add r0, r0, r3"
+        },
+        {
+          "bus": "0x8032d2c",
+          "bytes": "84 7d",
+          "text": "ldrb r4, [r0, #22]"
+        },
+        {
+          "bus": "0x8032d2e",
+          "bytes": "48 00",
+          "text": "lsl r0, r1, #1"
+        },
+        {
+          "bus": "0x8032d30",
+          "bytes": "40 18",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x8032d32",
+          "bytes": "40 01",
+          "text": "lsl r0, r0, #5"
+        },
+        {
+          "bus": "0x8032d34",
+          "bytes": "40 44",
+          "text": "add r0, r8"
+        },
+        {
+          "bus": "0x8032d36",
+          "bytes": "4a 30",
+          "text": "add r0, #74"
+        },
+        {
+          "bus": "0x8032d38",
+          "bytes": "04 70",
+          "text": "strb r4, [r0, #0]"
+        },
+        {
+          "bus": "0x8032d3a",
+          "bytes": "79 78",
+          "text": "ldrb r1, [r7, #1]"
+        },
+        {
+          "bus": "0x8032d3c",
+          "bytes": "f0 20",
+          "text": "mov r0, #240"
+        },
+        {
+          "bus": "0x8032d3e",
+          "bytes": "08 40",
+          "text": "and r0, r1"
+        },
+        {
+          "bus": "0x8032d40",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x8032d42",
+          "bytes": "2f d1",
+          "text": "bne 0x08032DA4"
+        },
+        {
+          "bus": "0x8032d44",
+          "bytes": "39 78",
+          "text": "ldrb r1, [r7, #0]"
+        },
+        {
+          "bus": "0x8032d46",
+          "bytes": "c8 00",
+          "text": "lsl r0, r1, #3"
+        },
+        {
+          "bus": "0x8032d48",
+          "bytes": "40 1a",
+          "text": "sub r0, r0, r1"
+        },
+        {
+          "bus": "0x8032d4a",
+          "bytes": "80 00",
+          "text": "lsl r0, r0, #2"
+        },
+        {
+          "bus": "0x8032d4c",
+          "bytes": "c0 18",
+          "text": "add r0, r0, r3"
+        },
+        {
+          "bus": "0x8032d4e",
+          "bytes": "c4 7d",
+          "text": "ldrb r4, [r0, #23]"
+        },
+        {
+          "bus": "0x8032d50",
+          "bytes": "48 00",
+          "text": "lsl r0, r1, #1"
+        },
+        {
+          "bus": "0x8032d52",
+          "bytes": "40 18",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x8032d54",
+          "bytes": "40 01",
+          "text": "lsl r0, r0, #5"
+        },
+        {
+          "bus": "0x8032d56",
+          "bytes": "40 44",
+          "text": "add r0, r8"
+        },
+        {
+          "bus": "0x8032d58",
+          "bytes": "4b 30",
+          "text": "add r0, #75"
+        },
+        {
+          "bus": "0x8032d5a",
+          "bytes": "04 70",
+          "text": "strb r4, [r0, #0]"
+        },
+        {
+          "bus": "0x8032d5c",
+          "bytes": "21 48",
+          "text": "ldr r0, [pc, #132] ; slot 0x08032DE4 = 0x030018F0"
+        },
+        {
+          "bus": "0x8032d5e",
+          "bytes": "44 70",
+          "text": "strb r4, [r0, #1]"
+        },
+        {
+          "bus": "0x8032d60",
+          "bytes": "01 21",
+          "text": "mov r1, #1"
+        },
+        {
+          "bus": "0x8032d62",
+          "bytes": "01 70",
+          "text": "strb r1, [r0, #0]"
+        },
+        {
+          "bus": "0x8032d64",
+          "bytes": "81 70",
+          "text": "strb r1, [r0, #2]"
+        },
+        {
+          "bus": "0x8032d66",
+          "bytes": "20 4e",
+          "text": "ldr r6, [pc, #128] ; slot 0x08032DE8 = 0x03000608"
+        },
+        {
+          "bus": "0x8032d68",
+          "bytes": "20 4c",
+          "text": "ldr r4, [pc, #128] ; slot 0x08032DEC = 0x03000604"
+        },
+        {
+          "bus": "0x8032d6a",
+          "bytes": "21 68",
+          "text": "ldr r1, [r4, #0]"
+        },
+        {
+          "bus": "0x8032d6c",
+          "bytes": "88 00",
+          "text": "lsl r0, r1, #2"
+        },
+        {
+          "bus": "0x8032d6e",
+          "bytes": "80 19",
+          "text": "add r0, r0, r6"
+        },
+        {
+          "bus": "0x8032d70",
+          "bytes": "1f 4d",
+          "text": "ldr r5, [pc, #124] ; slot 0x08032DF0 = 0x030018BC"
+        },
+        {
+          "bus": "0x8032d72",
+          "bytes": "2a 68",
+          "text": "ldr r2, [r5, #0]"
+        },
+        {
+          "bus": "0x8032d74",
+          "bytes": "02 60",
+          "text": "str r2, [r0, #0]"
+        },
+        {
+          "bus": "0x8032d76",
+          "bytes": "01 31",
+          "text": "add r1, #1"
+        },
+        {
+          "bus": "0x8032d78",
+          "bytes": "21 60",
+          "text": "str r1, [r4, #0]"
+        },
+        {
+          "bus": "0x8032d7a",
+          "bytes": "88 00",
+          "text": "lsl r0, r1, #2"
+        },
+        {
+          "bus": "0x8032d7c",
+          "bytes": "80 19",
+          "text": "add r0, r0, r6"
+        },
+        {
+          "bus": "0x8032d7e",
+          "bytes": "ea 68",
+          "text": "ldr r2, [r5, #12]"
+        },
+        {
+          "bus": "0x8032d80",
+          "bytes": "02 60",
+          "text": "str r2, [r0, #0]"
+        },
+        {
+          "bus": "0x8032d82",
+          "bytes": "01 31",
+          "text": "add r1, #1"
+        },
+        {
+          "bus": "0x8032d84",
+          "bytes": "21 60",
+          "text": "str r1, [r4, #0]"
+        },
+        {
+          "bus": "0x8032d86",
+          "bytes": "4d f0 4d fb",
+          "text": "bl 0x08080424"
+        },
+        {
+          "bus": "0x8032d8a",
+          "bytes": "21 68",
+          "text": "ldr r1, [r4, #0]"
+        },
+        {
+          "bus": "0x8032d8c",
+          "bytes": "48 1e",
+          "text": "sub r0, r1, #1"
+        },
+        {
+          "bus": "0x8032d8e",
+          "bytes": "20 60",
+          "text": "str r0, [r4, #0]"
+        },
+        {
+          "bus": "0x8032d90",
+          "bytes": "80 00",
+          "text": "lsl r0, r0, #2"
+        },
+        {
+          "bus": "0x8032d92",
+          "bytes": "80 19",
+          "text": "add r0, r0, r6"
+        },
+        {
+          "bus": "0x8032d94",
+          "bytes": "00 68",
+          "text": "ldr r0, [r0, #0]"
+        },
+        {
+          "bus": "0x8032d96",
+          "bytes": "e8 60",
+          "text": "str r0, [r5, #12]"
+        },
+        {
+          "bus": "0x8032d98",
+          "bytes": "02 39",
+          "text": "sub r1, #2"
+        },
+        {
+          "bus": "0x8032d9a",
+          "bytes": "21 60",
+          "text": "str r1, [r4, #0]"
+        },
+        {
+          "bus": "0x8032d9c",
+          "bytes": "89 00",
+          "text": "lsl r1, r1, #2"
+        },
+        {
+          "bus": "0x8032d9e",
+          "bytes": "89 19",
+          "text": "add r1, r1, r6"
+        },
+        {
+          "bus": "0x8032da0",
+          "bytes": "08 68",
+          "text": "ldr r0, [r1, #0]"
+        },
+        {
+          "bus": "0x8032da2",
+          "bytes": "28 60",
+          "text": "str r0, [r5, #0]"
+        },
+        {
+          "bus": "0x8032da4",
+          "bytes": "3a 78",
+          "text": "ldrb r2, [r7, #0]"
+        },
+        {
+          "bus": "0x8032da6",
+          "bytes": "51 00",
+          "text": "lsl r1, r2, #1"
+        },
+        {
+          "bus": "0x8032da8",
+          "bytes": "89 18",
+          "text": "add r1, r1, r2"
+        },
+        {
+          "bus": "0x8032daa",
+          "bytes": "49 01",
+          "text": "lsl r1, r1, #5"
+        },
+        {
+          "bus": "0x8032dac",
+          "bytes": "41 44",
+          "text": "add r1, r8"
+        },
+        {
+          "bus": "0x8032dae",
+          "bytes": "d0 00",
+          "text": "lsl r0, r2, #3"
+        },
+        {
+          "bus": "0x8032db0",
+          "bytes": "80 1a",
+          "text": "sub r0, r0, r2"
+        },
+        {
+          "bus": "0x8032db2",
+          "bytes": "80 00",
+          "text": "lsl r0, r0, #2"
+        },
+        {
+          "bus": "0x8032db4",
+          "bytes": "48 44",
+          "text": "add r0, r9"
+        },
+        {
+          "bus": "0x8032db6",
+          "bytes": "00 8b",
+          "text": "ldrh r0, [r0, #24]"
+        },
+        {
+          "bus": "0x8032db8",
+          "bytes": "4c 31",
+          "text": "add r1, #76"
+        },
+        {
+          "bus": "0x8032dba",
+          "bytes": "08 80",
+          "text": "strh r0, [r1, #0]"
+        },
+        {
+          "bus": "0x8032dbc",
+          "bytes": "39 78",
+          "text": "ldrb r1, [r7, #0]"
+        },
+        {
+          "bus": "0x8032dbe",
+          "bytes": "48 00",
+          "text": "lsl r0, r1, #1"
+        },
+        {
+          "bus": "0x8032dc0",
+          "bytes": "40 18",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x8032dc2",
+          "bytes": "40 01",
+          "text": "lsl r0, r0, #5"
+        },
+        {
+          "bus": "0x8032dc4",
+          "bytes": "41 46",
+          "text": "mov r1, r8"
+        },
+        {
+          "bus": "0x8032dc6",
+          "bytes": "42 18",
+          "text": "add r2, r0, r1"
+        },
+        {
+          "bus": "0x8032dc8",
+          "bytes": "10 1c",
+          "text": "add r0, r2, #0"
+        },
+        {
+          "bus": "0x8032dca",
+          "bytes": "4b 30",
+          "text": "add r0, #75"
+        },
+        {
+          "bus": "0x8032dcc",
+          "bytes": "01 78",
+          "text": "ldrb r1, [r0, #0]"
+        },
+        {
+          "bus": "0x8032dce",
+          "bytes": "00 29",
+          "text": "cmp r1, #0"
+        },
+        {
+          "bus": "0x8032dd0",
+          "bytes": "10 d1",
+          "text": "bne 0x08032DF4"
+        },
+        {
+          "bus": "0x8032dd2",
+          "bytes": "05 30",
+          "text": "add r0, #5"
+        },
+        {
+          "bus": "0x8032dd4",
+          "bytes": "16 e0",
+          "text": "b 0x08032E04"
+        },
+        {
+          "bus": "0x8032dd6",
+          "bytes": "00 00",
+          "text": "lsl r0, r0, #0"
+        },
+        {
+          "bus": "0x8032df4",
+          "bytes": "13 49",
+          "text": "ldr r1, [pc, #76] ; slot 0x08032E44 = 0x0863146C"
+        },
+        {
+          "bus": "0x8032df6",
+          "bytes": "00 78",
+          "text": "ldrb r0, [r0, #0]"
+        },
+        {
+          "bus": "0x8032df8",
+          "bytes": "01 38",
+          "text": "sub r0, #1"
+        },
+        {
+          "bus": "0x8032dfa",
+          "bytes": "00 01",
+          "text": "lsl r0, r0, #4"
+        },
+        {
+          "bus": "0x8032dfc",
+          "bytes": "40 18",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x8032dfe",
+          "bytes": "01 89",
+          "text": "ldrh r1, [r0, #8]"
+        },
+        {
+          "bus": "0x8032e00",
+          "bytes": "10 1c",
+          "text": "add r0, r2, #0"
+        },
+        {
+          "bus": "0x8032e02",
+          "bytes": "50 30",
+          "text": "add r0, #80"
+        },
+        {
+          "bus": "0x8032e04",
+          "bytes": "01 80",
+          "text": "strh r1, [r0, #0]"
+        },
+        {
+          "bus": "0x8032e06",
+          "bytes": "10 4c",
+          "text": "ldr r4, [pc, #64] ; slot 0x08032E48 = 0x03001EDC"
+        },
+        {
+          "bus": "0x8032e08",
+          "bytes": "10 4b",
+          "text": "ldr r3, [pc, #64] ; slot 0x08032E4C = 0x03001AD2"
+        },
+        {
+          "bus": "0x8032e0a",
+          "bytes": "19 78",
+          "text": "ldrb r1, [r3, #0]"
+        },
+        {
+          "bus": "0x8032e0c",
+          "bytes": "48 00",
+          "text": "lsl r0, r1, #1"
+        },
+        {
+          "bus": "0x8032e0e",
+          "bytes": "40 18",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x8032e10",
+          "bytes": "40 01",
+          "text": "lsl r0, r0, #5"
+        },
+        {
+          "bus": "0x8032e12",
+          "bytes": "21 1c",
+          "text": "add r1, r4, #0"
+        },
+        {
+          "bus": "0x8032e14",
+          "bytes": "54 31",
+          "text": "add r1, #84"
+        },
+        {
+          "bus": "0x8032e16",
+          "bytes": "40 18",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x8032e18",
+          "bytes": "00 22",
+          "text": "mov r2, #0"
+        },
+        {
+          "bus": "0x8032e1a",
+          "bytes": "02 60",
+          "text": "str r2, [r0, #0]"
+        },
+        {
+          "bus": "0x8032e1c",
+          "bytes": "19 78",
+          "text": "ldrb r1, [r3, #0]"
+        },
+        {
+          "bus": "0x8032e1e",
+          "bytes": "48 00",
+          "text": "lsl r0, r1, #1"
+        },
+        {
+          "bus": "0x8032e20",
+          "bytes": "40 18",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x8032e22",
+          "bytes": "40 01",
+          "text": "lsl r0, r0, #5"
+        },
+        {
+          "bus": "0x8032e24",
+          "bytes": "00 19",
+          "text": "add r0, r0, r4"
+        },
+        {
+          "bus": "0x8032e26",
+          "bytes": "58 30",
+          "text": "add r0, #88"
+        },
+        {
+          "bus": "0x8032e28",
+          "bytes": "02 70",
+          "text": "strb r2, [r0, #0]"
+        },
+        {
+          "bus": "0x8032e2a",
+          "bytes": "19 78",
+          "text": "ldrb r1, [r3, #0]"
+        },
+        {
+          "bus": "0x8032e2c",
+          "bytes": "48 00",
+          "text": "lsl r0, r1, #1"
+        },
+        {
+          "bus": "0x8032e2e",
+          "bytes": "40 18",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x8032e30",
+          "bytes": "40 01",
+          "text": "lsl r0, r0, #5"
+        },
+        {
+          "bus": "0x8032e32",
+          "bytes": "00 19",
+          "text": "add r0, r0, r4"
+        },
+        {
+          "bus": "0x8032e34",
+          "bytes": "59 30",
+          "text": "add r0, #89"
+        },
+        {
+          "bus": "0x8032e36",
+          "bytes": "02 70",
+          "text": "strb r2, [r0, #0]"
+        },
+        {
+          "bus": "0x8032e38",
+          "bytes": "18 bc",
+          "text": "pop {r3, r4}"
+        },
+        {
+          "bus": "0x8032e3a",
+          "bytes": "98 46",
+          "text": "mov r8, r3"
+        },
+        {
+          "bus": "0x8032e3c",
+          "bytes": "a1 46",
+          "text": "mov r9, r4"
+        },
+        {
+          "bus": "0x8032e3e",
+          "bytes": "f0 bc",
+          "text": "pop {r4, r5, r6, r7}"
+        },
+        {
+          "bus": "0x8032e40",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x8032e42",
+          "bytes": "00 47",
+          "text": "bx r0"
+        }
+      ]
+    }
+  ],
+  "default_descriptors": [
+    {
+      "character": 1,
+      "bus": "0x8630bf8",
+      "raw": "21 4e 2b 00 d8 d3 62 08 d9 d3 62 08 da d3 62 08 db d3 62 08 3a 00 09 0a 44 00 00 00"
+    },
+    {
+      "character": 2,
+      "bus": "0x8630c14",
+      "raw": "2f 3d 62 1b dc d3 62 08 dd d3 62 08 de d3 62 08 df d3 62 08 e9 00 15 12 41 00 00 00"
+    },
+    {
+      "character": 3,
+      "bus": "0x8630c30",
+      "raw": "4e 4e 28 00 e0 d3 62 08 e1 d3 62 08 e2 d3 62 08 e3 d3 62 08 9d 00 1b 17 46 01 00 00"
+    }
+  ],
+  "protected_count": 90,
+  "protected_before": {
+    "after_exchange_oystown.ss0": "aca4eb6751d66949e74a137217e92f79eaa0e85039f11f09d9821ea9a2cb5646",
+    "after_exchange_oystown_alessa_test.ss0": "85110875375c28ab412e4413e986d9cb65eb81353d1214f3b86e6d7b7a02f1cf",
+    "before_oystown.ss0": "d20fc78972641d76e1b56f23daa80c9fedd4c07fa22edb63e69d37371db21c53",
+    "entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "Tomato Adventure (Japan) (patched).sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "tools\\patch\\output\\alessa-recruitment-wrapper-38386dab64e249cb9dfb4b205620053f\\alessa_recruitment_wrapper.gba": "3bba82ba6c581ca598aea1e21ecd654b41418f946e88ea6c5021d89b0357d7c6",
+    "tools\\patch\\output\\alessa-recruitment-wrapper-38386dab64e249cb9dfb4b205620053f\\alessa_recruitment_wrapper.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools\\patch\\output\\binky-rate-two-baseline-c4ec3611142c49cf93d891cbfc10f056\\binky_exchange_rate_two.gba": "b9967b15193b5aec701032742d322a1040373e76b176b1aeb1e65ce2c06078b6",
+    "tools\\patch\\output\\binky-rate-two-recruitment-test-aaee9ff3918c42aabf6d9bec7cff611f\\binky_exchange_rate_two.gba": "d356a6979c497524d1e94306989e09cf8dfe96334a22c664eb3a9570f3ab3ea3",
+    "tools\\patch\\output\\binky-rate-two-recruitment-test-aaee9ff3918c42aabf6d9bec7cff611f\\binky_exchange_rate_two.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools\\patch\\output\\gearyo-reference-validation\\balanced.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "tools\\patch\\output\\hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf\\hanzo_dojo_pup.gba": "749762aa8c3c0fae433d46c0ebbcbf4f54646790baf4b6129414e6e5832cdfea",
+    "tools\\patch\\output\\hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf\\hanzo_dojo_pup.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools\\patch\\output\\mayonen-caverns-map001e-86d6efb0c6824c9c851fb5602c4e4746\\mayonen_caverns_map001e.gba": "7fc50105e340510079158ca74e61f778b63b3276793ec9b6ffbe29c2af75c761",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\rom\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\states\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\states\\source-node3.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-45d355b68953\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-45d355b68953\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\experiment-stop.ss0": "079055064db34325edff27576977dbeca6fb6e93eebea6d5659d002da69058f3",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\states\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\states\\route-selection-stop.ss0": "4cd1b66dab75cb8d6bfa84c867427def623749d2b3683d8d142af804b1535bd3",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\states\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\states\\route-selection-stop.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\experiment-stop.ss0": "5d9258dc36758d6599fa72548c65a90e7336855a513d2c6c1893e7ec8e8609cc",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-24f08599ee6a\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-2000e25a7706\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\saves\\1b5bd9a89e03\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\saves\\37d6e3a90afe\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\rom\\mayonen_caverns_map001e.gba": "7fc50105e340510079158ca74e61f778b63b3276793ec9b6ffbe29c2af75c761",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\states\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\states\\60f8bac3aa29\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\saves\\60f8bac3aa29\\mayonen_caverns_map001e.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775\\captures\\post-recruitment.ss0": "4eb81a006e852955556664f8c76c4526458048dab644dfa6f36a4b20d352946f",
+    "reverse_engineering\\experiments\\testing\\pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775\\inputs\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\experiments\\testing\\pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775\\rom\\alessa_recruitment_wrapper.gba": "3bba82ba6c581ca598aea1e21ecd654b41418f946e88ea6c5021d89b0357d7c6",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan) (patched).sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\route-selection-stop.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\rom\\gearyo_attack_22.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\rom\\gearyo_attack_22.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\saves\\gearyo_attack_22.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230"
+  },
+  "protected_after": {
+    "after_exchange_oystown.ss0": "aca4eb6751d66949e74a137217e92f79eaa0e85039f11f09d9821ea9a2cb5646",
+    "after_exchange_oystown_alessa_test.ss0": "85110875375c28ab412e4413e986d9cb65eb81353d1214f3b86e6d7b7a02f1cf",
+    "before_oystown.ss0": "d20fc78972641d76e1b56f23daa80c9fedd4c07fa22edb63e69d37371db21c53",
+    "entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "Tomato Adventure (Japan) (patched).sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "tools\\patch\\output\\alessa-recruitment-wrapper-38386dab64e249cb9dfb4b205620053f\\alessa_recruitment_wrapper.gba": "3bba82ba6c581ca598aea1e21ecd654b41418f946e88ea6c5021d89b0357d7c6",
+    "tools\\patch\\output\\alessa-recruitment-wrapper-38386dab64e249cb9dfb4b205620053f\\alessa_recruitment_wrapper.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools\\patch\\output\\binky-rate-two-baseline-c4ec3611142c49cf93d891cbfc10f056\\binky_exchange_rate_two.gba": "b9967b15193b5aec701032742d322a1040373e76b176b1aeb1e65ce2c06078b6",
+    "tools\\patch\\output\\binky-rate-two-recruitment-test-aaee9ff3918c42aabf6d9bec7cff611f\\binky_exchange_rate_two.gba": "d356a6979c497524d1e94306989e09cf8dfe96334a22c664eb3a9570f3ab3ea3",
+    "tools\\patch\\output\\binky-rate-two-recruitment-test-aaee9ff3918c42aabf6d9bec7cff611f\\binky_exchange_rate_two.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools\\patch\\output\\gearyo-reference-validation\\balanced.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "tools\\patch\\output\\hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf\\hanzo_dojo_pup.gba": "749762aa8c3c0fae433d46c0ebbcbf4f54646790baf4b6129414e6e5832cdfea",
+    "tools\\patch\\output\\hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf\\hanzo_dojo_pup.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools\\patch\\output\\mayonen-caverns-map001e-86d6efb0c6824c9c851fb5602c4e4746\\mayonen_caverns_map001e.gba": "7fc50105e340510079158ca74e61f778b63b3276793ec9b6ffbe29c2af75c761",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-8583a5fb3db2\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\rom\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\states\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\run-7f871ba72efc\\states\\source-node3.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-6d783e19ca1b\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-45d355b68953\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-45d355b68953\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\experiment-stop.ss0": "079055064db34325edff27576977dbeca6fb6e93eebea6d5659d002da69058f3",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-45d355b68953\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\states\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\mgba\\run-3da22fc56cdb\\states\\route-selection-stop.ss0": "4cd1b66dab75cb8d6bfa84c867427def623749d2b3683d8d142af804b1535bd3",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\states\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\mgba\\run-376aeda5b619\\states\\route-selection-stop.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\saves\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\experiment-stop.ss0": "5d9258dc36758d6599fa72548c65a90e7336855a513d2c6c1893e7ec8e8609cc",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\mgba\\run-3160380dd05b\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\mgba\\run-24f08599ee6a\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\run-2000e25a7706\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\saves\\1b5bd9a89e03\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\isolated_oystown_binky\\saves\\37d6e3a90afe\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\rom\\mayonen_caverns_map001e.gba": "7fc50105e340510079158ca74e61f778b63b3276793ec9b6ffbe29c2af75c761",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\states\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\states\\60f8bac3aa29\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\mgba\\isolated_mayonen_music\\saves\\60f8bac3aa29\\mayonen_caverns_map001e.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775\\captures\\post-recruitment.ss0": "4eb81a006e852955556664f8c76c4526458048dab644dfa6f36a4b20d352946f",
+    "reverse_engineering\\experiments\\testing\\pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775\\inputs\\entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering\\experiments\\testing\\pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775\\rom\\alessa_recruitment_wrapper.gba": "3bba82ba6c581ca598aea1e21ecd654b41418f946e88ea6c5021d89b0357d7c6",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan) (patched).sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\hanzo-route21-e403d5880f814caea273f8288f30a649\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\route-selection-stop.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\hanzo-entry-f87e9d336845426e985b93bdeb48fd00\\protected_backups\\Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\rom\\gearyo_attack_22.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\B\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-ac63e0edb9a74f23b6e4d998aa74637c\\A\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\rom\\gearyo_attack_22.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\saves\\gearyo_attack_22.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\B\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\rom\\english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\saves\\english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\states\\gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering\\experiments\\testing\\gearyo-281d1d7030904d5684c2ff29d3e90c1b\\A\\states\\gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230"
+  },
+  "protected_unchanged": true,
+  "limitations": [
+    "New companion initialization runtime untested",
+    "No one-shot carrier certified for current Oystown state",
+    "Narrative meanings of BA/1C4 not mapped",
+    "Tier simulations are disposable conversation-only candidates"
+  ]
+}
