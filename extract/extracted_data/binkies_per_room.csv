@@ -1,0 +1,495 @@
+map_id,room_name,node_id,node_name,node_confidence,fixed_binky_pickups,fixed_binky_quantity,conditional_binky_quantity,unresolved_binky_candidates,complete_total_quantity,confidence,coverage
+0x0000,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0001,,0x00,The Spillage,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0002,,0x00,The Spillage,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0003,,0x00,The Spillage,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0004,,0x00,The Spillage,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0005,,0x00,The Spillage,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0006,,0x00,The Spillage,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0007,,0x00,The Spillage,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0008,,0x01,Pokypine Wood,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0009,,0x01,Pokypine Wood,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x000A,,0x01,Pokypine Wood,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x000B,,0x01,Pokypine Wood,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x000C,,0x01,Pokypine Wood,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x000D,,0x01,Pokypine Wood,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x000E,,0x01,Pokypine Wood,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x000F,,0x01,Pokypine Wood,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0010,,0x01,Pokypine Wood,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0011,,0x01,Pokypine Wood,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0012,,0x01,Pokypine Wood,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0013,,0x01,Pokypine Wood,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0014,,0x01,Pokypine Wood,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0015,,0x01,Pokypine Wood,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0016,,0x02,Gimmick Palace,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0017,,0x02,Gimmick Palace,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0018,,0x02,Gimmick Palace,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0019,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x001A,,0x02,Gimmick Palace,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x001B,,0x02,Gimmick Palace,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x001C,,0x02,Gimmick Palace,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x001D,,0x00,The Spillage,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x001E,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x001F,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0020,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0021,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0022,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0023,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0024,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0025,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0026,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0027,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0028,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0029,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x002A,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x002B,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x002C,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x002D,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x002E,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x002F,,0x03,Hanzo Lab 1,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0030,,0x03,Hanzo Lab 1,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0031,,0x05,Hanzo Lab 2,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0032,,0x07,Hanzo Lab 3,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0033,,0x09,Hanzo Lab 4,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0034,,0x0B,Hanzo Lab 5,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0035,,0x0D,Hanzo Lab 6,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0036,,0x02,Gimmick Palace,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0037,,0x02,Gimmick Palace,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0038,,0x04,Mayonen Land,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0039,,0x04,Mayonen Land,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x003A,,0x04,Mayonen Land,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x003B,,0x04,Mayonen Land,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x003C,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x003D,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x003E,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x003F,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0040,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0041,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0042,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0043,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0044,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0045,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0046,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0047,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0048,,0x04,Mayonen Land,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0049,,0x04,Mayonen Land,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x004A,,0x04,Mayonen Land,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x004B,,0x04,Mayonen Land,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x004C,,0x04,Mayonen Land,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x004D,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x004E,,0x04,Mayonen Land,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x004F,,0x04,Mayonen Land,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0050,,0x04,Mayonen Land,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0051,,0x04,Mayonen Land,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0052,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0053,,0x04,Mayonen Land,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0054,,0x04,Mayonen Land,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0055,,0x04,Mayonen Land,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0056,,0x04,Mayonen Land,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0057,,0x04,Mayonen Land,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0058,,0x04,Mayonen Land,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0059,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x005A,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x005B,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x005C,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x005D,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x005E,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x005F,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0060,,0x06,NampLagoon,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0061,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0062,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0063,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0064,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0065,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0066,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0067,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0068,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0069,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x006A,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x006B,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x006C,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x006D,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x006E,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x006F,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0070,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0071,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0072,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0073,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0074,,0x0C,Soy City,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0075,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0076,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0077,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0078,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0079,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x007A,,0x0C,Soy City,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x007B,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x007C,,0x0C,Soy City,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x007D,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x007E,,0x0C,Soy City,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x007F,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0080,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0081,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0082,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0083,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0084,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0085,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0086,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0087,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0088,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0089,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x008A,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x008B,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x008C,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x008D,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x008E,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x008F,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0090,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0091,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0092,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0093,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0094,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0095,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0096,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0097,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0098,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0099,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x009A,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x009B,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x009C,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x009D,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x009E,,0x0C,Soy City,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x009F,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00A0,,0x10,Lardosseum,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00A1,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00A2,,0x10,Lardosseum,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00A3,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00A4,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00A5,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00A6,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00A7,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00A8,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00A9,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00AA,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00AB,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00AC,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00AD,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00AE,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00AF,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00B0,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00B1,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00B2,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00B3,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00B4,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00B5,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00B6,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00B7,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00B8,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00B9,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00BA,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00BB,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00BC,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00BD,,0x0E,Balsamic Dome,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00BE,,0x0E,Balsamic Dome,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00BF,,0x0E,Balsamic Dome,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00C0,,0x0E,Balsamic Dome,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00C1,,0x0E,Balsamic Dome,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00C2,,0x0E,Balsamic Dome,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00C3,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00C4,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00C5,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00C6,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00C7,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00C8,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00C9,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00CA,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00CB,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00CC,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00CD,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00CE,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00CF,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00D0,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00D1,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00D2,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00D3,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00D4,,0x0C,Soy City,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00D5,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00D6,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00D7,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00D8,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00D9,,0x0C,Soy City,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00DA,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00DB,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00DC,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00DD,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00DE,,0x05,Hanzo Lab 2,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00DF,,0x07,Hanzo Lab 3,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00E0,,0x09,Hanzo Lab 4,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00E1,,0x0B,Hanzo Lab 5,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00E2,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00E3,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00E4,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00E5,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00E6,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00E7,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00E8,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00E9,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00EA,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00EB,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00EC,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00ED,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00EE,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00EF,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00F0,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00F1,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00F2,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00F3,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00F4,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00F5,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00F6,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00F7,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00F8,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00F9,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00FA,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00FB,,0x0C,Soy City,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00FC,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00FD,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00FE,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x00FF,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0100,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0101,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0102,,0x0C,Soy City,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0103,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0104,,0x08,Oystown,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0105,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0106,,0x0C,Soy City,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0107,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0108,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0109,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x010A,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x010B,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x010C,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x010D,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x010E,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x010F,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0110,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0111,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0112,,0x10,Lardosseum,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0113,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0114,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0115,,,,Unresolved,2,2,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0116,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0117,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0118,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0119,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x011A,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x011B,,,,Unresolved,2,2,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x011C,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x011D,,0x0A,Tartar Valley,Probable,2,2,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x011E,,0x0A,Tartar Valley,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x011F,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0120,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0121,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0122,,0x0A,Tartar Valley,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0123,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0124,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0125,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0126,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0127,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0128,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0129,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x012A,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x012B,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x012C,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x012D,,0x0C,Soy City,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x012E,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x012F,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0130,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0131,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0132,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0133,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0134,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0135,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0136,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0137,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0138,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0139,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x013A,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x013B,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x013C,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x013D,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x013E,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x013F,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0140,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0141,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0142,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0143,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0144,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0145,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0146,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0147,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0148,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0149,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x014A,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x014B,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x014C,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x014D,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x014E,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x014F,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0150,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0151,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0152,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0153,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0154,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0155,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0156,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0157,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0158,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0159,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x015A,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x015B,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x015C,,0x0E,Balsamic Dome,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x015D,,0x0E,Balsamic Dome,Probable,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x015E,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x015F,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0160,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0161,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0162,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0163,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0164,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0165,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0166,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0167,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0168,,0x0D,Hanzo Lab 6,Probable,2,2,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0169,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x016A,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x016B,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x016C,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x016D,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x016E,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x016F,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0170,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0171,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0172,,0x0C,Soy City,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0173,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0174,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0175,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0176,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0177,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0178,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0179,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x017A,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x017B,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x017C,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x017D,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x017E,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x017F,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0180,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0181,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0182,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0183,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0184,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0185,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0186,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0187,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0188,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0189,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x018A,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x018B,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x018C,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x018D,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x018E,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x018F,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0190,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0191,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0192,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0193,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0194,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0195,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0196,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0197,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0198,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x0199,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x019A,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x019B,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x019C,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x019D,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x019E,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x019F,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01A0,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01A1,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01A2,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01A3,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01A4,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01A5,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01A6,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01A7,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01A8,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01A9,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01AA,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01AB,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01AC,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01AD,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01AE,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01AF,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01B0,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01B1,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01B2,,0x02,Gimmick Palace,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01B3,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01B4,,0x02,Gimmick Palace,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01B5,,0x02,Gimmick Palace,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01B6,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01B7,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01B8,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01B9,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01BA,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01BB,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01BC,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01BD,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01BE,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01BF,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01C0,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01C1,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01C2,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01C3,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01C4,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01C5,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01C6,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01C7,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01C8,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01C9,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01CA,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01CB,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01CC,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01CD,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01CE,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01CF,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01D0,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01D1,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01D2,,0x10,Lardosseum,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01D3,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01D4,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01D5,,,,Unresolved,1,1,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01D6,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01D7,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01D8,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01D9,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01DA,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01DB,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01DC,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01DD,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01DE,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01DF,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01E0,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01E1,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01E2,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01E3,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01E4,,,,Unresolved,2,2,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01E5,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01E6,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01E7,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01E8,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01E9,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01EA,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01EB,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01EC,,0x10,Lardosseum,Probable,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved
+0x01ED,,,,Unresolved,0,0,,,,Confirmed static,complete registered fixed-actor subtype; script/container sources unresolved

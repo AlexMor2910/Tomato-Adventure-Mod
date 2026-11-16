@@ -1,0 +1,19 @@
+node_id,node_name,map_count,fixed_binky_pickups,fixed_binky_quantity,conditional_binky_quantity,unresolved_binky_candidates,complete_total_quantity,confidence,node_confidence,coverage
+0x00,The Spillage,8,4,4,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x01,Pokypine Wood,14,2,2,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x02,Gimmick Palace,11,0,0,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x03,Hanzo Lab 1,2,1,1,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x04,Mayonen Land,19,6,6,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x05,Hanzo Lab 2,2,1,1,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x06,NampLagoon,1,0,0,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x07,Hanzo Lab 3,2,1,1,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x08,Oystown,1,0,0,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x09,Hanzo Lab 4,2,1,1,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x0A,Tartar Valley,3,2,2,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x0B,Hanzo Lab 5,2,1,1,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x0C,Soy City,29,11,11,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x0D,Hanzo Lab 6,2,2,2,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x0E,Balsamic Dome,8,3,3,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x0F,,0,0,0,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+0x10,Lardosseum,5,0,0,,,,Confirmed static,Probable,known actor subtotal; node grouping and all-source totals incomplete
+,Unassigned pool (not an overworld node),383,39,39,,,,Confirmed static,Unresolved,known actor subtotal; node grouping and all-source totals incomplete

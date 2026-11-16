@@ -1,0 +1,183 @@
+﻿enemy_id,enemy_id_hex,english_name,record_file_offset,record_bus_address,hp,hp_high_bit,base_mitigation,atk,susceptibility,atk_status,susceptibility_status
+0,0x00,Selemo,0x00634F50,0x08634F50,3000,0,11,,,unresolved,unresolved
+1,0x01,Selemo,0x00634F9C,0x08634F9C,3000,0,11,,,unresolved,unresolved
+2,0x02,Watchman Kid,0x00634FE8,0x08634FE8,24,0,10,,,unresolved,unresolved
+3,0x03,Pokymaton,0x00635034,0x08635034,15,0,7,,,unresolved,unresolved
+4,0x04,Chickling,0x00635080,0x08635080,10,0,16,,,unresolved,unresolved
+5,0x05,Pataball,0x006350CC,0x086350CC,17,0,8,,,unresolved,unresolved
+6,0x06,Cupie,0x00635118,0x08635118,16,0,9,,,unresolved,unresolved
+7,0x07,Hitman,0x00635164,0x08635164,19,0,7,,,unresolved,unresolved
+8,0x08,Boronga-Z,0x006351B0,0x086351B0,12,0,15,,,unresolved,unresolved
+9,0x09,Jackbox,0x006351FC,0x086351FC,23,0,6,,,unresolved,unresolved
+10,0x0A,Pokymaton,0x00635248,0x08635248,15,0,7,,,unresolved,unresolved
+11,0x0B,Cupie,0x00635294,0x08635294,16,0,9,,,unresolved,unresolved
+12,0x0C,Brikky,0x006352E0,0x086352E0,3030,0,10,,,unresolved,unresolved
+13,0x0D,Grikky,0x0063532C,0x0863532C,3025,0,15,,,unresolved,unresolved
+14,0x0E,Flying Tomato,0x00635378,0x08635378,19,0,6,,,unresolved,unresolved
+15,0x0F,Tomappa,0x006353C4,0x086353C4,17,0,10,,,unresolved,unresolved
+16,0x10,Tomikely,0x00635410,0x08635410,14,0,15,,,unresolved,unresolved
+17,0x11,Badfrog,0x0063545C,0x0863545C,45,0,12,,,unresolved,unresolved
+18,0x12,Badfrog Gal,0x006354A8,0x086354A8,56,0,9,,,unresolved,unresolved
+19,0x13,Badpole,0x006354F4,0x086354F4,25,0,2,,,unresolved,unresolved
+20,0x14,Badpole,0x00635540,0x08635540,25,0,2,,,unresolved,unresolved
+21,0x15,Drilla-Killa,0x0063558C,0x0863558C,26,0,6,,,unresolved,unresolved
+22,0x16,Goldpole,0x006355D8,0x086355D8,150,0,2,,,unresolved,unresolved
+23,0x17,Pothead,0x00635624,0x08635624,90,0,17,,,unresolved,unresolved
+24,0x18,Tomato Robo,0x00635670,0x08635670,130,0,13,,,unresolved,unresolved
+25,0x19,Prettyface,0x006356BC,0x086356BC,34,0,6,,,unresolved,unresolved
+26,0x1A,Oops,0x00635708,0x08635708,3220,0,16,,,unresolved,unresolved
+27,0x1B,Miracle Mirror,0x00635754,0x08635754,3100,0,4,,,unresolved,unresolved
+28,0x1C,Wind-up Bath,0x006357A0,0x086357A0,3070,0,22,,,unresolved,unresolved
+29,0x1D,Brikky,0x006357EC,0x086357EC,3130,0,15,,,unresolved,unresolved
+30,0x1E,Grikky,0x00635838,0x08635838,3110,0,20,,,unresolved,unresolved
+31,0x1F,Chewing Guppy,0x00635884,0x08635884,30,0,2,,,unresolved,unresolved
+32,0x20,Hermie,0x006358D0,0x086358D0,32,0,10,,,unresolved,unresolved
+33,0x21,Hermie,0x0063591C,0x0863591C,32,0,10,,,unresolved,unresolved
+34,0x22,Hermie,0x00635968,0x08635968,32,0,10,,,unresolved,unresolved
+35,0x23,Eggnog,0x006359B4,0x086359B4,34,0,5,,,unresolved,unresolved
+36,0x24,Seebass,0x00635A00,0x08635A00,43,0,17,,,unresolved,unresolved
+37,0x25,Seebass,0x00635A4C,0x08635A4C,43,0,17,,,unresolved,unresolved
+38,0x26,Seebass,0x00635A98,0x08635A98,43,0,17,,,unresolved,unresolved
+39,0x27,Sawbass,0x00635AE4,0x08635AE4,65,0,22,,,unresolved,unresolved
+40,0x28,Kissea,0x00635B30,0x08635B30,58,0,8,,,unresolved,unresolved
+41,0x29,Cap'n Garco,0x00635B7C,0x08635B7C,180,0,13,,,unresolved,unresolved
+42,0x2A,Cap'n Garco,0x00635BC8,0x08635BC8,3160,0,13,,,unresolved,unresolved
+43,0x2B,Cap'n Garco,0x00635C14,0x08635C14,3160,0,13,,,unresolved,unresolved
+44,0x2C,Cap'n Garco,0x00635C60,0x08635C60,3170,0,13,,,unresolved,unresolved
+45,0x2D,Cap'n Garco,0x00635CAC,0x08635CAC,3170,0,13,,,unresolved,unresolved
+46,0x2E,Mirrolick,0x00635CF8,0x08635CF8,3200,0,22,,,unresolved,unresolved
+47,0x2F,Octorina,0x00635D44,0x08635D44,3100,0,8,,,unresolved,unresolved
+48,0x30,Clam Muscle,0x00635D90,0x08635D90,3090,0,25,,,unresolved,unresolved
+49,0x31,Pompadour,0x00635DDC,0x08635DDC,3240,0,24,,,unresolved,unresolved
+50,0x32,Super Mic,0x00635E28,0x08635E28,3070,0,35,,,unresolved,unresolved
+51,0x33,Big Donut,0x00635E74,0x08635E74,3080,0,20,,,unresolved,unresolved
+52,0x34,Chocolina,0x00635EC0,0x08635EC0,45,0,10,,,unresolved,unresolved
+53,0x35,White Choco,0x00635F0C,0x08635F0C,45,0,18,,,unresolved,unresolved
+54,0x36,Strawberry Choco,0x00635F58,0x08635F58,45,0,10,,,unresolved,unresolved
+55,0x37,Glutton,0x00635FA4,0x08635FA4,59,0,16,,,unresolved,unresolved
+56,0x38,Eeklair,0x00635FF0,0x08635FF0,42,0,25,,,unresolved,unresolved
+57,0x39,Slime,0x0063603C,0x0863603C,48,0,8,,,unresolved,unresolved
+58,0x3A,Butcher,0x00636088,0x08636088,50,0,21,,,unresolved,unresolved
+59,0x3B,Rowch,0x006360D4,0x086360D4,49,0,3,,,unresolved,unresolved
+60,0x3C,Bigmouse,0x00636120,0x08636120,43,0,10,,,unresolved,unresolved
+61,0x3D,Gatorpede,0x0063616C,0x0863616C,80,0,30,,,unresolved,unresolved
+62,0x3E,Poochy,0x006361B8,0x086361B8,3220,0,24,,,unresolved,unresolved
+63,0x3F,Crony,0x00636204,0x08636204,49,0,3,,,unresolved,unresolved
+64,0x40,Crony,0x00636250,0x08636250,41,0,16,,,unresolved,unresolved
+65,0x41,Pokyrina,0x0063629C,0x0863629C,73,0,8,,,unresolved,unresolved
+66,0x42,Chocolin,0x006362E8,0x086362E8,30,0,32,,,unresolved,unresolved
+67,0x43,Conda Kid,0x00636334,0x08636334,3220,0,17,,,unresolved,unresolved
+68,0x44,Red Baby,0x00636380,0x08636380,3060,0,21,,,unresolved,unresolved
+69,0x45,Conda Kid,0x006363CC,0x086363CC,3200,0,15,,,unresolved,unresolved
+70,0x46,Blue Baby,0x00636418,0x08636418,3045,0,20,,,unresolved,unresolved
+71,0x47,Conda Kid,0x00636464,0x08636464,3240,0,19,,,unresolved,unresolved
+72,0x48,Green Baby,0x006364B0,0x086364B0,3065,0,22,,,unresolved,unresolved
+73,0x49,Brikky,0x006364FC,0x086364FC,3200,0,25,,,unresolved,unresolved
+74,0x4A,Grikky,0x00636548,0x08636548,3250,0,30,,,unresolved,unresolved
+75,0x4B,What,0x00636594,0x08636594,3320,0,27,,,unresolved,unresolved
+76,0x4C,Suckin' Straw,0x006365E0,0x086365E0,3220,0,6,,,unresolved,unresolved
+77,0x4D,Lard Juice,0x0063662C,0x0863662C,3100,0,35,,,unresolved,unresolved
+78,0x4E,Snakeyez,0x00636678,0x08636678,52,0,7,,,unresolved,unresolved
+79,0x4F,Lickylicky,0x006366C4,0x086366C4,49,0,19,,,unresolved,unresolved
+80,0x50,Brainiac,0x00636710,0x08636710,54,0,26,,,unresolved,unresolved
+81,0x51,Shrieker,0x0063675C,0x0863675C,63,0,8,,,unresolved,unresolved
+82,0x52,Junk Hunter,0x006367A8,0x086367A8,68,0,10,,,unresolved,unresolved
+83,0x53,Cyborg,0x006367F4,0x086367F4,95,0,36,,,unresolved,unresolved
+84,0x54,Invisidude,0x00636840,0x08636840,3000,0,14,,,unresolved,unresolved
+85,0x55,Notewisp,0x0063688C,0x0863688C,78,0,2,,,unresolved,unresolved
+86,0x56,Ghozart,0x006368D8,0x086368D8,480,0,3,,,unresolved,unresolved
+87,0x57,Blue Eye,0x00636924,0x08636924,30,0,10,,,unresolved,unresolved
+88,0x58,Gray Eye,0x00636970,0x08636970,30,0,10,,,unresolved,unresolved
+89,0x59,Pink Eye,0x006369BC,0x086369BC,30,0,10,,,unresolved,unresolved
+90,0x5A,Green Eye,0x00636A08,0x08636A08,30,0,10,,,unresolved,unresolved
+91,0x5B,Blue Eye,0x00636A54,0x08636A54,30,0,10,,,unresolved,unresolved
+92,0x5C,Magic Root,0x00636AA0,0x08636AA0,3160,0,36,,,unresolved,unresolved
+93,0x5D,Tip,0x00636AEC,0x08636AEC,3210,0,29,,,unresolved,unresolved
+94,0x5E,Lilby,0x00636B38,0x08636B38,3310,0,21,,,unresolved,unresolved
+95,0x5F,Death Lilby,0x00636B84,0x08636B84,3600,0,35,,,unresolved,unresolved
+96,0x60,Death Lilby,0x00636BD0,0x08636BD0,3150,0,32,,,unresolved,unresolved
+97,0x61,Death Lilby,0x00636C1C,0x08636C1C,3150,0,32,,,unresolved,unresolved
+98,0x62,Cybercop,0x00636C68,0x08636C68,220,0,41,,,unresolved,unresolved
+99,0x63,Killborg,0x00636CB4,0x08636CB4,75,0,28,,,unresolved,unresolved
+100,0x64,Bugsy,0x00636D00,0x08636D00,65,0,9,,,unresolved,unresolved
+101,0x65,RoadKill,0x00636D4C,0x08636D4C,54,0,48,,,unresolved,unresolved
+102,0x66,DJ Scratchin',0x00636D98,0x08636D98,85,0,21,,,unresolved,unresolved
+103,0x67,Snatcher,0x00636DE4,0x08636DE4,60,0,10,,,unresolved,unresolved
+104,0x68,Grubber,0x00636E30,0x08636E30,68,0,22,,,unresolved,unresolved
+105,0x69,Gold Digger,0x00636E7C,0x08636E7C,80,0,12,,,unresolved,unresolved
+106,0x6A,McRuffry,0x00636EC8,0x08636EC8,123,0,34,,,unresolved,unresolved
+107,0x6B,Ewzze,0x00636F14,0x08636F14,82,0,2,,,unresolved,unresolved
+108,0x6C,Bottleneck,0x00636F60,0x08636F60,105,0,8,,,unresolved,unresolved
+109,0x6D,AshRoach,0x00636FAC,0x08636FAC,90,0,4,,,unresolved,unresolved
+110,0x6E,Sparrat,0x00636FF8,0x08636FF8,85,0,13,,,unresolved,unresolved
+111,0x6F,Phantom Thief Berri,0x00637044,0x08637044,3310,0,13,,,unresolved,unresolved
+112,0x70,Helper Robo,0x00637090,0x08637090,55,0,15,,,unresolved,unresolved
+113,0x71,Helper Robo-G,0x006370DC,0x086370DC,55,0,15,,,unresolved,unresolved
+114,0x72,Helper Robo-G,0x00637128,0x08637128,55,0,15,,,unresolved,unresolved
+115,0x73,Brikky,0x00637174,0x08637174,3400,0,25,,,unresolved,unresolved
+116,0x74,Grikky,0x006371C0,0x086371C0,3250,0,30,,,unresolved,unresolved
+117,0x75,Coupling,0x0063720C,0x0863720C,3440,0,200,,,unresolved,unresolved
+118,0x76,Left Arm,0x00637258,0x08637258,20000,0,55,,,unresolved,unresolved
+119,0x77,Right Arm,0x006372A4,0x086372A4,20000,0,55,,,unresolved,unresolved
+120,0x78,Mystery Loop,0x006372F0,0x086372F0,57,0,26,,,unresolved,unresolved
+121,0x79,Shapely,0x0063733C,0x0863733C,70,0,43,,,unresolved,unresolved
+122,0x7A,Dreamir,0x00637388,0x08637388,92,0,24,,,unresolved,unresolved
+123,0x7B,Devil's Wink,0x006373D4,0x086373D4,71,0,16,,,unresolved,unresolved
+124,0x7C,[NAME1] Forgery,0x00637420,0x08637420,100,0,25,,,unresolved,unresolved
+125,0x7D,Walking Art,0x0063746C,0x0863746C,60,0,16,,,unresolved,unresolved
+126,0x7E,Cursed Clay,0x006374B8,0x086374B8,36,0,46,,,unresolved,unresolved
+127,0x7F,Lost Sheep,0x00637504,0x08637504,73,0,25,,,unresolved,unresolved
+128,0x80,Phantom Thief Berri,0x00637550,0x08637550,3330,0,23,,,unresolved,unresolved
+129,0x81,Busy Bot,0x0063759C,0x0863759C,65,0,25,,,unresolved,unresolved
+130,0x82,Busy Bot-B,0x006375E8,0x086375E8,65,0,25,,,unresolved,unresolved
+131,0x83,Busy Bot-B,0x00637634,0x08637634,65,0,25,,,unresolved,unresolved
+132,0x84,Kukupo,0x00637680,0x08637680,320,0,35,,,unresolved,unresolved
+133,0x85,KukuCopy,0x006376CC,0x086376CC,120,0,15,,,unresolved,unresolved
+134,0x86,KukuCopy,0x00637718,0x08637718,120,0,15,,,unresolved,unresolved
+135,0x87,KukuCopy,0x00637764,0x08637764,120,0,15,,,unresolved,unresolved
+136,0x88,Popoku,0x006377B0,0x086377B0,340,0,37,,,unresolved,unresolved
+137,0x89,PopoCopy,0x006377FC,0x086377FC,130,0,15,,,unresolved,unresolved
+138,0x8A,PopoCopy,0x00637848,0x08637848,130,0,15,,,unresolved,unresolved
+139,0x8B,PopoCopy,0x00637894,0x08637894,130,0,15,,,unresolved,unresolved
+140,0x8C,Chekkit,0x006378E0,0x086378E0,3700,0,22,,,unresolved,unresolved
+141,0x8D,Left Arm,0x0063792C,0x0863792C,3600,0,40,,,unresolved,unresolved
+142,0x8E,Right Arm,0x00637978,0x08637978,3600,0,40,,,unresolved,unresolved
+143,0x8F,Fauxmato,0x006379C4,0x086379C4,64,0,22,,,unresolved,unresolved
+144,0x90,Mogeha,0x00637A10,0x08637A10,76,0,16,,,unresolved,unresolved
+145,0x91,S.C.Arecrow,0x00637A5C,0x08637A5C,106,0,42,,,unresolved,unresolved
+146,0x92,Tinimato,0x00637AA8,0x08637AA8,92,0,20,,,unresolved,unresolved
+147,0x93,Megamato,0x00637AF4,0x08637AF4,102,0,26,,,unresolved,unresolved
+148,0x94,Potty Rider,0x00637B40,0x08637B40,68,0,14,,,unresolved,unresolved
+149,0x95,Potty Rider,0x00637B8C,0x08637B8C,68,0,14,,,unresolved,unresolved
+150,0x96,Potty Rider,0x00637BD8,0x08637BD8,68,0,14,,,unresolved,unresolved
+151,0x97,Debugger,0x00637C24,0x08637C24,112,0,30,,,unresolved,unresolved
+152,0x98,Tomato Box,0x00637C70,0x08637C70,121,0,24,,,unresolved,unresolved
+153,0x99,Mystery Bolt,0x00637CBC,0x08637CBC,140,0,68,,,unresolved,unresolved
+154,0x9A,Brikkypress,0x00637D08,0x08637D08,110,0,90,,,unresolved,unresolved
+155,0x9B,Papa Genome,0x00637D54,0x08637D54,83,0,20,,,unresolved,unresolved
+156,0x9C,Rattlin' Dragon,0x00637DA0,0x08637DA0,262,0,54,,,unresolved,unresolved
+157,0x9D,Nabira,0x00637DEC,0x08637DEC,3480,0,23,,,unresolved,unresolved
+158,0x9E,Flying Tomato,0x00637E38,0x08637E38,420,0,6,,,unresolved,unresolved
+159,0x9F,Sumato,0x00637E84,0x08637E84,367,0,12,,,unresolved,unresolved
+160,0xA0,Tomato Walker,0x00637ED0,0x08637ED0,248,0,28,,,unresolved,unresolved
+161,0xA1,Tomato Mecha,0x00637F1C,0x08637F1C,3430,0,35,,,unresolved,unresolved
+162,0xA2,StarMato,0x00637F68,0x08637F68,80,0,12,,,unresolved,unresolved
+163,0xA3,StarMato,0x00637FB4,0x08637FB4,90,0,12,,,unresolved,unresolved
+164,0xA4,StarMato,0x00638000,0x08638000,90,0,12,,,unresolved,unresolved
+165,0xA5,Detector,0x0063804C,0x0863804C,135,0,38,,,unresolved,unresolved
+166,0xA6,Great Boronga,0x00638098,0x08638098,150,0,40,,,unresolved,unresolved
+167,0xA7,Great Boronga,0x006380E4,0x086380E4,180,0,50,,,unresolved,unresolved
+168,0xA8,Great Boronga,0x00638130,0x08638130,140,0,50,,,unresolved,unresolved
+169,0xA9,Gimmick Robo,0x0063817C,0x0863817C,3700,0,52,,,unresolved,unresolved
+170,0xAA,Gimmick Robo,0x006381C8,0x086381C8,4500,0,80,,,unresolved,unresolved
+171,0xAB,Gimmick Robo,0x00638214,0x08638214,4500,0,1,,,unresolved,unresolved
+172,0xAC,Gimmick Robo,0x00638260,0x08638260,4500,0,52,,,unresolved,unresolved
+173,0xAD,Gimmick Robo,0x006382AC,0x086382AC,4000,0,52,,,unresolved,unresolved
+174,0xAE,Brikky,0x006382F8,0x086382F8,3700,0,35,,,unresolved,unresolved
+175,0xAF,Grikky,0x00638344,0x08638344,3650,0,40,,,unresolved,unresolved
+176,0xB0,Abira,0x00638390,0x08638390,3850,0,100,,,unresolved,unresolved
+177,0xB1,Left Arm,0x006383DC,0x086383DC,3700,0,35,,,unresolved,unresolved
+178,0xB2,Right Arm,0x00638428,0x08638428,3300,0,48,,,unresolved,unresolved
+179,0xB3,Abiwrath,0x00638474,0x08638474,4000,0,36,,,unresolved,unresolved
+180,0xB4,Left Binky,0x006384C0,0x086384C0,3900,0,22,,,unresolved,unresolved
+181,0xB5,Right Binky,0x0063850C,0x0863850C,3900,0,22,,,unresolved,unresolved

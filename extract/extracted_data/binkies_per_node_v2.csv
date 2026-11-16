@@ -1,0 +1,19 @@
+node_id,node_name,fixed_binky_pickups,fixed_binky_quantity,complete_total_quantity,conditional_binky_quantity,confidence,coverage,evidence_reference
+0x00,The Spillage,4,4,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x01,Pokypine Wood,2,2,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x02,Gimmick Palace,0,0,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x03,Hanzo Lab 1,1,1,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x04,Mayonen Land,6,6,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x05,Hanzo Lab 2,1,1,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x06,NampLagoon,0,0,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x07,Hanzo Lab 3,1,1,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x08,Oystown,0,0,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x09,Hanzo Lab 4,1,1,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x0A,Tartar Valley,2,2,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x0B,Hanzo Lab 5,1,1,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x0C,Soy City,11,11,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x0D,Hanzo Lab 6,2,2,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x0E,Balsamic Dome,3,3,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x0F,,0,0,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+0x10,Lardosseum,0,0,,,Probable,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv
+,Unassigned pool (not a node),39,39,,,Unresolved,Partial registered-actor subtotal; unresolved reward candidates excluded,binky_map_nodes_v2.csv

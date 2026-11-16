@@ -1,0 +1,6 @@
+source_id,map_id,node_id,event_script_address,file_offset,quantity,source_type,repeatable,collection_flag,confidence,evidence_reference,raw_hex,limitations
+grant-site-00107F73,,,0x08107F73,0x00107F73,1,repeatable_AWE_exchange,true,,Confirmed static,prior binky_exchange_rate_two.md,fe 55 37 01 d8 81 10 08,"Original baseline award; renewable, excluded from completion totals"
+grant-site-00107FAA,,,0x08107FAA,0x00107FAA,1,repeatable_AWE_exchange,true,,Confirmed static,prior binky_exchange_rate_two.md,fe 55 37 01 d8 81 10 08,"Original baseline award; renewable, excluded from completion totals"
+grant-site-00108118,,,0x08108118,0x00108118,3,repeatable_AWE_exchange,true,,Confirmed static,prior binky_exchange_rate_two.md,fe 55 37 03 d8 81 10 08,"Original baseline award; renewable, excluded from completion totals"
+grant-site-0010814F,,,0x0810814F,0x0010814F,2,repeatable_AWE_exchange,true,,Confirmed static,prior binky_exchange_rate_two.md,fe 55 37 02 d8 81 10 08,"Original baseline award; renewable, excluded from completion totals"
+grant-site-00108186,,,0x08108186,0x00108186,2,repeatable_AWE_exchange,true,,Confirmed static,prior binky_exchange_rate_two.md,fe 55 37 02 d8 81 10 08,"Original baseline award; renewable, excluded from completion totals"
