@@ -1,0 +1,4846 @@
+{
+  "session": 7,
+  "date": "2026-10-15",
+  "scope": "Bounded static inspection; no emulator, ROM/stat/save/RAM modification",
+  "rom": {
+    "path": "tools\\patch\\output\\kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde\\kaizo_binky_100.gba",
+    "sha256": "7e7603816afb0990eea51ed2c49ab4b4afd5596ff1c4211c656d608e94ed2aa2"
+  },
+  "source_enemy_names": "tomatotrans-1.1.1\\ta_enemies_eng.txt",
+  "map_scope": "0x01B2..0x01E6 inclusive; candidate palace scope, not blanket membership assertion",
+  "bounds": {
+    "actor_records_per_map_max": 16,
+    "exit_records_per_map_max": 48,
+    "formation_pointer_range": "0x084559B4..0x08456C00 exclusive",
+    "enemy_record_range": "0x08634F50..0x08638558 exclusive"
+  },
+  "enemies_ranked_by_hp": [
+    {
+      "name": "Rattlin' Dragon",
+      "enemy_id": 156,
+      "record_bus": "0x08637DA0",
+      "record_file": "0x00637DA0",
+      "hp": 262,
+      "base_mitigation": 54,
+      "hp_field_bus": "0x08637DAA",
+      "mitigation_field_bus": "0x08637DAE",
+      "map_ids": [
+        439,
+        440,
+        441,
+        444,
+        445,
+        446,
+        447,
+        449,
+        450,
+        471,
+        472,
+        473
+      ],
+      "formations": [
+        "0x0845642C",
+        "0x084569A4",
+        "0x08456A44",
+        "0x08456ABC"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Great Boronga",
+      "enemy_id": 167,
+      "record_bus": "0x086380E4",
+      "record_file": "0x006380E4",
+      "hp": 180,
+      "base_mitigation": 50,
+      "hp_field_bus": "0x086380EE",
+      "mitigation_field_bus": "0x086380F2",
+      "map_ids": [
+        439,
+        440,
+        441
+      ],
+      "formations": [
+        "0x08456ABC"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Great Boronga",
+      "enemy_id": 166,
+      "record_bus": "0x08638098",
+      "record_file": "0x00638098",
+      "hp": 150,
+      "base_mitigation": 40,
+      "hp_field_bus": "0x086380A2",
+      "mitigation_field_bus": "0x086380A6",
+      "map_ids": [
+        444,
+        445,
+        446,
+        447,
+        449,
+        450,
+        461,
+        462,
+        463,
+        464,
+        471,
+        472,
+        473
+      ],
+      "formations": [
+        "0x0845642C",
+        "0x084569A4",
+        "0x08456A44",
+        "0x08456AE4"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Mystery Bolt",
+      "enemy_id": 153,
+      "record_bus": "0x08637CBC",
+      "record_file": "0x00637CBC",
+      "hp": 140,
+      "base_mitigation": 68,
+      "hp_field_bus": "0x08637CC6",
+      "mitigation_field_bus": "0x08637CCA",
+      "map_ids": [
+        439,
+        440,
+        441
+      ],
+      "formations": [
+        "0x08456ABC"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Great Boronga",
+      "enemy_id": 168,
+      "record_bus": "0x08638130",
+      "record_file": "0x00638130",
+      "hp": 140,
+      "base_mitigation": 50,
+      "hp_field_bus": "0x0863813A",
+      "mitigation_field_bus": "0x0863813E",
+      "map_ids": [
+        439,
+        440,
+        441
+      ],
+      "formations": [
+        "0x08456ABC"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Detector",
+      "enemy_id": 165,
+      "record_bus": "0x0863804C",
+      "record_file": "0x0063804C",
+      "hp": 135,
+      "base_mitigation": 38,
+      "hp_field_bus": "0x08638056",
+      "mitigation_field_bus": "0x0863805A",
+      "map_ids": [
+        439,
+        440,
+        441,
+        446,
+        447,
+        449,
+        450,
+        461,
+        462,
+        463,
+        464
+      ],
+      "formations": [
+        "0x0845642C",
+        "0x08456ABC",
+        "0x08456AE4"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Tomato Box",
+      "enemy_id": 152,
+      "record_bus": "0x08637C70",
+      "record_file": "0x00637C70",
+      "hp": 121,
+      "base_mitigation": 24,
+      "hp_field_bus": "0x08637C7A",
+      "mitigation_field_bus": "0x08637C7E",
+      "map_ids": [
+        471,
+        472,
+        473,
+        478,
+        479,
+        480,
+        481
+      ],
+      "formations": [
+        "0x084569A4",
+        "0x08456A1C"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Debugger",
+      "enemy_id": 151,
+      "record_bus": "0x08637C24",
+      "record_file": "0x00637C24",
+      "hp": 112,
+      "base_mitigation": 30,
+      "hp_field_bus": "0x08637C2E",
+      "mitigation_field_bus": "0x08637C32",
+      "map_ids": [
+        461,
+        462,
+        463,
+        464
+      ],
+      "formations": [
+        "0x08456AE4"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "S.C.Arecrow",
+      "enemy_id": 145,
+      "record_bus": "0x08637A5C",
+      "record_file": "0x00637A5C",
+      "hp": 106,
+      "base_mitigation": 42,
+      "hp_field_bus": "0x08637A66",
+      "mitigation_field_bus": "0x08637A6A",
+      "map_ids": [
+        434,
+        437
+      ],
+      "formations": [
+        "0x0845697C"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Megamato",
+      "enemy_id": 147,
+      "record_bus": "0x08637AF4",
+      "record_file": "0x00637AF4",
+      "hp": 102,
+      "base_mitigation": 26,
+      "hp_field_bus": "0x08637AFE",
+      "mitigation_field_bus": "0x08637B02",
+      "map_ids": [
+        461,
+        462,
+        463,
+        464,
+        470,
+        471,
+        472,
+        478,
+        479,
+        480,
+        481
+      ],
+      "formations": [
+        "0x084569CC",
+        "0x08456A1C"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Tinimato",
+      "enemy_id": 146,
+      "record_bus": "0x08637AA8",
+      "record_file": "0x00637AA8",
+      "hp": 92,
+      "base_mitigation": 20,
+      "hp_field_bus": "0x08637AB2",
+      "mitigation_field_bus": "0x08637AB6",
+      "map_ids": [
+        461,
+        462,
+        463,
+        464,
+        470,
+        471,
+        472,
+        478,
+        479,
+        480,
+        481
+      ],
+      "formations": [
+        "0x084569CC",
+        "0x08456A1C"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Papa Genome",
+      "enemy_id": 155,
+      "record_bus": "0x08637D54",
+      "record_file": "0x00637D54",
+      "hp": 83,
+      "base_mitigation": 20,
+      "hp_field_bus": "0x08637D5E",
+      "mitigation_field_bus": "0x08637D62",
+      "map_ids": [
+        446,
+        447,
+        449,
+        450,
+        457,
+        458
+      ],
+      "formations": [
+        "0x08456404",
+        "0x0845642C"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "StarMato",
+      "enemy_id": 162,
+      "record_bus": "0x08637F68",
+      "record_file": "0x00637F68",
+      "hp": 80,
+      "base_mitigation": 12,
+      "hp_field_bus": "0x08637F72",
+      "mitigation_field_bus": "0x08637F76",
+      "map_ids": [
+        457,
+        458
+      ],
+      "formations": [
+        "0x08456404"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Mogeha",
+      "enemy_id": 144,
+      "record_bus": "0x08637A10",
+      "record_file": "0x00637A10",
+      "hp": 76,
+      "base_mitigation": 16,
+      "hp_field_bus": "0x08637A1A",
+      "mitigation_field_bus": "0x08637A1E",
+      "map_ids": [
+        446,
+        449,
+        461,
+        462,
+        463,
+        464,
+        470,
+        471,
+        472
+      ],
+      "formations": [
+        "0x084569CC",
+        "0x084569F4"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Potty Rider",
+      "enemy_id": 148,
+      "record_bus": "0x08637B40",
+      "record_file": "0x00637B40",
+      "hp": 68,
+      "base_mitigation": 14,
+      "hp_field_bus": "0x08637B4A",
+      "mitigation_field_bus": "0x08637B4E",
+      "map_ids": [
+        444,
+        445
+      ],
+      "formations": [
+        "0x08456A44"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Potty Rider",
+      "enemy_id": 149,
+      "record_bus": "0x08637B8C",
+      "record_file": "0x00637B8C",
+      "hp": 68,
+      "base_mitigation": 14,
+      "hp_field_bus": "0x08637B96",
+      "mitigation_field_bus": "0x08637B9A",
+      "map_ids": [
+        444,
+        445
+      ],
+      "formations": [
+        "0x08456A44"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Potty Rider",
+      "enemy_id": 150,
+      "record_bus": "0x08637BD8",
+      "record_file": "0x00637BD8",
+      "hp": 68,
+      "base_mitigation": 14,
+      "hp_field_bus": "0x08637BE2",
+      "mitigation_field_bus": "0x08637BE6",
+      "map_ids": [
+        444,
+        445
+      ],
+      "formations": [
+        "0x08456A44"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    },
+    {
+      "name": "Fauxmato",
+      "enemy_id": 143,
+      "record_bus": "0x086379C4",
+      "record_file": "0x006379C4",
+      "hp": 64,
+      "base_mitigation": 22,
+      "hp_field_bus": "0x086379CE",
+      "mitigation_field_bus": "0x086379D2",
+      "map_ids": [
+        434,
+        437
+      ],
+      "formations": [
+        "0x08456954",
+        "0x0845697C"
+      ],
+      "name_matches_actual_translated_rom": true,
+      "numeric_fields_identical_jp_english_kaizo": true,
+      "confidence": "Confirmed static name, numeric fields and ordinary actor/formation references; floor labels unresolved; dungeon association discussed in report"
+    }
+  ],
+  "formations": [
+    {
+      "bus": "0x08456404",
+      "file": "0x00456404",
+      "id_one_based": 67,
+      "variants": [
+        {
+          "choice": 0,
+          "formation_header": 1,
+          "enemy_ids": [
+            162,
+            155
+          ],
+          "names": [
+            "StarMato",
+            "Papa Genome"
+          ]
+        },
+        {
+          "choice": 1,
+          "formation_header": 1,
+          "enemy_ids": [
+            162,
+            162
+          ],
+          "names": [
+            "StarMato",
+            "StarMato"
+          ]
+        },
+        {
+          "choice": 2,
+          "formation_header": 1,
+          "enemy_ids": [
+            162,
+            162
+          ],
+          "names": [
+            "StarMato",
+            "StarMato"
+          ]
+        }
+      ],
+      "actor_reference_count": 18,
+      "map_ids": [
+        457,
+        458
+      ]
+    },
+    {
+      "bus": "0x0845642C",
+      "file": "0x0045642C",
+      "id_one_based": 68,
+      "variants": [
+        {
+          "choice": 0,
+          "formation_header": 1,
+          "enemy_ids": [
+            155,
+            155
+          ],
+          "names": [
+            "Papa Genome",
+            "Papa Genome"
+          ]
+        },
+        {
+          "choice": 1,
+          "formation_header": 10,
+          "enemy_ids": [
+            155,
+            156
+          ],
+          "names": [
+            "Papa Genome",
+            "Rattlin' Dragon"
+          ]
+        },
+        {
+          "choice": 2,
+          "formation_header": 1,
+          "enemy_ids": [
+            155,
+            166
+          ],
+          "names": [
+            "Papa Genome",
+            "Great Boronga"
+          ]
+        },
+        {
+          "choice": 3,
+          "formation_header": 1,
+          "enemy_ids": [
+            155,
+            165
+          ],
+          "names": [
+            "Papa Genome",
+            "Detector"
+          ]
+        }
+      ],
+      "actor_reference_count": 15,
+      "map_ids": [
+        446,
+        447,
+        449,
+        450
+      ]
+    },
+    {
+      "bus": "0x08456954",
+      "file": "0x00456954",
+      "id_one_based": 101,
+      "variants": [
+        {
+          "choice": 0,
+          "formation_header": 1,
+          "enemy_ids": [
+            143,
+            143
+          ],
+          "names": [
+            "Fauxmato",
+            "Fauxmato"
+          ]
+        },
+        {
+          "choice": 1,
+          "formation_header": 1,
+          "enemy_ids": [
+            143,
+            143
+          ],
+          "names": [
+            "Fauxmato",
+            "Fauxmato"
+          ]
+        },
+        {
+          "choice": 2,
+          "formation_header": 1,
+          "enemy_ids": [
+            143,
+            143
+          ],
+          "names": [
+            "Fauxmato",
+            "Fauxmato"
+          ]
+        },
+        {
+          "choice": 3,
+          "formation_header": 8,
+          "enemy_ids": [
+            143
+          ],
+          "names": [
+            "Fauxmato"
+          ]
+        }
+      ],
+      "actor_reference_count": 7,
+      "map_ids": [
+        434,
+        437
+      ]
+    },
+    {
+      "bus": "0x0845697C",
+      "file": "0x0045697C",
+      "id_one_based": 102,
+      "variants": [
+        {
+          "choice": 0,
+          "formation_header": 4,
+          "enemy_ids": [
+            145,
+            145
+          ],
+          "names": [
+            "S.C.Arecrow",
+            "S.C.Arecrow"
+          ]
+        },
+        {
+          "choice": 1,
+          "formation_header": 28,
+          "enemy_ids": [
+            145,
+            143
+          ],
+          "names": [
+            "S.C.Arecrow",
+            "Fauxmato"
+          ]
+        },
+        {
+          "choice": 2,
+          "formation_header": 28,
+          "enemy_ids": [
+            145,
+            143
+          ],
+          "names": [
+            "S.C.Arecrow",
+            "Fauxmato"
+          ]
+        }
+      ],
+      "actor_reference_count": 4,
+      "map_ids": [
+        434,
+        437
+      ]
+    },
+    {
+      "bus": "0x084569A4",
+      "file": "0x004569A4",
+      "id_one_based": 103,
+      "variants": [
+        {
+          "choice": 0,
+          "formation_header": 4,
+          "enemy_ids": [
+            152,
+            152
+          ],
+          "names": [
+            "Tomato Box",
+            "Tomato Box"
+          ]
+        },
+        {
+          "choice": 1,
+          "formation_header": 4,
+          "enemy_ids": [
+            152,
+            156
+          ],
+          "names": [
+            "Tomato Box",
+            "Rattlin' Dragon"
+          ]
+        },
+        {
+          "choice": 2,
+          "formation_header": 28,
+          "enemy_ids": [
+            152,
+            166
+          ],
+          "names": [
+            "Tomato Box",
+            "Great Boronga"
+          ]
+        },
+        {
+          "choice": 3,
+          "formation_header": 28,
+          "enemy_ids": [
+            152,
+            166
+          ],
+          "names": [
+            "Tomato Box",
+            "Great Boronga"
+          ]
+        }
+      ],
+      "actor_reference_count": 6,
+      "map_ids": [
+        471,
+        472,
+        473
+      ]
+    },
+    {
+      "bus": "0x084569CC",
+      "file": "0x004569CC",
+      "id_one_based": 104,
+      "variants": [
+        {
+          "choice": 0,
+          "formation_header": 0,
+          "enemy_ids": [
+            146,
+            144,
+            147
+          ],
+          "names": [
+            "Tinimato",
+            "Mogeha",
+            "Megamato"
+          ]
+        },
+        {
+          "choice": 1,
+          "formation_header": 25,
+          "enemy_ids": [
+            146,
+            147,
+            146
+          ],
+          "names": [
+            "Tinimato",
+            "Megamato",
+            "Tinimato"
+          ]
+        },
+        {
+          "choice": 2,
+          "formation_header": 25,
+          "enemy_ids": [
+            146,
+            147,
+            146
+          ],
+          "names": [
+            "Tinimato",
+            "Megamato",
+            "Tinimato"
+          ]
+        },
+        {
+          "choice": 3,
+          "formation_header": 1,
+          "enemy_ids": [
+            146,
+            146
+          ],
+          "names": [
+            "Tinimato",
+            "Tinimato"
+          ]
+        }
+      ],
+      "actor_reference_count": 16,
+      "map_ids": [
+        461,
+        462,
+        463,
+        464,
+        470,
+        471,
+        472
+      ]
+    },
+    {
+      "bus": "0x084569F4",
+      "file": "0x004569F4",
+      "id_one_based": 105,
+      "variants": [
+        {
+          "choice": 0,
+          "formation_header": 0,
+          "enemy_ids": [
+            144,
+            144,
+            144
+          ],
+          "names": [
+            "Mogeha",
+            "Mogeha",
+            "Mogeha"
+          ]
+        },
+        {
+          "choice": 1,
+          "formation_header": 1,
+          "enemy_ids": [
+            144,
+            144
+          ],
+          "names": [
+            "Mogeha",
+            "Mogeha"
+          ]
+        },
+        {
+          "choice": 2,
+          "formation_header": 1,
+          "enemy_ids": [
+            144,
+            144
+          ],
+          "names": [
+            "Mogeha",
+            "Mogeha"
+          ]
+        },
+        {
+          "choice": 3,
+          "formation_header": 1,
+          "enemy_ids": [
+            144,
+            144
+          ],
+          "names": [
+            "Mogeha",
+            "Mogeha"
+          ]
+        }
+      ],
+      "actor_reference_count": 4,
+      "map_ids": [
+        446,
+        449
+      ]
+    },
+    {
+      "bus": "0x08456A1C",
+      "file": "0x00456A1C",
+      "id_one_based": 106,
+      "variants": [
+        {
+          "choice": 0,
+          "formation_header": 4,
+          "enemy_ids": [
+            152,
+            152
+          ],
+          "names": [
+            "Tomato Box",
+            "Tomato Box"
+          ]
+        },
+        {
+          "choice": 1,
+          "formation_header": 2,
+          "enemy_ids": [
+            152,
+            146,
+            147
+          ],
+          "names": [
+            "Tomato Box",
+            "Tinimato",
+            "Megamato"
+          ]
+        },
+        {
+          "choice": 2,
+          "formation_header": 28,
+          "enemy_ids": [
+            152,
+            146
+          ],
+          "names": [
+            "Tomato Box",
+            "Tinimato"
+          ]
+        },
+        {
+          "choice": 3,
+          "formation_header": 28,
+          "enemy_ids": [
+            152,
+            147
+          ],
+          "names": [
+            "Tomato Box",
+            "Megamato"
+          ]
+        }
+      ],
+      "actor_reference_count": 18,
+      "map_ids": [
+        478,
+        479,
+        480,
+        481
+      ]
+    },
+    {
+      "bus": "0x08456A44",
+      "file": "0x00456A44",
+      "id_one_based": 107,
+      "variants": [
+        {
+          "choice": 0,
+          "formation_header": 25,
+          "enemy_ids": [
+            148,
+            166,
+            150
+          ],
+          "names": [
+            "Potty Rider",
+            "Great Boronga",
+            "Potty Rider"
+          ]
+        },
+        {
+          "choice": 1,
+          "formation_header": 0,
+          "enemy_ids": [
+            148,
+            149,
+            150
+          ],
+          "names": [
+            "Potty Rider",
+            "Potty Rider",
+            "Potty Rider"
+          ]
+        },
+        {
+          "choice": 2,
+          "formation_header": 1,
+          "enemy_ids": [
+            148,
+            166
+          ],
+          "names": [
+            "Potty Rider",
+            "Great Boronga"
+          ]
+        },
+        {
+          "choice": 3,
+          "formation_header": 10,
+          "enemy_ids": [
+            148,
+            156
+          ],
+          "names": [
+            "Potty Rider",
+            "Rattlin' Dragon"
+          ]
+        }
+      ],
+      "actor_reference_count": 14,
+      "map_ids": [
+        444,
+        445
+      ]
+    },
+    {
+      "bus": "0x08456ABC",
+      "file": "0x00456ABC",
+      "id_one_based": 110,
+      "variants": [
+        {
+          "choice": 0,
+          "formation_header": 0,
+          "enemy_ids": [
+            153,
+            165,
+            168
+          ],
+          "names": [
+            "Mystery Bolt",
+            "Detector",
+            "Great Boronga"
+          ]
+        },
+        {
+          "choice": 1,
+          "formation_header": 1,
+          "enemy_ids": [
+            153,
+            167
+          ],
+          "names": [
+            "Mystery Bolt",
+            "Great Boronga"
+          ]
+        },
+        {
+          "choice": 2,
+          "formation_header": 10,
+          "enemy_ids": [
+            153,
+            156
+          ],
+          "names": [
+            "Mystery Bolt",
+            "Rattlin' Dragon"
+          ]
+        },
+        {
+          "choice": 3,
+          "formation_header": 0,
+          "enemy_ids": [
+            153,
+            167,
+            168
+          ],
+          "names": [
+            "Mystery Bolt",
+            "Great Boronga",
+            "Great Boronga"
+          ]
+        }
+      ],
+      "actor_reference_count": 3,
+      "map_ids": [
+        439,
+        440,
+        441
+      ]
+    },
+    {
+      "bus": "0x08456AE4",
+      "file": "0x00456AE4",
+      "id_one_based": 111,
+      "variants": [
+        {
+          "choice": 0,
+          "formation_header": 1,
+          "enemy_ids": [
+            151,
+            151
+          ],
+          "names": [
+            "Debugger",
+            "Debugger"
+          ]
+        },
+        {
+          "choice": 1,
+          "formation_header": 1,
+          "enemy_ids": [
+            151,
+            165
+          ],
+          "names": [
+            "Debugger",
+            "Detector"
+          ]
+        },
+        {
+          "choice": 2,
+          "formation_header": 1,
+          "enemy_ids": [
+            151,
+            166
+          ],
+          "names": [
+            "Debugger",
+            "Great Boronga"
+          ]
+        },
+        {
+          "choice": 3,
+          "formation_header": 0,
+          "enemy_ids": [
+            151,
+            165,
+            151
+          ],
+          "names": [
+            "Debugger",
+            "Detector",
+            "Debugger"
+          ]
+        }
+      ],
+      "actor_reference_count": 9,
+      "map_ids": [
+        461,
+        462,
+        463,
+        464
+      ]
+    }
+  ],
+  "ordinary_actor_references": [
+    {
+      "map_id": 434,
+      "actor_record_bus": "0x0815693C",
+      "actor_record_file": "0x0015693C",
+      "actor_index": 1,
+      "control_byte": 169,
+      "formation_bus": "0x08456954",
+      "formation_file": "0x00456954",
+      "formation_id_one_based": 101
+    },
+    {
+      "map_id": 434,
+      "actor_record_bus": "0x0815694C",
+      "actor_record_file": "0x0015694C",
+      "actor_index": 2,
+      "control_byte": 169,
+      "formation_bus": "0x08456954",
+      "formation_file": "0x00456954",
+      "formation_id_one_based": 101
+    },
+    {
+      "map_id": 434,
+      "actor_record_bus": "0x0815695C",
+      "actor_record_file": "0x0015695C",
+      "actor_index": 3,
+      "control_byte": 169,
+      "formation_bus": "0x0845697C",
+      "formation_file": "0x0045697C",
+      "formation_id_one_based": 102
+    },
+    {
+      "map_id": 434,
+      "actor_record_bus": "0x0815696C",
+      "actor_record_file": "0x0015696C",
+      "actor_index": 4,
+      "control_byte": 169,
+      "formation_bus": "0x0845697C",
+      "formation_file": "0x0045697C",
+      "formation_id_one_based": 102
+    },
+    {
+      "map_id": 437,
+      "actor_record_bus": "0x08156B78",
+      "actor_record_file": "0x00156B78",
+      "actor_index": 1,
+      "control_byte": 169,
+      "formation_bus": "0x08456954",
+      "formation_file": "0x00456954",
+      "formation_id_one_based": 101
+    },
+    {
+      "map_id": 437,
+      "actor_record_bus": "0x08156B98",
+      "actor_record_file": "0x00156B98",
+      "actor_index": 3,
+      "control_byte": 169,
+      "formation_bus": "0x08456954",
+      "formation_file": "0x00456954",
+      "formation_id_one_based": 101
+    },
+    {
+      "map_id": 437,
+      "actor_record_bus": "0x08156BA8",
+      "actor_record_file": "0x00156BA8",
+      "actor_index": 4,
+      "control_byte": 169,
+      "formation_bus": "0x08456954",
+      "formation_file": "0x00456954",
+      "formation_id_one_based": 101
+    },
+    {
+      "map_id": 437,
+      "actor_record_bus": "0x08156BB8",
+      "actor_record_file": "0x00156BB8",
+      "actor_index": 5,
+      "control_byte": 169,
+      "formation_bus": "0x08456954",
+      "formation_file": "0x00456954",
+      "formation_id_one_based": 101
+    },
+    {
+      "map_id": 437,
+      "actor_record_bus": "0x08156BC8",
+      "actor_record_file": "0x00156BC8",
+      "actor_index": 6,
+      "control_byte": 169,
+      "formation_bus": "0x08456954",
+      "formation_file": "0x00456954",
+      "formation_id_one_based": 101
+    },
+    {
+      "map_id": 437,
+      "actor_record_bus": "0x08156BD8",
+      "actor_record_file": "0x00156BD8",
+      "actor_index": 7,
+      "control_byte": 169,
+      "formation_bus": "0x0845697C",
+      "formation_file": "0x0045697C",
+      "formation_id_one_based": 102
+    },
+    {
+      "map_id": 437,
+      "actor_record_bus": "0x08156BE8",
+      "actor_record_file": "0x00156BE8",
+      "actor_index": 8,
+      "control_byte": 169,
+      "formation_bus": "0x0845697C",
+      "formation_file": "0x0045697C",
+      "formation_id_one_based": 102
+    },
+    {
+      "map_id": 439,
+      "actor_record_bus": "0x08156E30",
+      "actor_record_file": "0x00156E30",
+      "actor_index": 15,
+      "control_byte": 169,
+      "formation_bus": "0x08456ABC",
+      "formation_file": "0x00456ABC",
+      "formation_id_one_based": 110
+    },
+    {
+      "map_id": 440,
+      "actor_record_bus": "0x08156F94",
+      "actor_record_file": "0x00156F94",
+      "actor_index": 15,
+      "control_byte": 169,
+      "formation_bus": "0x08456ABC",
+      "formation_file": "0x00456ABC",
+      "formation_id_one_based": 110
+    },
+    {
+      "map_id": 441,
+      "actor_record_bus": "0x081570F8",
+      "actor_record_file": "0x001570F8",
+      "actor_index": 15,
+      "control_byte": 169,
+      "formation_bus": "0x08456ABC",
+      "formation_file": "0x00456ABC",
+      "formation_id_one_based": 110
+    },
+    {
+      "map_id": 444,
+      "actor_record_bus": "0x08157274",
+      "actor_record_file": "0x00157274",
+      "actor_index": 1,
+      "control_byte": 169,
+      "formation_bus": "0x08456A44",
+      "formation_file": "0x00456A44",
+      "formation_id_one_based": 107
+    },
+    {
+      "map_id": 444,
+      "actor_record_bus": "0x08157284",
+      "actor_record_file": "0x00157284",
+      "actor_index": 2,
+      "control_byte": 169,
+      "formation_bus": "0x08456A44",
+      "formation_file": "0x00456A44",
+      "formation_id_one_based": 107
+    },
+    {
+      "map_id": 444,
+      "actor_record_bus": "0x08157294",
+      "actor_record_file": "0x00157294",
+      "actor_index": 3,
+      "control_byte": 169,
+      "formation_bus": "0x08456A44",
+      "formation_file": "0x00456A44",
+      "formation_id_one_based": 107
+    },
+    {
+      "map_id": 444,
+      "actor_record_bus": "0x081572A4",
+      "actor_record_file": "0x001572A4",
+      "actor_index": 4,
+      "control_byte": 169,
+      "formation_bus": "0x08456A44",
+      "formation_file": "0x00456A44",
+      "formation_id_one_based": 107
+    },
+    {
+      "map_id": 444,
+      "actor_record_bus": "0x081572B4",
+      "actor_record_file": "0x001572B4",
+      "actor_index": 5,
+      "control_byte": 169,
+      "formation_bus": "0x08456A44",
+      "formation_file": "0x00456A44",
+      "formation_id_one_based": 107
+    },
+    {
+      "map_id": 444,
+      "actor_record_bus": "0x081572C4",
+      "actor_record_file": "0x001572C4",
+      "actor_index": 6,
+      "control_byte": 169,
+      "formation_bus": "0x08456A44",
+      "formation_file": "0x00456A44",
+      "formation_id_one_based": 107
+    },
+    {
+      "map_id": 445,
+      "actor_record_bus": "0x08157368",
+      "actor_record_file": "0x00157368",
+      "actor_index": 1,
+      "control_byte": 169,
+      "formation_bus": "0x08456A44",
+      "formation_file": "0x00456A44",
+      "formation_id_one_based": 107
+    },
+    {
+      "map_id": 445,
+      "actor_record_bus": "0x08157378",
+      "actor_record_file": "0x00157378",
+      "actor_index": 2,
+      "control_byte": 169,
+      "formation_bus": "0x08456A44",
+      "formation_file": "0x00456A44",
+      "formation_id_one_based": 107
+    },
+    {
+      "map_id": 445,
+      "actor_record_bus": "0x08157388",
+      "actor_record_file": "0x00157388",
+      "actor_index": 3,
+      "control_byte": 169,
+      "formation_bus": "0x08456A44",
+      "formation_file": "0x00456A44",
+      "formation_id_one_based": 107
+    },
+    {
+      "map_id": 445,
+      "actor_record_bus": "0x08157398",
+      "actor_record_file": "0x00157398",
+      "actor_index": 4,
+      "control_byte": 169,
+      "formation_bus": "0x08456A44",
+      "formation_file": "0x00456A44",
+      "formation_id_one_based": 107
+    },
+    {
+      "map_id": 445,
+      "actor_record_bus": "0x081573A8",
+      "actor_record_file": "0x001573A8",
+      "actor_index": 5,
+      "control_byte": 169,
+      "formation_bus": "0x08456A44",
+      "formation_file": "0x00456A44",
+      "formation_id_one_based": 107
+    },
+    {
+      "map_id": 445,
+      "actor_record_bus": "0x081573B8",
+      "actor_record_file": "0x001573B8",
+      "actor_index": 6,
+      "control_byte": 169,
+      "formation_bus": "0x08456A44",
+      "formation_file": "0x00456A44",
+      "formation_id_one_based": 107
+    },
+    {
+      "map_id": 445,
+      "actor_record_bus": "0x081573C8",
+      "actor_record_file": "0x001573C8",
+      "actor_index": 7,
+      "control_byte": 169,
+      "formation_bus": "0x08456A44",
+      "formation_file": "0x00456A44",
+      "formation_id_one_based": 107
+    },
+    {
+      "map_id": 445,
+      "actor_record_bus": "0x081573D8",
+      "actor_record_file": "0x001573D8",
+      "actor_index": 8,
+      "control_byte": 169,
+      "formation_bus": "0x08456A44",
+      "formation_file": "0x00456A44",
+      "formation_id_one_based": 107
+    },
+    {
+      "map_id": 446,
+      "actor_record_bus": "0x0815745C",
+      "actor_record_file": "0x0015745C",
+      "actor_index": 1,
+      "control_byte": 189,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 446,
+      "actor_record_bus": "0x0815746C",
+      "actor_record_file": "0x0015746C",
+      "actor_index": 2,
+      "control_byte": 189,
+      "formation_bus": "0x084569F4",
+      "formation_file": "0x004569F4",
+      "formation_id_one_based": 105
+    },
+    {
+      "map_id": 446,
+      "actor_record_bus": "0x0815747C",
+      "actor_record_file": "0x0015747C",
+      "actor_index": 3,
+      "control_byte": 189,
+      "formation_bus": "0x084569F4",
+      "formation_file": "0x004569F4",
+      "formation_id_one_based": 105
+    },
+    {
+      "map_id": 447,
+      "actor_record_bus": "0x08157510",
+      "actor_record_file": "0x00157510",
+      "actor_index": 1,
+      "control_byte": 189,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 447,
+      "actor_record_bus": "0x08157520",
+      "actor_record_file": "0x00157520",
+      "actor_index": 2,
+      "control_byte": 189,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 447,
+      "actor_record_bus": "0x08157530",
+      "actor_record_file": "0x00157530",
+      "actor_index": 3,
+      "control_byte": 189,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 447,
+      "actor_record_bus": "0x08157540",
+      "actor_record_file": "0x00157540",
+      "actor_index": 4,
+      "control_byte": 189,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 449,
+      "actor_record_bus": "0x08157668",
+      "actor_record_file": "0x00157668",
+      "actor_index": 3,
+      "control_byte": 189,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 449,
+      "actor_record_bus": "0x08157678",
+      "actor_record_file": "0x00157678",
+      "actor_index": 4,
+      "control_byte": 189,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 449,
+      "actor_record_bus": "0x08157688",
+      "actor_record_file": "0x00157688",
+      "actor_index": 5,
+      "control_byte": 189,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 449,
+      "actor_record_bus": "0x08157698",
+      "actor_record_file": "0x00157698",
+      "actor_index": 6,
+      "control_byte": 189,
+      "formation_bus": "0x084569F4",
+      "formation_file": "0x004569F4",
+      "formation_id_one_based": 105
+    },
+    {
+      "map_id": 449,
+      "actor_record_bus": "0x081576A8",
+      "actor_record_file": "0x001576A8",
+      "actor_index": 7,
+      "control_byte": 189,
+      "formation_bus": "0x084569F4",
+      "formation_file": "0x004569F4",
+      "formation_id_one_based": 105
+    },
+    {
+      "map_id": 450,
+      "actor_record_bus": "0x0815773C",
+      "actor_record_file": "0x0015773C",
+      "actor_index": 1,
+      "control_byte": 173,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 450,
+      "actor_record_bus": "0x0815774C",
+      "actor_record_file": "0x0015774C",
+      "actor_index": 2,
+      "control_byte": 173,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 450,
+      "actor_record_bus": "0x0815775C",
+      "actor_record_file": "0x0015775C",
+      "actor_index": 3,
+      "control_byte": 173,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 450,
+      "actor_record_bus": "0x0815776C",
+      "actor_record_file": "0x0015776C",
+      "actor_index": 4,
+      "control_byte": 189,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 450,
+      "actor_record_bus": "0x0815777C",
+      "actor_record_file": "0x0015777C",
+      "actor_index": 5,
+      "control_byte": 173,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 450,
+      "actor_record_bus": "0x0815778C",
+      "actor_record_file": "0x0015778C",
+      "actor_index": 6,
+      "control_byte": 173,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 450,
+      "actor_record_bus": "0x0815779C",
+      "actor_record_file": "0x0015779C",
+      "actor_index": 7,
+      "control_byte": 173,
+      "formation_bus": "0x0845642C",
+      "formation_file": "0x0045642C",
+      "formation_id_one_based": 68
+    },
+    {
+      "map_id": 457,
+      "actor_record_bus": "0x08157EC8",
+      "actor_record_file": "0x00157EC8",
+      "actor_index": 2,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 457,
+      "actor_record_bus": "0x08157ED8",
+      "actor_record_file": "0x00157ED8",
+      "actor_index": 3,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 457,
+      "actor_record_bus": "0x08157EE8",
+      "actor_record_file": "0x00157EE8",
+      "actor_index": 4,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 457,
+      "actor_record_bus": "0x08157EF8",
+      "actor_record_file": "0x00157EF8",
+      "actor_index": 5,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 457,
+      "actor_record_bus": "0x08157F08",
+      "actor_record_file": "0x00157F08",
+      "actor_index": 6,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 457,
+      "actor_record_bus": "0x08157F18",
+      "actor_record_file": "0x00157F18",
+      "actor_index": 7,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 457,
+      "actor_record_bus": "0x08157F28",
+      "actor_record_file": "0x00157F28",
+      "actor_index": 8,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 457,
+      "actor_record_bus": "0x08157F38",
+      "actor_record_file": "0x00157F38",
+      "actor_index": 9,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 458,
+      "actor_record_bus": "0x08157FFC",
+      "actor_record_file": "0x00157FFC",
+      "actor_index": 2,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 458,
+      "actor_record_bus": "0x0815800C",
+      "actor_record_file": "0x0015800C",
+      "actor_index": 3,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 458,
+      "actor_record_bus": "0x0815801C",
+      "actor_record_file": "0x0015801C",
+      "actor_index": 4,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 458,
+      "actor_record_bus": "0x0815802C",
+      "actor_record_file": "0x0015802C",
+      "actor_index": 5,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 458,
+      "actor_record_bus": "0x0815803C",
+      "actor_record_file": "0x0015803C",
+      "actor_index": 6,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 458,
+      "actor_record_bus": "0x0815804C",
+      "actor_record_file": "0x0015804C",
+      "actor_index": 7,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 458,
+      "actor_record_bus": "0x0815805C",
+      "actor_record_file": "0x0015805C",
+      "actor_index": 8,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 458,
+      "actor_record_bus": "0x0815806C",
+      "actor_record_file": "0x0015806C",
+      "actor_index": 9,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 458,
+      "actor_record_bus": "0x0815807C",
+      "actor_record_file": "0x0015807C",
+      "actor_index": 10,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 458,
+      "actor_record_bus": "0x0815808C",
+      "actor_record_file": "0x0015808C",
+      "actor_index": 11,
+      "control_byte": 169,
+      "formation_bus": "0x08456404",
+      "formation_file": "0x00456404",
+      "formation_id_one_based": 67
+    },
+    {
+      "map_id": 461,
+      "actor_record_bus": "0x081582A8",
+      "actor_record_file": "0x001582A8",
+      "actor_index": 5,
+      "control_byte": 185,
+      "formation_bus": "0x08456AE4",
+      "formation_file": "0x00456AE4",
+      "formation_id_one_based": 111
+    },
+    {
+      "map_id": 461,
+      "actor_record_bus": "0x081582B8",
+      "actor_record_file": "0x001582B8",
+      "actor_index": 6,
+      "control_byte": 185,
+      "formation_bus": "0x08456AE4",
+      "formation_file": "0x00456AE4",
+      "formation_id_one_based": 111
+    },
+    {
+      "map_id": 461,
+      "actor_record_bus": "0x081582C8",
+      "actor_record_file": "0x001582C8",
+      "actor_index": 7,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 462,
+      "actor_record_bus": "0x0815839C",
+      "actor_record_file": "0x0015839C",
+      "actor_index": 6,
+      "control_byte": 185,
+      "formation_bus": "0x08456AE4",
+      "formation_file": "0x00456AE4",
+      "formation_id_one_based": 111
+    },
+    {
+      "map_id": 462,
+      "actor_record_bus": "0x081583AC",
+      "actor_record_file": "0x001583AC",
+      "actor_index": 7,
+      "control_byte": 185,
+      "formation_bus": "0x08456AE4",
+      "formation_file": "0x00456AE4",
+      "formation_id_one_based": 111
+    },
+    {
+      "map_id": 462,
+      "actor_record_bus": "0x081583BC",
+      "actor_record_file": "0x001583BC",
+      "actor_index": 8,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 462,
+      "actor_record_bus": "0x081583CC",
+      "actor_record_file": "0x001583CC",
+      "actor_index": 9,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 463,
+      "actor_record_bus": "0x081584E0",
+      "actor_record_file": "0x001584E0",
+      "actor_index": 10,
+      "control_byte": 185,
+      "formation_bus": "0x08456AE4",
+      "formation_file": "0x00456AE4",
+      "formation_id_one_based": 111
+    },
+    {
+      "map_id": 463,
+      "actor_record_bus": "0x081584F0",
+      "actor_record_file": "0x001584F0",
+      "actor_index": 11,
+      "control_byte": 185,
+      "formation_bus": "0x08456AE4",
+      "formation_file": "0x00456AE4",
+      "formation_id_one_based": 111
+    },
+    {
+      "map_id": 463,
+      "actor_record_bus": "0x08158500",
+      "actor_record_file": "0x00158500",
+      "actor_index": 12,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 464,
+      "actor_record_bus": "0x08158614",
+      "actor_record_file": "0x00158614",
+      "actor_index": 9,
+      "control_byte": 185,
+      "formation_bus": "0x08456AE4",
+      "formation_file": "0x00456AE4",
+      "formation_id_one_based": 111
+    },
+    {
+      "map_id": 464,
+      "actor_record_bus": "0x08158624",
+      "actor_record_file": "0x00158624",
+      "actor_index": 10,
+      "control_byte": 185,
+      "formation_bus": "0x08456AE4",
+      "formation_file": "0x00456AE4",
+      "formation_id_one_based": 111
+    },
+    {
+      "map_id": 464,
+      "actor_record_bus": "0x08158634",
+      "actor_record_file": "0x00158634",
+      "actor_index": 11,
+      "control_byte": 185,
+      "formation_bus": "0x08456AE4",
+      "formation_file": "0x00456AE4",
+      "formation_id_one_based": 111
+    },
+    {
+      "map_id": 464,
+      "actor_record_bus": "0x08158644",
+      "actor_record_file": "0x00158644",
+      "actor_index": 12,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 470,
+      "actor_record_bus": "0x08158ACC",
+      "actor_record_file": "0x00158ACC",
+      "actor_index": 3,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 470,
+      "actor_record_bus": "0x08158ADC",
+      "actor_record_file": "0x00158ADC",
+      "actor_index": 4,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 470,
+      "actor_record_bus": "0x08158B3C",
+      "actor_record_file": "0x00158B3C",
+      "actor_index": 10,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 471,
+      "actor_record_bus": "0x08158C30",
+      "actor_record_file": "0x00158C30",
+      "actor_index": 8,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 471,
+      "actor_record_bus": "0x08158C40",
+      "actor_record_file": "0x00158C40",
+      "actor_index": 9,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 471,
+      "actor_record_bus": "0x08158C50",
+      "actor_record_file": "0x00158C50",
+      "actor_index": 10,
+      "control_byte": 169,
+      "formation_bus": "0x084569A4",
+      "formation_file": "0x004569A4",
+      "formation_id_one_based": 103
+    },
+    {
+      "map_id": 471,
+      "actor_record_bus": "0x08158C60",
+      "actor_record_file": "0x00158C60",
+      "actor_index": 11,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 471,
+      "actor_record_bus": "0x08158C70",
+      "actor_record_file": "0x00158C70",
+      "actor_index": 12,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 472,
+      "actor_record_bus": "0x08158D14",
+      "actor_record_file": "0x00158D14",
+      "actor_index": 3,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 472,
+      "actor_record_bus": "0x08158D24",
+      "actor_record_file": "0x00158D24",
+      "actor_index": 4,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 472,
+      "actor_record_bus": "0x08158D74",
+      "actor_record_file": "0x00158D74",
+      "actor_index": 9,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 472,
+      "actor_record_bus": "0x08158D84",
+      "actor_record_file": "0x00158D84",
+      "actor_index": 10,
+      "control_byte": 169,
+      "formation_bus": "0x084569A4",
+      "formation_file": "0x004569A4",
+      "formation_id_one_based": 103
+    },
+    {
+      "map_id": 472,
+      "actor_record_bus": "0x08158D94",
+      "actor_record_file": "0x00158D94",
+      "actor_index": 11,
+      "control_byte": 169,
+      "formation_bus": "0x084569A4",
+      "formation_file": "0x004569A4",
+      "formation_id_one_based": 103
+    },
+    {
+      "map_id": 472,
+      "actor_record_bus": "0x08158DA4",
+      "actor_record_file": "0x00158DA4",
+      "actor_index": 12,
+      "control_byte": 169,
+      "formation_bus": "0x084569CC",
+      "formation_file": "0x004569CC",
+      "formation_id_one_based": 104
+    },
+    {
+      "map_id": 473,
+      "actor_record_bus": "0x08158E48",
+      "actor_record_file": "0x00158E48",
+      "actor_index": 3,
+      "control_byte": 169,
+      "formation_bus": "0x084569A4",
+      "formation_file": "0x004569A4",
+      "formation_id_one_based": 103
+    },
+    {
+      "map_id": 473,
+      "actor_record_bus": "0x08158E58",
+      "actor_record_file": "0x00158E58",
+      "actor_index": 4,
+      "control_byte": 169,
+      "formation_bus": "0x084569A4",
+      "formation_file": "0x004569A4",
+      "formation_id_one_based": 103
+    },
+    {
+      "map_id": 473,
+      "actor_record_bus": "0x08158EC8",
+      "actor_record_file": "0x00158EC8",
+      "actor_index": 11,
+      "control_byte": 169,
+      "formation_bus": "0x084569A4",
+      "formation_file": "0x004569A4",
+      "formation_id_one_based": 103
+    },
+    {
+      "map_id": 478,
+      "actor_record_bus": "0x0815917C",
+      "actor_record_file": "0x0015917C",
+      "actor_index": 1,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 478,
+      "actor_record_bus": "0x0815918C",
+      "actor_record_file": "0x0015918C",
+      "actor_index": 2,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 478,
+      "actor_record_bus": "0x0815919C",
+      "actor_record_file": "0x0015919C",
+      "actor_index": 3,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 478,
+      "actor_record_bus": "0x081591AC",
+      "actor_record_file": "0x001591AC",
+      "actor_index": 4,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 478,
+      "actor_record_bus": "0x081591BC",
+      "actor_record_file": "0x001591BC",
+      "actor_index": 5,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 478,
+      "actor_record_bus": "0x081591CC",
+      "actor_record_file": "0x001591CC",
+      "actor_index": 6,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 479,
+      "actor_record_bus": "0x08159250",
+      "actor_record_file": "0x00159250",
+      "actor_index": 1,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 479,
+      "actor_record_bus": "0x08159260",
+      "actor_record_file": "0x00159260",
+      "actor_index": 2,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 479,
+      "actor_record_bus": "0x08159270",
+      "actor_record_file": "0x00159270",
+      "actor_index": 3,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 480,
+      "actor_record_bus": "0x081592F4",
+      "actor_record_file": "0x001592F4",
+      "actor_index": 1,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 480,
+      "actor_record_bus": "0x08159304",
+      "actor_record_file": "0x00159304",
+      "actor_index": 2,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 480,
+      "actor_record_bus": "0x08159314",
+      "actor_record_file": "0x00159314",
+      "actor_index": 3,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 480,
+      "actor_record_bus": "0x08159324",
+      "actor_record_file": "0x00159324",
+      "actor_index": 4,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 480,
+      "actor_record_bus": "0x08159334",
+      "actor_record_file": "0x00159334",
+      "actor_index": 5,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 480,
+      "actor_record_bus": "0x08159344",
+      "actor_record_file": "0x00159344",
+      "actor_index": 6,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 481,
+      "actor_record_bus": "0x081593C8",
+      "actor_record_file": "0x001593C8",
+      "actor_index": 1,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 481,
+      "actor_record_bus": "0x081593D8",
+      "actor_record_file": "0x001593D8",
+      "actor_index": 2,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    },
+    {
+      "map_id": 481,
+      "actor_record_bus": "0x081593E8",
+      "actor_record_file": "0x001593E8",
+      "actor_index": 3,
+      "control_byte": 169,
+      "formation_bus": "0x08456A1C",
+      "formation_file": "0x00456A1C",
+      "formation_id_one_based": 106
+    }
+  ],
+  "maps": [
+    {
+      "map_id": 434,
+      "record_bus": "0x0863035C",
+      "record_file": "0x0063035C",
+      "event_table_bus": "0x815b39c",
+      "actor_table_bus": "0x0815693C",
+      "ordinary_actor_references": 4
+    },
+    {
+      "map_id": 435,
+      "record_bus": "0x08630378",
+      "record_file": "0x00630378",
+      "event_table_bus": "0x815b3c4",
+      "actor_table_bus": "0x08156A10",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 436,
+      "record_bus": "0x08630394",
+      "record_file": "0x00630394",
+      "event_table_bus": "0x815b3dc",
+      "actor_table_bus": "0x08156AD4",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 437,
+      "record_bus": "0x086303B0",
+      "record_file": "0x006303B0",
+      "event_table_bus": "0x815b3e4",
+      "actor_table_bus": "0x08156B78",
+      "ordinary_actor_references": 7
+    },
+    {
+      "map_id": 438,
+      "record_bus": "0x086303CC",
+      "record_file": "0x006303CC",
+      "event_table_bus": "0x815b40c",
+      "actor_table_bus": "0x08156C6C",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 439,
+      "record_bus": "0x086303E8",
+      "record_file": "0x006303E8",
+      "event_table_bus": "0x815b41c",
+      "actor_table_bus": "0x08156D50",
+      "ordinary_actor_references": 1
+    },
+    {
+      "map_id": 440,
+      "record_bus": "0x08630404",
+      "record_file": "0x00630404",
+      "event_table_bus": "0x815b424",
+      "actor_table_bus": "0x08156EB4",
+      "ordinary_actor_references": 1
+    },
+    {
+      "map_id": 441,
+      "record_bus": "0x08630420",
+      "record_file": "0x00630420",
+      "event_table_bus": "0x815b42c",
+      "actor_table_bus": "0x08157018",
+      "ordinary_actor_references": 1
+    },
+    {
+      "map_id": 442,
+      "record_bus": "0x0863043C",
+      "record_file": "0x0063043C",
+      "event_table_bus": "0x815b434",
+      "actor_table_bus": "0x0815717C",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 443,
+      "record_bus": "0x08630458",
+      "record_file": "0x00630458",
+      "event_table_bus": "0x815b43c",
+      "actor_table_bus": "0x08157200",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 444,
+      "record_bus": "0x08630474",
+      "record_file": "0x00630474",
+      "event_table_bus": "0x815b444",
+      "actor_table_bus": "0x08157274",
+      "ordinary_actor_references": 6
+    },
+    {
+      "map_id": 445,
+      "record_bus": "0x08630490",
+      "record_file": "0x00630490",
+      "event_table_bus": "0x815b44c",
+      "actor_table_bus": "0x08157368",
+      "ordinary_actor_references": 8
+    },
+    {
+      "map_id": 446,
+      "record_bus": "0x086304AC",
+      "record_file": "0x006304AC",
+      "event_table_bus": "0x815b454",
+      "actor_table_bus": "0x0815745C",
+      "ordinary_actor_references": 3
+    },
+    {
+      "map_id": 447,
+      "record_bus": "0x086304C8",
+      "record_file": "0x006304C8",
+      "event_table_bus": "0x815b4bc",
+      "actor_table_bus": "0x08157510",
+      "ordinary_actor_references": 4
+    },
+    {
+      "map_id": 448,
+      "record_bus": "0x086304E4",
+      "record_file": "0x006304E4",
+      "event_table_bus": "0x815b4c4",
+      "actor_table_bus": "0x081575D4",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 449,
+      "record_bus": "0x08630500",
+      "record_file": "0x00630500",
+      "event_table_bus": "0x815b4cc",
+      "actor_table_bus": "0x08157648",
+      "ordinary_actor_references": 5
+    },
+    {
+      "map_id": 450,
+      "record_bus": "0x0863051C",
+      "record_file": "0x0063051C",
+      "event_table_bus": "0x815b564",
+      "actor_table_bus": "0x0815773C",
+      "ordinary_actor_references": 7
+    },
+    {
+      "map_id": 451,
+      "record_bus": "0x08630538",
+      "record_file": "0x00630538",
+      "event_table_bus": "0x815b56c",
+      "actor_table_bus": "0x08157830",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 452,
+      "record_bus": "0x08630554",
+      "record_file": "0x00630554",
+      "event_table_bus": "0x815b574",
+      "actor_table_bus": "0x081578A4",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 453,
+      "record_bus": "0x08630570",
+      "record_file": "0x00630570",
+      "event_table_bus": "0x815b59c",
+      "actor_table_bus": "0x081579E8",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 454,
+      "record_bus": "0x0863058C",
+      "record_file": "0x0063058C",
+      "event_table_bus": "0x815b5bc",
+      "actor_table_bus": "0x08157B4C",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 455,
+      "record_bus": "0x086305A8",
+      "record_file": "0x006305A8",
+      "event_table_bus": "0x815b5d4",
+      "actor_table_bus": "0x08157C90",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 456,
+      "record_bus": "0x086305C4",
+      "record_file": "0x006305C4",
+      "event_table_bus": "0x815b5e4",
+      "actor_table_bus": "0x08157D74",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 457,
+      "record_bus": "0x086305E0",
+      "record_file": "0x006305E0",
+      "event_table_bus": "0x815b5ec",
+      "actor_table_bus": "0x08157EB8",
+      "ordinary_actor_references": 8
+    },
+    {
+      "map_id": 458,
+      "record_bus": "0x086305FC",
+      "record_file": "0x006305FC",
+      "event_table_bus": "0x815b614",
+      "actor_table_bus": "0x08157FEC",
+      "ordinary_actor_references": 10
+    },
+    {
+      "map_id": 459,
+      "record_bus": "0x08630618",
+      "record_file": "0x00630618",
+      "event_table_bus": "0x815b63c",
+      "actor_table_bus": "0x08158120",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 460,
+      "record_bus": "0x08630634",
+      "record_file": "0x00630634",
+      "event_table_bus": "0x815b644",
+      "actor_table_bus": "0x081581E4",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 461,
+      "record_bus": "0x08630650",
+      "record_file": "0x00630650",
+      "event_table_bus": "0x815b64c",
+      "actor_table_bus": "0x08158268",
+      "ordinary_actor_references": 3
+    },
+    {
+      "map_id": 462,
+      "record_bus": "0x0863066C",
+      "record_file": "0x0063066C",
+      "event_table_bus": "0x815b65c",
+      "actor_table_bus": "0x0815834C",
+      "ordinary_actor_references": 4
+    },
+    {
+      "map_id": 463,
+      "record_bus": "0x08630688",
+      "record_file": "0x00630688",
+      "event_table_bus": "0x815b664",
+      "actor_table_bus": "0x08158450",
+      "ordinary_actor_references": 3
+    },
+    {
+      "map_id": 464,
+      "record_bus": "0x086306A4",
+      "record_file": "0x006306A4",
+      "event_table_bus": "0x815b66c",
+      "actor_table_bus": "0x08158594",
+      "ordinary_actor_references": 4
+    },
+    {
+      "map_id": 465,
+      "record_bus": "0x086306C0",
+      "record_file": "0x006306C0",
+      "event_table_bus": "0x815b674",
+      "actor_table_bus": "0x081586C8",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 466,
+      "record_bus": "0x086306DC",
+      "record_file": "0x006306DC",
+      "event_table_bus": "0x815b67c",
+      "actor_table_bus": "0x0815874C",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 467,
+      "record_bus": "0x086306F8",
+      "record_file": "0x006306F8",
+      "event_table_bus": "0x815b69c",
+      "actor_table_bus": "0x08158810",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 468,
+      "record_bus": "0x08630714",
+      "record_file": "0x00630714",
+      "event_table_bus": "0x815b6a4",
+      "actor_table_bus": "0x081588F4",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 469,
+      "record_bus": "0x08630730",
+      "record_file": "0x00630730",
+      "event_table_bus": "0x815b6ac",
+      "actor_table_bus": "0x081589D8",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 470,
+      "record_bus": "0x0863074C",
+      "record_file": "0x0063074C",
+      "event_table_bus": "0x815b6b4",
+      "actor_table_bus": "0x08158AAC",
+      "ordinary_actor_references": 3
+    },
+    {
+      "map_id": 471,
+      "record_bus": "0x08630768",
+      "record_file": "0x00630768",
+      "event_table_bus": "0x815b704",
+      "actor_table_bus": "0x08158BC0",
+      "ordinary_actor_references": 5
+    },
+    {
+      "map_id": 472,
+      "record_bus": "0x08630784",
+      "record_file": "0x00630784",
+      "event_table_bus": "0x815b72c",
+      "actor_table_bus": "0x08158CF4",
+      "ordinary_actor_references": 6
+    },
+    {
+      "map_id": 473,
+      "record_bus": "0x086307A0",
+      "record_file": "0x006307A0",
+      "event_table_bus": "0x815b744",
+      "actor_table_bus": "0x08158E28",
+      "ordinary_actor_references": 3
+    },
+    {
+      "map_id": 474,
+      "record_bus": "0x086307BC",
+      "record_file": "0x006307BC",
+      "event_table_bus": "0x815b76c",
+      "actor_table_bus": "0x08158F4C",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 475,
+      "record_bus": "0x086307D8",
+      "record_file": "0x006307D8",
+      "event_table_bus": "0x815b774",
+      "actor_table_bus": "0x08158FD0",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 476,
+      "record_bus": "0x086307F4",
+      "record_file": "0x006307F4",
+      "event_table_bus": "0x815b784",
+      "actor_table_bus": "0x08159044",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 477,
+      "record_bus": "0x08630810",
+      "record_file": "0x00630810",
+      "event_table_bus": "0x815b79c",
+      "actor_table_bus": "0x081590E8",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 478,
+      "record_bus": "0x0863082C",
+      "record_file": "0x0063082C",
+      "event_table_bus": "0x815b7a4",
+      "actor_table_bus": "0x0815917C",
+      "ordinary_actor_references": 6
+    },
+    {
+      "map_id": 479,
+      "record_bus": "0x08630848",
+      "record_file": "0x00630848",
+      "event_table_bus": "0x815b7b4",
+      "actor_table_bus": "0x08159250",
+      "ordinary_actor_references": 3
+    },
+    {
+      "map_id": 480,
+      "record_bus": "0x08630864",
+      "record_file": "0x00630864",
+      "event_table_bus": "0x815b7bc",
+      "actor_table_bus": "0x081592F4",
+      "ordinary_actor_references": 6
+    },
+    {
+      "map_id": 481,
+      "record_bus": "0x08630880",
+      "record_file": "0x00630880",
+      "event_table_bus": "0x815b7cc",
+      "actor_table_bus": "0x081593C8",
+      "ordinary_actor_references": 3
+    },
+    {
+      "map_id": 482,
+      "record_bus": "0x0863089C",
+      "record_file": "0x0063089C",
+      "event_table_bus": "0x815b7d4",
+      "actor_table_bus": "0x0815946C",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 483,
+      "record_bus": "0x086308B8",
+      "record_file": "0x006308B8",
+      "event_table_bus": "0x815b7e4",
+      "actor_table_bus": "0x08159500",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 484,
+      "record_bus": "0x086308D4",
+      "record_file": "0x006308D4",
+      "event_table_bus": "0x815b7fc",
+      "actor_table_bus": "0x081595B4",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 485,
+      "record_bus": "0x086308F0",
+      "record_file": "0x006308F0",
+      "event_table_bus": "0x815b804",
+      "actor_table_bus": "0x081596F8",
+      "ordinary_actor_references": 0
+    },
+    {
+      "map_id": 486,
+      "record_bus": "0x0863090C",
+      "record_file": "0x0063090C",
+      "event_table_bus": "0x815b80c",
+      "actor_table_bus": "0x081597CC",
+      "ordinary_actor_references": 0
+    }
+  ],
+  "exit_records": [
+    {
+      "map_id": 434,
+      "record_bus": "0x0813CAFC",
+      "destination_raw_u16": 437
+    },
+    {
+      "map_id": 434,
+      "record_bus": "0x0813CB06",
+      "destination_raw_u16": 436
+    },
+    {
+      "map_id": 436,
+      "record_bus": "0x0813CB14",
+      "destination_raw_u16": 434
+    },
+    {
+      "map_id": 436,
+      "record_bus": "0x0813CB1E",
+      "destination_raw_u16": 28
+    },
+    {
+      "map_id": 437,
+      "record_bus": "0x0813CB2C",
+      "destination_raw_u16": 434
+    },
+    {
+      "map_id": 439,
+      "record_bus": "0x0813CB38",
+      "destination_raw_u16": 440
+    },
+    {
+      "map_id": 439,
+      "record_bus": "0x0813CB42",
+      "destination_raw_u16": 439
+    },
+    {
+      "map_id": 439,
+      "record_bus": "0x0813CB4C",
+      "destination_raw_u16": 439
+    },
+    {
+      "map_id": 439,
+      "record_bus": "0x0813CB56",
+      "destination_raw_u16": 439
+    },
+    {
+      "map_id": 439,
+      "record_bus": "0x0813CB60",
+      "destination_raw_u16": 439
+    },
+    {
+      "map_id": 439,
+      "record_bus": "0x0813CB6A",
+      "destination_raw_u16": 439
+    },
+    {
+      "map_id": 439,
+      "record_bus": "0x0813CB74",
+      "destination_raw_u16": 439
+    },
+    {
+      "map_id": 439,
+      "record_bus": "0x0813CB7E",
+      "destination_raw_u16": 442
+    },
+    {
+      "map_id": 440,
+      "record_bus": "0x0813CB8C",
+      "destination_raw_u16": 439
+    },
+    {
+      "map_id": 440,
+      "record_bus": "0x0813CB96",
+      "destination_raw_u16": 441
+    },
+    {
+      "map_id": 440,
+      "record_bus": "0x0813CBA0",
+      "destination_raw_u16": 440
+    },
+    {
+      "map_id": 440,
+      "record_bus": "0x0813CBAA",
+      "destination_raw_u16": 440
+    },
+    {
+      "map_id": 440,
+      "record_bus": "0x0813CBB4",
+      "destination_raw_u16": 440
+    },
+    {
+      "map_id": 440,
+      "record_bus": "0x0813CBBE",
+      "destination_raw_u16": 440
+    },
+    {
+      "map_id": 440,
+      "record_bus": "0x0813CBC8",
+      "destination_raw_u16": 440
+    },
+    {
+      "map_id": 440,
+      "record_bus": "0x0813CBD2",
+      "destination_raw_u16": 440
+    },
+    {
+      "map_id": 441,
+      "record_bus": "0x0813CBE0",
+      "destination_raw_u16": 440
+    },
+    {
+      "map_id": 441,
+      "record_bus": "0x0813CBEA",
+      "destination_raw_u16": 441
+    },
+    {
+      "map_id": 441,
+      "record_bus": "0x0813CBF4",
+      "destination_raw_u16": 441
+    },
+    {
+      "map_id": 441,
+      "record_bus": "0x0813CBFE",
+      "destination_raw_u16": 441
+    },
+    {
+      "map_id": 441,
+      "record_bus": "0x0813CC08",
+      "destination_raw_u16": 441
+    },
+    {
+      "map_id": 441,
+      "record_bus": "0x0813CC12",
+      "destination_raw_u16": 465
+    },
+    {
+      "map_id": 442,
+      "record_bus": "0x0813CC20",
+      "destination_raw_u16": 455
+    },
+    {
+      "map_id": 442,
+      "record_bus": "0x0813CC2A",
+      "destination_raw_u16": 439
+    },
+    {
+      "map_id": 442,
+      "record_bus": "0x0813CC34",
+      "destination_raw_u16": 442
+    },
+    {
+      "map_id": 442,
+      "record_bus": "0x0813CC3E",
+      "destination_raw_u16": 442
+    },
+    {
+      "map_id": 442,
+      "record_bus": "0x0813CC48",
+      "destination_raw_u16": 442
+    },
+    {
+      "map_id": 442,
+      "record_bus": "0x0813CC52",
+      "destination_raw_u16": 442
+    },
+    {
+      "map_id": 444,
+      "record_bus": "0x0813CC60",
+      "destination_raw_u16": 457
+    },
+    {
+      "map_id": 444,
+      "record_bus": "0x0813CC6A",
+      "destination_raw_u16": 468
+    },
+    {
+      "map_id": 445,
+      "record_bus": "0x0813CC78",
+      "destination_raw_u16": 457
+    },
+    {
+      "map_id": 445,
+      "record_bus": "0x0813CC82",
+      "destination_raw_u16": 458
+    },
+    {
+      "map_id": 446,
+      "record_bus": "0x0813CC90",
+      "destination_raw_u16": 448
+    },
+    {
+      "map_id": 446,
+      "record_bus": "0x0813CC9A",
+      "destination_raw_u16": 484
+    },
+    {
+      "map_id": 447,
+      "record_bus": "0x0813CCA8",
+      "destination_raw_u16": 448
+    },
+    {
+      "map_id": 448,
+      "record_bus": "0x0813CCB4",
+      "destination_raw_u16": 446
+    },
+    {
+      "map_id": 448,
+      "record_bus": "0x0813CCBE",
+      "destination_raw_u16": 447
+    },
+    {
+      "map_id": 448,
+      "record_bus": "0x0813CCC8",
+      "destination_raw_u16": 458
+    },
+    {
+      "map_id": 449,
+      "record_bus": "0x0813CCD4",
+      "destination_raw_u16": 451
+    },
+    {
+      "map_id": 449,
+      "record_bus": "0x0813CCDE",
+      "destination_raw_u16": 452
+    },
+    {
+      "map_id": 450,
+      "record_bus": "0x0813CCEC",
+      "destination_raw_u16": 451
+    },
+    {
+      "map_id": 451,
+      "record_bus": "0x0813CCF8",
+      "destination_raw_u16": 450
+    },
+    {
+      "map_id": 451,
+      "record_bus": "0x0813CD02",
+      "destination_raw_u16": 458
+    },
+    {
+      "map_id": 451,
+      "record_bus": "0x0813CD0C",
+      "destination_raw_u16": 449
+    },
+    {
+      "map_id": 452,
+      "record_bus": "0x0813CD18",
+      "destination_raw_u16": 453
+    },
+    {
+      "map_id": 452,
+      "record_bus": "0x0813CD22",
+      "destination_raw_u16": 449
+    },
+    {
+      "map_id": 453,
+      "record_bus": "0x0813CD30",
+      "destination_raw_u16": 452
+    },
+    {
+      "map_id": 453,
+      "record_bus": "0x0813CD3A",
+      "destination_raw_u16": 454
+    },
+    {
+      "map_id": 454,
+      "record_bus": "0x0813CD48",
+      "destination_raw_u16": 453
+    },
+    {
+      "map_id": 454,
+      "record_bus": "0x0813CD52",
+      "destination_raw_u16": 455
+    },
+    {
+      "map_id": 454,
+      "record_bus": "0x0813CD5C",
+      "destination_raw_u16": 469
+    },
+    {
+      "map_id": 455,
+      "record_bus": "0x0813CD68",
+      "destination_raw_u16": 454
+    },
+    {
+      "map_id": 456,
+      "record_bus": "0x0813CD74",
+      "destination_raw_u16": 453
+    },
+    {
+      "map_id": 457,
+      "record_bus": "0x0813CD80",
+      "destination_raw_u16": 444
+    },
+    {
+      "map_id": 457,
+      "record_bus": "0x0813CD8A",
+      "destination_raw_u16": 445
+    },
+    {
+      "map_id": 458,
+      "record_bus": "0x0813CD98",
+      "destination_raw_u16": 448
+    },
+    {
+      "map_id": 458,
+      "record_bus": "0x0813CDA2",
+      "destination_raw_u16": 451
+    },
+    {
+      "map_id": 458,
+      "record_bus": "0x0813CDAC",
+      "destination_raw_u16": 480
+    },
+    {
+      "map_id": 458,
+      "record_bus": "0x0813CDB6",
+      "destination_raw_u16": 445
+    },
+    {
+      "map_id": 461,
+      "record_bus": "0x0813CDC4",
+      "destination_raw_u16": 462
+    },
+    {
+      "map_id": 461,
+      "record_bus": "0x0813CDCE",
+      "destination_raw_u16": 462
+    },
+    {
+      "map_id": 461,
+      "record_bus": "0x0813CDD8",
+      "destination_raw_u16": 462
+    },
+    {
+      "map_id": 461,
+      "record_bus": "0x0813CDE2",
+      "destination_raw_u16": 462
+    },
+    {
+      "map_id": 461,
+      "record_bus": "0x0813CDEC",
+      "destination_raw_u16": 462
+    },
+    {
+      "map_id": 461,
+      "record_bus": "0x0813CDF6",
+      "destination_raw_u16": 464
+    },
+    {
+      "map_id": 461,
+      "record_bus": "0x0813CE00",
+      "destination_raw_u16": 482
+    },
+    {
+      "map_id": 462,
+      "record_bus": "0x0813CE0C",
+      "destination_raw_u16": 461
+    },
+    {
+      "map_id": 462,
+      "record_bus": "0x0813CE16",
+      "destination_raw_u16": 461
+    },
+    {
+      "map_id": 462,
+      "record_bus": "0x0813CE20",
+      "destination_raw_u16": 461
+    },
+    {
+      "map_id": 462,
+      "record_bus": "0x0813CE2A",
+      "destination_raw_u16": 461
+    },
+    {
+      "map_id": 462,
+      "record_bus": "0x0813CE34",
+      "destination_raw_u16": 461
+    },
+    {
+      "map_id": 463,
+      "record_bus": "0x0813CE40",
+      "destination_raw_u16": 464
+    },
+    {
+      "map_id": 463,
+      "record_bus": "0x0813CE4A",
+      "destination_raw_u16": 464
+    },
+    {
+      "map_id": 463,
+      "record_bus": "0x0813CE54",
+      "destination_raw_u16": 464
+    },
+    {
+      "map_id": 463,
+      "record_bus": "0x0813CE5E",
+      "destination_raw_u16": 464
+    },
+    {
+      "map_id": 463,
+      "record_bus": "0x0813CE68",
+      "destination_raw_u16": 464
+    },
+    {
+      "map_id": 463,
+      "record_bus": "0x0813CE72",
+      "destination_raw_u16": 464
+    },
+    {
+      "map_id": 463,
+      "record_bus": "0x0813CE7C",
+      "destination_raw_u16": 477
+    },
+    {
+      "map_id": 463,
+      "record_bus": "0x0813CE86",
+      "destination_raw_u16": 464
+    },
+    {
+      "map_id": 463,
+      "record_bus": "0x0813CE90",
+      "destination_raw_u16": 478
+    },
+    {
+      "map_id": 463,
+      "record_bus": "0x0813CE9A",
+      "destination_raw_u16": 464
+    },
+    {
+      "map_id": 464,
+      "record_bus": "0x0813CEA8",
+      "destination_raw_u16": 463
+    },
+    {
+      "map_id": 464,
+      "record_bus": "0x0813CEB2",
+      "destination_raw_u16": 463
+    },
+    {
+      "map_id": 464,
+      "record_bus": "0x0813CEBC",
+      "destination_raw_u16": 463
+    },
+    {
+      "map_id": 464,
+      "record_bus": "0x0813CEC6",
+      "destination_raw_u16": 463
+    },
+    {
+      "map_id": 464,
+      "record_bus": "0x0813CED0",
+      "destination_raw_u16": 463
+    },
+    {
+      "map_id": 464,
+      "record_bus": "0x0813CEDA",
+      "destination_raw_u16": 463
+    },
+    {
+      "map_id": 464,
+      "record_bus": "0x0813CEE4",
+      "destination_raw_u16": 463
+    },
+    {
+      "map_id": 464,
+      "record_bus": "0x0813CEEE",
+      "destination_raw_u16": 461
+    },
+    {
+      "map_id": 464,
+      "record_bus": "0x0813CEF8",
+      "destination_raw_u16": 463
+    },
+    {
+      "map_id": 465,
+      "record_bus": "0x0813CF04",
+      "destination_raw_u16": 441
+    },
+    {
+      "map_id": 465,
+      "record_bus": "0x0813CF0E",
+      "destination_raw_u16": 483
+    },
+    {
+      "map_id": 467,
+      "record_bus": "0x0813CF1C",
+      "destination_raw_u16": 478
+    },
+    {
+      "map_id": 468,
+      "record_bus": "0x0813CF28",
+      "destination_raw_u16": 444
+    },
+    {
+      "map_id": 469,
+      "record_bus": "0x0813CF34",
+      "destination_raw_u16": 454
+    },
+    {
+      "map_id": 470,
+      "record_bus": "0x0813CF40",
+      "destination_raw_u16": 471
+    },
+    {
+      "map_id": 470,
+      "record_bus": "0x0813CF4A",
+      "destination_raw_u16": 471
+    },
+    {
+      "map_id": 470,
+      "record_bus": "0x0813CF54",
+      "destination_raw_u16": 471
+    },
+    {
+      "map_id": 470,
+      "record_bus": "0x0813CF5E",
+      "destination_raw_u16": 471
+    },
+    {
+      "map_id": 470,
+      "record_bus": "0x0813CF68",
+      "destination_raw_u16": 471
+    },
+    {
+      "map_id": 470,
+      "record_bus": "0x0813CF72",
+      "destination_raw_u16": 471
+    },
+    {
+      "map_id": 470,
+      "record_bus": "0x0813CF7C",
+      "destination_raw_u16": 472
+    },
+    {
+      "map_id": 470,
+      "record_bus": "0x0813CF86",
+      "destination_raw_u16": 461
+    },
+    {
+      "map_id": 470,
+      "record_bus": "0x0813CF90",
+      "destination_raw_u16": 472
+    },
+    {
+      "map_id": 470,
+      "record_bus": "0x0813CF9A",
+      "destination_raw_u16": 472
+    },
+    {
+      "map_id": 471,
+      "record_bus": "0x0813CFA8",
+      "destination_raw_u16": 470
+    },
+    {
+      "map_id": 471,
+      "record_bus": "0x0813CFB2",
+      "destination_raw_u16": 470
+    },
+    {
+      "map_id": 471,
+      "record_bus": "0x0813CFBC",
+      "destination_raw_u16": 470
+    },
+    {
+      "map_id": 471,
+      "record_bus": "0x0813CFC6",
+      "destination_raw_u16": 470
+    },
+    {
+      "map_id": 471,
+      "record_bus": "0x0813CFD0",
+      "destination_raw_u16": 470
+    },
+    {
+      "map_id": 471,
+      "record_bus": "0x0813CFDA",
+      "destination_raw_u16": 470
+    },
+    {
+      "map_id": 471,
+      "record_bus": "0x0813CFE4",
+      "destination_raw_u16": 473
+    },
+    {
+      "map_id": 471,
+      "record_bus": "0x0813CFEE",
+      "destination_raw_u16": 473
+    },
+    {
+      "map_id": 471,
+      "record_bus": "0x0813CFF8",
+      "destination_raw_u16": 473
+    },
+    {
+      "map_id": 471,
+      "record_bus": "0x0813D002",
+      "destination_raw_u16": 473
+    },
+    {
+      "map_id": 471,
+      "record_bus": "0x0813D00C",
+      "destination_raw_u16": 473
+    },
+    {
+      "map_id": 472,
+      "record_bus": "0x0813D018",
+      "destination_raw_u16": 473
+    },
+    {
+      "map_id": 472,
+      "record_bus": "0x0813D022",
+      "destination_raw_u16": 473
+    },
+    {
+      "map_id": 472,
+      "record_bus": "0x0813D02C",
+      "destination_raw_u16": 473
+    },
+    {
+      "map_id": 472,
+      "record_bus": "0x0813D036",
+      "destination_raw_u16": 473
+    },
+    {
+      "map_id": 472,
+      "record_bus": "0x0813D040",
+      "destination_raw_u16": 473
+    },
+    {
+      "map_id": 472,
+      "record_bus": "0x0813D04A",
+      "destination_raw_u16": 470
+    },
+    {
+      "map_id": 472,
+      "record_bus": "0x0813D054",
+      "destination_raw_u16": 470
+    },
+    {
+      "map_id": 472,
+      "record_bus": "0x0813D05E",
+      "destination_raw_u16": 470
+    },
+    {
+      "map_id": 473,
+      "record_bus": "0x0813D06C",
+      "destination_raw_u16": 472
+    },
+    {
+      "map_id": 473,
+      "record_bus": "0x0813D076",
+      "destination_raw_u16": 472
+    },
+    {
+      "map_id": 473,
+      "record_bus": "0x0813D080",
+      "destination_raw_u16": 472
+    },
+    {
+      "map_id": 473,
+      "record_bus": "0x0813D08A",
+      "destination_raw_u16": 472
+    },
+    {
+      "map_id": 473,
+      "record_bus": "0x0813D094",
+      "destination_raw_u16": 472
+    },
+    {
+      "map_id": 473,
+      "record_bus": "0x0813D09E",
+      "destination_raw_u16": 471
+    },
+    {
+      "map_id": 473,
+      "record_bus": "0x0813D0A8",
+      "destination_raw_u16": 471
+    },
+    {
+      "map_id": 473,
+      "record_bus": "0x0813D0B2",
+      "destination_raw_u16": 471
+    },
+    {
+      "map_id": 473,
+      "record_bus": "0x0813D0BC",
+      "destination_raw_u16": 471
+    },
+    {
+      "map_id": 473,
+      "record_bus": "0x0813D0C6",
+      "destination_raw_u16": 471
+    },
+    {
+      "map_id": 474,
+      "record_bus": "0x0813D0D4",
+      "destination_raw_u16": 475
+    },
+    {
+      "map_id": 475,
+      "record_bus": "0x0813D0E0",
+      "destination_raw_u16": 474
+    },
+    {
+      "map_id": 476,
+      "record_bus": "0x0813D0EC",
+      "destination_raw_u16": 454
+    },
+    {
+      "map_id": 477,
+      "record_bus": "0x0813D0F8",
+      "destination_raw_u16": 463
+    },
+    {
+      "map_id": 478,
+      "record_bus": "0x0813D104",
+      "destination_raw_u16": 479
+    },
+    {
+      "map_id": 478,
+      "record_bus": "0x0813D10E",
+      "destination_raw_u16": 463
+    },
+    {
+      "map_id": 478,
+      "record_bus": "0x0813D118",
+      "destination_raw_u16": 467
+    },
+    {
+      "map_id": 479,
+      "record_bus": "0x0813D124",
+      "destination_raw_u16": 478
+    },
+    {
+      "map_id": 480,
+      "record_bus": "0x0813D130",
+      "destination_raw_u16": 481
+    },
+    {
+      "map_id": 480,
+      "record_bus": "0x0813D13A",
+      "destination_raw_u16": 458
+    },
+    {
+      "map_id": 480,
+      "record_bus": "0x0813D144",
+      "destination_raw_u16": 484
+    },
+    {
+      "map_id": 481,
+      "record_bus": "0x0813D150",
+      "destination_raw_u16": 480
+    },
+    {
+      "map_id": 482,
+      "record_bus": "0x0813D15C",
+      "destination_raw_u16": 461
+    },
+    {
+      "map_id": 483,
+      "record_bus": "0x0813D168",
+      "destination_raw_u16": 465
+    },
+    {
+      "map_id": 484,
+      "record_bus": "0x0813D174",
+      "destination_raw_u16": 480
+    },
+    {
+      "map_id": 484,
+      "record_bus": "0x0813D17E",
+      "destination_raw_u16": 446
+    }
+  ],
+  "native_evidence": [
+    {
+      "start_bus": "0x0803F8A4",
+      "end_exclusive_bus": "0x0803F8E8",
+      "japanese_english_kaizo_identical": true,
+      "instructions": [
+        {
+          "bus": "0x0803F8A4",
+          "text": "ldr r3, [pc, #64] ; slot 0x0803F8E8 = 0x030018BC"
+        },
+        {
+          "bus": "0x0803F8A6",
+          "text": "ldr r0, [pc, #68] ; slot 0x0803F8EC = 0x03001930"
+        },
+        {
+          "bus": "0x0803F8A8",
+          "text": "ldrh r1, [r0, #6]"
+        },
+        {
+          "bus": "0x0803F8AA",
+          "text": "strh r1, [r3, #4]"
+        },
+        {
+          "bus": "0x0803F8AC",
+          "text": "ldr r0, [pc, #64] ; slot 0x0803F8F0 = 0x03001976"
+        },
+        {
+          "bus": "0x0803F8AE",
+          "text": "strh r1, [r0, #0]"
+        },
+        {
+          "bus": "0x0803F8B0",
+          "text": "ldrh r0, [r3, #4]"
+        },
+        {
+          "bus": "0x0803F8B2",
+          "text": "lsl r1, r0, #3"
+        },
+        {
+          "bus": "0x0803F8B4",
+          "text": "sub r1, r1, r0"
+        },
+        {
+          "bus": "0x0803F8B6",
+          "text": "lsl r1, r1, #2"
+        },
+        {
+          "bus": "0x0803F8B8",
+          "text": "ldr r0, [pc, #56] ; slot 0x0803F8F4 = 0x0862D3E4"
+        },
+        {
+          "bus": "0x0803F8BA",
+          "text": "add r1, r1, r0"
+        },
+        {
+          "bus": "0x0803F8BC",
+          "text": "str r1, [r3, #12]"
+        },
+        {
+          "bus": "0x0803F8BE",
+          "text": "ldr r0, [pc, #56] ; slot 0x0803F8F8 = 0x03001938"
+        },
+        {
+          "bus": "0x0803F8C0",
+          "text": "str r1, [r0, #0]"
+        },
+        {
+          "bus": "0x0803F8C2",
+          "text": "ldr r2, [pc, #56] ; slot 0x0803F8FC = 0x0300193C"
+        },
+        {
+          "bus": "0x0803F8C4",
+          "text": "ldr r0, [r1, #12]"
+        },
+        {
+          "bus": "0x0803F8C6",
+          "text": "str r0, [r2, #0]"
+        },
+        {
+          "bus": "0x0803F8C8",
+          "text": "ldr r2, [pc, #52] ; slot 0x0803F900 = 0x03001944"
+        },
+        {
+          "bus": "0x0803F8CA",
+          "text": "ldr r0, [r1, #16]"
+        },
+        {
+          "bus": "0x0803F8CC",
+          "text": "str r0, [r2, #0]"
+        },
+        {
+          "bus": "0x0803F8CE",
+          "text": "ldr r0, [r1, #20]"
+        },
+        {
+          "bus": "0x0803F8D0",
+          "text": "add r0, #112"
+        },
+        {
+          "bus": "0x0803F8D2",
+          "text": "str r0, [r3, #12]"
+        },
+        {
+          "bus": "0x0803F8D4",
+          "text": "ldr r2, [pc, #44] ; slot 0x0803F904 = 0x03001948"
+        },
+        {
+          "bus": "0x0803F8D6",
+          "text": "str r0, [r2, #0]"
+        },
+        {
+          "bus": "0x0803F8D8",
+          "text": "ldrh r0, [r1, #0]"
+        },
+        {
+          "bus": "0x0803F8DA",
+          "text": "ldr r2, [pc, #44] ; slot 0x0803F908 = 0x03001980"
+        },
+        {
+          "bus": "0x0803F8DC",
+          "text": "ldr r1, [pc, #44] ; slot 0x0803F90C = 0x08255F00"
+        },
+        {
+          "bus": "0x0803F8DE",
+          "text": "lsl r0, r0, #2"
+        },
+        {
+          "bus": "0x0803F8E0",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x0803F8E2",
+          "text": "ldr r0, [r0, #0]"
+        },
+        {
+          "bus": "0x0803F8E4",
+          "text": "str r0, [r2, #0]"
+        },
+        {
+          "bus": "0x0803F8E6",
+          "text": "bx r14"
+        }
+      ]
+    },
+    {
+      "start_bus": "0x08034ED4",
+      "end_exclusive_bus": "0x08034F50",
+      "japanese_english_kaizo_identical": true,
+      "instructions": [
+        {
+          "bus": "0x08034ED4",
+          "text": "ldr r0, [pc, #120] ; slot 0x08034F50 = 0x030018BC"
+        },
+        {
+          "bus": "0x08034ED6",
+          "text": "mov r1, #112"
+        },
+        {
+          "bus": "0x08034ED8",
+          "text": "strb r1, [r0, #4]"
+        },
+        {
+          "bus": "0x08034EDA",
+          "text": "ldr r1, [pc, #120] ; slot 0x08034F54 = 0x03002086"
+        },
+        {
+          "bus": "0x08034EDC",
+          "text": "str r1, [r0, #8]"
+        },
+        {
+          "bus": "0x08034EDE",
+          "text": "add r3, r0, #0"
+        },
+        {
+          "bus": "0x08034EE0",
+          "text": "add r2, r3, #0"
+        },
+        {
+          "bus": "0x08034EE2",
+          "text": "ldr r1, [r2, #8]"
+        },
+        {
+          "bus": "0x08034EE4",
+          "text": "ldr r0, [r2, #12]"
+        },
+        {
+          "bus": "0x08034EE6",
+          "text": "ldrb r0, [r0, #0]"
+        },
+        {
+          "bus": "0x08034EE8",
+          "text": "strb r0, [r1, #0]"
+        },
+        {
+          "bus": "0x08034EEA",
+          "text": "ldr r0, [r2, #12]"
+        },
+        {
+          "bus": "0x08034EEC",
+          "text": "add r0, #1"
+        },
+        {
+          "bus": "0x08034EEE",
+          "text": "str r0, [r2, #12]"
+        },
+        {
+          "bus": "0x08034EF0",
+          "text": "ldr r0, [r2, #8]"
+        },
+        {
+          "bus": "0x08034EF2",
+          "text": "add r0, #1"
+        },
+        {
+          "bus": "0x08034EF4",
+          "text": "str r0, [r2, #8]"
+        },
+        {
+          "bus": "0x08034EF6",
+          "text": "ldrb r0, [r2, #4]"
+        },
+        {
+          "bus": "0x08034EF8",
+          "text": "sub r0, #1"
+        },
+        {
+          "bus": "0x08034EFA",
+          "text": "strb r0, [r2, #4]"
+        },
+        {
+          "bus": "0x08034EFC",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x08034EFE",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x08034F00",
+          "text": "bne 0x08034EE2"
+        },
+        {
+          "bus": "0x08034F02",
+          "text": "mov r0, #15"
+        },
+        {
+          "bus": "0x08034F04",
+          "text": "strb r0, [r3, #4]"
+        },
+        {
+          "bus": "0x08034F06",
+          "text": "add r2, r3, #0"
+        },
+        {
+          "bus": "0x08034F08",
+          "text": "mov r0, #16"
+        },
+        {
+          "bus": "0x08034F0A",
+          "text": "strb r0, [r2, #5]"
+        },
+        {
+          "bus": "0x08034F0C",
+          "text": "ldr r1, [r2, #8]"
+        },
+        {
+          "bus": "0x08034F0E",
+          "text": "ldr r0, [r2, #12]"
+        },
+        {
+          "bus": "0x08034F10",
+          "text": "ldrb r0, [r0, #0]"
+        },
+        {
+          "bus": "0x08034F12",
+          "text": "strb r0, [r1, #0]"
+        },
+        {
+          "bus": "0x08034F14",
+          "text": "ldr r0, [r2, #12]"
+        },
+        {
+          "bus": "0x08034F16",
+          "text": "add r0, #1"
+        },
+        {
+          "bus": "0x08034F18",
+          "text": "str r0, [r2, #12]"
+        },
+        {
+          "bus": "0x08034F1A",
+          "text": "ldr r0, [r2, #8]"
+        },
+        {
+          "bus": "0x08034F1C",
+          "text": "add r0, #1"
+        },
+        {
+          "bus": "0x08034F1E",
+          "text": "str r0, [r2, #8]"
+        },
+        {
+          "bus": "0x08034F20",
+          "text": "ldrb r0, [r2, #5]"
+        },
+        {
+          "bus": "0x08034F22",
+          "text": "sub r0, #1"
+        },
+        {
+          "bus": "0x08034F24",
+          "text": "strb r0, [r2, #5]"
+        },
+        {
+          "bus": "0x08034F26",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x08034F28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x08034F2A",
+          "text": "bne 0x08034F0C"
+        },
+        {
+          "bus": "0x08034F2C",
+          "text": "add r1, r3, #0"
+        },
+        {
+          "bus": "0x08034F2E",
+          "text": "ldr r0, [r1, #12]"
+        },
+        {
+          "bus": "0x08034F30",
+          "text": "ldrb r0, [r0, #0]"
+        },
+        {
+          "bus": "0x08034F32",
+          "text": "strb r0, [r1, #1]"
+        },
+        {
+          "bus": "0x08034F34",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x08034F36",
+          "text": "lsr r0, r0, #24"
+        },
+        {
+          "bus": "0x08034F38",
+          "text": "cmp r0, #255"
+        },
+        {
+          "bus": "0x08034F3A",
+          "text": "beq 0x08034F48"
+        },
+        {
+          "bus": "0x08034F3C",
+          "text": "ldrb r0, [r1, #4]"
+        },
+        {
+          "bus": "0x08034F3E",
+          "text": "sub r0, #1"
+        },
+        {
+          "bus": "0x08034F40",
+          "text": "strb r0, [r1, #4]"
+        },
+        {
+          "bus": "0x08034F42",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x08034F44",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x08034F46",
+          "text": "bne 0x08034F08"
+        },
+        {
+          "bus": "0x08034F48",
+          "text": "ldr r1, [r3, #8]"
+        },
+        {
+          "bus": "0x08034F4A",
+          "text": "mov r0, #255"
+        },
+        {
+          "bus": "0x08034F4C",
+          "text": "strb r0, [r1, #0]"
+        },
+        {
+          "bus": "0x08034F4E",
+          "text": "bx r14"
+        }
+      ]
+    },
+    {
+      "start_bus": "0x0806984A",
+      "end_exclusive_bus": "0x080698B2",
+      "japanese_english_kaizo_identical": true,
+      "instructions": [
+        {
+          "bus": "0x0806984A",
+          "text": "ldr r2, [pc, #116] ; slot 0x080698C0 = 0x03001AD8"
+        },
+        {
+          "bus": "0x0806984C",
+          "text": "ldr r1, [pc, #116] ; slot 0x080698C4 = 0x03001948"
+        },
+        {
+          "bus": "0x0806984E",
+          "text": "ldrb r0, [r4, #0]"
+        },
+        {
+          "bus": "0x08069850",
+          "text": "sub r0, #1"
+        },
+        {
+          "bus": "0x08069852",
+          "text": "lsl r0, r0, #4"
+        },
+        {
+          "bus": "0x08069854",
+          "text": "ldr r1, [r1, #0]"
+        },
+        {
+          "bus": "0x08069856",
+          "text": "add r1, r1, r0"
+        },
+        {
+          "bus": "0x08069858",
+          "text": "str r1, [r2, #0]"
+        },
+        {
+          "bus": "0x0806985A",
+          "text": "ldr r6, [pc, #108] ; slot 0x080698C8 = 0x030018BC"
+        },
+        {
+          "bus": "0x0806985C",
+          "text": "ldrb r2, [r1, #0]"
+        },
+        {
+          "bus": "0x0806985E",
+          "text": "strb r2, [r6, #1]"
+        },
+        {
+          "bus": "0x08069860",
+          "text": "mov r0, #128"
+        },
+        {
+          "bus": "0x08069862",
+          "text": "and r0, r2"
+        },
+        {
+          "bus": "0x08069864",
+          "text": "ldrb r3, [r4, #0]"
+        },
+        {
+          "bus": "0x08069866",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x08069868",
+          "text": "beq 0x080698E4"
+        },
+        {
+          "bus": "0x0806986A",
+          "text": "ldrb r0, [r1, #10]"
+        },
+        {
+          "bus": "0x0806986C",
+          "text": "strb r0, [r6, #4]"
+        },
+        {
+          "bus": "0x0806986E",
+          "text": "ldrb r0, [r1, #11]"
+        },
+        {
+          "bus": "0x08069870",
+          "text": "strb r0, [r6, #5]"
+        },
+        {
+          "bus": "0x08069872",
+          "text": "ldrb r0, [r1, #12]"
+        },
+        {
+          "bus": "0x08069874",
+          "text": "strb r0, [r6, #6]"
+        },
+        {
+          "bus": "0x08069876",
+          "text": "ldrb r0, [r1, #13]"
+        },
+        {
+          "bus": "0x08069878",
+          "text": "strb r0, [r6, #7]"
+        },
+        {
+          "bus": "0x0806987A",
+          "text": "ldr r2, [r6, #4]"
+        },
+        {
+          "bus": "0x0806987C",
+          "text": "cmp r2, #0"
+        },
+        {
+          "bus": "0x0806987E",
+          "text": "beq 0x08069970"
+        },
+        {
+          "bus": "0x08069880",
+          "text": "ldrb r1, [r4, #0]"
+        },
+        {
+          "bus": "0x08069882",
+          "text": "ldr r0, [pc, #72] ; slot 0x080698CC = 0x03001974"
+        },
+        {
+          "bus": "0x08069884",
+          "text": "strb r1, [r0, #0]"
+        },
+        {
+          "bus": "0x08069886",
+          "text": "ldr r0, [pc, #72] ; slot 0x080698D0 = 0x03001978"
+        },
+        {
+          "bus": "0x08069888",
+          "text": "str r2, [r0, #0]"
+        },
+        {
+          "bus": "0x0806988A",
+          "text": "mov r0, #255"
+        },
+        {
+          "bus": "0x0806988C",
+          "text": "orr r1, r0"
+        },
+        {
+          "bus": "0x0806988E",
+          "text": "strb r1, [r6, #1]"
+        },
+        {
+          "bus": "0x08069890",
+          "text": "ldr r0, [pc, #64] ; slot 0x080698D4 = 0x0300197E"
+        },
+        {
+          "bus": "0x08069892",
+          "text": "strb r1, [r0, #0]"
+        },
+        {
+          "bus": "0x08069894",
+          "text": "ldr r0, [pc, #64] ; slot 0x080698D8 = 0x0300197C"
+        },
+        {
+          "bus": "0x08069896",
+          "text": "strb r1, [r0, #0]"
+        },
+        {
+          "bus": "0x08069898",
+          "text": "ldr r0, [pc, #64] ; slot 0x080698DC = 0x0300197D"
+        },
+        {
+          "bus": "0x0806989A",
+          "text": "strb r1, [r0, #0]"
+        },
+        {
+          "bus": "0x0806989C",
+          "text": "bl 0x0802C2B4"
+        },
+        {
+          "bus": "0x080698A0",
+          "text": "ldrb r0, [r7, #3]"
+        },
+        {
+          "bus": "0x080698A2",
+          "text": "mov r1, #128"
+        },
+        {
+          "bus": "0x080698A4",
+          "text": "orr r0, r1"
+        },
+        {
+          "bus": "0x080698A6",
+          "text": "strb r0, [r7, #3]"
+        },
+        {
+          "bus": "0x080698A8",
+          "text": "mov r1, #16"
+        },
+        {
+          "bus": "0x080698AA",
+          "text": "strb r1, [r6, #1]"
+        },
+        {
+          "bus": "0x080698AC",
+          "text": "ldr r0, [pc, #48] ; slot 0x080698E0 = 0x030018EE"
+        },
+        {
+          "bus": "0x080698AE",
+          "text": "strb r1, [r0, #0]"
+        },
+        {
+          "bus": "0x080698B0",
+          "text": "b 0x08069970"
+        }
+      ]
+    },
+    {
+      "start_bus": "0x08047C7C",
+      "end_exclusive_bus": "0x08047CEC",
+      "japanese_english_kaizo_identical": true,
+      "instructions": [
+        {
+          "bus": "0x08047C7C",
+          "text": "push {r4, r5, lr}"
+        },
+        {
+          "bus": "0x08047C7E",
+          "text": "ldr r0, [pc, #108] ; slot 0x08047CEC = 0x03001978"
+        },
+        {
+          "bus": "0x08047C80",
+          "text": "ldr r4, [r0, #0]"
+        },
+        {
+          "bus": "0x08047C82",
+          "text": "mov r5, #0"
+        },
+        {
+          "bus": "0x08047C84",
+          "text": "mov r2, #0"
+        },
+        {
+          "bus": "0x08047C86",
+          "text": "mov r1, #1"
+        },
+        {
+          "bus": "0x08047C88",
+          "text": "neg r1, r1"
+        },
+        {
+          "bus": "0x08047C8A",
+          "text": "add r0, r4, r2"
+        },
+        {
+          "bus": "0x08047C8C",
+          "text": "ldrb r0, [r0, #0]"
+        },
+        {
+          "bus": "0x08047C8E",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x08047C90",
+          "text": "asr r0, r0, #24"
+        },
+        {
+          "bus": "0x08047C92",
+          "text": "cmp r0, r1"
+        },
+        {
+          "bus": "0x08047C94",
+          "text": "beq 0x08047C9C"
+        },
+        {
+          "bus": "0x08047C96",
+          "text": "add r0, r5, #1"
+        },
+        {
+          "bus": "0x08047C98",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x08047C9A",
+          "text": "lsr r5, r0, #24"
+        },
+        {
+          "bus": "0x08047C9C",
+          "text": "add r0, r2, #1"
+        },
+        {
+          "bus": "0x08047C9E",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x08047CA0",
+          "text": "lsr r2, r0, #24"
+        },
+        {
+          "bus": "0x08047CA2",
+          "text": "cmp r2, #3"
+        },
+        {
+          "bus": "0x08047CA4",
+          "text": "bls 0x08047C8A"
+        },
+        {
+          "bus": "0x08047CA6",
+          "text": "bl 0x0802F73C"
+        },
+        {
+          "bus": "0x08047CAA",
+          "text": "add r1, r5, #0"
+        },
+        {
+          "bus": "0x08047CAC",
+          "text": "bl 0x080F7BA0"
+        },
+        {
+          "bus": "0x08047CB0",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x08047CB2",
+          "text": "lsr r0, r0, #24"
+        },
+        {
+          "bus": "0x08047CB4",
+          "text": "ldr r3, [pc, #56] ; slot 0x08047CF0 = 0x030008E8"
+        },
+        {
+          "bus": "0x08047CB6",
+          "text": "add r1, r4, r0"
+        },
+        {
+          "bus": "0x08047CB8",
+          "text": "ldrb r2, [r1, #0]"
+        },
+        {
+          "bus": "0x08047CBA",
+          "text": "mov r1, #63"
+        },
+        {
+          "bus": "0x08047CBC",
+          "text": "and r1, r2"
+        },
+        {
+          "bus": "0x08047CBE",
+          "text": "lsl r1, r1, #4"
+        },
+        {
+          "bus": "0x08047CC0",
+          "text": "ldr r2, [pc, #48] ; slot 0x08047CF4 = 0x08631B5C"
+        },
+        {
+          "bus": "0x08047CC2",
+          "text": "add r1, r1, r2"
+        },
+        {
+          "bus": "0x08047CC4",
+          "text": "str r1, [r3, #0]"
+        },
+        {
+          "bus": "0x08047CC6",
+          "text": "add r4, #4"
+        },
+        {
+          "bus": "0x08047CC8",
+          "text": "mov r2, #0"
+        },
+        {
+          "bus": "0x08047CCA",
+          "text": "ldr r5, [pc, #44] ; slot 0x08047CF8 = 0x030008EC"
+        },
+        {
+          "bus": "0x08047CCC",
+          "text": "lsl r3, r0, #3"
+        },
+        {
+          "bus": "0x08047CCE",
+          "text": "lsl r0, r2, #2"
+        },
+        {
+          "bus": "0x08047CD0",
+          "text": "add r0, r0, r5"
+        },
+        {
+          "bus": "0x08047CD2",
+          "text": "ldmia r4!, {r1}"
+        },
+        {
+          "bus": "0x08047CD4",
+          "text": "str r1, [r0, #0]"
+        },
+        {
+          "bus": "0x08047CD6",
+          "text": "cmp r2, #0"
+        },
+        {
+          "bus": "0x08047CD8",
+          "text": "bne 0x08047CDC"
+        },
+        {
+          "bus": "0x08047CDA",
+          "text": "add r4, r4, r3"
+        },
+        {
+          "bus": "0x08047CDC",
+          "text": "add r0, r2, #1"
+        },
+        {
+          "bus": "0x08047CDE",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x08047CE0",
+          "text": "lsr r2, r0, #24"
+        },
+        {
+          "bus": "0x08047CE2",
+          "text": "cmp r2, #2"
+        },
+        {
+          "bus": "0x08047CE4",
+          "text": "bls 0x08047CCE"
+        },
+        {
+          "bus": "0x08047CE6",
+          "text": "pop {r4, r5}"
+        },
+        {
+          "bus": "0x08047CE8",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x08047CEA",
+          "text": "bx r0"
+        }
+      ]
+    },
+    {
+      "start_bus": "0x080482C4",
+      "end_exclusive_bus": "0x0804831C",
+      "japanese_english_kaizo_identical": true,
+      "instructions": [
+        {
+          "bus": "0x080482C4",
+          "text": "lsl r1, r4, #3"
+        },
+        {
+          "bus": "0x080482C6",
+          "text": "sub r1, r1, r4"
+        },
+        {
+          "bus": "0x080482C8",
+          "text": "lsl r1, r1, #3"
+        },
+        {
+          "bus": "0x080482CA",
+          "text": "add r1, r8"
+        },
+        {
+          "bus": "0x080482CC",
+          "text": "ldrh r2, [r0, #10]"
+        },
+        {
+          "bus": "0x080482CE",
+          "text": "mov r0, r10"
+        },
+        {
+          "bus": "0x080482D0",
+          "text": "and r0, r2"
+        },
+        {
+          "bus": "0x080482D2",
+          "text": "strh r0, [r1, #14]"
+        },
+        {
+          "bus": "0x080482D4",
+          "text": "ldr r0, [r3, #0]"
+        },
+        {
+          "bus": "0x080482D6",
+          "text": "ldrh r2, [r0, #10]"
+        },
+        {
+          "bus": "0x080482D8",
+          "text": "mov r0, r10"
+        },
+        {
+          "bus": "0x080482DA",
+          "text": "and r0, r2"
+        },
+        {
+          "bus": "0x080482DC",
+          "text": "strh r0, [r1, #16]"
+        },
+        {
+          "bus": "0x080482DE",
+          "text": "ldr r0, [r3, #0]"
+        },
+        {
+          "bus": "0x080482E0",
+          "text": "ldrh r0, [r0, #12]"
+        },
+        {
+          "bus": "0x080482E2",
+          "text": "strh r0, [r1, #18]"
+        },
+        {
+          "bus": "0x080482E4",
+          "text": "ldr r0, [r3, #0]"
+        },
+        {
+          "bus": "0x080482E6",
+          "text": "ldrh r0, [r0, #14]"
+        },
+        {
+          "bus": "0x080482E8",
+          "text": "strh r0, [r1, #20]"
+        },
+        {
+          "bus": "0x080482EA",
+          "text": "lsl r2, r4, #1"
+        },
+        {
+          "bus": "0x080482EC",
+          "text": "add r2, r2, r4"
+        },
+        {
+          "bus": "0x080482EE",
+          "text": "lsl r2, r2, #2"
+        },
+        {
+          "bus": "0x080482F0",
+          "text": "add r1, r2, r5"
+        },
+        {
+          "bus": "0x080482F2",
+          "text": "ldr r3, [r3, #0]"
+        },
+        {
+          "bus": "0x080482F4",
+          "text": "ldr r0, [r3, #28]"
+        },
+        {
+          "bus": "0x080482F6",
+          "text": "str r0, [r1, #0]"
+        },
+        {
+          "bus": "0x080482F8",
+          "text": "add r0, r5, #4"
+        },
+        {
+          "bus": "0x080482FA",
+          "text": "add r0, r2, r0"
+        },
+        {
+          "bus": "0x080482FC",
+          "text": "ldr r1, [r3, #32]"
+        },
+        {
+          "bus": "0x080482FE",
+          "text": "str r1, [r0, #0]"
+        },
+        {
+          "bus": "0x08048300",
+          "text": "add r2, r12"
+        },
+        {
+          "bus": "0x08048302",
+          "text": "ldr r0, [r3, #36]"
+        },
+        {
+          "bus": "0x08048304",
+          "text": "str r0, [r2, #0]"
+        },
+        {
+          "bus": "0x08048306",
+          "text": "ldrb r0, [r7, #0]"
+        },
+        {
+          "bus": "0x08048308",
+          "text": "add r0, #1"
+        },
+        {
+          "bus": "0x0804830A",
+          "text": "strb r0, [r7, #0]"
+        },
+        {
+          "bus": "0x0804830C",
+          "text": "ldrb r0, [r6, #0]"
+        },
+        {
+          "bus": "0x0804830E",
+          "text": "add r0, #1"
+        },
+        {
+          "bus": "0x08048310",
+          "text": "strb r0, [r6, #0]"
+        },
+        {
+          "bus": "0x08048312",
+          "text": "add r0, r4, #1"
+        },
+        {
+          "bus": "0x08048314",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x08048316",
+          "text": "lsr r4, r0, #24"
+        },
+        {
+          "bus": "0x08048318",
+          "text": "cmp r4, #2"
+        },
+        {
+          "bus": "0x0804831A",
+          "text": "bls 0x08048286"
+        }
+      ]
+    },
+    {
+      "start_bus": "0x0804876C",
+      "end_exclusive_bus": "0x08048798",
+      "japanese_english_kaizo_identical": true,
+      "instructions": [
+        {
+          "bus": "0x0804876C",
+          "text": "ldrh r1, [r0, #24]"
+        },
+        {
+          "bus": "0x0804876E",
+          "text": "ldrh r0, [r0, #20]"
+        },
+        {
+          "bus": "0x08048770",
+          "text": "add r1, r1, r0"
+        },
+        {
+          "bus": "0x08048772",
+          "text": "lsl r1, r1, #16"
+        },
+        {
+          "bus": "0x08048774",
+          "text": "lsr r4, r1, #16"
+        },
+        {
+          "bus": "0x08048776",
+          "text": "add r6, r2, #0"
+        },
+        {
+          "bus": "0x08048778",
+          "text": "add r5, r3, #0"
+        },
+        {
+          "bus": "0x0804877A",
+          "text": "cmp r1, #0"
+        },
+        {
+          "bus": "0x0804877C",
+          "text": "bgt 0x08048780"
+        },
+        {
+          "bus": "0x0804877E",
+          "text": "mov r4, #1"
+        },
+        {
+          "bus": "0x08048780",
+          "text": "lsl r0, r4, #16"
+        },
+        {
+          "bus": "0x08048782",
+          "text": "asr r0, r0, #16"
+        },
+        {
+          "bus": "0x08048784",
+          "text": "ldr r1, [pc, #64] ; slot 0x080487C8 = 0x000003E7"
+        },
+        {
+          "bus": "0x08048786",
+          "text": "cmp r0, r1"
+        },
+        {
+          "bus": "0x08048788",
+          "text": "ble 0x0804878C"
+        },
+        {
+          "bus": "0x0804878A",
+          "text": "add r4, r1, #0"
+        },
+        {
+          "bus": "0x0804878C",
+          "text": "ldr r2, [pc, #44] ; slot 0x080487BC = 0x03000BF8"
+        },
+        {
+          "bus": "0x0804878E",
+          "text": "ldrh r1, [r2, #0]"
+        },
+        {
+          "bus": "0x08048790",
+          "text": "lsl r0, r4, #16"
+        },
+        {
+          "bus": "0x08048792",
+          "text": "asr r0, r0, #16"
+        },
+        {
+          "bus": "0x08048794",
+          "text": "sub r1, r1, r0"
+        },
+        {
+          "bus": "0x08048796",
+          "text": "strh r1, [r2, #0]"
+        }
+      ]
+    },
+    {
+      "start_bus": "0x08069A0C",
+      "end_exclusive_bus": "0x08069A3E",
+      "japanese_english_kaizo_identical": true,
+      "instructions": [
+        {
+          "bus": "0x08069A0C",
+          "text": "mov r0, #127"
+        },
+        {
+          "bus": "0x08069A0E",
+          "text": "and r0, r1"
+        },
+        {
+          "bus": "0x08069A10",
+          "text": "strb r0, [r5, #1]"
+        },
+        {
+          "bus": "0x08069A12",
+          "text": "ldrb r1, [r5, #1]"
+        },
+        {
+          "bus": "0x08069A14",
+          "text": "lsl r0, r1, #2"
+        },
+        {
+          "bus": "0x08069A16",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x08069A18",
+          "text": "lsl r0, r0, #1"
+        },
+        {
+          "bus": "0x08069A1A",
+          "text": "str r0, [r5, #12]"
+        },
+        {
+          "bus": "0x08069A1C",
+          "text": "ldr r1, [pc, #92] ; slot 0x08069A7C = 0x03001AD8"
+        },
+        {
+          "bus": "0x08069A1E",
+          "text": "mov r8, r1"
+        },
+        {
+          "bus": "0x08069A20",
+          "text": "ldr r1, [pc, #92] ; slot 0x08069A80 = 0x0300193C"
+        },
+        {
+          "bus": "0x08069A22",
+          "text": "ldr r1, [r1, #0]"
+        },
+        {
+          "bus": "0x08069A24",
+          "text": "add r0, r0, r1"
+        },
+        {
+          "bus": "0x08069A26",
+          "text": "mov r1, r8"
+        },
+        {
+          "bus": "0x08069A28",
+          "text": "str r0, [r1, #0]"
+        },
+        {
+          "bus": "0x08069A2A",
+          "text": "ldrb r1, [r0, #4]"
+        },
+        {
+          "bus": "0x08069A2C",
+          "text": "strb r1, [r5, #4]"
+        },
+        {
+          "bus": "0x08069A2E",
+          "text": "ldrb r1, [r0, #5]"
+        },
+        {
+          "bus": "0x08069A30",
+          "text": "strb r1, [r5, #5]"
+        },
+        {
+          "bus": "0x08069A32",
+          "text": "mov r0, r10"
+        },
+        {
+          "bus": "0x08069A34",
+          "text": "and r0, r1"
+        },
+        {
+          "bus": "0x08069A36",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x08069A38",
+          "text": "lsr r4, r0, #24"
+        },
+        {
+          "bus": "0x08069A3A",
+          "text": "cmp r4, #0"
+        },
+        {
+          "bus": "0x08069A3C",
+          "text": "beq 0x08069A8C"
+        }
+      ]
+    },
+    {
+      "start_bus": "0x08069A8C",
+      "end_exclusive_bus": "0x08069AB2",
+      "japanese_english_kaizo_identical": true,
+      "instructions": [
+        {
+          "bus": "0x08069A8C",
+          "text": "ldr r0, [pc, #212] ; slot 0x08069B64 = 0x03004188"
+        },
+        {
+          "bus": "0x08069A8E",
+          "text": "strb r4, [r5, #1]"
+        },
+        {
+          "bus": "0x08069A90",
+          "text": "strb r4, [r0, #10]"
+        },
+        {
+          "bus": "0x08069A92",
+          "text": "bl 0x0806C9D4"
+        },
+        {
+          "bus": "0x08069A96",
+          "text": "ldr r0, [pc, #208] ; slot 0x08069B68 = 0x03001B61"
+        },
+        {
+          "bus": "0x08069A98",
+          "text": "strb r4, [r0, #0]"
+        },
+        {
+          "bus": "0x08069A9A",
+          "text": "bl 0x0803408C"
+        },
+        {
+          "bus": "0x08069A9E",
+          "text": "bl 0x08033F78"
+        },
+        {
+          "bus": "0x08069AA2",
+          "text": "ldr r2, [pc, #200] ; slot 0x08069B6C = 0x03001AC4"
+        },
+        {
+          "bus": "0x08069AA4",
+          "text": "mov r12, r2"
+        },
+        {
+          "bus": "0x08069AA6",
+          "text": "ldrh r0, [r5, #4]"
+        },
+        {
+          "bus": "0x08069AA8",
+          "text": "strh r0, [r2, #6]"
+        },
+        {
+          "bus": "0x08069AAA",
+          "text": "ldr r7, [pc, #196] ; slot 0x08069B70 = 0x03001930"
+        },
+        {
+          "bus": "0x08069AAC",
+          "text": "strh r0, [r7, #6]"
+        },
+        {
+          "bus": "0x08069AAE",
+          "text": "mov r0, r8"
+        },
+        {
+          "bus": "0x08069AB0",
+          "text": "ldr r1, [r0, #0]"
+        }
+      ]
+    }
+  ],
+  "siren": {
+    "kind": "attack, not species",
+    "attack_id": 147,
+    "record_bus": "0x08638E88",
+    "record_file": "0x00638E88",
+    "users_by_direct_attack_slots": [
+      {
+        "enemy_id": 98,
+        "name": "Cybercop",
+        "hp": 220,
+        "base_mitigation": 41,
+        "attack_pointer_field_bus": "0x08636C84"
+      },
+      {
+        "enemy_id": 165,
+        "name": "Detector",
+        "hp": 135,
+        "base_mitigation": 38,
+        "attack_pointer_field_bus": "0x0863806C"
+      }
+    ],
+    "resistance_to_choo_choo": "Unresolved; no mechanic inferred from name or user experience"
+  },
+  "unresolved": [
+    "Exact per-room floor labels and complete palace boundary",
+    "Formation choice RNG distribution and encounter frequency",
+    "Choo-Choo-specific mitigation/resistance",
+    "Ordinary role of stat-only Brikkypress record; excluded from candidates",
+    "Runtime HP/damage for listed enemies"
+  ],
+  "documentation_validation": {
+    "unique_kaizo_rewards": 24,
+    "stat_records_rechecked_against_rom": 18,
+    "actor_pointers_rechecked_against_rom": 114,
+    "selected_protected_artifact_before_after_check": "42 selected ROM/save/checkpoint files unchanged during documentation generation; scoped audit only",
+    "siren_pointer_offsets": {
+      "Cybercop": "record+0x1C",
+      "Detector": "record+0x20"
+    }
+  },
+  "stat_value_provenance": "enemies_ranked_by_hp retains original retail/source values; derived ROM changes are separate experimental_profiles entries",
+  "experimental_profiles": [
+    {
+      "name": "Detector HP120 mitigation25",
+      "status": "BUILT - static verification passed; runtime UNTESTED",
+      "report": "reverse_engineering/experiments/detector_hp120_mit25.md",
+      "rom": "tools/patch/output/detector-hp120-mit25/detector_rebalance.gba",
+      "sha256": "124c04798e3e9769381f6105fc602794a249c169290b4fc86d735592ae8d9db0",
+      "source_sha256": "7e7603816afb0990eea51ed2c49ab4b4afd5596ff1c4211c656d608e94ed2aa2",
+      "changes": [
+        {
+          "enemy_id": 165,
+          "field": "hp",
+          "file": "0x00638056",
+          "bus": "0x08638056",
+          "original": 135,
+          "experimental": 120,
+          "before": "87 00",
+          "after": "78 00"
+        },
+        {
+          "enemy_id": 165,
+          "field": "base_mitigation",
+          "file": "0x0063805A",
+          "bus": "0x0863805A",
+          "original": 38,
+          "experimental": 25,
+          "before": "26 00",
+          "after": "19 00"
+        }
+      ],
+      "rattlin_dragon": {
+        "enemy_id": 156,
+        "hp": 262,
+        "base_mitigation": 54,
+        "entire_record_unchanged": true
+      },
+      "all_other_bytes_unchanged": true
+    }
+  ]
+}

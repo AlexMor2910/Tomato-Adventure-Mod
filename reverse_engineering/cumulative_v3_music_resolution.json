@@ -1,0 +1,251 @@
+{
+  "status": "Tomato Adventure \u2014 Cumulative v3 Incomplete Experimental Build",
+  "input_v2_sha256": "300e38f33881307682e1faf0bae4d4194306c2bfec9978f63d30b244719bd482",
+  "maps": [
+    {
+      "map_id": "0x012C",
+      "map_record_file": 6485172,
+      "music_byte_file": 6485177,
+      "original_music_byte": "0E",
+      "current_selector": 14,
+      "proposed_destination_selector": null,
+      "region_identity": "Unresolved; graphics/context are not sufficient for an active-region assignment",
+      "relevant_incoming_paths": {
+        "ordinary": [],
+        "literal_field_script_references": [],
+        "conditional_controller": "080684C0 adds signed/wrapped offset to saved current ID; not a proved normal story entry"
+      },
+      "destination_writers": [
+        {
+          "bus": "08027DC0",
+          "destination_storage": "03001ACA",
+          "meaning": "FD73 immediate LE map word"
+        },
+        {
+          "bus": "08027E08/08027E16",
+          "destination_storage": "03001AC2",
+          "meaning": "FD74 low byte plus high byte shifted8"
+        },
+        {
+          "bus": "080684E8/080684EC",
+          "destination_storage": "03001ACA/03001936",
+          "meaning": "conditional map-selection controller sum"
+        }
+      ],
+      "transition_consumers": [
+        {
+          "bus": "08027E5C..08027E60",
+          "meaning": "FD75 copies saved03001AC2 to saved03001ACA and request03001936; no arithmetic ID construction"
+        },
+        {
+          "bus": "08027ED8",
+          "meaning": "FD75 starts transition through0802C1F0"
+        },
+        {
+          "bus": "08033D2A..08033D36",
+          "meaning": "loader selects map record from request+6, stride28"
+        }
+      ],
+      "reachability_conclusion": "Conditional controller selection supported; normal-play incoming path unproved",
+      "music_overrides": [],
+      "patch_decision": "leave unchanged",
+      "evidence": [
+        "cumulative_v3_destination_evidence.json native/scopes; actual map record; all494 ordinary exit lists",
+        "v2 music plan and fixed soundtrack mappings retained"
+      ],
+      "confidence": "Unresolved",
+      "map_facts_confidence": "Confirmed static",
+      "local_saved_destination_commands": [],
+      "proof_stop": "012C rectangle0812D7B3 checks flag0155 and runs battle30; it is local behavior, not an incoming writer. No normal destination writer to012C was found.",
+      "local_flags": [
+        "0155 guard/set in rectangle0812D7B3..0812D7EF"
+      ]
+    },
+    {
+      "map_id": "0x0158",
+      "map_record_file": 6486404,
+      "music_byte_file": 6486409,
+      "original_music_byte": "0E",
+      "current_selector": 14,
+      "proposed_destination_selector": null,
+      "region_identity": "Unresolved; graphics/context are not sufficient for an active-region assignment",
+      "relevant_incoming_paths": {
+        "ordinary": [],
+        "literal_field_script_references": [],
+        "conditional_controller": "080684C0 adds signed/wrapped offset to saved current ID; not a proved normal story entry"
+      },
+      "destination_writers": [
+        {
+          "bus": "08027DC0",
+          "destination_storage": "03001ACA",
+          "meaning": "FD73 immediate LE map word"
+        },
+        {
+          "bus": "08027E08/08027E16",
+          "destination_storage": "03001AC2",
+          "meaning": "FD74 low byte plus high byte shifted8"
+        },
+        {
+          "bus": "080684E8/080684EC",
+          "destination_storage": "03001ACA/03001936",
+          "meaning": "conditional map-selection controller sum"
+        }
+      ],
+      "transition_consumers": [
+        {
+          "bus": "08027E5C..08027E60",
+          "meaning": "FD75 copies saved03001AC2 to saved03001ACA and request03001936; no arithmetic ID construction"
+        },
+        {
+          "bus": "08027ED8",
+          "meaning": "FD75 starts transition through0802C1F0"
+        },
+        {
+          "bus": "08033D2A..08033D36",
+          "meaning": "loader selects map record from request+6, stride28"
+        }
+      ],
+      "reachability_conclusion": "Conditional controller selection supported; normal-play incoming path unproved",
+      "music_overrides": [],
+      "patch_decision": "leave unchanged",
+      "evidence": [
+        "cumulative_v3_destination_evidence.json native/scopes; actual map record; all494 ordinary exit lists",
+        "v2 music plan and fixed soundtrack mappings retained"
+      ],
+      "confidence": "Unresolved",
+      "map_facts_confidence": "Confirmed static",
+      "local_saved_destination_commands": [],
+      "proof_stop": "0127 registered rectangle0810054A branches on flag010B and explicitly transfers to0157 at08100557, not0158. No FD73/74/75 in the scoped0127 closure constructs0158.",
+      "local_flags": [
+        "010B gates actual0127\u21920157 path; no established0158 selector flag"
+      ]
+    },
+    {
+      "map_id": "0x016D",
+      "map_record_file": 6486992,
+      "music_byte_file": 6486997,
+      "original_music_byte": "0E",
+      "current_selector": 14,
+      "proposed_destination_selector": 16,
+      "region_identity": "Oyster Sewers \u2014 side channel connected to confirmed016C",
+      "relevant_incoming_paths": {
+        "ordinary": [
+          {
+            "source_map": 364,
+            "file": 1295898,
+            "raw": "00 03 00 04 6d 01 06 0d 84 08"
+          }
+        ],
+        "literal_field_script_references": [],
+        "conditional_controller": "080684C0 adds signed/wrapped offset to saved current ID; not a proved normal story entry",
+        "normal_field_path": [
+          {
+            "script": "08105ACC",
+            "meaning": "FE7C selects016C from registered Oystown010F event; alternate08105B3C FE7D also selects016C"
+          },
+          {
+            "exit_record": "0813C61A",
+            "source_map": "016C",
+            "destination_map": "016D",
+            "trigger": "x0,y3..4",
+            "destination": "x13,y4"
+          },
+          {
+            "exit_record": "0813C628",
+            "source_map": "016D",
+            "destination_map": "016C",
+            "trigger": "x14,y3..4",
+            "destination": "x1,y4"
+          }
+        ]
+      },
+      "destination_writers": [
+        {
+          "bus": "08069AA6..08069AAC",
+          "destination_storage": "03001ACA/03001936",
+          "meaning": "ordinary exit loader reads destination LE016D from exit record+4 and writes saved/request IDs"
+        },
+        {
+          "bus": "08027DC0",
+          "destination_storage": "03001ACA",
+          "meaning": "FD73 immediate LE map word"
+        },
+        {
+          "bus": "08027E08/08027E16",
+          "destination_storage": "03001AC2",
+          "meaning": "FD74 low byte plus high byte shifted8"
+        },
+        {
+          "bus": "080684E8/080684EC",
+          "destination_storage": "03001ACA/03001936",
+          "meaning": "conditional map-selection controller sum"
+        }
+      ],
+      "transition_consumers": [
+        {
+          "bus": "08027E5C..08027E60",
+          "meaning": "FD75 copies saved03001AC2 to saved03001ACA and request03001936; no arithmetic ID construction"
+        },
+        {
+          "bus": "08027ED8",
+          "meaning": "FD75 starts transition through0802C1F0"
+        },
+        {
+          "bus": "08033D2A..08033D36",
+          "meaning": "loader selects map record from request+6, stride28"
+        }
+      ],
+      "reachability_conclusion": "Supported static normal field path: Oystown010F\u2192016C\u2192016D; runtime not tested",
+      "music_overrides": [],
+      "patch_decision": "patch",
+      "evidence": [
+        "cumulative_v3_destination_evidence.json native/scopes; actual map record; all494 ordinary exit lists",
+        "v2 music plan and fixed soundtrack mappings retained"
+      ],
+      "confidence": "Confirmed static",
+      "map_facts_confidence": "Confirmed static",
+      "local_saved_destination_commands": [
+        {
+          "file": 1099264,
+          "raw": "fd 74 0b 01 07 07 00 03 12",
+          "destination": 267,
+          "note": "LE immediate word from command arguments"
+        },
+        {
+          "file": 1099273,
+          "raw": "fd 73 0b 01 07 07 08 03 12",
+          "destination": 267,
+          "note": "LE immediate word from command arguments"
+        }
+      ],
+      "proof_stop": "Ordinary incoming edge0813C61A, already retained in map_transitions.csv row594, was missed in v2 reporting. Actual exit record, normal consumer, mutual return, Oystown entry scripts and sewer resource identity now corroborate membership. FD73/74 in016D set010B return IDs; they are not the incoming mechanism.",
+      "local_flags": [
+        "00C3 and01FE in default0810C600; no established incoming selector flag"
+      ]
+    }
+  ],
+  "approved_operations": [
+    {
+      "feature": "music",
+      "area": "Oyster Sewers",
+      "map_id": 365,
+      "offset": 6486997,
+      "bus": 140704725,
+      "old": "0e",
+      "new": "10",
+      "confidence": "Confirmed static",
+      "evidence": "0813C61A normal016C\u2192016D exit; consumer08069AA6; return0813C628; Oystown010F script08105ACC; matching sewer resources"
+    }
+  ],
+  "build_decision": "Build canonical and incremental v3 with one additional selector byte",
+  "correction": "V2 no-incoming claim for016D was incorrect: both ordinary edges were already retained in map_transitions.csv. Initial v3 draft preserved locally; corrected through independent readback, not relaxed assertions.",
+  "retained_v2_room_counts": {
+    "Dropper Village": 8,
+    "Mayonen Caverns": 15,
+    "Captain Grocko Ship": 29,
+    "Oyster Sewers": 14,
+    "The Vault": 21
+  },
+  "exhaustive_event_coverage": false,
+  "runtime": "No emulator, RAM, save or savestate operation"
+}

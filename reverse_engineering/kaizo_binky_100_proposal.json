@@ -1,0 +1,1099 @@
+{
+  "source_sha256": "d356a6979c497524d1e94306989e09cf8dfe96334a22c664eb3a9570f3ab3ea3",
+  "source_size": 16777216,
+  "thresholds": [
+    {
+      "gimmick": "UFO-Cast",
+      "old": 4,
+      "new": 2,
+      "display_file": "0x000FC7CA",
+      "display_bus": "0x080FC7CA",
+      "compare_file": "0x000FC7D1",
+      "compare_bus": "0x080FC7D1",
+      "old_bytes": "04 00",
+      "new_bytes": "02 00",
+      "packed_reward": "0x60",
+      "reward_id": "0x20",
+      "owner": 1,
+      "claim_flag": "0x195",
+      "prerequisite_flags": [],
+      "script_start": "0x080FC7BF"
+    },
+    {
+      "gimmick": "Lucky Cat",
+      "old": 7,
+      "new": 4,
+      "display_file": "0x000FC7FE",
+      "display_bus": "0x080FC7FE",
+      "compare_file": "0x000FC805",
+      "compare_bus": "0x080FC805",
+      "old_bytes": "07 00",
+      "new_bytes": "04 00",
+      "packed_reward": "0x2A",
+      "reward_id": "0x2A",
+      "owner": 0,
+      "claim_flag": "0x196",
+      "prerequisite_flags": [],
+      "script_start": "0x080FC7F3"
+    },
+    {
+      "gimmick": "Cyclooka",
+      "old": 10,
+      "new": 6,
+      "display_file": "0x000FC832",
+      "display_bus": "0x080FC832",
+      "compare_file": "0x000FC839",
+      "compare_bus": "0x080FC839",
+      "old_bytes": "0A 00",
+      "new_bytes": "06 00",
+      "packed_reward": "0x96",
+      "reward_id": "0x16",
+      "owner": 2,
+      "claim_flag": "0x197",
+      "prerequisite_flags": [
+        "0x22B"
+      ],
+      "script_start": "0x080FC827"
+    },
+    {
+      "gimmick": "Rocket Pak",
+      "old": 13,
+      "new": 7,
+      "display_file": "0x000FC872",
+      "display_bus": "0x080FC872",
+      "compare_file": "0x000FC879",
+      "compare_bus": "0x080FC879",
+      "old_bytes": "0D 00",
+      "new_bytes": "07 00",
+      "packed_reward": "0x62",
+      "reward_id": "0x22",
+      "owner": 1,
+      "claim_flag": "0x198",
+      "prerequisite_flags": [],
+      "script_start": "0x080FC867"
+    },
+    {
+      "gimmick": "Kendama",
+      "old": 17,
+      "new": 9,
+      "display_file": "0x000FC8A6",
+      "display_bus": "0x080FC8A6",
+      "compare_file": "0x000FC8AD",
+      "compare_bus": "0x080FC8AD",
+      "old_bytes": "11 00",
+      "new_bytes": "09 00",
+      "packed_reward": "0x02",
+      "reward_id": "0x02",
+      "owner": 0,
+      "claim_flag": "0x199",
+      "prerequisite_flags": [],
+      "script_start": "0x080FC89B"
+    },
+    {
+      "gimmick": "Bouncer",
+      "old": 21,
+      "new": 12,
+      "display_file": "0x000FC8DA",
+      "display_bus": "0x080FC8DA",
+      "compare_file": "0x000FC8E1",
+      "compare_bus": "0x080FC8E1",
+      "old_bytes": "15 00",
+      "new_bytes": "0C 00",
+      "packed_reward": "0xA4",
+      "reward_id": "0x24",
+      "owner": 2,
+      "claim_flag": "0x19A",
+      "prerequisite_flags": [],
+      "script_start": "0x080FC8CF"
+    },
+    {
+      "gimmick": "Bee Gatling",
+      "old": 26,
+      "new": 14,
+      "display_file": "0x000FC90E",
+      "display_bus": "0x080FC90E",
+      "compare_file": "0x000FC915",
+      "compare_bus": "0x080FC915",
+      "old_bytes": "1A 00",
+      "new_bytes": "0E 00",
+      "packed_reward": "0x54",
+      "reward_id": "0x14",
+      "owner": 1,
+      "claim_flag": "0x19B",
+      "prerequisite_flags": [
+        "0x22C"
+      ],
+      "script_start": "0x080FC903"
+    },
+    {
+      "gimmick": "Pyramet",
+      "old": 31,
+      "new": 17,
+      "display_file": "0x000FC94E",
+      "display_bus": "0x080FC94E",
+      "compare_file": "0x000FC955",
+      "compare_bus": "0x080FC955",
+      "old_bytes": "1F 00",
+      "new_bytes": "11 00",
+      "packed_reward": "0x1C",
+      "reward_id": "0x1C",
+      "owner": 0,
+      "claim_flag": "0x19C",
+      "prerequisite_flags": [],
+      "script_start": "0x080FC943"
+    },
+    {
+      "gimmick": "Fart Horn",
+      "old": 37,
+      "new": 21,
+      "display_file": "0x000FC982",
+      "display_bus": "0x080FC982",
+      "compare_file": "0x000FC989",
+      "compare_bus": "0x080FC989",
+      "old_bytes": "25 00",
+      "new_bytes": "15 00",
+      "packed_reward": "0x6C",
+      "reward_id": "0x2C",
+      "owner": 1,
+      "claim_flag": "0x19D",
+      "prerequisite_flags": [],
+      "script_start": "0x080FC977"
+    },
+    {
+      "gimmick": "Origami",
+      "old": 43,
+      "new": 24,
+      "display_file": "0x000FC9B6",
+      "display_bus": "0x080FC9B6",
+      "compare_file": "0x000FC9BD",
+      "compare_bus": "0x080FC9BD",
+      "old_bytes": "2B 00",
+      "new_bytes": "18 00",
+      "packed_reward": "0x04",
+      "reward_id": "0x04",
+      "owner": 0,
+      "claim_flag": "0x19E",
+      "prerequisite_flags": [],
+      "script_start": "0x080FC9AB"
+    },
+    {
+      "gimmick": "Popocon",
+      "old": 50,
+      "new": 28,
+      "display_file": "0x000FC9EA",
+      "display_bus": "0x080FC9EA",
+      "compare_file": "0x000FC9F1",
+      "compare_bus": "0x080FC9F1",
+      "old_bytes": "32 00",
+      "new_bytes": "1C 00",
+      "packed_reward": "0x98",
+      "reward_id": "0x18",
+      "owner": 2,
+      "claim_flag": "0x19F",
+      "prerequisite_flags": [
+        "0x22D"
+      ],
+      "script_start": "0x080FC9DF"
+    },
+    {
+      "gimmick": "BowlingRice",
+      "old": 57,
+      "new": 32,
+      "display_file": "0x000FCA2A",
+      "display_bus": "0x080FCA2A",
+      "compare_file": "0x000FCA31",
+      "compare_bus": "0x080FCA31",
+      "old_bytes": "39 00",
+      "new_bytes": "20 00",
+      "packed_reward": "0x28",
+      "reward_id": "0x28",
+      "owner": 0,
+      "claim_flag": "0x1A0",
+      "prerequisite_flags": [],
+      "script_start": "0x080FCA1F"
+    },
+    {
+      "gimmick": "Bunny Hop",
+      "old": 65,
+      "new": 36,
+      "display_file": "0x000FCA5E",
+      "display_bus": "0x080FCA5E",
+      "compare_file": "0x000FCA65",
+      "compare_bus": "0x080FCA65",
+      "old_bytes": "41 00",
+      "new_bytes": "24 00",
+      "packed_reward": "0x48",
+      "reward_id": "0x08",
+      "owner": 1,
+      "claim_flag": "0x1A1",
+      "prerequisite_flags": [],
+      "script_start": "0x080FCA53"
+    },
+    {
+      "gimmick": "Shadowreel",
+      "old": 73,
+      "new": 41,
+      "display_file": "0x000FCA92",
+      "display_bus": "0x080FCA92",
+      "compare_file": "0x000FCA99",
+      "compare_bus": "0x080FCA99",
+      "old_bytes": "49 00",
+      "new_bytes": "29 00",
+      "packed_reward": "0xF2",
+      "reward_id": "0x32",
+      "owner": 3,
+      "claim_flag": "0x1A2",
+      "prerequisite_flags": [],
+      "script_start": "0x080FCA87"
+    },
+    {
+      "gimmick": "SlotZooka",
+      "old": 81,
+      "new": 45,
+      "display_file": "0x000FCAC6",
+      "display_bus": "0x080FCAC6",
+      "compare_file": "0x000FCACD",
+      "compare_bus": "0x080FCACD",
+      "old_bytes": "51 00",
+      "new_bytes": "2D 00",
+      "packed_reward": "0x8C",
+      "reward_id": "0x0C",
+      "owner": 2,
+      "claim_flag": "0x1A3",
+      "prerequisite_flags": [],
+      "script_start": "0x080FCABB"
+    },
+    {
+      "gimmick": "Flame Doll",
+      "old": 90,
+      "new": 50,
+      "display_file": "0x000FCAFA",
+      "display_bus": "0x080FCAFA",
+      "compare_file": "0x000FCB01",
+      "compare_bus": "0x080FCB01",
+      "old_bytes": "5A 00",
+      "new_bytes": "32 00",
+      "packed_reward": "0xDA",
+      "reward_id": "0x1A",
+      "owner": 3,
+      "claim_flag": "0x1A4",
+      "prerequisite_flags": [
+        "0x096"
+      ],
+      "script_start": "0x080FCAEF"
+    },
+    {
+      "gimmick": "TwinDragon",
+      "old": 99,
+      "new": 55,
+      "display_file": "0x000FCB3A",
+      "display_bus": "0x080FCB3A",
+      "compare_file": "0x000FCB41",
+      "compare_bus": "0x080FCB41",
+      "old_bytes": "63 00",
+      "new_bytes": "37 00",
+      "packed_reward": "0x06",
+      "reward_id": "0x06",
+      "owner": 0,
+      "claim_flag": "0x1A5",
+      "prerequisite_flags": [],
+      "script_start": "0x080FCB2F"
+    },
+    {
+      "gimmick": "SesameTop",
+      "old": 109,
+      "new": 61,
+      "display_file": "0x000FCB6E",
+      "display_bus": "0x080FCB6E",
+      "compare_file": "0x000FCB75",
+      "compare_bus": "0x080FCB75",
+      "old_bytes": "6D 00",
+      "new_bytes": "3D 00",
+      "packed_reward": "0xE6",
+      "reward_id": "0x26",
+      "owner": 3,
+      "claim_flag": "0x1A6",
+      "prerequisite_flags": [],
+      "script_start": "0x080FCB63"
+    },
+    {
+      "gimmick": "Judgment",
+      "old": 119,
+      "new": 66,
+      "display_file": "0x000FCBA2",
+      "display_bus": "0x080FCBA2",
+      "compare_file": "0x000FCBA9",
+      "compare_bus": "0x080FCBA9",
+      "old_bytes": "77 00",
+      "new_bytes": "42 00",
+      "packed_reward": "0x4A",
+      "reward_id": "0x0A",
+      "owner": 1,
+      "claim_flag": "0x1A7",
+      "prerequisite_flags": [],
+      "script_start": "0x080FCB97"
+    },
+    {
+      "gimmick": "Mansnow",
+      "old": 130,
+      "new": 72,
+      "display_file": "0x000FCBD6",
+      "display_bus": "0x080FCBD6",
+      "compare_file": "0x000FCBDD",
+      "compare_bus": "0x080FCBDD",
+      "old_bytes": "82 00",
+      "new_bytes": "48 00",
+      "packed_reward": "0xB0",
+      "reward_id": "0x30",
+      "owner": 2,
+      "claim_flag": "0x1A8",
+      "prerequisite_flags": [],
+      "script_start": "0x080FCBCB"
+    },
+    {
+      "gimmick": "Dragonfire",
+      "old": 141,
+      "new": 78,
+      "display_file": "0x000FCC0A",
+      "display_bus": "0x080FCC0A",
+      "compare_file": "0x000FCC11",
+      "compare_bus": "0x080FCC11",
+      "old_bytes": "8D 00",
+      "new_bytes": "4E 00",
+      "packed_reward": "0x12",
+      "reward_id": "0x12",
+      "owner": 0,
+      "claim_flag": "0x1A9",
+      "prerequisite_flags": [],
+      "script_start": "0x080FCBFF"
+    },
+    {
+      "gimmick": "Momotaro",
+      "old": 153,
+      "new": 85,
+      "display_file": "0x000FCC3E",
+      "display_bus": "0x080FCC3E",
+      "compare_file": "0x000FCC45",
+      "compare_bus": "0x080FCC45",
+      "old_bytes": "99 00",
+      "new_bytes": "55 00",
+      "packed_reward": "0xCE",
+      "reward_id": "0x0E",
+      "owner": 3,
+      "claim_flag": "0x1AA",
+      "prerequisite_flags": [],
+      "script_start": "0x080FCC33"
+    },
+    {
+      "gimmick": "StarScope",
+      "old": 165,
+      "new": 92,
+      "display_file": "0x000FCC72",
+      "display_bus": "0x080FCC72",
+      "compare_file": "0x000FCC79",
+      "compare_bus": "0x080FCC79",
+      "old_bytes": "A5 00",
+      "new_bytes": "5C 00",
+      "packed_reward": "0x6E",
+      "reward_id": "0x2E",
+      "owner": 1,
+      "claim_flag": "0x1AB",
+      "prerequisite_flags": [],
+      "script_start": "0x080FCC67"
+    },
+    {
+      "gimmick": "Choo-Choo",
+      "old": 180,
+      "new": 100,
+      "display_file": "0x000FCCA6",
+      "display_bus": "0x080FCCA6",
+      "compare_file": "0x000FCCAD",
+      "compare_bus": "0x080FCCAD",
+      "old_bytes": "B4 00",
+      "new_bytes": "64 00",
+      "packed_reward": "0x1E",
+      "reward_id": "0x1E",
+      "owner": 0,
+      "claim_flag": "0x1AC",
+      "prerequisite_flags": [],
+      "script_start": "0x080FCC9B"
+    }
+  ],
+  "operations": [
+    {
+      "file": "0x000FC7CA",
+      "bus": "0x080FC7CA",
+      "old": "04 00",
+      "new": "02 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC7D1",
+      "bus": "0x080FC7D1",
+      "old": "04 00",
+      "new": "02 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC7FE",
+      "bus": "0x080FC7FE",
+      "old": "07 00",
+      "new": "04 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC805",
+      "bus": "0x080FC805",
+      "old": "07 00",
+      "new": "04 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC832",
+      "bus": "0x080FC832",
+      "old": "0A 00",
+      "new": "06 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC839",
+      "bus": "0x080FC839",
+      "old": "0A 00",
+      "new": "06 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC872",
+      "bus": "0x080FC872",
+      "old": "0D 00",
+      "new": "07 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC879",
+      "bus": "0x080FC879",
+      "old": "0D 00",
+      "new": "07 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC8A6",
+      "bus": "0x080FC8A6",
+      "old": "11 00",
+      "new": "09 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC8AD",
+      "bus": "0x080FC8AD",
+      "old": "11 00",
+      "new": "09 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC8DA",
+      "bus": "0x080FC8DA",
+      "old": "15 00",
+      "new": "0C 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC8E1",
+      "bus": "0x080FC8E1",
+      "old": "15 00",
+      "new": "0C 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC90E",
+      "bus": "0x080FC90E",
+      "old": "1A 00",
+      "new": "0E 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC915",
+      "bus": "0x080FC915",
+      "old": "1A 00",
+      "new": "0E 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC94E",
+      "bus": "0x080FC94E",
+      "old": "1F 00",
+      "new": "11 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC955",
+      "bus": "0x080FC955",
+      "old": "1F 00",
+      "new": "11 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC982",
+      "bus": "0x080FC982",
+      "old": "25 00",
+      "new": "15 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC989",
+      "bus": "0x080FC989",
+      "old": "25 00",
+      "new": "15 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC9B6",
+      "bus": "0x080FC9B6",
+      "old": "2B 00",
+      "new": "18 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC9BD",
+      "bus": "0x080FC9BD",
+      "old": "2B 00",
+      "new": "18 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC9EA",
+      "bus": "0x080FC9EA",
+      "old": "32 00",
+      "new": "1C 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC9F1",
+      "bus": "0x080FC9F1",
+      "old": "32 00",
+      "new": "1C 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCA2A",
+      "bus": "0x080FCA2A",
+      "old": "39 00",
+      "new": "20 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCA31",
+      "bus": "0x080FCA31",
+      "old": "39 00",
+      "new": "20 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCA5E",
+      "bus": "0x080FCA5E",
+      "old": "41 00",
+      "new": "24 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCA65",
+      "bus": "0x080FCA65",
+      "old": "41 00",
+      "new": "24 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCA92",
+      "bus": "0x080FCA92",
+      "old": "49 00",
+      "new": "29 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCA99",
+      "bus": "0x080FCA99",
+      "old": "49 00",
+      "new": "29 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCAC6",
+      "bus": "0x080FCAC6",
+      "old": "51 00",
+      "new": "2D 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCACD",
+      "bus": "0x080FCACD",
+      "old": "51 00",
+      "new": "2D 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCAFA",
+      "bus": "0x080FCAFA",
+      "old": "5A 00",
+      "new": "32 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCB01",
+      "bus": "0x080FCB01",
+      "old": "5A 00",
+      "new": "32 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCB3A",
+      "bus": "0x080FCB3A",
+      "old": "63 00",
+      "new": "37 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCB41",
+      "bus": "0x080FCB41",
+      "old": "63 00",
+      "new": "37 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCB6E",
+      "bus": "0x080FCB6E",
+      "old": "6D 00",
+      "new": "3D 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCB75",
+      "bus": "0x080FCB75",
+      "old": "6D 00",
+      "new": "3D 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCBA2",
+      "bus": "0x080FCBA2",
+      "old": "77 00",
+      "new": "42 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCBA9",
+      "bus": "0x080FCBA9",
+      "old": "77 00",
+      "new": "42 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCBD6",
+      "bus": "0x080FCBD6",
+      "old": "82 00",
+      "new": "48 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCBDD",
+      "bus": "0x080FCBDD",
+      "old": "82 00",
+      "new": "48 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCC0A",
+      "bus": "0x080FCC0A",
+      "old": "8D 00",
+      "new": "4E 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCC11",
+      "bus": "0x080FCC11",
+      "old": "8D 00",
+      "new": "4E 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCC3E",
+      "bus": "0x080FCC3E",
+      "old": "99 00",
+      "new": "55 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCC45",
+      "bus": "0x080FCC45",
+      "old": "99 00",
+      "new": "55 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCC72",
+      "bus": "0x080FCC72",
+      "old": "A5 00",
+      "new": "5C 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCC79",
+      "bus": "0x080FCC79",
+      "old": "A5 00",
+      "new": "5C 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCCA6",
+      "bus": "0x080FCCA6",
+      "old": "B4 00",
+      "new": "64 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FCCAD",
+      "bus": "0x080FCCAD",
+      "old": "B4 00",
+      "new": "64 00",
+      "kind": "threshold"
+    },
+    {
+      "file": "0x000FC7A9",
+      "bus": "0x080FC7A9",
+      "old": "B4 00",
+      "new": "64 00",
+      "kind": "cap comparison"
+    },
+    {
+      "file": "0x000FCCD8",
+      "bus": "0x080FCCD8",
+      "old": "B4",
+      "new": "64",
+      "kind": "cap clamp"
+    },
+    {
+      "file": "0x0064FE13",
+      "bus": "0x0864FE13",
+      "old": "78",
+      "new": "70",
+      "kind": "dialogue digit"
+    }
+  ],
+  "expected_actual_byte_differences": [
+    {
+      "file": "0x000FC7CA",
+      "bus": "0x080FC7CA",
+      "old": "04",
+      "new": "02"
+    },
+    {
+      "file": "0x000FC7D1",
+      "bus": "0x080FC7D1",
+      "old": "04",
+      "new": "02"
+    },
+    {
+      "file": "0x000FC7FE",
+      "bus": "0x080FC7FE",
+      "old": "07",
+      "new": "04"
+    },
+    {
+      "file": "0x000FC805",
+      "bus": "0x080FC805",
+      "old": "07",
+      "new": "04"
+    },
+    {
+      "file": "0x000FC832",
+      "bus": "0x080FC832",
+      "old": "0A",
+      "new": "06"
+    },
+    {
+      "file": "0x000FC839",
+      "bus": "0x080FC839",
+      "old": "0A",
+      "new": "06"
+    },
+    {
+      "file": "0x000FC872",
+      "bus": "0x080FC872",
+      "old": "0D",
+      "new": "07"
+    },
+    {
+      "file": "0x000FC879",
+      "bus": "0x080FC879",
+      "old": "0D",
+      "new": "07"
+    },
+    {
+      "file": "0x000FC8A6",
+      "bus": "0x080FC8A6",
+      "old": "11",
+      "new": "09"
+    },
+    {
+      "file": "0x000FC8AD",
+      "bus": "0x080FC8AD",
+      "old": "11",
+      "new": "09"
+    },
+    {
+      "file": "0x000FC8DA",
+      "bus": "0x080FC8DA",
+      "old": "15",
+      "new": "0C"
+    },
+    {
+      "file": "0x000FC8E1",
+      "bus": "0x080FC8E1",
+      "old": "15",
+      "new": "0C"
+    },
+    {
+      "file": "0x000FC90E",
+      "bus": "0x080FC90E",
+      "old": "1A",
+      "new": "0E"
+    },
+    {
+      "file": "0x000FC915",
+      "bus": "0x080FC915",
+      "old": "1A",
+      "new": "0E"
+    },
+    {
+      "file": "0x000FC94E",
+      "bus": "0x080FC94E",
+      "old": "1F",
+      "new": "11"
+    },
+    {
+      "file": "0x000FC955",
+      "bus": "0x080FC955",
+      "old": "1F",
+      "new": "11"
+    },
+    {
+      "file": "0x000FC982",
+      "bus": "0x080FC982",
+      "old": "25",
+      "new": "15"
+    },
+    {
+      "file": "0x000FC989",
+      "bus": "0x080FC989",
+      "old": "25",
+      "new": "15"
+    },
+    {
+      "file": "0x000FC9B6",
+      "bus": "0x080FC9B6",
+      "old": "2B",
+      "new": "18"
+    },
+    {
+      "file": "0x000FC9BD",
+      "bus": "0x080FC9BD",
+      "old": "2B",
+      "new": "18"
+    },
+    {
+      "file": "0x000FC9EA",
+      "bus": "0x080FC9EA",
+      "old": "32",
+      "new": "1C"
+    },
+    {
+      "file": "0x000FC9F1",
+      "bus": "0x080FC9F1",
+      "old": "32",
+      "new": "1C"
+    },
+    {
+      "file": "0x000FCA2A",
+      "bus": "0x080FCA2A",
+      "old": "39",
+      "new": "20"
+    },
+    {
+      "file": "0x000FCA31",
+      "bus": "0x080FCA31",
+      "old": "39",
+      "new": "20"
+    },
+    {
+      "file": "0x000FCA5E",
+      "bus": "0x080FCA5E",
+      "old": "41",
+      "new": "24"
+    },
+    {
+      "file": "0x000FCA65",
+      "bus": "0x080FCA65",
+      "old": "41",
+      "new": "24"
+    },
+    {
+      "file": "0x000FCA92",
+      "bus": "0x080FCA92",
+      "old": "49",
+      "new": "29"
+    },
+    {
+      "file": "0x000FCA99",
+      "bus": "0x080FCA99",
+      "old": "49",
+      "new": "29"
+    },
+    {
+      "file": "0x000FCAC6",
+      "bus": "0x080FCAC6",
+      "old": "51",
+      "new": "2D"
+    },
+    {
+      "file": "0x000FCACD",
+      "bus": "0x080FCACD",
+      "old": "51",
+      "new": "2D"
+    },
+    {
+      "file": "0x000FCAFA",
+      "bus": "0x080FCAFA",
+      "old": "5A",
+      "new": "32"
+    },
+    {
+      "file": "0x000FCB01",
+      "bus": "0x080FCB01",
+      "old": "5A",
+      "new": "32"
+    },
+    {
+      "file": "0x000FCB3A",
+      "bus": "0x080FCB3A",
+      "old": "63",
+      "new": "37"
+    },
+    {
+      "file": "0x000FCB41",
+      "bus": "0x080FCB41",
+      "old": "63",
+      "new": "37"
+    },
+    {
+      "file": "0x000FCB6E",
+      "bus": "0x080FCB6E",
+      "old": "6D",
+      "new": "3D"
+    },
+    {
+      "file": "0x000FCB75",
+      "bus": "0x080FCB75",
+      "old": "6D",
+      "new": "3D"
+    },
+    {
+      "file": "0x000FCBA2",
+      "bus": "0x080FCBA2",
+      "old": "77",
+      "new": "42"
+    },
+    {
+      "file": "0x000FCBA9",
+      "bus": "0x080FCBA9",
+      "old": "77",
+      "new": "42"
+    },
+    {
+      "file": "0x000FCBD6",
+      "bus": "0x080FCBD6",
+      "old": "82",
+      "new": "48"
+    },
+    {
+      "file": "0x000FCBDD",
+      "bus": "0x080FCBDD",
+      "old": "82",
+      "new": "48"
+    },
+    {
+      "file": "0x000FCC0A",
+      "bus": "0x080FCC0A",
+      "old": "8D",
+      "new": "4E"
+    },
+    {
+      "file": "0x000FCC11",
+      "bus": "0x080FCC11",
+      "old": "8D",
+      "new": "4E"
+    },
+    {
+      "file": "0x000FCC3E",
+      "bus": "0x080FCC3E",
+      "old": "99",
+      "new": "55"
+    },
+    {
+      "file": "0x000FCC45",
+      "bus": "0x080FCC45",
+      "old": "99",
+      "new": "55"
+    },
+    {
+      "file": "0x000FCC72",
+      "bus": "0x080FCC72",
+      "old": "A5",
+      "new": "5C"
+    },
+    {
+      "file": "0x000FCC79",
+      "bus": "0x080FCC79",
+      "old": "A5",
+      "new": "5C"
+    },
+    {
+      "file": "0x000FCCA6",
+      "bus": "0x080FCCA6",
+      "old": "B4",
+      "new": "64"
+    },
+    {
+      "file": "0x000FCCAD",
+      "bus": "0x080FCCAD",
+      "old": "B4",
+      "new": "64"
+    },
+    {
+      "file": "0x000FC7A9",
+      "bus": "0x080FC7A9",
+      "old": "B4",
+      "new": "64"
+    },
+    {
+      "file": "0x000FCCD8",
+      "bus": "0x080FCCD8",
+      "old": "B4",
+      "new": "64"
+    },
+    {
+      "file": "0x0064FE13",
+      "bus": "0x0864FE13",
+      "old": "78",
+      "new": "70"
+    }
+  ],
+  "expected_changed_bytes": 51,
+  "expected_rom_size": 16777216,
+  "constructed": false,
+  "synthetic_checks": {
+    "strictly_increasing": true,
+    "approved_proportional_rounding": true,
+    "donation_arithmetic_cases": 18100,
+    "runtime_simulation": false
+  },
+  "whole_stack_policy": "Proposed unchanged pending explicit construction approval; all carried Binkies removed, excess above cumulative 100 uncredited."
+}

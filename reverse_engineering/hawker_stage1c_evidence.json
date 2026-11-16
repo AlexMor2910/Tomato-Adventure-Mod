@@ -1,0 +1,4774 @@
+{
+  "status": "STAGE 1C \u2014 LOCALIZED IMPLEMENTATION FEASIBLE",
+  "scope": "Symbolic command-graph feasibility; no payload or ROM constructed; runtime untested",
+  "source": "tools/patch/output/detector-hp120-mit25/detector_rebalance.gba",
+  "source_sha256": "124c04798e3e9769381f6105fc602794a249c169290b4fc86d735592ae8d9db0",
+  "source_extent_bus_exclusive": [
+    "0x8107e81",
+    "0x81081da"
+  ],
+  "source_extent_sha256": "0c320e92fdcd968fe2d80c2b6005effd0060952cd6bb5623bbf79e50cb8fbd6d",
+  "source_bytes": 857,
+  "command_count": 164,
+  "reachable_command_count": 161,
+  "retained_without_local_inbound_edge": [
+    "0x81081a8",
+    "0x81081ac",
+    "0x81081b2"
+  ],
+  "pointer_fields": [
+    {
+      "command_bus": "0x08107E81",
+      "command_offset": 0,
+      "field_byte": 3,
+      "field_bus": "0x8107e84",
+      "kind": "internal_code",
+      "original_target": "0x8107e90",
+      "target_offset": 15
+    },
+    {
+      "command_bus": "0x08107E90",
+      "command_offset": 15,
+      "field_byte": 4,
+      "field_bus": "0x8107e94",
+      "kind": "internal_code",
+      "original_target": "0x81081cc",
+      "target_offset": 843
+    },
+    {
+      "command_bus": "0x08107E98",
+      "command_offset": 23,
+      "field_byte": 2,
+      "field_bus": "0x8107e9a",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865f907",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x08107E9E",
+      "command_offset": 29,
+      "field_byte": 4,
+      "field_bus": "0x8107ea2",
+      "kind": "internal_code",
+      "original_target": "0x8107fc0",
+      "target_offset": 319
+    },
+    {
+      "command_bus": "0x08107EA6",
+      "command_offset": 37,
+      "field_byte": 4,
+      "field_bus": "0x8107eaa",
+      "kind": "internal_code",
+      "original_target": "0x8107ed7",
+      "target_offset": 86
+    },
+    {
+      "command_bus": "0x08107EB1",
+      "command_offset": 48,
+      "field_byte": 4,
+      "field_bus": "0x8107eb5",
+      "kind": "internal_code",
+      "original_target": "0x8107ebf",
+      "target_offset": 62
+    },
+    {
+      "command_bus": "0x08107EB9",
+      "command_offset": 56,
+      "field_byte": 2,
+      "field_bus": "0x8107ebb",
+      "kind": "internal_code",
+      "original_target": "0x8108025",
+      "target_offset": 420
+    },
+    {
+      "command_bus": "0x08107EBF",
+      "command_offset": 62,
+      "field_byte": 2,
+      "field_bus": "0x8107ec1",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865f97d",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x08107EC5",
+      "command_offset": 68,
+      "field_byte": 2,
+      "field_bus": "0x8107ec7",
+      "kind": "internal_code",
+      "original_target": "0x810819c",
+      "target_offset": 795
+    },
+    {
+      "command_bus": "0x08107ECB",
+      "command_offset": 74,
+      "field_byte": 2,
+      "field_bus": "0x8107ecd",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x08107ED1",
+      "command_offset": 80,
+      "field_byte": 2,
+      "field_bus": "0x8107ed3",
+      "kind": "internal_code",
+      "original_target": "0x8107f52",
+      "target_offset": 209
+    },
+    {
+      "command_bus": "0x08107EDA",
+      "command_offset": 89,
+      "field_byte": 4,
+      "field_bus": "0x8107ede",
+      "kind": "internal_code",
+      "original_target": "0x8107ef3",
+      "target_offset": 114
+    },
+    {
+      "command_bus": "0x08107EE5",
+      "command_offset": 100,
+      "field_byte": 4,
+      "field_bus": "0x8107ee9",
+      "kind": "internal_code",
+      "original_target": "0x8107f04",
+      "target_offset": 131
+    },
+    {
+      "command_bus": "0x08107EED",
+      "command_offset": 108,
+      "field_byte": 2,
+      "field_bus": "0x8107eef",
+      "kind": "internal_code",
+      "original_target": "0x8108025",
+      "target_offset": 420
+    },
+    {
+      "command_bus": "0x08107EF6",
+      "command_offset": 117,
+      "field_byte": 4,
+      "field_bus": "0x8107efa",
+      "kind": "internal_code",
+      "original_target": "0x8107f34",
+      "target_offset": 179
+    },
+    {
+      "command_bus": "0x08107EFE",
+      "command_offset": 125,
+      "field_byte": 2,
+      "field_bus": "0x8107f00",
+      "kind": "internal_code",
+      "original_target": "0x8107f1c",
+      "target_offset": 155
+    },
+    {
+      "command_bus": "0x08107F04",
+      "command_offset": 131,
+      "field_byte": 2,
+      "field_bus": "0x8107f06",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865f9c6",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x08107F0A",
+      "command_offset": 137,
+      "field_byte": 2,
+      "field_bus": "0x8107f0c",
+      "kind": "internal_code",
+      "original_target": "0x810819c",
+      "target_offset": 795
+    },
+    {
+      "command_bus": "0x08107F10",
+      "command_offset": 143,
+      "field_byte": 2,
+      "field_bus": "0x8107f12",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x08107F16",
+      "command_offset": 149,
+      "field_byte": 2,
+      "field_bus": "0x8107f18",
+      "kind": "internal_code",
+      "original_target": "0x8107f89",
+      "target_offset": 264
+    },
+    {
+      "command_bus": "0x08107F1C",
+      "command_offset": 155,
+      "field_byte": 2,
+      "field_bus": "0x8107f1e",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865f97d",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x08107F22",
+      "command_offset": 161,
+      "field_byte": 2,
+      "field_bus": "0x8107f24",
+      "kind": "internal_code",
+      "original_target": "0x810819c",
+      "target_offset": 795
+    },
+    {
+      "command_bus": "0x08107F28",
+      "command_offset": 167,
+      "field_byte": 2,
+      "field_bus": "0x8107f2a",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x08107F2E",
+      "command_offset": 173,
+      "field_byte": 2,
+      "field_bus": "0x8107f30",
+      "kind": "internal_code",
+      "original_target": "0x810812e",
+      "target_offset": 685
+    },
+    {
+      "command_bus": "0x08107F34",
+      "command_offset": 179,
+      "field_byte": 2,
+      "field_bus": "0x8107f36",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fa58",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x08107F3A",
+      "command_offset": 185,
+      "field_byte": 2,
+      "field_bus": "0x8107f3c",
+      "kind": "internal_code",
+      "original_target": "0x8107f89",
+      "target_offset": 264
+    },
+    {
+      "command_bus": "0x08107F40",
+      "command_offset": 191,
+      "field_byte": 2,
+      "field_bus": "0x8107f42",
+      "kind": "internal_code",
+      "original_target": "0x810819c",
+      "target_offset": 795
+    },
+    {
+      "command_bus": "0x08107F46",
+      "command_offset": 197,
+      "field_byte": 2,
+      "field_bus": "0x8107f48",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x08107F4C",
+      "command_offset": 203,
+      "field_byte": 2,
+      "field_bus": "0x8107f4e",
+      "kind": "internal_code",
+      "original_target": "0x810812e",
+      "target_offset": 685
+    },
+    {
+      "command_bus": "0x08107F5A",
+      "command_offset": 217,
+      "field_byte": 2,
+      "field_bus": "0x8107f5c",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fbc2",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x08107F60",
+      "command_offset": 223,
+      "field_byte": 2,
+      "field_bus": "0x8107f62",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x08107F6D",
+      "command_offset": 236,
+      "field_byte": 2,
+      "field_bus": "0x8107f6f",
+      "kind": "internal_code",
+      "original_target": "0x81081c0",
+      "target_offset": 831
+    },
+    {
+      "command_bus": "0x08107F73",
+      "command_offset": 242,
+      "field_byte": 4,
+      "field_bus": "0x8107f77",
+      "kind": "internal_code",
+      "original_target": "0x81081d8",
+      "target_offset": 855
+    },
+    {
+      "command_bus": "0x08107F7E",
+      "command_offset": 253,
+      "field_byte": 2,
+      "field_bus": "0x8107f80",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865a9a1",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x08107F91",
+      "command_offset": 272,
+      "field_byte": 2,
+      "field_bus": "0x8107f93",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fbc2",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x08107F97",
+      "command_offset": 278,
+      "field_byte": 2,
+      "field_bus": "0x8107f99",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x08107FA4",
+      "command_offset": 291,
+      "field_byte": 2,
+      "field_bus": "0x8107fa6",
+      "kind": "internal_code",
+      "original_target": "0x81081c0",
+      "target_offset": 831
+    },
+    {
+      "command_bus": "0x08107FAA",
+      "command_offset": 297,
+      "field_byte": 4,
+      "field_bus": "0x8107fae",
+      "kind": "internal_code",
+      "original_target": "0x81081d8",
+      "target_offset": 855
+    },
+    {
+      "command_bus": "0x08107FB5",
+      "command_offset": 308,
+      "field_byte": 2,
+      "field_bus": "0x8107fb7",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865a9a1",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x08107FC3",
+      "command_offset": 322,
+      "field_byte": 4,
+      "field_bus": "0x8107fc7",
+      "kind": "internal_code",
+      "original_target": "0x8107fe7",
+      "target_offset": 358
+    },
+    {
+      "command_bus": "0x08107FCE",
+      "command_offset": 333,
+      "field_byte": 4,
+      "field_bus": "0x8107fd2",
+      "kind": "internal_code",
+      "original_target": "0x8108003",
+      "target_offset": 386
+    },
+    {
+      "command_bus": "0x08107FD9",
+      "command_offset": 344,
+      "field_byte": 4,
+      "field_bus": "0x8107fdd",
+      "kind": "internal_code",
+      "original_target": "0x8108067",
+      "target_offset": 486
+    },
+    {
+      "command_bus": "0x08107FE1",
+      "command_offset": 352,
+      "field_byte": 2,
+      "field_bus": "0x8107fe3",
+      "kind": "internal_code",
+      "original_target": "0x8108025",
+      "target_offset": 420
+    },
+    {
+      "command_bus": "0x08107FEA",
+      "command_offset": 361,
+      "field_byte": 4,
+      "field_bus": "0x8107fee",
+      "kind": "internal_code",
+      "original_target": "0x8108014",
+      "target_offset": 403
+    },
+    {
+      "command_bus": "0x08107FF5",
+      "command_offset": 372,
+      "field_byte": 4,
+      "field_bus": "0x8107ff9",
+      "kind": "internal_code",
+      "original_target": "0x810809d",
+      "target_offset": 540
+    },
+    {
+      "command_bus": "0x08107FFD",
+      "command_offset": 380,
+      "field_byte": 2,
+      "field_bus": "0x8107fff",
+      "kind": "internal_code",
+      "original_target": "0x8108037",
+      "target_offset": 438
+    },
+    {
+      "command_bus": "0x08108006",
+      "command_offset": 389,
+      "field_byte": 4,
+      "field_bus": "0x810800a",
+      "kind": "internal_code",
+      "original_target": "0x81080bb",
+      "target_offset": 570
+    },
+    {
+      "command_bus": "0x0810800E",
+      "command_offset": 397,
+      "field_byte": 2,
+      "field_bus": "0x8108010",
+      "kind": "internal_code",
+      "original_target": "0x810804f",
+      "target_offset": 462
+    },
+    {
+      "command_bus": "0x08108017",
+      "command_offset": 406,
+      "field_byte": 4,
+      "field_bus": "0x810801b",
+      "kind": "internal_code",
+      "original_target": "0x81080d9",
+      "target_offset": 600
+    },
+    {
+      "command_bus": "0x0810801F",
+      "command_offset": 414,
+      "field_byte": 2,
+      "field_bus": "0x8108021",
+      "kind": "internal_code",
+      "original_target": "0x810807f",
+      "target_offset": 510
+    },
+    {
+      "command_bus": "0x08108025",
+      "command_offset": 420,
+      "field_byte": 2,
+      "field_bus": "0x8108027",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fd15",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x0810802B",
+      "command_offset": 426,
+      "field_byte": 2,
+      "field_bus": "0x810802d",
+      "kind": "internal_code",
+      "original_target": "0x810819c",
+      "target_offset": 795
+    },
+    {
+      "command_bus": "0x08108031",
+      "command_offset": 432,
+      "field_byte": 2,
+      "field_bus": "0x8108033",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x08108037",
+      "command_offset": 438,
+      "field_byte": 2,
+      "field_bus": "0x8108039",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865f97d",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x0810803D",
+      "command_offset": 444,
+      "field_byte": 2,
+      "field_bus": "0x810803f",
+      "kind": "internal_code",
+      "original_target": "0x810819c",
+      "target_offset": 795
+    },
+    {
+      "command_bus": "0x08108043",
+      "command_offset": 450,
+      "field_byte": 2,
+      "field_bus": "0x8108045",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x08108049",
+      "command_offset": 456,
+      "field_byte": 2,
+      "field_bus": "0x810804b",
+      "kind": "internal_code",
+      "original_target": "0x81080f7",
+      "target_offset": 630
+    },
+    {
+      "command_bus": "0x0810804F",
+      "command_offset": 462,
+      "field_byte": 2,
+      "field_bus": "0x8108051",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865f9c6",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x08108055",
+      "command_offset": 468,
+      "field_byte": 2,
+      "field_bus": "0x8108057",
+      "kind": "internal_code",
+      "original_target": "0x810819c",
+      "target_offset": 795
+    },
+    {
+      "command_bus": "0x0810805B",
+      "command_offset": 474,
+      "field_byte": 2,
+      "field_bus": "0x810805d",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x08108061",
+      "command_offset": 480,
+      "field_byte": 2,
+      "field_bus": "0x8108063",
+      "kind": "internal_code",
+      "original_target": "0x8107f89",
+      "target_offset": 264
+    },
+    {
+      "command_bus": "0x08108067",
+      "command_offset": 486,
+      "field_byte": 2,
+      "field_bus": "0x8108069",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fa0f",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x0810806D",
+      "command_offset": 492,
+      "field_byte": 2,
+      "field_bus": "0x810806f",
+      "kind": "internal_code",
+      "original_target": "0x810819c",
+      "target_offset": 795
+    },
+    {
+      "command_bus": "0x08108073",
+      "command_offset": 498,
+      "field_byte": 2,
+      "field_bus": "0x8108075",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x08108079",
+      "command_offset": 504,
+      "field_byte": 2,
+      "field_bus": "0x810807b",
+      "kind": "internal_code",
+      "original_target": "0x8108165",
+      "target_offset": 740
+    },
+    {
+      "command_bus": "0x0810807F",
+      "command_offset": 510,
+      "field_byte": 2,
+      "field_bus": "0x8108081",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fa58",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x08108085",
+      "command_offset": 516,
+      "field_byte": 2,
+      "field_bus": "0x8108087",
+      "kind": "internal_code",
+      "original_target": "0x8107f89",
+      "target_offset": 264
+    },
+    {
+      "command_bus": "0x0810808B",
+      "command_offset": 522,
+      "field_byte": 2,
+      "field_bus": "0x810808d",
+      "kind": "internal_code",
+      "original_target": "0x810819c",
+      "target_offset": 795
+    },
+    {
+      "command_bus": "0x08108091",
+      "command_offset": 528,
+      "field_byte": 2,
+      "field_bus": "0x8108093",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x08108097",
+      "command_offset": 534,
+      "field_byte": 2,
+      "field_bus": "0x8108099",
+      "kind": "internal_code",
+      "original_target": "0x81080f7",
+      "target_offset": 630
+    },
+    {
+      "command_bus": "0x0810809D",
+      "command_offset": 540,
+      "field_byte": 2,
+      "field_bus": "0x810809f",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865faaf",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x081080A3",
+      "command_offset": 546,
+      "field_byte": 2,
+      "field_bus": "0x81080a5",
+      "kind": "internal_code",
+      "original_target": "0x8108165",
+      "target_offset": 740
+    },
+    {
+      "command_bus": "0x081080A9",
+      "command_offset": 552,
+      "field_byte": 2,
+      "field_bus": "0x81080ab",
+      "kind": "internal_code",
+      "original_target": "0x810819c",
+      "target_offset": 795
+    },
+    {
+      "command_bus": "0x081080AF",
+      "command_offset": 558,
+      "field_byte": 2,
+      "field_bus": "0x81080b1",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x081080B5",
+      "command_offset": 564,
+      "field_byte": 2,
+      "field_bus": "0x81080b7",
+      "kind": "internal_code",
+      "original_target": "0x81080f7",
+      "target_offset": 630
+    },
+    {
+      "command_bus": "0x081080BB",
+      "command_offset": 570,
+      "field_byte": 2,
+      "field_bus": "0x81080bd",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fb06",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x081080C1",
+      "command_offset": 576,
+      "field_byte": 2,
+      "field_bus": "0x81080c3",
+      "kind": "internal_code",
+      "original_target": "0x8108165",
+      "target_offset": 740
+    },
+    {
+      "command_bus": "0x081080C7",
+      "command_offset": 582,
+      "field_byte": 2,
+      "field_bus": "0x81080c9",
+      "kind": "internal_code",
+      "original_target": "0x810819c",
+      "target_offset": 795
+    },
+    {
+      "command_bus": "0x081080CD",
+      "command_offset": 588,
+      "field_byte": 2,
+      "field_bus": "0x81080cf",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x081080D3",
+      "command_offset": 594,
+      "field_byte": 2,
+      "field_bus": "0x81080d5",
+      "kind": "internal_code",
+      "original_target": "0x8107f89",
+      "target_offset": 264
+    },
+    {
+      "command_bus": "0x081080D9",
+      "command_offset": 600,
+      "field_byte": 2,
+      "field_bus": "0x81080db",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fb5d",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x081080DF",
+      "command_offset": 606,
+      "field_byte": 2,
+      "field_bus": "0x81080e1",
+      "kind": "internal_code",
+      "original_target": "0x8107f89",
+      "target_offset": 264
+    },
+    {
+      "command_bus": "0x081080E5",
+      "command_offset": 612,
+      "field_byte": 2,
+      "field_bus": "0x81080e7",
+      "kind": "internal_code",
+      "original_target": "0x8108165",
+      "target_offset": 740
+    },
+    {
+      "command_bus": "0x081080EB",
+      "command_offset": 618,
+      "field_byte": 2,
+      "field_bus": "0x81080ed",
+      "kind": "internal_code",
+      "original_target": "0x810819c",
+      "target_offset": 795
+    },
+    {
+      "command_bus": "0x081080F1",
+      "command_offset": 624,
+      "field_byte": 2,
+      "field_bus": "0x81080f3",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x081080FF",
+      "command_offset": 638,
+      "field_byte": 2,
+      "field_bus": "0x8108101",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fbc2",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x08108105",
+      "command_offset": 644,
+      "field_byte": 2,
+      "field_bus": "0x8108107",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x08108112",
+      "command_offset": 657,
+      "field_byte": 2,
+      "field_bus": "0x8108114",
+      "kind": "internal_code",
+      "original_target": "0x81081c0",
+      "target_offset": 831
+    },
+    {
+      "command_bus": "0x08108118",
+      "command_offset": 663,
+      "field_byte": 4,
+      "field_bus": "0x810811c",
+      "kind": "internal_code",
+      "original_target": "0x81081d8",
+      "target_offset": 855
+    },
+    {
+      "command_bus": "0x08108123",
+      "command_offset": 674,
+      "field_byte": 2,
+      "field_bus": "0x8108125",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865a9a1",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x08108136",
+      "command_offset": 693,
+      "field_byte": 2,
+      "field_bus": "0x8108138",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fbc2",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x0810813C",
+      "command_offset": 699,
+      "field_byte": 2,
+      "field_bus": "0x810813e",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x08108149",
+      "command_offset": 712,
+      "field_byte": 2,
+      "field_bus": "0x810814b",
+      "kind": "internal_code",
+      "original_target": "0x81081c0",
+      "target_offset": 831
+    },
+    {
+      "command_bus": "0x0810814F",
+      "command_offset": 718,
+      "field_byte": 4,
+      "field_bus": "0x8108153",
+      "kind": "internal_code",
+      "original_target": "0x81081d8",
+      "target_offset": 855
+    },
+    {
+      "command_bus": "0x0810815A",
+      "command_offset": 729,
+      "field_byte": 2,
+      "field_bus": "0x810815c",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865a9a1",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x0810816D",
+      "command_offset": 748,
+      "field_byte": 2,
+      "field_bus": "0x810816f",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fbc2",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x08108173",
+      "command_offset": 754,
+      "field_byte": 2,
+      "field_bus": "0x8108175",
+      "kind": "internal_code",
+      "original_target": "0x81081b4",
+      "target_offset": 819
+    },
+    {
+      "command_bus": "0x08108180",
+      "command_offset": 767,
+      "field_byte": 2,
+      "field_bus": "0x8108182",
+      "kind": "internal_code",
+      "original_target": "0x81081c0",
+      "target_offset": 831
+    },
+    {
+      "command_bus": "0x08108186",
+      "command_offset": 773,
+      "field_byte": 4,
+      "field_bus": "0x810818a",
+      "kind": "internal_code",
+      "original_target": "0x81081d8",
+      "target_offset": 855
+    },
+    {
+      "command_bus": "0x08108191",
+      "command_offset": 784,
+      "field_byte": 2,
+      "field_bus": "0x8108193",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865a9a1",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x081081A0",
+      "command_offset": 799,
+      "field_byte": 2,
+      "field_bus": "0x81081a2",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fc48",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x081081AC",
+      "command_offset": 811,
+      "field_byte": 2,
+      "field_bus": "0x81081ae",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fd15",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x081081B8",
+      "command_offset": 823,
+      "field_byte": 2,
+      "field_bus": "0x81081ba",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fc35",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x081081C4",
+      "command_offset": 835,
+      "field_byte": 2,
+      "field_bus": "0x81081c6",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fd98",
+      "target_offset": null
+    },
+    {
+      "command_bus": "0x081081D0",
+      "command_offset": 847,
+      "field_byte": 2,
+      "field_bus": "0x81081d2",
+      "kind": "external_dialogue_data",
+      "original_target": "0x865fdff",
+      "target_offset": null
+    }
+  ],
+  "actor_operand_fields": [
+    {
+      "command_bus": "0x08107F56",
+      "operand_offset": 215
+    },
+    {
+      "command_bus": "0x08107F8D",
+      "operand_offset": 270
+    },
+    {
+      "command_bus": "0x081080FB",
+      "operand_offset": 636
+    },
+    {
+      "command_bus": "0x08108132",
+      "operand_offset": 691
+    },
+    {
+      "command_bus": "0x08108169",
+      "operand_offset": 746
+    },
+    {
+      "command_bus": "0x0810819C",
+      "operand_offset": 797
+    },
+    {
+      "command_bus": "0x081081A8",
+      "operand_offset": 809
+    },
+    {
+      "command_bus": "0x081081B4",
+      "operand_offset": 821
+    },
+    {
+      "command_bus": "0x081081C0",
+      "operand_offset": 833
+    },
+    {
+      "command_bus": "0x081081CC",
+      "operand_offset": 845
+    }
+  ],
+  "graph": [
+    {
+      "offset": 0,
+      "opcode": [
+        254,
+        1
+      ],
+      "successors": [
+        7,
+        15
+      ]
+    },
+    {
+      "offset": 7,
+      "opcode": [
+        253,
+        132
+      ],
+      "successors": [
+        13
+      ]
+    },
+    {
+      "offset": 13,
+      "opcode": [
+        0,
+        47
+      ],
+      "successors": []
+    },
+    {
+      "offset": 15,
+      "opcode": [
+        253,
+        53
+      ],
+      "successors": [
+        23,
+        843
+      ]
+    },
+    {
+      "offset": 23,
+      "opcode": [
+        254,
+        200
+      ],
+      "successors": [
+        29
+      ]
+    },
+    {
+      "offset": 29,
+      "opcode": [
+        253,
+        53
+      ],
+      "successors": [
+        37,
+        319
+      ]
+    },
+    {
+      "offset": 37,
+      "opcode": [
+        253,
+        53
+      ],
+      "successors": [
+        45,
+        86
+      ]
+    },
+    {
+      "offset": 45,
+      "opcode": [
+        254,
+        192
+      ],
+      "successors": [
+        48
+      ]
+    },
+    {
+      "offset": 48,
+      "opcode": [
+        253,
+        59
+      ],
+      "successors": [
+        56,
+        62
+      ]
+    },
+    {
+      "offset": 56,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        420
+      ]
+    },
+    {
+      "offset": 62,
+      "opcode": [
+        254,
+        188
+      ],
+      "successors": [
+        68
+      ]
+    },
+    {
+      "offset": 68,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        74,
+        795
+      ]
+    },
+    {
+      "offset": 74,
+      "opcode": [
+        254,
+        181
+      ],
+      "successors": [
+        80,
+        819
+      ]
+    },
+    {
+      "offset": 80,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        209
+      ]
+    },
+    {
+      "offset": 86,
+      "opcode": [
+        254,
+        192
+      ],
+      "successors": [
+        89
+      ]
+    },
+    {
+      "offset": 89,
+      "opcode": [
+        253,
+        59
+      ],
+      "successors": [
+        97,
+        114
+      ]
+    },
+    {
+      "offset": 97,
+      "opcode": [
+        254,
+        192
+      ],
+      "successors": [
+        100
+      ]
+    },
+    {
+      "offset": 100,
+      "opcode": [
+        253,
+        59
+      ],
+      "successors": [
+        108,
+        131
+      ]
+    },
+    {
+      "offset": 108,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        420
+      ]
+    },
+    {
+      "offset": 114,
+      "opcode": [
+        254,
+        192
+      ],
+      "successors": [
+        117
+      ]
+    },
+    {
+      "offset": 117,
+      "opcode": [
+        253,
+        59
+      ],
+      "successors": [
+        125,
+        179
+      ]
+    },
+    {
+      "offset": 125,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        155
+      ]
+    },
+    {
+      "offset": 131,
+      "opcode": [
+        254,
+        188
+      ],
+      "successors": [
+        137
+      ]
+    },
+    {
+      "offset": 137,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        143,
+        795
+      ]
+    },
+    {
+      "offset": 143,
+      "opcode": [
+        254,
+        181
+      ],
+      "successors": [
+        149,
+        819
+      ]
+    },
+    {
+      "offset": 149,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        264
+      ]
+    },
+    {
+      "offset": 155,
+      "opcode": [
+        254,
+        188
+      ],
+      "successors": [
+        161
+      ]
+    },
+    {
+      "offset": 161,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        167,
+        795
+      ]
+    },
+    {
+      "offset": 167,
+      "opcode": [
+        254,
+        181
+      ],
+      "successors": [
+        173,
+        819
+      ]
+    },
+    {
+      "offset": 173,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        685
+      ]
+    },
+    {
+      "offset": 179,
+      "opcode": [
+        254,
+        188
+      ],
+      "successors": [
+        185
+      ]
+    },
+    {
+      "offset": 185,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        191,
+        264
+      ]
+    },
+    {
+      "offset": 191,
+      "opcode": [
+        254,
+        181
+      ],
+      "successors": [
+        197,
+        795
+      ]
+    },
+    {
+      "offset": 197,
+      "opcode": [
+        254,
+        182
+      ],
+      "successors": [
+        203,
+        819
+      ]
+    },
+    {
+      "offset": 203,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        685
+      ]
+    },
+    {
+      "offset": 209,
+      "opcode": [
+        253,
+        0
+      ],
+      "successors": [
+        213
+      ]
+    },
+    {
+      "offset": 213,
+      "opcode": [
+        254,
+        49
+      ],
+      "successors": [
+        217
+      ]
+    },
+    {
+      "offset": 217,
+      "opcode": [
+        254,
+        200
+      ],
+      "successors": [
+        223
+      ]
+    },
+    {
+      "offset": 223,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        229,
+        819
+      ]
+    },
+    {
+      "offset": 229,
+      "opcode": [
+        254,
+        92
+      ],
+      "successors": [
+        232
+      ]
+    },
+    {
+      "offset": 232,
+      "opcode": [
+        253,
+        31
+      ],
+      "successors": [
+        236
+      ]
+    },
+    {
+      "offset": 236,
+      "opcode": [
+        253,
+        69
+      ],
+      "successors": [
+        242,
+        831
+      ]
+    },
+    {
+      "offset": 242,
+      "opcode": [
+        254,
+        85
+      ],
+      "successors": [
+        250,
+        855
+      ]
+    },
+    {
+      "offset": 250,
+      "opcode": [
+        254,
+        176
+      ],
+      "successors": [
+        253
+      ]
+    },
+    {
+      "offset": 253,
+      "opcode": [
+        254,
+        102
+      ],
+      "successors": [
+        259
+      ]
+    },
+    {
+      "offset": 259,
+      "opcode": [
+        254,
+        193
+      ],
+      "successors": [
+        262
+      ]
+    },
+    {
+      "offset": 262,
+      "opcode": [
+        253,
+        125
+      ],
+      "successors": []
+    },
+    {
+      "offset": 264,
+      "opcode": [
+        253,
+        0
+      ],
+      "successors": [
+        268
+      ]
+    },
+    {
+      "offset": 268,
+      "opcode": [
+        254,
+        49
+      ],
+      "successors": [
+        272
+      ]
+    },
+    {
+      "offset": 272,
+      "opcode": [
+        254,
+        200
+      ],
+      "successors": [
+        278
+      ]
+    },
+    {
+      "offset": 278,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        284,
+        819
+      ]
+    },
+    {
+      "offset": 284,
+      "opcode": [
+        254,
+        92
+      ],
+      "successors": [
+        287
+      ]
+    },
+    {
+      "offset": 287,
+      "opcode": [
+        253,
+        31
+      ],
+      "successors": [
+        291
+      ]
+    },
+    {
+      "offset": 291,
+      "opcode": [
+        253,
+        69
+      ],
+      "successors": [
+        297,
+        831
+      ]
+    },
+    {
+      "offset": 297,
+      "opcode": [
+        254,
+        85
+      ],
+      "successors": [
+        305,
+        855
+      ]
+    },
+    {
+      "offset": 305,
+      "opcode": [
+        254,
+        176
+      ],
+      "successors": [
+        308
+      ]
+    },
+    {
+      "offset": 308,
+      "opcode": [
+        254,
+        102
+      ],
+      "successors": [
+        314
+      ]
+    },
+    {
+      "offset": 314,
+      "opcode": [
+        254,
+        193
+      ],
+      "successors": [
+        317
+      ]
+    },
+    {
+      "offset": 317,
+      "opcode": [
+        253,
+        125
+      ],
+      "successors": []
+    },
+    {
+      "offset": 319,
+      "opcode": [
+        254,
+        192
+      ],
+      "successors": [
+        322
+      ]
+    },
+    {
+      "offset": 322,
+      "opcode": [
+        253,
+        59
+      ],
+      "successors": [
+        330,
+        358
+      ]
+    },
+    {
+      "offset": 330,
+      "opcode": [
+        254,
+        192
+      ],
+      "successors": [
+        333
+      ]
+    },
+    {
+      "offset": 333,
+      "opcode": [
+        253,
+        59
+      ],
+      "successors": [
+        341,
+        386
+      ]
+    },
+    {
+      "offset": 341,
+      "opcode": [
+        254,
+        192
+      ],
+      "successors": [
+        344
+      ]
+    },
+    {
+      "offset": 344,
+      "opcode": [
+        253,
+        59
+      ],
+      "successors": [
+        352,
+        486
+      ]
+    },
+    {
+      "offset": 352,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        420
+      ]
+    },
+    {
+      "offset": 358,
+      "opcode": [
+        254,
+        192
+      ],
+      "successors": [
+        361
+      ]
+    },
+    {
+      "offset": 361,
+      "opcode": [
+        253,
+        59
+      ],
+      "successors": [
+        369,
+        403
+      ]
+    },
+    {
+      "offset": 369,
+      "opcode": [
+        254,
+        192
+      ],
+      "successors": [
+        372
+      ]
+    },
+    {
+      "offset": 372,
+      "opcode": [
+        253,
+        59
+      ],
+      "successors": [
+        380,
+        540
+      ]
+    },
+    {
+      "offset": 380,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        438
+      ]
+    },
+    {
+      "offset": 386,
+      "opcode": [
+        254,
+        192
+      ],
+      "successors": [
+        389
+      ]
+    },
+    {
+      "offset": 389,
+      "opcode": [
+        253,
+        59
+      ],
+      "successors": [
+        397,
+        570
+      ]
+    },
+    {
+      "offset": 397,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        462
+      ]
+    },
+    {
+      "offset": 403,
+      "opcode": [
+        254,
+        192
+      ],
+      "successors": [
+        406
+      ]
+    },
+    {
+      "offset": 406,
+      "opcode": [
+        253,
+        59
+      ],
+      "successors": [
+        414,
+        600
+      ]
+    },
+    {
+      "offset": 414,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        510
+      ]
+    },
+    {
+      "offset": 420,
+      "opcode": [
+        254,
+        200
+      ],
+      "successors": [
+        426
+      ]
+    },
+    {
+      "offset": 426,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        432,
+        795
+      ]
+    },
+    {
+      "offset": 432,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        819
+      ]
+    },
+    {
+      "offset": 438,
+      "opcode": [
+        254,
+        188
+      ],
+      "successors": [
+        444
+      ]
+    },
+    {
+      "offset": 444,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        450,
+        795
+      ]
+    },
+    {
+      "offset": 450,
+      "opcode": [
+        254,
+        181
+      ],
+      "successors": [
+        456,
+        819
+      ]
+    },
+    {
+      "offset": 456,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        630
+      ]
+    },
+    {
+      "offset": 462,
+      "opcode": [
+        254,
+        188
+      ],
+      "successors": [
+        468
+      ]
+    },
+    {
+      "offset": 468,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        474,
+        795
+      ]
+    },
+    {
+      "offset": 474,
+      "opcode": [
+        254,
+        181
+      ],
+      "successors": [
+        480,
+        819
+      ]
+    },
+    {
+      "offset": 480,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        264
+      ]
+    },
+    {
+      "offset": 486,
+      "opcode": [
+        254,
+        188
+      ],
+      "successors": [
+        492
+      ]
+    },
+    {
+      "offset": 492,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        498,
+        795
+      ]
+    },
+    {
+      "offset": 498,
+      "opcode": [
+        254,
+        181
+      ],
+      "successors": [
+        504,
+        819
+      ]
+    },
+    {
+      "offset": 504,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        740
+      ]
+    },
+    {
+      "offset": 510,
+      "opcode": [
+        254,
+        188
+      ],
+      "successors": [
+        516
+      ]
+    },
+    {
+      "offset": 516,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        522,
+        264
+      ]
+    },
+    {
+      "offset": 522,
+      "opcode": [
+        254,
+        181
+      ],
+      "successors": [
+        528,
+        795
+      ]
+    },
+    {
+      "offset": 528,
+      "opcode": [
+        254,
+        182
+      ],
+      "successors": [
+        534,
+        819
+      ]
+    },
+    {
+      "offset": 534,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        630
+      ]
+    },
+    {
+      "offset": 540,
+      "opcode": [
+        254,
+        188
+      ],
+      "successors": [
+        546
+      ]
+    },
+    {
+      "offset": 546,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        552,
+        740
+      ]
+    },
+    {
+      "offset": 552,
+      "opcode": [
+        254,
+        181
+      ],
+      "successors": [
+        558,
+        795
+      ]
+    },
+    {
+      "offset": 558,
+      "opcode": [
+        254,
+        182
+      ],
+      "successors": [
+        564,
+        819
+      ]
+    },
+    {
+      "offset": 564,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        630
+      ]
+    },
+    {
+      "offset": 570,
+      "opcode": [
+        254,
+        188
+      ],
+      "successors": [
+        576
+      ]
+    },
+    {
+      "offset": 576,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        582,
+        740
+      ]
+    },
+    {
+      "offset": 582,
+      "opcode": [
+        254,
+        181
+      ],
+      "successors": [
+        588,
+        795
+      ]
+    },
+    {
+      "offset": 588,
+      "opcode": [
+        254,
+        182
+      ],
+      "successors": [
+        594,
+        819
+      ]
+    },
+    {
+      "offset": 594,
+      "opcode": [
+        253,
+        48
+      ],
+      "successors": [
+        264
+      ]
+    },
+    {
+      "offset": 600,
+      "opcode": [
+        254,
+        188
+      ],
+      "successors": [
+        606
+      ]
+    },
+    {
+      "offset": 606,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        612,
+        264
+      ]
+    },
+    {
+      "offset": 612,
+      "opcode": [
+        254,
+        181
+      ],
+      "successors": [
+        618,
+        740
+      ]
+    },
+    {
+      "offset": 618,
+      "opcode": [
+        254,
+        182
+      ],
+      "successors": [
+        624,
+        795
+      ]
+    },
+    {
+      "offset": 624,
+      "opcode": [
+        254,
+        183
+      ],
+      "successors": [
+        630,
+        819
+      ]
+    },
+    {
+      "offset": 630,
+      "opcode": [
+        253,
+        0
+      ],
+      "successors": [
+        634
+      ]
+    },
+    {
+      "offset": 634,
+      "opcode": [
+        254,
+        49
+      ],
+      "successors": [
+        638
+      ]
+    },
+    {
+      "offset": 638,
+      "opcode": [
+        254,
+        200
+      ],
+      "successors": [
+        644
+      ]
+    },
+    {
+      "offset": 644,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        650,
+        819
+      ]
+    },
+    {
+      "offset": 650,
+      "opcode": [
+        254,
+        92
+      ],
+      "successors": [
+        653
+      ]
+    },
+    {
+      "offset": 653,
+      "opcode": [
+        253,
+        31
+      ],
+      "successors": [
+        657
+      ]
+    },
+    {
+      "offset": 657,
+      "opcode": [
+        253,
+        69
+      ],
+      "successors": [
+        663,
+        831
+      ]
+    },
+    {
+      "offset": 663,
+      "opcode": [
+        254,
+        85
+      ],
+      "successors": [
+        671,
+        855
+      ]
+    },
+    {
+      "offset": 671,
+      "opcode": [
+        254,
+        176
+      ],
+      "successors": [
+        674
+      ]
+    },
+    {
+      "offset": 674,
+      "opcode": [
+        254,
+        102
+      ],
+      "successors": [
+        680
+      ]
+    },
+    {
+      "offset": 680,
+      "opcode": [
+        254,
+        193
+      ],
+      "successors": [
+        683
+      ]
+    },
+    {
+      "offset": 683,
+      "opcode": [
+        253,
+        125
+      ],
+      "successors": []
+    },
+    {
+      "offset": 685,
+      "opcode": [
+        253,
+        0
+      ],
+      "successors": [
+        689
+      ]
+    },
+    {
+      "offset": 689,
+      "opcode": [
+        254,
+        49
+      ],
+      "successors": [
+        693
+      ]
+    },
+    {
+      "offset": 693,
+      "opcode": [
+        254,
+        200
+      ],
+      "successors": [
+        699
+      ]
+    },
+    {
+      "offset": 699,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        705,
+        819
+      ]
+    },
+    {
+      "offset": 705,
+      "opcode": [
+        254,
+        92
+      ],
+      "successors": [
+        708
+      ]
+    },
+    {
+      "offset": 708,
+      "opcode": [
+        253,
+        31
+      ],
+      "successors": [
+        712
+      ]
+    },
+    {
+      "offset": 712,
+      "opcode": [
+        253,
+        69
+      ],
+      "successors": [
+        718,
+        831
+      ]
+    },
+    {
+      "offset": 718,
+      "opcode": [
+        254,
+        85
+      ],
+      "successors": [
+        726,
+        855
+      ]
+    },
+    {
+      "offset": 726,
+      "opcode": [
+        254,
+        176
+      ],
+      "successors": [
+        729
+      ]
+    },
+    {
+      "offset": 729,
+      "opcode": [
+        254,
+        102
+      ],
+      "successors": [
+        735
+      ]
+    },
+    {
+      "offset": 735,
+      "opcode": [
+        254,
+        193
+      ],
+      "successors": [
+        738
+      ]
+    },
+    {
+      "offset": 738,
+      "opcode": [
+        253,
+        125
+      ],
+      "successors": []
+    },
+    {
+      "offset": 740,
+      "opcode": [
+        253,
+        0
+      ],
+      "successors": [
+        744
+      ]
+    },
+    {
+      "offset": 744,
+      "opcode": [
+        254,
+        49
+      ],
+      "successors": [
+        748
+      ]
+    },
+    {
+      "offset": 748,
+      "opcode": [
+        254,
+        200
+      ],
+      "successors": [
+        754
+      ]
+    },
+    {
+      "offset": 754,
+      "opcode": [
+        254,
+        122
+      ],
+      "successors": [
+        760,
+        819
+      ]
+    },
+    {
+      "offset": 760,
+      "opcode": [
+        254,
+        92
+      ],
+      "successors": [
+        763
+      ]
+    },
+    {
+      "offset": 763,
+      "opcode": [
+        253,
+        31
+      ],
+      "successors": [
+        767
+      ]
+    },
+    {
+      "offset": 767,
+      "opcode": [
+        253,
+        69
+      ],
+      "successors": [
+        773,
+        831
+      ]
+    },
+    {
+      "offset": 773,
+      "opcode": [
+        254,
+        85
+      ],
+      "successors": [
+        781,
+        855
+      ]
+    },
+    {
+      "offset": 781,
+      "opcode": [
+        254,
+        176
+      ],
+      "successors": [
+        784
+      ]
+    },
+    {
+      "offset": 784,
+      "opcode": [
+        254,
+        102
+      ],
+      "successors": [
+        790
+      ]
+    },
+    {
+      "offset": 790,
+      "opcode": [
+        254,
+        193
+      ],
+      "successors": [
+        793
+      ]
+    },
+    {
+      "offset": 793,
+      "opcode": [
+        253,
+        125
+      ],
+      "successors": []
+    },
+    {
+      "offset": 795,
+      "opcode": [
+        254,
+        49
+      ],
+      "successors": [
+        799
+      ]
+    },
+    {
+      "offset": 799,
+      "opcode": [
+        254,
+        200
+      ],
+      "successors": [
+        805
+      ]
+    },
+    {
+      "offset": 805,
+      "opcode": [
+        253,
+        125
+      ],
+      "successors": []
+    },
+    {
+      "offset": 807,
+      "opcode": [
+        254,
+        49
+      ],
+      "successors": [
+        811
+      ]
+    },
+    {
+      "offset": 811,
+      "opcode": [
+        254,
+        200
+      ],
+      "successors": [
+        817
+      ]
+    },
+    {
+      "offset": 817,
+      "opcode": [
+        253,
+        125
+      ],
+      "successors": []
+    },
+    {
+      "offset": 819,
+      "opcode": [
+        254,
+        49
+      ],
+      "successors": [
+        823
+      ]
+    },
+    {
+      "offset": 823,
+      "opcode": [
+        254,
+        200
+      ],
+      "successors": [
+        829
+      ]
+    },
+    {
+      "offset": 829,
+      "opcode": [
+        253,
+        125
+      ],
+      "successors": []
+    },
+    {
+      "offset": 831,
+      "opcode": [
+        254,
+        49
+      ],
+      "successors": [
+        835
+      ]
+    },
+    {
+      "offset": 835,
+      "opcode": [
+        254,
+        200
+      ],
+      "successors": [
+        841
+      ]
+    },
+    {
+      "offset": 841,
+      "opcode": [
+        253,
+        125
+      ],
+      "successors": []
+    },
+    {
+      "offset": 843,
+      "opcode": [
+        254,
+        49
+      ],
+      "successors": [
+        847
+      ]
+    },
+    {
+      "offset": 847,
+      "opcode": [
+        254,
+        200
+      ],
+      "successors": [
+        853
+      ]
+    },
+    {
+      "offset": 853,
+      "opcode": [
+        253,
+        125
+      ],
+      "successors": []
+    },
+    {
+      "offset": 855,
+      "opcode": [
+        253,
+        125
+      ],
+      "successors": []
+    }
+  ],
+  "native_exits": [
+    {
+      "offset": 13,
+      "kind": "player_continuation_reaches_FE01_boundary"
+    },
+    {
+      "offset": 262,
+      "kind": "native_FD7D_end_or_external_continuation"
+    },
+    {
+      "offset": 317,
+      "kind": "native_FD7D_end_or_external_continuation"
+    },
+    {
+      "offset": 683,
+      "kind": "native_FD7D_end_or_external_continuation"
+    },
+    {
+      "offset": 738,
+      "kind": "native_FD7D_end_or_external_continuation"
+    },
+    {
+      "offset": 793,
+      "kind": "native_FD7D_end_or_external_continuation"
+    },
+    {
+      "offset": 805,
+      "kind": "native_FD7D_end_or_external_continuation"
+    },
+    {
+      "offset": 817,
+      "kind": "native_FD7D_end_or_external_continuation"
+    },
+    {
+      "offset": 829,
+      "kind": "native_FD7D_end_or_external_continuation"
+    },
+    {
+      "offset": 841,
+      "kind": "native_FD7D_end_or_external_continuation"
+    },
+    {
+      "offset": 853,
+      "kind": "native_FD7D_end_or_external_continuation"
+    },
+    {
+      "offset": 855,
+      "kind": "native_FD7D_end_or_external_continuation"
+    }
+  ],
+  "bytecode_graph_acyclic": true,
+  "conservative_paths_by_native_award_attempt_count": {
+    "0": 64,
+    "1": 34
+  },
+  "symbolic_projection_sha256": "3753d884250c440ef2b1a0d3d90a3f64e7cc5fd6f46a915985ea7bc88101fc17",
+  "normalized_symbolic_views_equal": true,
+  "symbolic_relocation_rule": "For each typed internal pointer P, emit B+(P-08107E81); external data pointers unchanged",
+  "proposed_instances": [
+    {
+      "map": "005F",
+      "slot": 7,
+      "FD01_X": 407,
+      "FD02_Y": 111
+    },
+    {
+      "map": "004D",
+      "slot": 8,
+      "FD01_X": 231,
+      "FD02_Y": 127
+    }
+  ],
+  "existing_wrappers": [
+    {
+      "bus": "0x8102d27",
+      "bytes": "fd 01 86 00 fd 02 87 00 fd 2f 81 7e 10 08 fd 7d"
+    },
+    {
+      "bus": "0x8102d37",
+      "bytes": "fd 01 36 00 fd 02 71 00 fd 2f 81 7e 10 08 fd 7d"
+    },
+    {
+      "bus": "0x8102d47",
+      "bytes": "fd 01 77 00 fd 02 70 00 fd 2f 81 7e 10 08 fd 7d"
+    },
+    {
+      "bus": "0x8102d57",
+      "bytes": "fd 01 9e 00 fd 02 78 00 fd 2f 81 7e 10 08 fd 7d"
+    }
+  ],
+  "fixed_indirect_command": {
+    "bus": "0x08107E88",
+    "bytes": "fd 84 00 36 06 08"
+  },
+  "reward_sites": [
+    {
+      "bus": "0x08107F73",
+      "item": 55,
+      "quantity": 2,
+      "native_nonzero_status_target": "0x81081d8",
+      "fallthrough_gauge_reset_character": 1
+    },
+    {
+      "bus": "0x08107FAA",
+      "item": 55,
+      "quantity": 2,
+      "native_nonzero_status_target": "0x81081d8",
+      "fallthrough_gauge_reset_character": 2
+    },
+    {
+      "bus": "0x08108118",
+      "item": 55,
+      "quantity": 2,
+      "native_nonzero_status_target": "0x81081d8",
+      "fallthrough_gauge_reset_character": 1
+    },
+    {
+      "bus": "0x0810814F",
+      "item": 55,
+      "quantity": 2,
+      "native_nonzero_status_target": "0x81081d8",
+      "fallthrough_gauge_reset_character": 1
+    },
+    {
+      "bus": "0x08108186",
+      "item": 55,
+      "quantity": 2,
+      "native_nonzero_status_target": "0x81081d8",
+      "fallthrough_gauge_reset_character": 3
+    }
+  ],
+  "native_evidence": {
+    "FD35_condition_core": {
+      "entry_bus": "0x8029f90",
+      "instructions": [
+        {
+          "bus": "0x08029F90",
+          "bytes": "70 b5",
+          "text": "push {r4, r5, r6, lr}"
+        },
+        {
+          "bus": "0x08029F92",
+          "bytes": "0f 4d",
+          "text": "ldr r5, [pc, #60] ; slot 0x08029FD0 = 0x03000608"
+        },
+        {
+          "bus": "0x08029F94",
+          "bytes": "0f 4c",
+          "text": "ldr r4, [pc, #60] ; slot 0x08029FD4 = 0x03000604"
+        },
+        {
+          "bus": "0x08029F96",
+          "bytes": "22 68",
+          "text": "ldr r2, [r4, #0]"
+        },
+        {
+          "bus": "0x08029F98",
+          "bytes": "90 00",
+          "text": "lsl r0, r2, #2"
+        },
+        {
+          "bus": "0x08029F9A",
+          "bytes": "40 19",
+          "text": "add r0, r0, r5"
+        },
+        {
+          "bus": "0x08029F9C",
+          "bytes": "0e 4e",
+          "text": "ldr r6, [pc, #56] ; slot 0x08029FD8 = 0x030018BC"
+        },
+        {
+          "bus": "0x08029F9E",
+          "bytes": "31 68",
+          "text": "ldr r1, [r6, #0]"
+        },
+        {
+          "bus": "0x08029FA0",
+          "bytes": "01 60",
+          "text": "str r1, [r0, #0]"
+        },
+        {
+          "bus": "0x08029FA2",
+          "bytes": "01 32",
+          "text": "add r2, #1"
+        },
+        {
+          "bus": "0x08029FA4",
+          "bytes": "22 60",
+          "text": "str r2, [r4, #0]"
+        },
+        {
+          "bus": "0x08029FA6",
+          "bytes": "f8 f7 23 fc",
+          "text": "bl 0x080227F0"
+        },
+        {
+          "bus": "0x08029FAA",
+          "bytes": "70 60",
+          "text": "str r0, [r6, #4]"
+        },
+        {
+          "bus": "0x08029FAC",
+          "bytes": "20 68",
+          "text": "ldr r0, [r4, #0]"
+        },
+        {
+          "bus": "0x08029FAE",
+          "bytes": "01 38",
+          "text": "sub r0, #1"
+        },
+        {
+          "bus": "0x08029FB0",
+          "bytes": "20 60",
+          "text": "str r0, [r4, #0]"
+        },
+        {
+          "bus": "0x08029FB2",
+          "bytes": "80 00",
+          "text": "lsl r0, r0, #2"
+        },
+        {
+          "bus": "0x08029FB4",
+          "bytes": "40 19",
+          "text": "add r0, r0, r5"
+        },
+        {
+          "bus": "0x08029FB6",
+          "bytes": "00 68",
+          "text": "ldr r0, [r0, #0]"
+        },
+        {
+          "bus": "0x08029FB8",
+          "bytes": "30 60",
+          "text": "str r0, [r6, #0]"
+        },
+        {
+          "bus": "0x08029FBA",
+          "bytes": "70 78",
+          "text": "ldrb r0, [r6, #1]"
+        },
+        {
+          "bus": "0x08029FBC",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x08029FBE",
+          "bytes": "0d d0",
+          "text": "beq 0x08029FDC"
+        },
+        {
+          "bus": "0x08029FC0",
+          "bytes": "40 f0 34 ff",
+          "text": "bl 0x0806AE2C"
+        },
+        {
+          "bus": "0x08029FC4",
+          "bytes": "70 78",
+          "text": "ldrb r0, [r6, #1]"
+        },
+        {
+          "bus": "0x08029FC6",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x08029FC8",
+          "bytes": "0d d0",
+          "text": "beq 0x08029FE6"
+        },
+        {
+          "bus": "0x08029FCA",
+          "bytes": "ff f7 af ff",
+          "text": "bl 0x08029F2C"
+        },
+        {
+          "bus": "0x08029FCE",
+          "bytes": "0c e0",
+          "text": "b 0x08029FEA"
+        },
+        {
+          "bus": "0x08029FDC",
+          "bytes": "40 f0 26 ff",
+          "text": "bl 0x0806AE2C"
+        },
+        {
+          "bus": "0x08029FE0",
+          "bytes": "70 78",
+          "text": "ldrb r0, [r6, #1]"
+        },
+        {
+          "bus": "0x08029FE2",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x08029FE4",
+          "bytes": "f1 d0",
+          "text": "beq 0x08029FCA"
+        },
+        {
+          "bus": "0x08029FE6",
+          "bytes": "f8 f7 45 fc",
+          "text": "bl 0x08022874"
+        },
+        {
+          "bus": "0x08029FEA",
+          "bytes": "70 bc",
+          "text": "pop {r4, r5, r6}"
+        },
+        {
+          "bus": "0x08029FEC",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x08029FEE",
+          "bytes": "00 47",
+          "text": "bx r0"
+        }
+      ],
+      "direct_call_targets": [
+        "0x80227f0",
+        "0x8022874",
+        "0x8029f2c",
+        "0x806ae2c"
+      ],
+      "unresolved_control_edges": [],
+      "instruction_bytes_sha256": "6e7feec910b77168c05a79f2437eb3bae9bec513a23e5b9c7bbfb792bfef7ba9",
+      "scope": "Direct CFG only; callees are separate evidence, not automatically certified"
+    },
+    "FD3B_condition": {
+      "entry_bus": "0x802a43c",
+      "instructions": [
+        {
+          "bus": "0x0802A43C",
+          "bytes": "10 b5",
+          "text": "push {r4, lr}"
+        },
+        {
+          "bus": "0x0802A43E",
+          "bytes": "f8 f7 d7 f9",
+          "text": "bl 0x080227F0"
+        },
+        {
+          "bus": "0x0802A442",
+          "bytes": "09 4b",
+          "text": "ldr r3, [pc, #36] ; slot 0x0802A468 = 0x030018BC"
+        },
+        {
+          "bus": "0x0802A444",
+          "bytes": "98 80",
+          "text": "strh r0, [r3, #4]"
+        },
+        {
+          "bus": "0x0802A446",
+          "bytes": "09 48",
+          "text": "ldr r0, [pc, #36] ; slot 0x0802A46C = 0x03003A24"
+        },
+        {
+          "bus": "0x0802A448",
+          "bytes": "00 21",
+          "text": "mov r1, #0"
+        },
+        {
+          "bus": "0x0802A44A",
+          "bytes": "40 5e",
+          "text": "ldrsh r0, [r0, r1]"
+        },
+        {
+          "bus": "0x0802A44C",
+          "bytes": "ff 21",
+          "text": "mov r1, #255"
+        },
+        {
+          "bus": "0x0802A44E",
+          "bytes": "09 02",
+          "text": "lsl r1, r1, #8"
+        },
+        {
+          "bus": "0x0802A450",
+          "bytes": "08 40",
+          "text": "and r0, r1"
+        },
+        {
+          "bus": "0x0802A452",
+          "bytes": "00 12",
+          "text": "asr r0, r0, #8"
+        },
+        {
+          "bus": "0x0802A454",
+          "bytes": "58 70",
+          "text": "strb r0, [r3, #1]"
+        },
+        {
+          "bus": "0x0802A456",
+          "bytes": "06 4a",
+          "text": "ldr r2, [pc, #24] ; slot 0x0802A470 = 0x03000600"
+        },
+        {
+          "bus": "0x0802A458",
+          "bytes": "58 78",
+          "text": "ldrb r0, [r3, #1]"
+        },
+        {
+          "bus": "0x0802A45A",
+          "bytes": "59 79",
+          "text": "ldrb r1, [r3, #5]"
+        },
+        {
+          "bus": "0x0802A45C",
+          "bytes": "40 1a",
+          "text": "sub r0, r0, r1"
+        },
+        {
+          "bus": "0x0802A45E",
+          "bytes": "10 80",
+          "text": "strh r0, [r2, #0]"
+        },
+        {
+          "bus": "0x0802A460",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x0802A462",
+          "bytes": "07 d1",
+          "text": "bne 0x0802A474"
+        },
+        {
+          "bus": "0x0802A464",
+          "bytes": "80 20",
+          "text": "mov r0, #128"
+        },
+        {
+          "bus": "0x0802A466",
+          "bytes": "06 e0",
+          "text": "b 0x0802A476"
+        },
+        {
+          "bus": "0x0802A474",
+          "bytes": "00 20",
+          "text": "mov r0, #0"
+        },
+        {
+          "bus": "0x0802A476",
+          "bytes": "18 70",
+          "text": "strb r0, [r3, #0]"
+        },
+        {
+          "bus": "0x0802A478",
+          "bytes": "0c 48",
+          "text": "ldr r0, [pc, #48] ; slot 0x0802A4AC = 0x030018BC"
+        },
+        {
+          "bus": "0x0802A47A",
+          "bytes": "41 78",
+          "text": "ldrb r1, [r0, #1]"
+        },
+        {
+          "bus": "0x0802A47C",
+          "bytes": "02 1c",
+          "text": "add r2, r0, #0"
+        },
+        {
+          "bus": "0x0802A47E",
+          "bytes": "50 79",
+          "text": "ldrb r0, [r2, #5]"
+        },
+        {
+          "bus": "0x0802A480",
+          "bytes": "81 42",
+          "text": "cmp r1, r0"
+        },
+        {
+          "bus": "0x0802A482",
+          "bytes": "01 d2",
+          "text": "bcs 0x0802A488"
+        },
+        {
+          "bus": "0x0802A484",
+          "bytes": "10 20",
+          "text": "mov r0, #16"
+        },
+        {
+          "bus": "0x0802A486",
+          "bytes": "10 70",
+          "text": "strb r0, [r2, #0]"
+        },
+        {
+          "bus": "0x0802A488",
+          "bytes": "09 48",
+          "text": "ldr r0, [pc, #36] ; slot 0x0802A4B0 = 0x03000600"
+        },
+        {
+          "bus": "0x0802A48A",
+          "bytes": "00 21",
+          "text": "mov r1, #0"
+        },
+        {
+          "bus": "0x0802A48C",
+          "bytes": "43 5e",
+          "text": "ldrsh r3, [r0, r1]"
+        },
+        {
+          "bus": "0x0802A48E",
+          "bytes": "04 1c",
+          "text": "add r4, r0, #0"
+        },
+        {
+          "bus": "0x0802A490",
+          "bytes": "00 2b",
+          "text": "cmp r3, #0"
+        },
+        {
+          "bus": "0x0802A492",
+          "bytes": "18 d1",
+          "text": "bne 0x0802A4C6"
+        },
+        {
+          "bus": "0x0802A494",
+          "bytes": "07 48",
+          "text": "ldr r0, [pc, #28] ; slot 0x0802A4B4 = 0x03003A24"
+        },
+        {
+          "bus": "0x0802A496",
+          "bytes": "00 88",
+          "text": "ldrh r0, [r0, #0]"
+        },
+        {
+          "bus": "0x0802A498",
+          "bytes": "50 70",
+          "text": "strb r0, [r2, #1]"
+        },
+        {
+          "bus": "0x0802A49A",
+          "bytes": "50 78",
+          "text": "ldrb r0, [r2, #1]"
+        },
+        {
+          "bus": "0x0802A49C",
+          "bytes": "11 79",
+          "text": "ldrb r1, [r2, #4]"
+        },
+        {
+          "bus": "0x0802A49E",
+          "bytes": "40 1a",
+          "text": "sub r0, r0, r1"
+        },
+        {
+          "bus": "0x0802A4A0",
+          "bytes": "20 80",
+          "text": "strh r0, [r4, #0]"
+        },
+        {
+          "bus": "0x0802A4A2",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x0802A4A4",
+          "bytes": "08 d1",
+          "text": "bne 0x0802A4B8"
+        },
+        {
+          "bus": "0x0802A4A6",
+          "bytes": "80 20",
+          "text": "mov r0, #128"
+        },
+        {
+          "bus": "0x0802A4A8",
+          "bytes": "10 70",
+          "text": "strb r0, [r2, #0]"
+        },
+        {
+          "bus": "0x0802A4AA",
+          "bytes": "06 e0",
+          "text": "b 0x0802A4BA"
+        },
+        {
+          "bus": "0x0802A4B8",
+          "bytes": "13 70",
+          "text": "strb r3, [r2, #0]"
+        },
+        {
+          "bus": "0x0802A4BA",
+          "bytes": "50 78",
+          "text": "ldrb r0, [r2, #1]"
+        },
+        {
+          "bus": "0x0802A4BC",
+          "bytes": "11 79",
+          "text": "ldrb r1, [r2, #4]"
+        },
+        {
+          "bus": "0x0802A4BE",
+          "bytes": "88 42",
+          "text": "cmp r0, r1"
+        },
+        {
+          "bus": "0x0802A4C0",
+          "bytes": "01 d2",
+          "text": "bcs 0x0802A4C6"
+        },
+        {
+          "bus": "0x0802A4C2",
+          "bytes": "10 20",
+          "text": "mov r0, #16"
+        },
+        {
+          "bus": "0x0802A4C4",
+          "bytes": "10 70",
+          "text": "strb r0, [r2, #0]"
+        },
+        {
+          "bus": "0x0802A4C6",
+          "bytes": "05 48",
+          "text": "ldr r0, [pc, #20] ; slot 0x0802A4DC = 0x030039C0"
+        },
+        {
+          "bus": "0x0802A4C8",
+          "bytes": "11 78",
+          "text": "ldrb r1, [r2, #0]"
+        },
+        {
+          "bus": "0x0802A4CA",
+          "bytes": "01 75",
+          "text": "strb r1, [r0, #20]"
+        },
+        {
+          "bus": "0x0802A4CC",
+          "bytes": "00 21",
+          "text": "mov r1, #0"
+        },
+        {
+          "bus": "0x0802A4CE",
+          "bytes": "60 5e",
+          "text": "ldrsh r0, [r4, r1]"
+        },
+        {
+          "bus": "0x0802A4D0",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x0802A4D2",
+          "bytes": "05 d1",
+          "text": "bne 0x0802A4E0"
+        },
+        {
+          "bus": "0x0802A4D4",
+          "bytes": "ff f7 2a fd",
+          "text": "bl 0x08029F2C"
+        },
+        {
+          "bus": "0x0802A4D8",
+          "bytes": "04 e0",
+          "text": "b 0x0802A4E4"
+        },
+        {
+          "bus": "0x0802A4E0",
+          "bytes": "f8 f7 c8 f9",
+          "text": "bl 0x08022874"
+        },
+        {
+          "bus": "0x0802A4E4",
+          "bytes": "10 bc",
+          "text": "pop {r4}"
+        },
+        {
+          "bus": "0x0802A4E6",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x0802A4E8",
+          "bytes": "00 47",
+          "text": "bx r0"
+        }
+      ],
+      "direct_call_targets": [
+        "0x80227f0",
+        "0x8022874",
+        "0x8029f2c"
+      ],
+      "unresolved_control_edges": [],
+      "instruction_bytes_sha256": "3b249c60c5d224a9c63a162d69fadde154973deac445973ba59d69949d35f6bd",
+      "scope": "Direct CFG only; callees are separate evidence, not automatically certified"
+    },
+    "FD45_condition": {
+      "entry_bus": "0x802984c",
+      "instructions": [
+        {
+          "bus": "0x0802984C",
+          "bytes": "00 b5",
+          "text": "push {lr}"
+        },
+        {
+          "bus": "0x0802984E",
+          "bytes": "07 4a",
+          "text": "ldr r2, [pc, #28] ; slot 0x0802986C = 0x030018BC"
+        },
+        {
+          "bus": "0x08029850",
+          "bytes": "07 48",
+          "text": "ldr r0, [pc, #28] ; slot 0x08029870 = 0x030039C0"
+        },
+        {
+          "bus": "0x08029852",
+          "bytes": "01 7d",
+          "text": "ldrb r1, [r0, #20]"
+        },
+        {
+          "bus": "0x08029854",
+          "bytes": "51 70",
+          "text": "strb r1, [r2, #1]"
+        },
+        {
+          "bus": "0x08029856",
+          "bytes": "07 4a",
+          "text": "ldr r2, [pc, #28] ; slot 0x08029874 = 0x03000600"
+        },
+        {
+          "bus": "0x08029858",
+          "bytes": "10 20",
+          "text": "mov r0, #16"
+        },
+        {
+          "bus": "0x0802985A",
+          "bytes": "08 40",
+          "text": "and r0, r1"
+        },
+        {
+          "bus": "0x0802985C",
+          "bytes": "00 06",
+          "text": "lsl r0, r0, #24"
+        },
+        {
+          "bus": "0x0802985E",
+          "bytes": "00 0e",
+          "text": "lsr r0, r0, #24"
+        },
+        {
+          "bus": "0x08029860",
+          "bytes": "10 80",
+          "text": "strh r0, [r2, #0]"
+        },
+        {
+          "bus": "0x08029862",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x08029864",
+          "bytes": "08 d1",
+          "text": "bne 0x08029878"
+        },
+        {
+          "bus": "0x08029866",
+          "bytes": "00 f0 61 fb",
+          "text": "bl 0x08029F2C"
+        },
+        {
+          "bus": "0x0802986A",
+          "bytes": "07 e0",
+          "text": "b 0x0802987C"
+        },
+        {
+          "bus": "0x08029878",
+          "bytes": "f8 f7 fc ff",
+          "text": "bl 0x08022874"
+        },
+        {
+          "bus": "0x0802987C",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x0802987E",
+          "bytes": "00 47",
+          "text": "bx r0"
+        }
+      ],
+      "direct_call_targets": [
+        "0x8022874",
+        "0x8029f2c"
+      ],
+      "unresolved_control_edges": [],
+      "instruction_bytes_sha256": "a3562cf98488e07149ceaa974d3bb60ce5845e100c6fe692e87897caefae53e6",
+      "scope": "Direct CFG only; callees are separate evidence, not automatically certified"
+    },
+    "choice_condition": {
+      "entry_bus": "0x8025f1c",
+      "instructions": [
+        {
+          "bus": "0x08025F1C",
+          "bytes": "10 b5",
+          "text": "push {r4, lr}"
+        },
+        {
+          "bus": "0x08025F1E",
+          "bytes": "fc f7 09 fb",
+          "text": "bl 0x08022534"
+        },
+        {
+          "bus": "0x08025F22",
+          "bytes": "12 4c",
+          "text": "ldr r4, [pc, #72] ; slot 0x08025F6C = 0x030018BC"
+        },
+        {
+          "bus": "0x08025F24",
+          "bytes": "60 78",
+          "text": "ldrb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x08025F26",
+          "bytes": "20 71",
+          "text": "strb r0, [r4, #4]"
+        },
+        {
+          "bus": "0x08025F28",
+          "bytes": "fc f7 04 fb",
+          "text": "bl 0x08022534"
+        },
+        {
+          "bus": "0x08025F2C",
+          "bytes": "60 78",
+          "text": "ldrb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x08025F2E",
+          "bytes": "60 71",
+          "text": "strb r0, [r4, #5]"
+        },
+        {
+          "bus": "0x08025F30",
+          "bytes": "fc f7 00 fb",
+          "text": "bl 0x08022534"
+        },
+        {
+          "bus": "0x08025F34",
+          "bytes": "60 78",
+          "text": "ldrb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x08025F36",
+          "bytes": "a0 71",
+          "text": "strb r0, [r4, #6]"
+        },
+        {
+          "bus": "0x08025F38",
+          "bytes": "fc f7 fc fa",
+          "text": "bl 0x08022534"
+        },
+        {
+          "bus": "0x08025F3C",
+          "bytes": "60 78",
+          "text": "ldrb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x08025F3E",
+          "bytes": "e0 71",
+          "text": "strb r0, [r4, #7]"
+        },
+        {
+          "bus": "0x08025F40",
+          "bytes": "0b 4b",
+          "text": "ldr r3, [pc, #44] ; slot 0x08025F70 = 0x030039C0"
+        },
+        {
+          "bus": "0x08025F42",
+          "bytes": "d8 7c",
+          "text": "ldrb r0, [r3, #19]"
+        },
+        {
+          "bus": "0x08025F44",
+          "bytes": "60 70",
+          "text": "strb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x08025F46",
+          "bytes": "0b 4a",
+          "text": "ldr r2, [pc, #44] ; slot 0x08025F74 = 0x03000600"
+        },
+        {
+          "bus": "0x08025F48",
+          "bytes": "60 78",
+          "text": "ldrb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x08025F4A",
+          "bytes": "61 7a",
+          "text": "ldrb r1, [r4, #9]"
+        },
+        {
+          "bus": "0x08025F4C",
+          "bytes": "40 1a",
+          "text": "sub r0, r0, r1"
+        },
+        {
+          "bus": "0x08025F4E",
+          "bytes": "10 80",
+          "text": "strh r0, [r2, #0]"
+        },
+        {
+          "bus": "0x08025F50",
+          "bytes": "00 28",
+          "text": "cmp r0, #0"
+        },
+        {
+          "bus": "0x08025F52",
+          "bytes": "08 d1",
+          "text": "bne 0x08025F66"
+        },
+        {
+          "bus": "0x08025F54",
+          "bytes": "08 4a",
+          "text": "ldr r2, [pc, #32] ; slot 0x08025F78 = 0x03003AD4"
+        },
+        {
+          "bus": "0x08025F56",
+          "bytes": "19 78",
+          "text": "ldrb r1, [r3, #0]"
+        },
+        {
+          "bus": "0x08025F58",
+          "bytes": "c8 00",
+          "text": "lsl r0, r1, #3"
+        },
+        {
+          "bus": "0x08025F5A",
+          "bytes": "40 1a",
+          "text": "sub r0, r0, r1"
+        },
+        {
+          "bus": "0x08025F5C",
+          "bytes": "80 00",
+          "text": "lsl r0, r0, #2"
+        },
+        {
+          "bus": "0x08025F5E",
+          "bytes": "04 32",
+          "text": "add r2, #4"
+        },
+        {
+          "bus": "0x08025F60",
+          "bytes": "80 18",
+          "text": "add r0, r0, r2"
+        },
+        {
+          "bus": "0x08025F62",
+          "bytes": "61 68",
+          "text": "ldr r1, [r4, #4]"
+        },
+        {
+          "bus": "0x08025F64",
+          "bytes": "01 60",
+          "text": "str r1, [r0, #0]"
+        },
+        {
+          "bus": "0x08025F66",
+          "bytes": "10 bc",
+          "text": "pop {r4}"
+        },
+        {
+          "bus": "0x08025F68",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x08025F6A",
+          "bytes": "00 47",
+          "text": "bx r0"
+        }
+      ],
+      "direct_call_targets": [
+        "0x8022534"
+      ],
+      "unresolved_control_edges": [],
+      "instruction_bytes_sha256": "45a162913b4e68166cfb8b5ddf8e346bf7f92b84cf02c06657828c4919748cc3",
+      "scope": "Direct CFG only; callees are separate evidence, not automatically certified"
+    },
+    "FD75_external_resume_writer": {
+      "entry_bus": "0x8027e50",
+      "instructions": [
+        {
+          "bus": "0x08027E50",
+          "bytes": "70 b5",
+          "text": "push {r4, r5, r6, lr}"
+        },
+        {
+          "bus": "0x08027E52",
+          "bytes": "46 46",
+          "text": "mov r6, r8"
+        },
+        {
+          "bus": "0x08027E54",
+          "bytes": "40 b4",
+          "text": "push {r6}"
+        },
+        {
+          "bus": "0x08027E56",
+          "bytes": "24 4e",
+          "text": "ldr r6, [pc, #144] ; slot 0x08027EE8 = 0x03001930"
+        },
+        {
+          "bus": "0x08027E58",
+          "bytes": "24 4d",
+          "text": "ldr r5, [pc, #144] ; slot 0x08027EEC = 0x03001AC4"
+        },
+        {
+          "bus": "0x08027E5A",
+          "bytes": "25 49",
+          "text": "ldr r1, [pc, #148] ; slot 0x08027EF0 = 0x03001ABC"
+        },
+        {
+          "bus": "0x08027E5C",
+          "bytes": "c8 88",
+          "text": "ldrh r0, [r1, #6]"
+        },
+        {
+          "bus": "0x08027E5E",
+          "bytes": "e8 80",
+          "text": "strh r0, [r5, #6]"
+        },
+        {
+          "bus": "0x08027E60",
+          "bytes": "f0 80",
+          "text": "strh r0, [r6, #6]"
+        },
+        {
+          "bus": "0x08027E62",
+          "bytes": "88 78",
+          "text": "ldrb r0, [r1, #2]"
+        },
+        {
+          "bus": "0x08027E64",
+          "bytes": "a8 70",
+          "text": "strb r0, [r5, #2]"
+        },
+        {
+          "bus": "0x08027E66",
+          "bytes": "b0 70",
+          "text": "strb r0, [r6, #2]"
+        },
+        {
+          "bus": "0x08027E68",
+          "bytes": "c8 78",
+          "text": "ldrb r0, [r1, #3]"
+        },
+        {
+          "bus": "0x08027E6A",
+          "bytes": "e8 70",
+          "text": "strb r0, [r5, #3]"
+        },
+        {
+          "bus": "0x08027E6C",
+          "bytes": "f0 70",
+          "text": "strb r0, [r6, #3]"
+        },
+        {
+          "bus": "0x08027E6E",
+          "bytes": "48 78",
+          "text": "ldrb r0, [r1, #1]"
+        },
+        {
+          "bus": "0x08027E70",
+          "bytes": "68 70",
+          "text": "strb r0, [r5, #1]"
+        },
+        {
+          "bus": "0x08027E72",
+          "bytes": "70 70",
+          "text": "strb r0, [r6, #1]"
+        },
+        {
+          "bus": "0x08027E74",
+          "bytes": "08 78",
+          "text": "ldrb r0, [r1, #0]"
+        },
+        {
+          "bus": "0x08027E76",
+          "bytes": "28 70",
+          "text": "strb r0, [r5, #0]"
+        },
+        {
+          "bus": "0x08027E78",
+          "bytes": "30 70",
+          "text": "strb r0, [r6, #0]"
+        },
+        {
+          "bus": "0x08027E7A",
+          "bytes": "1e 4c",
+          "text": "ldr r4, [pc, #120] ; slot 0x08027EF4 = 0x030018BC"
+        },
+        {
+          "bus": "0x08027E7C",
+          "bytes": "08 79",
+          "text": "ldrb r0, [r1, #4]"
+        },
+        {
+          "bus": "0x08027E7E",
+          "bytes": "1e 49",
+          "text": "ldr r1, [pc, #120] ; slot 0x08027EF8 = 0x03000600"
+        },
+        {
+          "bus": "0x08027E80",
+          "bytes": "88 46",
+          "text": "mov r8, r1"
+        },
+        {
+          "bus": "0x08027E82",
+          "bytes": "10 21",
+          "text": "mov r1, #16"
+        },
+        {
+          "bus": "0x08027E84",
+          "bytes": "08 43",
+          "text": "orr r0, r1"
+        },
+        {
+          "bus": "0x08027E86",
+          "bytes": "60 70",
+          "text": "strb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x08027E88",
+          "bytes": "08 f0 32 f8",
+          "text": "bl 0x0802FEF0"
+        },
+        {
+          "bus": "0x08027E8C",
+          "bytes": "41 46",
+          "text": "mov r1, r8"
+        },
+        {
+          "bus": "0x08027E8E",
+          "bytes": "08 80",
+          "text": "strh r0, [r1, #0]"
+        },
+        {
+          "bus": "0x08027E90",
+          "bytes": "60 78",
+          "text": "ldrb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x08027E92",
+          "bytes": "28 71",
+          "text": "strb r0, [r5, #4]"
+        },
+        {
+          "bus": "0x08027E94",
+          "bytes": "60 71",
+          "text": "strb r0, [r4, #5]"
+        },
+        {
+          "bus": "0x08027E96",
+          "bytes": "fa f7 4d fb",
+          "text": "bl 0x08022534"
+        },
+        {
+          "bus": "0x08027E9A",
+          "bytes": "60 78",
+          "text": "ldrb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x08027E9C",
+          "bytes": "61 79",
+          "text": "ldrb r1, [r4, #5]"
+        },
+        {
+          "bus": "0x08027E9E",
+          "bytes": "08 43",
+          "text": "orr r0, r1"
+        },
+        {
+          "bus": "0x08027EA0",
+          "bytes": "60 70",
+          "text": "strb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x08027EA2",
+          "bytes": "08 f0 25 f8",
+          "text": "bl 0x0802FEF0"
+        },
+        {
+          "bus": "0x08027EA6",
+          "bytes": "41 46",
+          "text": "mov r1, r8"
+        },
+        {
+          "bus": "0x08027EA8",
+          "bytes": "08 80",
+          "text": "strh r0, [r1, #0]"
+        },
+        {
+          "bus": "0x08027EAA",
+          "bytes": "60 78",
+          "text": "ldrb r0, [r4, #1]"
+        },
+        {
+          "bus": "0x08027EAC",
+          "bytes": "30 71",
+          "text": "strb r0, [r6, #4]"
+        },
+        {
+          "bus": "0x08027EAE",
+          "bytes": "13 4b",
+          "text": "ldr r3, [pc, #76] ; slot 0x08027EFC = 0x030039C0"
+        },
+        {
+          "bus": "0x08027EB0",
+          "bytes": "13 4a",
+          "text": "ldr r2, [pc, #76] ; slot 0x08027F00 = 0x03003AD4"
+        },
+        {
+          "bus": "0x08027EB2",
+          "bytes": "19 78",
+          "text": "ldrb r1, [r3, #0]"
+        },
+        {
+          "bus": "0x08027EB4",
+          "bytes": "c8 00",
+          "text": "lsl r0, r1, #3"
+        },
+        {
+          "bus": "0x08027EB6",
+          "bytes": "40 1a",
+          "text": "sub r0, r0, r1"
+        },
+        {
+          "bus": "0x08027EB8",
+          "bytes": "80 00",
+          "text": "lsl r0, r0, #2"
+        },
+        {
+          "bus": "0x08027EBA",
+          "bytes": "04 32",
+          "text": "add r2, #4"
+        },
+        {
+          "bus": "0x08027EBC",
+          "bytes": "80 18",
+          "text": "add r0, r0, r2"
+        },
+        {
+          "bus": "0x08027EBE",
+          "bytes": "00 68",
+          "text": "ldr r0, [r0, #0]"
+        },
+        {
+          "bus": "0x08027EC0",
+          "bytes": "18 66",
+          "text": "str r0, [r3, #96]"
+        },
+        {
+          "bus": "0x08027EC2",
+          "bytes": "10 48",
+          "text": "ldr r0, [pc, #64] ; slot 0x08027F04 = 0x03001908"
+        },
+        {
+          "bus": "0x08027EC4",
+          "bytes": "02 79",
+          "text": "ldrb r2, [r0, #4]"
+        },
+        {
+          "bus": "0x08027EC6",
+          "bytes": "e2 60",
+          "text": "str r2, [r4, #12]"
+        },
+        {
+          "bus": "0x08027EC8",
+          "bytes": "10 78",
+          "text": "ldrb r0, [r2, #0]"
+        },
+        {
+          "bus": "0x08027ECA",
+          "bytes": "08 21",
+          "text": "mov r1, #8"
+        },
+        {
+          "bus": "0x08027ECC",
+          "bytes": "08 43",
+          "text": "orr r0, r1"
+        },
+        {
+          "bus": "0x08027ECE",
+          "bytes": "10 70",
+          "text": "strb r0, [r2, #0]"
+        },
+        {
+          "bus": "0x08027ED0",
+          "bytes": "08 f0 0e f8",
+          "text": "bl 0x0802FEF0"
+        },
+        {
+          "bus": "0x08027ED4",
+          "bytes": "41 46",
+          "text": "mov r1, r8"
+        },
+        {
+          "bus": "0x08027ED6",
+          "bytes": "08 80",
+          "text": "strh r0, [r1, #0]"
+        },
+        {
+          "bus": "0x08027ED8",
+          "bytes": "04 f0 8a f9",
+          "text": "bl 0x0802C1F0"
+        },
+        {
+          "bus": "0x08027EDC",
+          "bytes": "08 bc",
+          "text": "pop {r3}"
+        },
+        {
+          "bus": "0x08027EDE",
+          "bytes": "98 46",
+          "text": "mov r8, r3"
+        },
+        {
+          "bus": "0x08027EE0",
+          "bytes": "70 bc",
+          "text": "pop {r4, r5, r6}"
+        },
+        {
+          "bus": "0x08027EE2",
+          "bytes": "01 bc",
+          "text": "pop {r0}"
+        },
+        {
+          "bus": "0x08027EE4",
+          "bytes": "00 47",
+          "text": "bx r0"
+        }
+      ],
+      "direct_call_targets": [
+        "0x8022534",
+        "0x802c1f0",
+        "0x802fef0"
+      ],
+      "unresolved_control_edges": [],
+      "instruction_bytes_sha256": "b7195adcf139e4e92adc67b3fbeadff8988bc158060b865d0bdcca1486d38437",
+      "scope": "Direct CFG only; callees are separate evidence, not automatically certified"
+    }
+  },
+  "allocation": {
+    "new_addresses_selected": false,
+    "body_bytes_each": 857,
+    "wrapper_bytes_each": 16,
+    "two_instances_raw_bytes": 1746,
+    "four_byte_padded_budget": 1752,
+    "existing_Alessa_reservation_file_exclusive": [
+      "0x00800000",
+      "0x00800020"
+    ],
+    "new_space_ownership_status": "NOT ALLOCATED; must be validated before construction"
+  },
+  "preserved_native_continuation_contract": "FD7D may end a general event or transfer through global 03003A20; not assumed always zero",
+  "protected_count": 361,
+  "protected_before": {
+    "reverse_engineering/awe_initialization.md": "105ce58977d9e4d7bef39e2e24b2608a02a121b9659afa1150ed4be7f077f35f",
+    "reverse_engineering/awe_initialization_evidence.json": "194beda67a7cd2cc381d488de9bff537fd30a2aa23fa8713f70525a42212bd44",
+    "reverse_engineering/battle_damage_candidates.md": "eeef56552faa5651a7d7fb544d918cb18d072e48fe26bbe383c10be613eeea52",
+    "reverse_engineering/experiments/alessa_recruitment_wrapper.md": "d5524ba346770afd720bb226a0824bd4b23eea3a4bf1558361e545b60fc51c48",
+    "reverse_engineering/experiments/alessa_wrapper_allocation.json": "f339e8bcf46b9788b60e6daf618b6f4f5020875979cd6c0a85d9795fac8a7c77",
+    "reverse_engineering/experiments/alessa_wrapper_preflight.json": "c9f73c10248d57a1e40575d9955d7ae536d7d31fd3863424d83d06340367e423",
+    "reverse_engineering/experiments/binky_exchange_rate_two.md": "63cf2e304470078d93805939ca35b4ca44823e9c4830a3f7f9a172f8321ae6f9",
+    "reverse_engineering/experiments/binky_exchange_rate_two_evidence.json": "1949fce2e552b8dd1c4cd08d4bae77b198d499771236adcde7a9c0cb92856f5b",
+    "reverse_engineering/experiments/binky_exchange_session5_closeout.md": "d3eb2496e4acbadf89e7c77562b3264d098649ca03a4e90289e3d2893e1a52cd",
+    "reverse_engineering/experiments/binky_exchange_session5_evidence.json": "0775f2e44643c33e6b98bf92614d393dd2c397174da04fe17bf91f5b1a2e1bd9",
+    "reverse_engineering/experiments/binky_remaining_character_tests.md": "b627e580deffc3bb49138d1e5c6f17e76a0c13f163f10bf54edb2f53588ba8aa",
+    "reverse_engineering/experiments/binky_remaining_tests_evidence.json": "658e755ba17ae303a1faa0cf8d8db5214cc2b2270066f4f242820f43ce64845f",
+    "reverse_engineering/experiments/detector_hp120_mit25.md": "f2bed88b05a146fda1597ed02b70efd70970fc70f71794e4f90aa75b459aa094",
+    "reverse_engineering/experiments/gearyo_attack_22.md": "c8a15744d4886b19fe5457b70cf543d2f264b930a8e2059f8b80dc6fa9789f7a",
+    "reverse_engineering/experiments/gimmick_balance_dry_run.md": "97b872a867f654b408b141c99aace58200ce642ffb12ea7608c94ce49f4ed338",
+    "reverse_engineering/experiments/kaizo_binky_100_session7_closeout.json": "935bf5b906b088fadcc1a25dcd57867612078871cb2e4709469503a30020f841",
+    "reverse_engineering/experiments/kaizo_binky_100_session7_closeout.md": "841a9e0e78185d7b20b174b09b062ee282dc42ed8b2df74a2ed5ac66a4b115b9",
+    "reverse_engineering/experiments/mayonen_caverns_music.md": "0f4a806e9b27bee59029d5c24237e1fb41946028354a0afc098eddf8753d59fc",
+    "reverse_engineering/experiments/oystown_binky_exchange.md": "530595a0b65fb51dd5ad96ce715a303062164baa2d60fd0ceed8378822b42b2d",
+    "reverse_engineering/experiments/oystown_completion_evidence.json": "c5635b00314b7050d77ae7d9010f5423b992fd8de1a4ada7e7e6e3786599e192",
+    "reverse_engineering/experiments/oystown_shortcut.md": "ad582540edd391cd1870ec7496d54f2c73f57014a0b9690b07ded14baf19b6aa",
+    "reverse_engineering/experiments/oystown_shortcut_evidence.json": "683c50b4120680cc055b9121ea38cbe44907d8fb078f99cbdfe627e30a3ed7ef",
+    "reverse_engineering/experiments/pre_oystown_state_construction.md": "0c92d5ba33cc691773c0aa2fbc35af7a6b8e2df84be3db53414eadaa3ee94ba4",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/A/launch.py": "1e96319278fb475fb996ce4adf7599ba0932f8f5cb761cd8fb137e8fcd23e3bd",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/A/logs/a060294e1f0a4dabaa15aca185e9433e.json": "1a46db83d8b48418e8ac2cd4df1e364f7981bea5382a8ce09531b0b7553679ca",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/A/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/A/saves/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/A/session.json": "383e2735f299909fd535534629ee339d2abceccae7d7ec0405cc1305664814be",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/A/states/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/A/states/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/B/launch.py": "1e96319278fb475fb996ce4adf7599ba0932f8f5cb761cd8fb137e8fcd23e3bd",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/B/logs/8dc3fbdf2a6e4155bd3b28b3b4678e73.json": "bea3d2fc24638aff85491074289e01ef32f4f28707ed324c7b5c5e184f3c3dc5",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/B/rom/gearyo_attack_22.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/B/saves/gearyo_attack_22.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/B/session.json": "0546c172830aeba881009d01ee288854c2843b593b2fa555fdcb091cc2f89e40",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/B/states/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/B/states/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/checkpoint-inspection.json": "b0564a717ee98721f2b40e192b457c49a02bb84b7f4119e7b2b0d8d5dae5e9e0",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/verification.json": "c4c903e4d7d7673ee5f68564b3840f7b54fc524b58c53f851069572e3014fbd1",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/A/launch.py": "1e96319278fb475fb996ce4adf7599ba0932f8f5cb761cd8fb137e8fcd23e3bd",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/A/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/A/session.json": "597d6edc0143c1993e96fe597f8a54447f243fa8c9965fadbb1afee82c72cbf9",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/A/states/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/A/states/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/B/launch.py": "1e96319278fb475fb996ce4adf7599ba0932f8f5cb761cd8fb137e8fcd23e3bd",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/B/rom/gearyo_attack_22.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/B/session.json": "644603b23e78640d2e139e092bf40c1682c005c8352dccffdeedff149fc6393b",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/B/states/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/B/states/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/verification.json": "ca077da22d4c6d490c3f96349e06c19466058cf9cdf711b5517e63a1b38891fd",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/manifest.json": "e792d63ce60d970cdd9d52a3fc4a98e97796121681e7ec4c6ea1b5e98892a516",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/post-experiment-verification.json": "c6febf2438b64499624d7be70c00682fb264a6d14eef5a75a42def5f84c24d3d",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/protected_backups/map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/protected_backups/pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/protected_backups/route-selection-stop.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/protected_backups/Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/protected_backups/Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/runtime-results.json": "dfc4684aaf27fd11492fe95733b3b7e6bf303dc3707b4fee940a8709416838cb",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/manifest.json": "90712cc72596aa6d84847156d2694068bc5f0285c85a27dcb744a903fcb50f7d",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/post-experiment-verification.json": "d19e584e7feb55c91a06cebe876d6547222f4215baac168325ac626d65fe045a",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/protected_backups/english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/protected_backups/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/protected_backups/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/protected_backups/Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/protected_backups/Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/runtime-results.json": "29afbf4887fcb58feeaeda9505291f33ccf54489f927bcd05f782c2189be8308",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/manifest.json": "2e16d8366c005df97ce5f2ba58966251ff6e410e3d8ec62a0d1e4d1737ec3d3d",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/post-experiment-verification.json": "0c693e2fc49cee736854da35c062a9724887da69cf701f6013e1b18bfea74374",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/protected_backups/map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/protected_backups/pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/protected_backups/Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/protected_backups/Tomato Adventure (Japan) (patched).sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/protected_backups/Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/runtime-results.json": "828108af13af75d429431cade47dcc4986c46005ed3cac6af9babe0d3cb149ef",
+    "reverse_engineering/experiments/testing/pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775/CAPTURE.md": "cd21d2b5ad2e363737da3b0b2a87420b4e166cdbb037f67ee799fcb677514a5b",
+    "reverse_engineering/experiments/testing/pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775/captures/post-recruitment.ss0": "4eb81a006e852955556664f8c76c4526458048dab644dfa6f36a4b20d352946f",
+    "reverse_engineering/experiments/testing/pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775/inputs/entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering/experiments/testing/pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775/manifest.json": "d7d5fd3a94bbbc4a672ef742ed5eb60c9151c51ff7643f7e05e5fd39cde13874",
+    "reverse_engineering/experiments/testing/pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775/rom/alessa_recruitment_wrapper.gba": "3bba82ba6c581ca598aea1e21ecd654b41418f946e88ea6c5021d89b0357d7c6",
+    "reverse_engineering/exports/palace_enemy_sprites/extraction.json": "0e4b51348530d7dcad3226880af2a1cd86e582c1a36773685c6771c01944a5a0",
+    "reverse_engineering/exports/palace_enemy_sprites/verification.json": "589424a88bb934beb8359025f78a5e90d5bc137a089e39f933f29f0506503e54",
+    "reverse_engineering/ghidra/run-18e244ba11cb4e77afebcab6d745de91/arguments.json": "0978b51b8d2a1ec5d2d93dcf732c3533f4d7045c22cde0be2ca57038a35e4375",
+    "reverse_engineering/ghidra/run-18e244ba11cb4e77afebcab6d745de91/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-3857293b23c243d08c26cc8e0feca509/arguments.json": "1a7ff2a43d2afba48024918b676dc7d01c49c5a04a7a975f3f171297f78fb7d3",
+    "reverse_engineering/ghidra/run-3857293b23c243d08c26cc8e0feca509/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-3937c795ad674666ab7b2c4938e09b04/arguments.json": "7880acb06850d4d172675e916d7ef39378a240e2851266fc577b6868dc54e719",
+    "reverse_engineering/ghidra/run-3937c795ad674666ab7b2c4938e09b04/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-50ecc6655f7542ed8a8d9f69e3b2d68a/arguments.json": "21afc618ad198f71fc9ec6337b1b06f188cde78cf3bf97473b5726a4aa356920",
+    "reverse_engineering/ghidra/run-50ecc6655f7542ed8a8d9f69e3b2d68a/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-560102af6aad4cb2bbca1281975a1912/arguments.json": "d32a967b68584f07b4d316711052ca08b57b78107fe94207159a1925c221a400",
+    "reverse_engineering/ghidra/run-560102af6aad4cb2bbca1281975a1912/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-77915b5e283f445b852f06c5942e10dd/arguments.json": "84ed60c50b4e28ad93959cac5a4092c6d1dbb4991b5f62ce253b34b6235bb156",
+    "reverse_engineering/ghidra/run-77915b5e283f445b852f06c5942e10dd/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-7cd71cde50644773810ebe2740b5fcd6/arguments.json": "a07bb318655a410100a323c3f7772ffaf9d2a047c77a9fc2941ce1ab6a057230",
+    "reverse_engineering/ghidra/run-9e5e17e3b92541c99cc79cea4452e657/arguments.json": "fee2ca8f4fb84e5162b8543636f9f8c9239f8f36d19371c5ab65f6d3039d5dd2",
+    "reverse_engineering/ghidra/run-9e5e17e3b92541c99cc79cea4452e657/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-be237585f2c7427dad93d2b6da2e16ea/arguments.json": "12076ec55c9fc4ea273203a38541d05a780b3a7db864725deaa0129a3bbcc1a1",
+    "reverse_engineering/ghidra/run-c265439adeb946979009ffaf63430fe7/arguments.json": "74887b9c9bdeaf9122a5e9ba3c7d41d0c172098c34a22329712ff86fc835e1d2",
+    "reverse_engineering/ghidra/run-c265439adeb946979009ffaf63430fe7/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-cffeb54fcbc540a78ce312e1604a9711/arguments.json": "72b20fdf7c1a748f0ef1b2b1b24115d82bd28400f959db2dbdcf35a3b5d573c5",
+    "reverse_engineering/ghidra/run-cffeb54fcbc540a78ce312e1604a9711/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-d46ac05cad894a71aa176d8052c2c733/arguments.json": "86b0210c95c1ff73ea61b04fde27f5b604bcd3fe72cd9a92acf56d3779f6c764",
+    "reverse_engineering/ghidra/run-d46ac05cad894a71aa176d8052c2c733/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra_analysis.md": "3fecc9e6c7c8445d74811ef8dc085b73288bd7f044cd2ac08c78b6a888a174a1",
+    "reverse_engineering/ghidra_loader_trace.md": "694b2d0f278a9956cd16ca98c1ec620d93e01cb7226747127b8be7cef5bcbc02",
+    "reverse_engineering/gimmick_calculations.md": "a0f2e8392ea53d8bd6709de632ff3fb10d7ed677d36d845e341991b1a9a53dce",
+    "reverse_engineering/gimmick_palace_enemy_evidence.json": "23c7f8aae26abec4ed7e2261a179bf2afae34b32c8f2f4a63d7a79cee1c79003",
+    "reverse_engineering/gimmick_palace_enemy_research.md": "09b7d7580efaccf1500b2a89682bca0792e5540dfe380187c739fb1b70c2c74a",
+    "reverse_engineering/gimmick_runtime_tests.md": "58c7715d56f0350ecc484784db77eeb55172ed105af0961ed47fc98c0380cd7a",
+    "reverse_engineering/gimmicks.md": "9cc7f47916739312cc108b2efe841f109bdd15898b3628752dc90d692c27bdfa",
+    "reverse_engineering/hanzo_lab1_progression.md": "fc92f0fe76662d9973eff3b0f0d00f0d1621368f40f7192cbd223860261b4db1",
+    "reverse_engineering/hawker_dependency_resolution.md": "d8d9a471225bfafc09538ccc0aa0026cd6b7c2141efaf4a6f7300c02f2456462",
+    "reverse_engineering/hawker_dependency_resolution_evidence.json": "30f525c2e161a3d9df46401a3627370e4a67e6d475f3b45c73a97d5e64603bfe",
+    "reverse_engineering/hawker_final_gate.md": "3fad67a88b5e61105ca4f07450e9f58804fac8bc2c2196489189761f574378b5",
+    "reverse_engineering/hawker_final_gate_evidence.json": "aa4771827a28b949e6286dec8fbb57f643d0ab7f37c1f74ae27163a0209cd932",
+    "reverse_engineering/hawker_placement_investigation.json": "54ea66fd22e8d899be35e41dafbec40abb8e24f28cd6d7a9b8ae2daefbbcf303",
+    "reverse_engineering/hawker_placement_investigation.md": "d50b63e6e960a14a40918a9a58f4801e1cf3417c85283ff21e7ba32bbca760df",
+    "reverse_engineering/hawker_placement_safety_evidence.json": "ee54ed02daf36d595fd82296e5d92890bc09059a9322a6b03a49a6cd0dfbc5f9",
+    "reverse_engineering/hawker_placement_safety_followup.md": "192939f4fcc3b539268517b19d9006f409cdd556ecc5abfad8654c614073f286",
+    "reverse_engineering/hawker_stage1.md": "bff3e8d9bb09456d6a1ddd2137f1f85af4857eb6b0bd1587adf99155c0c666a8",
+    "reverse_engineering/hawker_stage1_dialogue_evidence.json": "5813645f3d04d7c350c0dffedff62ba41798d4d6977281eec8c27b983708171c",
+    "reverse_engineering/hawker_stage1_evidence.json": "91c1c5f275240b555367fd25a8c25099a85b8f008c500e843a6ae87fc8a31d15",
+    "reverse_engineering/hawker_stage1b.md": "bab6b849096604b7aa0978b2c7723d036c869465e25e06dfc9ffed5458c2ccde",
+    "reverse_engineering/hawker_stage1b_evidence.json": "8c0885b3a81ae30cbc3e61d83887b1cd019a49150b982e9f7b72d0c37008ffcb",
+    "reverse_engineering/kaizo_binky_100_proposal.json": "d2ef8cfbc561c0f092c9ddd10f0bbbf5e83f23dc60f805a6a4d06391cee9614f",
+    "reverse_engineering/kaizo_binky_100_proposal.md": "8b8a4a99f9566f85f5a321131aa01bd8f7792e0414e2022e95eaac38894fc5ea",
+    "reverse_engineering/memory_map.md": "e61ae18daa2e8768b5b4409da6847eed01fa0d703546eaf1519e328410e4bb6c",
+    "reverse_engineering/mgba/isolated_mayonen_music/config/preparation.json": "b1a43d639e803d367786160ce5b54cb668bd96a9baea989cc05b53d57b36830d",
+    "reverse_engineering/mgba/isolated_mayonen_music/launch.bat": "70ffa53f33cd61b2db3238fead6e72a6f587a36bbd37bb266ecdcf5a04c77b6a",
+    "reverse_engineering/mgba/isolated_mayonen_music/launch.py": "1911d577432deefd03b7be02c5b3c2a4fdfc969b2508ae41738e047fa8cfb838",
+    "reverse_engineering/mgba/isolated_mayonen_music/logs/60f8bac3aa29/launch.json": "af68b64ccf42dfe5630de856de56eafa4db370849859be6f86124328fcc6e653",
+    "reverse_engineering/mgba/isolated_mayonen_music/README.md": "b9f43d113c86006555f797469c1b23a5e9c5bf92a1585289748b91cf42bab6d8",
+    "reverse_engineering/mgba/isolated_mayonen_music/rom/mayonen_caverns_map001e.gba": "7fc50105e340510079158ca74e61f778b63b3276793ec9b6ffbe29c2af75c761",
+    "reverse_engineering/mgba/isolated_mayonen_music/saves/60f8bac3aa29/mayonen_caverns_map001e.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/isolated_mayonen_music/states/60f8bac3aa29/entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering/mgba/isolated_mayonen_music/states/entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering/mgba/isolated_oystown_binky/config/preparation.json": "e5f3a4b361f42d832a38563ea141e7486170a59f0277d5f4a178116f5a045ea6",
+    "reverse_engineering/mgba/isolated_oystown_binky/launch.bat": "70ffa53f33cd61b2db3238fead6e72a6f587a36bbd37bb266ecdcf5a04c77b6a",
+    "reverse_engineering/mgba/isolated_oystown_binky/launch.py": "c4ba10f38ca65cb9d6b4b544d05a863cd21dbfd246bc4a020be42629e7598bf3",
+    "reverse_engineering/mgba/isolated_oystown_binky/logs/1b5bd9a89e03/launch.json": "1c671168148bd93f7b7261db9d5d8cc9721504f4504287a7ef2ab62a27ccbeeb",
+    "reverse_engineering/mgba/isolated_oystown_binky/logs/37d6e3a90afe/launch.json": "6e00e76362abceeea9f16778e6a8227dbff422878d84989cccba58d0c4503225",
+    "reverse_engineering/mgba/isolated_oystown_binky/README.md": "ea10f48e75490246108814985f5d3f7fc23c6d9cee20f39e4e043226d8b18392",
+    "reverse_engineering/mgba/isolated_oystown_binky/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/isolated_oystown_binky/saves/1b5bd9a89e03/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/isolated_oystown_binky/saves/37d6e3a90afe/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/run-2000e25a7706/logs/probe-command.json": "fc01816696f2e5b1826597e9a8b960a4c74de338245635ee5deab032e8f27293",
+    "reverse_engineering/mgba/run-2000e25a7706/logs/probe-results.json": "11ea45592f8cb4f0390180cb243f6651a53ab8c0766d3440c8c0562be4d561fc",
+    "reverse_engineering/mgba/run-2000e25a7706/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-2000e25a7706/session.json": "b6958f220e98ae7caa2ea50ded68e211e2d2a4f579974788b3e19b4a78dea570",
+    "reverse_engineering/mgba/run-24f08599ee6a/logs/probe-command.json": "8c846433dee06736dc0fff1661b619ff0eb8ea2b814c29501fd470159982bb66",
+    "reverse_engineering/mgba/run-24f08599ee6a/logs/probe-results.json": "1d6299d47226972b8d3f1e42e928afaecc277f7e40596a38891a55cbb2526f72",
+    "reverse_engineering/mgba/run-24f08599ee6a/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-24f08599ee6a/session.json": "5248223b08eb876b5e8619f6cffdf2b39751ca34778a2532843cbfa7d2cb9458",
+    "reverse_engineering/mgba/run-3160380dd05b/logs/runtime-capability.json": "df1422113e08a3442b21993265be4a67694c6494f7a519add732771b18befc76",
+    "reverse_engineering/mgba/run-3160380dd05b/logs/runtime-launch-command.json": "d8991d726bde5b5b7cdcb5d390503914042cc7bd69fe2669efa4248eb606d994",
+    "reverse_engineering/mgba/run-3160380dd05b/logs/runtime-process.json": "fa41b6669f2e1be9db4fadc7fa032bf6a34f37d9d0954eceb02084722ad44865",
+    "reverse_engineering/mgba/run-3160380dd05b/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-3160380dd05b/saves/english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering/mgba/run-3160380dd05b/session.json": "b7a8c96a28068e63ac2ba887a23b057fe3f498c32b09bf310cad4fdd8ba6a787",
+    "reverse_engineering/mgba/run-3160380dd05b/states/experiment-stop.ss0": "5d9258dc36758d6599fa72548c65a90e7336855a513d2c6c1893e7ec8e8609cc",
+    "reverse_engineering/mgba/run-3160380dd05b/states/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/mgba/run-3160380dd05b/states/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/mgba/run-376aeda5b619/logs/runtime-launch-command.json": "148a7216f8541d544bfa179b7f85729b05023a61e78597e6ad942adc044f765d",
+    "reverse_engineering/mgba/run-376aeda5b619/logs/runtime-process.json": "9e63f07108fdfd86ae54fa407389ee7a72f77dd87d35a4278b26a0ce375f84cb",
+    "reverse_engineering/mgba/run-376aeda5b619/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-376aeda5b619/saves/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/run-376aeda5b619/session.json": "67131bf98ccd0a36cfc085aab3fb74e2f171751d972b1baf227a7b9dd0fabaac",
+    "reverse_engineering/mgba/run-376aeda5b619/states/map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering/mgba/run-376aeda5b619/states/route-selection-stop.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering/mgba/run-3da22fc56cdb/logs/runtime-launch-command.json": "ec3d3e6f97489b2d9f3419242efda1595431540e9a71585d934bc9e3a436680f",
+    "reverse_engineering/mgba/run-3da22fc56cdb/logs/runtime-process.json": "b439034ef622e2552f4bc0f27dbacc7c4d4db4d76c91b1ddec2745abf7d6f831",
+    "reverse_engineering/mgba/run-3da22fc56cdb/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-3da22fc56cdb/saves/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/run-3da22fc56cdb/session.json": "4657fb63366ba54f512304e306db90c170916454846348dd3a1dedc4ec6908d7",
+    "reverse_engineering/mgba/run-3da22fc56cdb/states/map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering/mgba/run-3da22fc56cdb/states/route-selection-stop.ss0": "4cd1b66dab75cb8d6bfa84c867427def623749d2b3683d8d142af804b1535bd3",
+    "reverse_engineering/mgba/run-45d355b68953/logs/runtime-launch-command.json": "21582746ef15c6f17d71a53704d85b5af9ac83b80f8eac6fd2b6e01e60b0a751",
+    "reverse_engineering/mgba/run-45d355b68953/logs/runtime-process.json": "b5dae5a3ae0506c680ec05435604849cdbc62ea2fec3d66510c237b2c9d7508f",
+    "reverse_engineering/mgba/run-45d355b68953/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-45d355b68953/saves/english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering/mgba/run-45d355b68953/session.json": "eb8fe1ed425bc7acce52a8558484a47e2e1a2d266fcd77242acbf77320ac8e1d",
+    "reverse_engineering/mgba/run-45d355b68953/states/experiment-stop.ss0": "079055064db34325edff27576977dbeca6fb6e93eebea6d5659d002da69058f3",
+    "reverse_engineering/mgba/run-45d355b68953/states/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/mgba/run-45d355b68953/states/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/mgba/run-6d783e19ca1b/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/mgba/run-6d783e19ca1b/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/mgba/run-6d783e19ca1b/logs/manual-launch.json": "6c64f9851ff8153bc2ab5d6ad2db76698a42323d086baa4c820430927dd901c8",
+    "reverse_engineering/mgba/run-6d783e19ca1b/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-6d783e19ca1b/saves/english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering/mgba/run-6d783e19ca1b/session.json": "41df6a3522ae3d6fdd12c5f4db731f4669d2bdec46ab8e92db504dfd74c78f1f",
+    "reverse_engineering/mgba/run-7f871ba72efc/logs/runtime-launch-command.json": "c12adca334db2845fe0083ae75aece96e01b504ae5b235f1f786dbc5fc8e7427",
+    "reverse_engineering/mgba/run-7f871ba72efc/logs/runtime-process.json": "885e01baff1a9317ec398ef0d5c79594dfa9c48731db7eba9165d1634258ad21",
+    "reverse_engineering/mgba/run-7f871ba72efc/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-7f871ba72efc/rom/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/run-7f871ba72efc/saves/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/run-7f871ba72efc/session.json": "e920d8b3be8e567d7e56b4a5d778bd320aee7d71913b00dd0e52f73b3df85e99",
+    "reverse_engineering/mgba/run-7f871ba72efc/states/entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering/mgba/run-7f871ba72efc/states/source-node3.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering/mgba/run-8583a5fb3db2/logs/checkpoint-validation.json": "b0dba8aa54d23a7a19d5a86a0a13b6becaceb8c1abbb74cc1936617b0d346df0",
+    "reverse_engineering/mgba/run-8583a5fb3db2/logs/manual-launch-298a9f6b8eed4e42af3e1118d50853ca.json": "74f4c7dbf6ecaca3dd872a12f24ed0a2f5bc465a8659c1bbe1f49fd5bfc3b610",
+    "reverse_engineering/mgba/run-8583a5fb3db2/logs/manual-launch-5717be76184949f0a8174b01f3e7fd77.json": "74f4c7dbf6ecaca3dd872a12f24ed0a2f5bc465a8659c1bbe1f49fd5bfc3b610",
+    "reverse_engineering/mgba/run-8583a5fb3db2/logs/manual-launch-59c4daca6eea4e888953660220a5cd87.json": "74f4c7dbf6ecaca3dd872a12f24ed0a2f5bc465a8659c1bbe1f49fd5bfc3b610",
+    "reverse_engineering/mgba/run-8583a5fb3db2/logs/manual-launch-6caad0743b5c4fe78e3d75f67cf3e759.json": "74f4c7dbf6ecaca3dd872a12f24ed0a2f5bc465a8659c1bbe1f49fd5bfc3b610",
+    "reverse_engineering/mgba/run-8583a5fb3db2/logs/manual-launch.json": "74f4c7dbf6ecaca3dd872a12f24ed0a2f5bc465a8659c1bbe1f49fd5bfc3b610",
+    "reverse_engineering/mgba/run-8583a5fb3db2/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-8583a5fb3db2/saves/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/run-8583a5fb3db2/session.json": "618ec979f4de42a224e1ae3f2a126f04a4fba042380a3ce828dd91d3f2c9b453",
+    "reverse_engineering/mgba/run-8583a5fb3db2/states/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/mgba/run-8583a5fb3db2/states/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/mgba_setup.md": "94a2382839ffcd5ba0f02b7a119ae88620bed36fc211341f2a0883bddafda586",
+    "reverse_engineering/oystown_binky_readiness.md": "5fda8ece791a3734b8485e3d05df40057e5beb694fe3135735c88cd3c6d7a68a",
+    "reverse_engineering/palace_enemy_sprite_investigation.md": "22934b7c60434a7892ee8f2fd419570595710ccbc4310dc9af2c7446f01f95ae",
+    "reverse_engineering/pre_oystown_progression.md": "f7cc5d224fcce50b74142421d9e1bf85c87205b1a259742fb5f392016c901935",
+    "reverse_engineering/pre_oystown_progression_evidence.json": "353111fea6de91c68fa053b207b723729f8aef8ee9987dc5fa6e2749586da5ed",
+    "reverse_engineering/rom_verification.md": "c904df98c2e8355ea815f8225a9523d40f5eb9528e57bada0e0b96398bc708b0",
+    "reverse_engineering/symbols.md": "72f3f57f61595d6da55f2fb0c569dc792897895780e69211effa605432923125",
+    "reverse_engineering/translation_project_overview.md": "8e5bf31943f22be72b07ed59ece4d54498d3b0b14024755688631c4f5085ccd3",
+    "savestates/after_cyclooka_donation.ss0": "c301d6bae3643ae9f48a842460180f3e0dbefdb86c5f8e7952de5b4e8bb6f2e6",
+    "savestates/after_cyclooka_donation.ss1": "c3add431bc01f2c81820c708a21603fab7005ed84d0ae99edd94f833963b0aba",
+    "savestates/after_cyclooka_donation_94_binkies.ss0": "04bc011d616a62a48feea61823c68f523284d435e945051c70508f32b767b500",
+    "savestates/after_exchange_oystown.ss0": "aca4eb6751d66949e74a137217e92f79eaa0e85039f11f09d9821ea9a2cb5646",
+    "savestates/after_exchange_oystown_alessa_test.ss0": "85110875375c28ab412e4413e986d9cb65eb81353d1214f3b86e6d7b7a02f1cf",
+    "savestates/after_exchange_oystown_alessa_test_three_tiers_passed.ss0": "ad5042fb906a2c8105325b04acd9eb611593f6c8a2484543192f01891bf47017",
+    "savestates/after_hanzo5_awarded.ss0": "a60bc403db2f05bd8de88ca4de7a050c7dce1715254fe2166733a534ebbefaa7",
+    "savestates/after_hanzo6_awarded.ss0": "ccc08adea412159d613929abf5b42a48e0dcecd9b3cd998a1266c2f9510ee1f4",
+    "savestates/after_kaizo_100_complete.ss0": "37b33604e63dd874a1e11fb54a8d161526896b0a7ce0ca27ea6edff71169a682",
+    "savestates/after_rocket_kendama_bouncer_donation.ss0": "b7d5259c2bc8b0721acdf230619645878905bf5b75a86eb5d1dc100eefd161d8",
+    "savestates/before_kaizo_100_test.ss0": "b1a3980b2802a10d63798209237072074edf67998450ad1a8c30ffaa9153b9bd",
+    "savestates/before_kaizo_first_donation.ss1": "67a177a6c8f8a37f424183a2d2777ec59b296381d27e8790e411a7dde40f73d6",
+    "savestates/before_oystown.ss0": "d20fc78972641d76e1b56f23daa80c9fedd4c07fa22edb63e69d37371db21c53",
+    "savestates/entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "savestates/map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "savestates/pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "savestates/relleck_initialized_guarded.ss0": "c3a01888ee451731f4d6f073a652d382c1e712ac1f3590622e54bec6654d3ba8",
+    "savestates/relleck_initialized_guarded_successful.ss0": "9de814b789f88989c1a4f0330ff024d4b0d81a7031e15d4c3c2c2bf55ec5ec9c",
+    "savestates/sofoubi_initialized_guarded.ss0": "9abd5427393c027bfd25ac50395e7546337e7331114b2d1a70ba9dcdf3ceebcf",
+    "savestates/sofoubi_initialized_guarded_confirmed.ss0": "c7a1fb18eea144858fe2982fd5441a24a0758dc3579792a98431db8807cacd30",
+    "savestates/sofoubi_initialized_guarded_confirmed_first.ss0": "4f63cd1d61486ad01f8004fc2141686c7819438e7c83c6d31d98267afe3f5f3a",
+    "savestates/sofoubi_initialized_guarded_confirmed_full.ss0": "f51ec4a4b3bd8c05bd1af01d6a00a4e8d9c2c8b6f80ddc5de3a9d3deef06197d",
+    "session_handoffs/SESSION_HANDOFF_1.md": "35d2d5f075fc582069d8b3970a8ca53933f3812081144059dfdc8441ffefc743",
+    "session_handoffs/SESSION_HANDOFF_2.md": "1cda734ea58938b23e2d34b574198f79bf864630618cc6bb1e530a832fe168f7",
+    "session_handoffs/SESSION_HANDOFF_3.md": "ad4bef6cde86ae4f67873cbf6ce8f0130db51337eb2aa547778de2c0618f262d",
+    "session_handoffs/SESSION_HANDOFF_4.md": "d2decb1a5885613b52262d81697364980c057761d3f80f82ae751e97f383d33d",
+    "session_handoffs/SESSION_HANDOFF_5.md": "721777a1de9cfe07a8263a7392c8121b2ffc9976603de4193e94c54fda71e8e5",
+    "session_handoffs/SESSION_HANDOFF_6.md": "cf1aa86dd44bca22bc76f888c75e8df5f20e51cf8fffca64bc1a4ff4746b8a62",
+    "session_handoffs/SESSION_HANDOFF_7.md": "77d7a38be99dc11f7232a1bc323fd74237ea8ad4b3cfa31031f9ff7866ec30c9",
+    "session_handoffs/SESSION_HANDOFF_8.md": "d02ff6ce11014ec2868bfaf1421fc86ec3d4b6ddeb53134490f04df4157e5192",
+    "Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "Tomato Adventure (Japan) (patched).sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "tomatotrans-1.1.1/asm/battle_enemies.asm": "b92b644029eee853e9f8ed4e34764e8e276e4f689eb855cad978a39259d9999c",
+    "tomatotrans-1.1.1/asm/battle_levelup.asm": "82f716b3ab3308dc414774d81a751fa2b4802517551934d21f8e221002d8d461",
+    "tomatotrans-1.1.1/asm/battle_menu.asm": "8c087dfa81f76b7b54be3a74beacf3bd543460f73bfab24ab106335aeab1a85a",
+    "tomatotrans-1.1.1/asm/battle_message.asm": "e79d3c3d0b5addcdeb7f13ecfb335600e9cd87a5491b0a7783e45ebb03709732",
+    "tomatotrans-1.1.1/asm/battle_sleep.asm": "f9a34227bcc5df0701807637355aa289a42becaedb82507567f2d2735b38d51a",
+    "tomatotrans-1.1.1/asm/battle_spoils.asm": "5225227120be007c6aaf8ce35f166b4eea49b935dcbebbded3b2c41267c682e3",
+    "tomatotrans-1.1.1/asm/bug_nocash.asm": "32ed67ae9c9e0d665ec2e91b6381662fe7acbd6641041d7e552e22b91ba32bc8",
+    "tomatotrans-1.1.1/asm/credits.asm": "75eeb75318a258324f9ea247b5d2ddec8e5b7e5c9668a28cc7bd188cb414ca66",
+    "tomatotrans-1.1.1/asm/dialog_center.asm": "b56d2967341f253ee317d6e51e59429a45cf06b5fbc0654160dec8c8ed16b948",
+    "tomatotrans-1.1.1/asm/dialog_item.asm": "71669f9c8aec0b9962c2b3c0cc57386aa89ff28d7dc00184a852a90181bed750",
+    "tomatotrans-1.1.1/asm/dialog_name.asm": "ec59693509bf70562fb89e3f0657909db6d24a47296e816c26b8720e902a4010",
+    "tomatotrans-1.1.1/asm/dialog_speed.asm": "557f21efe5cd03bc2e48567c73f6291d8579adeb8397e3705f24b0d4fd8e376a",
+    "tomatotrans-1.1.1/asm/fontmap.asm": "0c658e47abae5796265b694cc95058ebc21b37464e4d1f087bad8be675dfbed4",
+    "tomatotrans-1.1.1/asm/gimica_text.asm": "334274c4ef6d6e76ed7033e32ca630de75c416edb4164421a74e0325af4d5a93",
+    "tomatotrans-1.1.1/asm/gimica_tutorial.asm": "22a75e5574dbb11debf236d6dd82daa3225a96688573374a2a80ad9eb5630487",
+    "tomatotrans-1.1.1/asm/gimmick_text.asm": "562e3dffa998a1709329af6d05bc34cefde895f3c0277a7e70100f4ccbe2fdc3",
+    "tomatotrans-1.1.1/asm/item_text.asm": "aba4ee4ad5a9dc4c28717eaef4ea2ec76ff48f6e946421036466ace1960bdb5a",
+    "tomatotrans-1.1.1/asm/map_text.asm": "70781a1c70380381c114e5a6ba1f119b687cbbce051da9add3a58562285005bf",
+    "tomatotrans-1.1.1/asm/mecha_text.asm": "940d6b59d8e8c15dbf47c436cd73456b92f6586cf00cea98227e38db21ae9248",
+    "tomatotrans-1.1.1/asm/menu.asm": "dfa2dfe3429743b532291902870de7e02bb9cef50bfae8b5974ca1271edb5da1",
+    "tomatotrans-1.1.1/asm/menu_equipment.asm": "07940585f04416502410b657f0f439d6df0b8df96259da50506feb1eab9ac6f4",
+    "tomatotrans-1.1.1/asm/menu_friends.asm": "4d9fdef477b2d4c6dcc354ee97f585efc268a41510d3a3fc6fd2bdebeaeb8a41",
+    "tomatotrans-1.1.1/asm/menu_gimmicks.asm": "80a2d86a586fd69a25b9033f04fdc9a0014f935d730d630d5aad0fa30e02cf75",
+    "tomatotrans-1.1.1/asm/menu_items.asm": "7eb5b45ba7d223e5a03c2763e82bdc9f72e51f95bae10085d0ad8307195fee06",
+    "tomatotrans-1.1.1/asm/name_long.asm": "618f5ebe1d7f6e70ed2a875aae97964a5e06f2b73cb6b86dc2de7d57522a5a11",
+    "tomatotrans-1.1.1/asm/naming_screen.asm": "645faca95d3b5ba8f1d18efdb0afd887505490ccdbe3daf2acb45b31e47802e4",
+    "tomatotrans-1.1.1/asm/saving_screen.asm": "855808a54525d36dade16ac724f58ed51eafe9f54fe78d40093ad9193936e2e8",
+    "tomatotrans-1.1.1/asm/shop_messages.asm": "78fd71ba33db734986a91fa3d4ae35823e4613349ccb8e62932a000d35430a33",
+    "tomatotrans-1.1.1/asm/title_screen.asm": "01c608612790028df13ef36c539d187c153070161fca9970159df87f7f3e1d34",
+    "tomatotrans-1.1.1/asm/vwf_8x8.asm": "7a1eea2b7db5998068ee964c9d67f95abf1b88568961150765fdf5e624d9b972",
+    "tools/analyze/alessa_wrapper_allocation.py": "7ecf8542a93619ec90ddb946307c23dd9487574723f82ce1f7bbbc70082174bb",
+    "tools/analyze/alessa_wrapper_preflight.py": "5659c905fdb8fc53118b18f1cd4a71605a3e33a556cdb3fe85f30d1acc3e469d",
+    "tools/analyze/awe_initialization.py": "df506734467e3c3a4e41cd17b6e6433220dacab121f0e9527cacd218e3d3408c",
+    "tools/analyze/binky_exchange_rate.py": "42af33b72b2472e2dde2b191ba2bbe2f1caec641006ab4b088b84716d9358c0a",
+    "tools/analyze/binky_remaining_tests.py": "fbdcadc522edcaa3bf52274ffb857ed53413fcc2b1423820b24608d2ce509c34",
+    "tools/analyze/extract_palace_enemy_sprites.py": "c6a714c8cedbf975b3fd7b53888138ac3b5e2c1ec1768553436f0cd2e52b9706",
+    "tools/analyze/ghidra/export_calculations.py": "b8ba7ecd61528dafc5c0e12c23a92be30edef58c426a468b6a0490c4716d9df3",
+    "tools/analyze/ghidra/export_trace.py": "353b6274afd5c4b94d0a1f6369c076b96267dea69bca81125e8cca49a77f72ee",
+    "tools/analyze/ghidra/README.md": "32d72573a9a07edb2a9e7aed80ddf72688ce6156e190f8b03e66840324603704",
+    "tools/analyze/hawker_dependency_resolution.py": "c5580d6edb7afd78be18b160d1b724a2ed533deeb2add7c906435357d7f92ba8",
+    "tools/analyze/hawker_final_gate.py": "88441150d6b59c849a98f6bf11842b2d317e16d6b9b877dc5c7c3795045dbf39",
+    "tools/analyze/hawker_placement_safety.py": "5c95501c9127eed6b4bfcb95f621b5fd9e7bcc1f8a35b4e8434ce73fb17ee6fa",
+    "tools/analyze/hawker_room_preview.py": "db3f37569e7269982ef020648b97491c6ebe4d8156a0e1b5155ce78d734af893",
+    "tools/analyze/hawker_stage1.py": "650e2b2284cd71f0246927239ed967a5966f32855ead30c1b6b25b2e2ca38059",
+    "tools/analyze/hawker_stage1_dialogue.py": "504c66141b8dfe97d7ccea2607078efcbd3bc57f52e5a8ff8fe8afb2c6e59efb",
+    "tools/analyze/hawker_stage1b.py": "ec1aa94eb13a1d5397cee5c60402f402909affd7ebfcc09aee88a48776b607b6",
+    "tools/analyze/hawker_stage1c.py": "142ad9a7418fe789723c53f6e5db12a532a5654ce22b52ac39b59e6f099e5ebf",
+    "tools/analyze/mgba/check_capture.py": "75385def24f048d998dbed154406ef9230858904abbb620ea9814f451a6eba7f",
+    "tools/analyze/mgba/inspect_checkpoint.py": "0eacae3fae3375c1c5ecb6fc9300868b7b2ca1648a25c68f52e6e1aede7b6211",
+    "tools/analyze/mgba/prepare_session.py": "90fea612d65128d7817602467037b2865747999b0efd9c3890ce6f7794aa7d1d",
+    "tools/analyze/mgba/probe_debugger.py": "7dae8d7f6e2c6d84407baa895ae362b86c4e508af5187641fec57630c52c819f",
+    "tools/analyze/mgba/README.md": "241453eafc2bd1492c230ab7193eabb53f23fd74c96f5d94d22057000b384010",
+    "tools/analyze/mgba/rsp.py": "fa2286367c6d65209037b410a9cb9c6c61e7763a9be375e220d3427b9e3d434d",
+    "tools/analyze/mgba/start_session.py": "7d64ffee6d9d5730f810ad951106f0d8e1dae7e023cb25fca16b37d69ba864ac",
+    "tools/analyze/oystown_completion.py": "f64263f3f6a9f9af2450604e819a18dc35ff161a9bad5f50d16821bc5ecface3",
+    "tools/analyze/oystown_shortcut.py": "c482adbef86e484e8227542d01c9a05839af337ab6401ec1d932aaf1740ba6ec",
+    "tools/analyze/pre_oystown_foundation.py": "5ec652b39b11f11c8f338c72acf2ebbbdba4d6e4513397bf33d6380fd90e9135",
+    "tools/analyze/pre_oystown_progression.py": "b7a471d9b0c6d664648827542d9fec95354651d69ac2b8e112e27334fe8c8764",
+    "tools/analyze/README.md": "0315b689ac9c3369976aa36b4883e5d19128b2a968c4dded9e12f3a23b77b38e",
+    "tools/analyze/thumb_inspect.py": "f05c61be172b348644f38643601ccb7e1dcf26ccfd8a095ba20bfd4cfac0b0e3",
+    "tools/analyze/verify_gimmick_roms.py": "dc7cadb0502c78a478863121183f19f17cd2577e16e74f66791239ec3431a2b6",
+    "tools/experiments/gearyo_attack_22.py": "d4add6e4a3f538e693c24e299be6bfe16306aae9d565551bdf18aec1404e21f2",
+    "tools/patch/alessa_recruitment_wrapper.py": "b09f84a1cc7a72916dd7940b41cea99dc60d4103ec7a102c9622a55ac10af078",
+    "tools/patch/binky_exchange_rate_two.py": "742c4bb7196cdef165c6bf07f47ffb1070627b4047e9d56ca931e2a0b97b5abe",
+    "tools/patch/detector_rebalance.py": "cb535133be897c4fbf5d7939dcc5d912bcf894de25b14c9c03186d775c59799c",
+    "tools/patch/gimmick_balance.py": "8603c4ad62bdb2530293cbdcde75f834bc63d7526254cc851673f4600c90814d",
+    "tools/patch/hanzo_dojo_pup.py": "5b05e21bd85e499b8ce28d5763a5f1bef9a111c129c635091c16bdf74aa3ac96",
+    "tools/patch/kaizo_binky_100.py": "aa281b2074574e2036caaa700b88598273c2e736013e9e355c149d3fe8b289c3",
+    "tools/patch/mayonen_caverns_music.py": "52592858157c960d6708a70bb819be40d190fe7ea0ece80e069e9fea8d8be362",
+    "tools/patch/output/alessa-recruitment-wrapper-38386dab64e249cb9dfb4b205620053f/alessa_recruitment_wrapper.gba": "3bba82ba6c581ca598aea1e21ecd654b41418f946e88ea6c5021d89b0357d7c6",
+    "tools/patch/output/alessa-recruitment-wrapper-38386dab64e249cb9dfb4b205620053f/alessa_recruitment_wrapper.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools/patch/output/alessa-recruitment-wrapper-38386dab64e249cb9dfb4b205620053f/manifest.json": "f263adbcef15e3ea954fb3d5a00922766a37c02450e64b975e405e21b21e271e",
+    "tools/patch/output/binky-rate-two-baseline-c4ec3611142c49cf93d891cbfc10f056/binky_exchange_rate_two.gba": "b9967b15193b5aec701032742d322a1040373e76b176b1aeb1e65ce2c06078b6",
+    "tools/patch/output/binky-rate-two-baseline-c4ec3611142c49cf93d891cbfc10f056/manifest.json": "7a174dcad9c009145288f398a8e020a57203051f65b0dd785b300cd3052fc3ef",
+    "tools/patch/output/binky-rate-two-recruitment-test-aaee9ff3918c42aabf6d9bec7cff611f/binky_exchange_rate_two.gba": "d356a6979c497524d1e94306989e09cf8dfe96334a22c664eb3a9570f3ab3ea3",
+    "tools/patch/output/binky-rate-two-recruitment-test-aaee9ff3918c42aabf6d9bec7cff611f/binky_exchange_rate_two.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools/patch/output/binky-rate-two-recruitment-test-aaee9ff3918c42aabf6d9bec7cff611f/manifest.json": "da734bd07e77d77ed9b734a061b2f36c8dad4827bf09e6613e419968227a3be2",
+    "tools/patch/output/detector-hp120-mit25/detector_rebalance.gba": "124c04798e3e9769381f6105fc602794a249c169290b4fc86d735592ae8d9db0",
+    "tools/patch/output/detector-hp120-mit25/independent_verification.json": "c509e36caa1b21c27182201eefd7c35aa7d30ef8961439d281f53e1fa58ce723",
+    "tools/patch/output/detector-hp120-mit25/manifest.json": "f5af92cca58537dcb82f20175f46617fdf4ab605993e5a3f57f68b99169aa938",
+    "tools/patch/output/gearyo-reference-validation/balanced.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "tools/patch/output/gearyo-reference-validation/manifest.json": "762603409c83973699ce97e2e21aa570d69a2b6d2f28480993d886ab3c1d1504",
+    "tools/patch/output/hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf/hanzo_dojo_pup.gba": "749762aa8c3c0fae433d46c0ebbcbf4f54646790baf4b6129414e6e5832cdfea",
+    "tools/patch/output/hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf/hanzo_dojo_pup.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools/patch/output/hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf/manifest.json": "0ec869ba4a6556bcaa562ef4f84a6cd1fbd78bb6e61ea955be3745d956dc8451",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/byte_differences.json": "e55ca2003ef5005802002233e2d202ee263b49ae98facc22031ee1b9ccda1265",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/independent_verification.json": "93bfe669f9b4464cf425490cbab0304feac059b0974b96978ae77aeeed8efbb4",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/kaizo_binky_100.gba": "7e7603816afb0990eea51ed2c49ab4b4afd5596ff1c4211c656d608e94ed2aa2",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/kaizo_binky_100.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/manifest.json": "fece9d6ef8b096476656b5cad1cb9245bea0988d6a18e918a4c187cbc7cd7daf",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/protection_audit.json": "c4ede286e355570dfdf8c15801068cc54aa8309d12f29ba0402d9c379f24b731",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/README.md": "f9c8ec5536263fb9ed6e41cf84205eaacfaa1988e82ed249efc114d9bc05866c",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/test_results.json": "94540ddabced5c0a927bb32ec722ca2bbf151057be4f8ab76977b6b6532a0612",
+    "tools/patch/output/mayonen-caverns-map001e-86d6efb0c6824c9c851fb5602c4e4746/manifest.json": "f6d687918f922600fcbfdf9780cff23de4d271918f32414b6253d982c4ae1c75",
+    "tools/patch/output/mayonen-caverns-map001e-86d6efb0c6824c9c851fb5602c4e4746/mayonen_caverns_map001e.gba": "7fc50105e340510079158ca74e61f778b63b3276793ec9b6ffbe29c2af75c761",
+    "tools/patch/output/relleck-guarded-03b2ecfe70c84711b0afc63cf7a9a2dd/byte_differences.json": "f209950142a6cd3f2a8b1ea8041ce0cb2ec098d7661fd15a4aaebf400742abc9",
+    "tools/patch/output/relleck-guarded-03b2ecfe70c84711b0afc63cf7a9a2dd/manifest.json": "8310fec6f74f1e803f948bb083c1d2360a921255fa3d949707f060a5fd89f0e2",
+    "tools/patch/output/relleck-guarded-03b2ecfe70c84711b0afc63cf7a9a2dd/relleck_guarded_initialization.gba": "1ab6bc9c2be38c914f7d0780f21b2211d9f64ac34c5588b43da5e36d9f1fd5f8",
+    "tools/patch/output/relleck-guarded-03b2ecfe70c84711b0afc63cf7a9a2dd/relleck_guarded_initialization.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools/patch/output/sofoubi-guarded-07d5967f9fef40459f9cd2b94270404a/byte_differences.json": "4935421ccc64e5b6c1e850dabbe04e7cf9e9673e25aea898ed842ed7bd69f251",
+    "tools/patch/output/sofoubi-guarded-07d5967f9fef40459f9cd2b94270404a/manifest.json": "a7825a3baf280afe039b267f88101902a12f8443a759b9d681abb182f1ea9ef0",
+    "tools/patch/output/sofoubi-guarded-07d5967f9fef40459f9cd2b94270404a/sofoubi_guarded_initialization.gba": "f796526a8f7baa15edf844bf799d66b202cc8542bc8d5e694b52b53214c143f9",
+    "tools/patch/output/sofoubi-guarded-07d5967f9fef40459f9cd2b94270404a/sofoubi_guarded_initialization.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools/patch/output/sofoubi-initialization-e4b7345bcc1244dfa33d25548987441d/byte_differences.json": "faa1c981d1b134b08b62233f66dbb707bf241c1a9bd2a82e8382a124d60fa69e",
+    "tools/patch/output/sofoubi-initialization-e4b7345bcc1244dfa33d25548987441d/manifest.json": "bb34e5c35808fd656942d69b5ca15c7f5661552c805d567fae81ae6344faaca3",
+    "tools/patch/output/sofoubi-initialization-e4b7345bcc1244dfa33d25548987441d/sofoubi_initialization_wrapper.gba": "053d6a874af20c884d96bc99177d4b8f4364fb6dc7e43adce730b6dd79540d0c",
+    "tools/patch/output/sofoubi-initialization-e4b7345bcc1244dfa33d25548987441d/sofoubi_initialization_wrapper.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools/patch/README.md": "57b0ae559fd1e6708fd789b0684883b3dd521e1b23ca305a2853bf829eae427e",
+    "tools/patch/relleck_guarded_initialization.py": "1bd7ddca22da529dde302e36dd2885ba91020f5c3525ff226c6da1009ba40ca1",
+    "tools/patch/sofoubi_guarded_initialization.py": "fbf4aab38040b6d5c9278479540b74e04d929a6b67b65ce2746359a6e18876d4",
+    "tools/patch/sofoubi_initialization_wrapper.py": "bf041ae58fe887012065a849420852125bf31ff69e315c3176e85b239e369bee"
+  },
+  "protected_after": {
+    "reverse_engineering/awe_initialization.md": "105ce58977d9e4d7bef39e2e24b2608a02a121b9659afa1150ed4be7f077f35f",
+    "reverse_engineering/awe_initialization_evidence.json": "194beda67a7cd2cc381d488de9bff537fd30a2aa23fa8713f70525a42212bd44",
+    "reverse_engineering/battle_damage_candidates.md": "eeef56552faa5651a7d7fb544d918cb18d072e48fe26bbe383c10be613eeea52",
+    "reverse_engineering/experiments/alessa_recruitment_wrapper.md": "d5524ba346770afd720bb226a0824bd4b23eea3a4bf1558361e545b60fc51c48",
+    "reverse_engineering/experiments/alessa_wrapper_allocation.json": "f339e8bcf46b9788b60e6daf618b6f4f5020875979cd6c0a85d9795fac8a7c77",
+    "reverse_engineering/experiments/alessa_wrapper_preflight.json": "c9f73c10248d57a1e40575d9955d7ae536d7d31fd3863424d83d06340367e423",
+    "reverse_engineering/experiments/binky_exchange_rate_two.md": "63cf2e304470078d93805939ca35b4ca44823e9c4830a3f7f9a172f8321ae6f9",
+    "reverse_engineering/experiments/binky_exchange_rate_two_evidence.json": "1949fce2e552b8dd1c4cd08d4bae77b198d499771236adcde7a9c0cb92856f5b",
+    "reverse_engineering/experiments/binky_exchange_session5_closeout.md": "d3eb2496e4acbadf89e7c77562b3264d098649ca03a4e90289e3d2893e1a52cd",
+    "reverse_engineering/experiments/binky_exchange_session5_evidence.json": "0775f2e44643c33e6b98bf92614d393dd2c397174da04fe17bf91f5b1a2e1bd9",
+    "reverse_engineering/experiments/binky_remaining_character_tests.md": "b627e580deffc3bb49138d1e5c6f17e76a0c13f163f10bf54edb2f53588ba8aa",
+    "reverse_engineering/experiments/binky_remaining_tests_evidence.json": "658e755ba17ae303a1faa0cf8d8db5214cc2b2270066f4f242820f43ce64845f",
+    "reverse_engineering/experiments/detector_hp120_mit25.md": "f2bed88b05a146fda1597ed02b70efd70970fc70f71794e4f90aa75b459aa094",
+    "reverse_engineering/experiments/gearyo_attack_22.md": "c8a15744d4886b19fe5457b70cf543d2f264b930a8e2059f8b80dc6fa9789f7a",
+    "reverse_engineering/experiments/gimmick_balance_dry_run.md": "97b872a867f654b408b141c99aace58200ce642ffb12ea7608c94ce49f4ed338",
+    "reverse_engineering/experiments/kaizo_binky_100_session7_closeout.json": "935bf5b906b088fadcc1a25dcd57867612078871cb2e4709469503a30020f841",
+    "reverse_engineering/experiments/kaizo_binky_100_session7_closeout.md": "841a9e0e78185d7b20b174b09b062ee282dc42ed8b2df74a2ed5ac66a4b115b9",
+    "reverse_engineering/experiments/mayonen_caverns_music.md": "0f4a806e9b27bee59029d5c24237e1fb41946028354a0afc098eddf8753d59fc",
+    "reverse_engineering/experiments/oystown_binky_exchange.md": "530595a0b65fb51dd5ad96ce715a303062164baa2d60fd0ceed8378822b42b2d",
+    "reverse_engineering/experiments/oystown_completion_evidence.json": "c5635b00314b7050d77ae7d9010f5423b992fd8de1a4ada7e7e6e3786599e192",
+    "reverse_engineering/experiments/oystown_shortcut.md": "ad582540edd391cd1870ec7496d54f2c73f57014a0b9690b07ded14baf19b6aa",
+    "reverse_engineering/experiments/oystown_shortcut_evidence.json": "683c50b4120680cc055b9121ea38cbe44907d8fb078f99cbdfe627e30a3ed7ef",
+    "reverse_engineering/experiments/pre_oystown_state_construction.md": "0c92d5ba33cc691773c0aa2fbc35af7a6b8e2df84be3db53414eadaa3ee94ba4",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/A/launch.py": "1e96319278fb475fb996ce4adf7599ba0932f8f5cb761cd8fb137e8fcd23e3bd",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/A/logs/a060294e1f0a4dabaa15aca185e9433e.json": "1a46db83d8b48418e8ac2cd4df1e364f7981bea5382a8ce09531b0b7553679ca",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/A/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/A/saves/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/A/session.json": "383e2735f299909fd535534629ee339d2abceccae7d7ec0405cc1305664814be",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/A/states/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/A/states/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/B/launch.py": "1e96319278fb475fb996ce4adf7599ba0932f8f5cb761cd8fb137e8fcd23e3bd",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/B/logs/8dc3fbdf2a6e4155bd3b28b3b4678e73.json": "bea3d2fc24638aff85491074289e01ef32f4f28707ed324c7b5c5e184f3c3dc5",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/B/rom/gearyo_attack_22.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/B/saves/gearyo_attack_22.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/B/session.json": "0546c172830aeba881009d01ee288854c2843b593b2fa555fdcb091cc2f89e40",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/B/states/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/B/states/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/checkpoint-inspection.json": "b0564a717ee98721f2b40e192b457c49a02bb84b7f4119e7b2b0d8d5dae5e9e0",
+    "reverse_engineering/experiments/testing/gearyo-281d1d7030904d5684c2ff29d3e90c1b/verification.json": "c4c903e4d7d7673ee5f68564b3840f7b54fc524b58c53f851069572e3014fbd1",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/A/launch.py": "1e96319278fb475fb996ce4adf7599ba0932f8f5cb761cd8fb137e8fcd23e3bd",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/A/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/A/session.json": "597d6edc0143c1993e96fe597f8a54447f243fa8c9965fadbb1afee82c72cbf9",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/A/states/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/A/states/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/B/launch.py": "1e96319278fb475fb996ce4adf7599ba0932f8f5cb761cd8fb137e8fcd23e3bd",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/B/rom/gearyo_attack_22.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/B/session.json": "644603b23e78640d2e139e092bf40c1682c005c8352dccffdeedff149fc6393b",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/B/states/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/B/states/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/experiments/testing/gearyo-ac63e0edb9a74f23b6e4d998aa74637c/verification.json": "ca077da22d4c6d490c3f96349e06c19466058cf9cdf711b5517e63a1b38891fd",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/manifest.json": "e792d63ce60d970cdd9d52a3fc4a98e97796121681e7ec4c6ea1b5e98892a516",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/post-experiment-verification.json": "c6febf2438b64499624d7be70c00682fb264a6d14eef5a75a42def5f84c24d3d",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/protected_backups/map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/protected_backups/pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/protected_backups/route-selection-stop.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/protected_backups/Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/protected_backups/Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering/experiments/testing/hanzo-entry-f87e9d336845426e985b93bdeb48fd00/runtime-results.json": "dfc4684aaf27fd11492fe95733b3b7e6bf303dc3707b4fee940a8709416838cb",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/manifest.json": "90712cc72596aa6d84847156d2694068bc5f0285c85a27dcb744a903fcb50f7d",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/post-experiment-verification.json": "d19e584e7feb55c91a06cebe876d6547222f4215baac168325ac626d65fe045a",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/protected_backups/english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/protected_backups/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/protected_backups/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/protected_backups/Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/protected_backups/Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering/experiments/testing/hanzo-flag21-a0ba005c0e5840eaa7c975120a5ef444/runtime-results.json": "29afbf4887fcb58feeaeda9505291f33ccf54489f927bcd05f782c2189be8308",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/manifest.json": "2e16d8366c005df97ce5f2ba58966251ff6e410e3d8ec62a0d1e4d1737ec3d3d",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/post-experiment-verification.json": "0c693e2fc49cee736854da35c062a9724887da69cf701f6013e1b18bfea74374",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/protected_backups/map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/protected_backups/pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/protected_backups/Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/protected_backups/Tomato Adventure (Japan) (patched).sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/protected_backups/Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "reverse_engineering/experiments/testing/hanzo-route21-e403d5880f814caea273f8288f30a649/runtime-results.json": "828108af13af75d429431cade47dcc4986c46005ed3cac6af9babe0d3cb149ef",
+    "reverse_engineering/experiments/testing/pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775/CAPTURE.md": "cd21d2b5ad2e363737da3b0b2a87420b4e166cdbb037f67ee799fcb677514a5b",
+    "reverse_engineering/experiments/testing/pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775/captures/post-recruitment.ss0": "4eb81a006e852955556664f8c76c4526458048dab644dfa6f36a4b20d352946f",
+    "reverse_engineering/experiments/testing/pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775/inputs/entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering/experiments/testing/pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775/manifest.json": "d7d5fd3a94bbbc4a672ef742ed5eb60c9151c51ff7643f7e05e5fd39cde13874",
+    "reverse_engineering/experiments/testing/pre-oystown-foundation-47e2ab0d9c1b4772b524a4c482e99775/rom/alessa_recruitment_wrapper.gba": "3bba82ba6c581ca598aea1e21ecd654b41418f946e88ea6c5021d89b0357d7c6",
+    "reverse_engineering/exports/palace_enemy_sprites/extraction.json": "0e4b51348530d7dcad3226880af2a1cd86e582c1a36773685c6771c01944a5a0",
+    "reverse_engineering/exports/palace_enemy_sprites/verification.json": "589424a88bb934beb8359025f78a5e90d5bc137a089e39f933f29f0506503e54",
+    "reverse_engineering/ghidra/run-18e244ba11cb4e77afebcab6d745de91/arguments.json": "0978b51b8d2a1ec5d2d93dcf732c3533f4d7045c22cde0be2ca57038a35e4375",
+    "reverse_engineering/ghidra/run-18e244ba11cb4e77afebcab6d745de91/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-3857293b23c243d08c26cc8e0feca509/arguments.json": "1a7ff2a43d2afba48024918b676dc7d01c49c5a04a7a975f3f171297f78fb7d3",
+    "reverse_engineering/ghidra/run-3857293b23c243d08c26cc8e0feca509/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-3937c795ad674666ab7b2c4938e09b04/arguments.json": "7880acb06850d4d172675e916d7ef39378a240e2851266fc577b6868dc54e719",
+    "reverse_engineering/ghidra/run-3937c795ad674666ab7b2c4938e09b04/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-50ecc6655f7542ed8a8d9f69e3b2d68a/arguments.json": "21afc618ad198f71fc9ec6337b1b06f188cde78cf3bf97473b5726a4aa356920",
+    "reverse_engineering/ghidra/run-50ecc6655f7542ed8a8d9f69e3b2d68a/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-560102af6aad4cb2bbca1281975a1912/arguments.json": "d32a967b68584f07b4d316711052ca08b57b78107fe94207159a1925c221a400",
+    "reverse_engineering/ghidra/run-560102af6aad4cb2bbca1281975a1912/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-77915b5e283f445b852f06c5942e10dd/arguments.json": "84ed60c50b4e28ad93959cac5a4092c6d1dbb4991b5f62ce253b34b6235bb156",
+    "reverse_engineering/ghidra/run-77915b5e283f445b852f06c5942e10dd/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-7cd71cde50644773810ebe2740b5fcd6/arguments.json": "a07bb318655a410100a323c3f7772ffaf9d2a047c77a9fc2941ce1ab6a057230",
+    "reverse_engineering/ghidra/run-9e5e17e3b92541c99cc79cea4452e657/arguments.json": "fee2ca8f4fb84e5162b8543636f9f8c9239f8f36d19371c5ab65f6d3039d5dd2",
+    "reverse_engineering/ghidra/run-9e5e17e3b92541c99cc79cea4452e657/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-be237585f2c7427dad93d2b6da2e16ea/arguments.json": "12076ec55c9fc4ea273203a38541d05a780b3a7db864725deaa0129a3bbcc1a1",
+    "reverse_engineering/ghidra/run-c265439adeb946979009ffaf63430fe7/arguments.json": "74887b9c9bdeaf9122a5e9ba3c7d41d0c172098c34a22329712ff86fc835e1d2",
+    "reverse_engineering/ghidra/run-c265439adeb946979009ffaf63430fe7/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-cffeb54fcbc540a78ce312e1604a9711/arguments.json": "72b20fdf7c1a748f0ef1b2b1b24115d82bd28400f959db2dbdcf35a3b5d573c5",
+    "reverse_engineering/ghidra/run-cffeb54fcbc540a78ce312e1604a9711/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra/run-d46ac05cad894a71aa176d8052c2c733/arguments.json": "86b0210c95c1ff73ea61b04fde27f5b604bcd3fe72cd9a92acf56d3779f6c764",
+    "reverse_engineering/ghidra/run-d46ac05cad894a71aa176d8052c2c733/input-metadata.json": "2e33fba9c5821790d73f8486f17cd9cb3f70d40767b19f5215adcd0f88c009d2",
+    "reverse_engineering/ghidra_analysis.md": "3fecc9e6c7c8445d74811ef8dc085b73288bd7f044cd2ac08c78b6a888a174a1",
+    "reverse_engineering/ghidra_loader_trace.md": "694b2d0f278a9956cd16ca98c1ec620d93e01cb7226747127b8be7cef5bcbc02",
+    "reverse_engineering/gimmick_calculations.md": "a0f2e8392ea53d8bd6709de632ff3fb10d7ed677d36d845e341991b1a9a53dce",
+    "reverse_engineering/gimmick_palace_enemy_evidence.json": "23c7f8aae26abec4ed7e2261a179bf2afae34b32c8f2f4a63d7a79cee1c79003",
+    "reverse_engineering/gimmick_palace_enemy_research.md": "09b7d7580efaccf1500b2a89682bca0792e5540dfe380187c739fb1b70c2c74a",
+    "reverse_engineering/gimmick_runtime_tests.md": "58c7715d56f0350ecc484784db77eeb55172ed105af0961ed47fc98c0380cd7a",
+    "reverse_engineering/gimmicks.md": "9cc7f47916739312cc108b2efe841f109bdd15898b3628752dc90d692c27bdfa",
+    "reverse_engineering/hanzo_lab1_progression.md": "fc92f0fe76662d9973eff3b0f0d00f0d1621368f40f7192cbd223860261b4db1",
+    "reverse_engineering/hawker_dependency_resolution.md": "d8d9a471225bfafc09538ccc0aa0026cd6b7c2141efaf4a6f7300c02f2456462",
+    "reverse_engineering/hawker_dependency_resolution_evidence.json": "30f525c2e161a3d9df46401a3627370e4a67e6d475f3b45c73a97d5e64603bfe",
+    "reverse_engineering/hawker_final_gate.md": "3fad67a88b5e61105ca4f07450e9f58804fac8bc2c2196489189761f574378b5",
+    "reverse_engineering/hawker_final_gate_evidence.json": "aa4771827a28b949e6286dec8fbb57f643d0ab7f37c1f74ae27163a0209cd932",
+    "reverse_engineering/hawker_placement_investigation.json": "54ea66fd22e8d899be35e41dafbec40abb8e24f28cd6d7a9b8ae2daefbbcf303",
+    "reverse_engineering/hawker_placement_investigation.md": "d50b63e6e960a14a40918a9a58f4801e1cf3417c85283ff21e7ba32bbca760df",
+    "reverse_engineering/hawker_placement_safety_evidence.json": "ee54ed02daf36d595fd82296e5d92890bc09059a9322a6b03a49a6cd0dfbc5f9",
+    "reverse_engineering/hawker_placement_safety_followup.md": "192939f4fcc3b539268517b19d9006f409cdd556ecc5abfad8654c614073f286",
+    "reverse_engineering/hawker_stage1.md": "bff3e8d9bb09456d6a1ddd2137f1f85af4857eb6b0bd1587adf99155c0c666a8",
+    "reverse_engineering/hawker_stage1_dialogue_evidence.json": "5813645f3d04d7c350c0dffedff62ba41798d4d6977281eec8c27b983708171c",
+    "reverse_engineering/hawker_stage1_evidence.json": "91c1c5f275240b555367fd25a8c25099a85b8f008c500e843a6ae87fc8a31d15",
+    "reverse_engineering/hawker_stage1b.md": "bab6b849096604b7aa0978b2c7723d036c869465e25e06dfc9ffed5458c2ccde",
+    "reverse_engineering/hawker_stage1b_evidence.json": "8c0885b3a81ae30cbc3e61d83887b1cd019a49150b982e9f7b72d0c37008ffcb",
+    "reverse_engineering/kaizo_binky_100_proposal.json": "d2ef8cfbc561c0f092c9ddd10f0bbbf5e83f23dc60f805a6a4d06391cee9614f",
+    "reverse_engineering/kaizo_binky_100_proposal.md": "8b8a4a99f9566f85f5a321131aa01bd8f7792e0414e2022e95eaac38894fc5ea",
+    "reverse_engineering/memory_map.md": "e61ae18daa2e8768b5b4409da6847eed01fa0d703546eaf1519e328410e4bb6c",
+    "reverse_engineering/mgba/isolated_mayonen_music/config/preparation.json": "b1a43d639e803d367786160ce5b54cb668bd96a9baea989cc05b53d57b36830d",
+    "reverse_engineering/mgba/isolated_mayonen_music/launch.bat": "70ffa53f33cd61b2db3238fead6e72a6f587a36bbd37bb266ecdcf5a04c77b6a",
+    "reverse_engineering/mgba/isolated_mayonen_music/launch.py": "1911d577432deefd03b7be02c5b3c2a4fdfc969b2508ae41738e047fa8cfb838",
+    "reverse_engineering/mgba/isolated_mayonen_music/logs/60f8bac3aa29/launch.json": "af68b64ccf42dfe5630de856de56eafa4db370849859be6f86124328fcc6e653",
+    "reverse_engineering/mgba/isolated_mayonen_music/README.md": "b9f43d113c86006555f797469c1b23a5e9c5bf92a1585289748b91cf42bab6d8",
+    "reverse_engineering/mgba/isolated_mayonen_music/rom/mayonen_caverns_map001e.gba": "7fc50105e340510079158ca74e61f778b63b3276793ec9b6ffbe29c2af75c761",
+    "reverse_engineering/mgba/isolated_mayonen_music/saves/60f8bac3aa29/mayonen_caverns_map001e.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/isolated_mayonen_music/states/60f8bac3aa29/entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering/mgba/isolated_mayonen_music/states/entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering/mgba/isolated_oystown_binky/config/preparation.json": "e5f3a4b361f42d832a38563ea141e7486170a59f0277d5f4a178116f5a045ea6",
+    "reverse_engineering/mgba/isolated_oystown_binky/launch.bat": "70ffa53f33cd61b2db3238fead6e72a6f587a36bbd37bb266ecdcf5a04c77b6a",
+    "reverse_engineering/mgba/isolated_oystown_binky/launch.py": "c4ba10f38ca65cb9d6b4b544d05a863cd21dbfd246bc4a020be42629e7598bf3",
+    "reverse_engineering/mgba/isolated_oystown_binky/logs/1b5bd9a89e03/launch.json": "1c671168148bd93f7b7261db9d5d8cc9721504f4504287a7ef2ab62a27ccbeeb",
+    "reverse_engineering/mgba/isolated_oystown_binky/logs/37d6e3a90afe/launch.json": "6e00e76362abceeea9f16778e6a8227dbff422878d84989cccba58d0c4503225",
+    "reverse_engineering/mgba/isolated_oystown_binky/README.md": "ea10f48e75490246108814985f5d3f7fc23c6d9cee20f39e4e043226d8b18392",
+    "reverse_engineering/mgba/isolated_oystown_binky/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/isolated_oystown_binky/saves/1b5bd9a89e03/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/isolated_oystown_binky/saves/37d6e3a90afe/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/run-2000e25a7706/logs/probe-command.json": "fc01816696f2e5b1826597e9a8b960a4c74de338245635ee5deab032e8f27293",
+    "reverse_engineering/mgba/run-2000e25a7706/logs/probe-results.json": "11ea45592f8cb4f0390180cb243f6651a53ab8c0766d3440c8c0562be4d561fc",
+    "reverse_engineering/mgba/run-2000e25a7706/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-2000e25a7706/session.json": "b6958f220e98ae7caa2ea50ded68e211e2d2a4f579974788b3e19b4a78dea570",
+    "reverse_engineering/mgba/run-24f08599ee6a/logs/probe-command.json": "8c846433dee06736dc0fff1661b619ff0eb8ea2b814c29501fd470159982bb66",
+    "reverse_engineering/mgba/run-24f08599ee6a/logs/probe-results.json": "1d6299d47226972b8d3f1e42e928afaecc277f7e40596a38891a55cbb2526f72",
+    "reverse_engineering/mgba/run-24f08599ee6a/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-24f08599ee6a/session.json": "5248223b08eb876b5e8619f6cffdf2b39751ca34778a2532843cbfa7d2cb9458",
+    "reverse_engineering/mgba/run-3160380dd05b/logs/runtime-capability.json": "df1422113e08a3442b21993265be4a67694c6494f7a519add732771b18befc76",
+    "reverse_engineering/mgba/run-3160380dd05b/logs/runtime-launch-command.json": "d8991d726bde5b5b7cdcb5d390503914042cc7bd69fe2669efa4248eb606d994",
+    "reverse_engineering/mgba/run-3160380dd05b/logs/runtime-process.json": "fa41b6669f2e1be9db4fadc7fa032bf6a34f37d9d0954eceb02084722ad44865",
+    "reverse_engineering/mgba/run-3160380dd05b/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-3160380dd05b/saves/english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering/mgba/run-3160380dd05b/session.json": "b7a8c96a28068e63ac2ba887a23b057fe3f498c32b09bf310cad4fdd8ba6a787",
+    "reverse_engineering/mgba/run-3160380dd05b/states/experiment-stop.ss0": "5d9258dc36758d6599fa72548c65a90e7336855a513d2c6c1893e7ec8e8609cc",
+    "reverse_engineering/mgba/run-3160380dd05b/states/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/mgba/run-3160380dd05b/states/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/mgba/run-376aeda5b619/logs/runtime-launch-command.json": "148a7216f8541d544bfa179b7f85729b05023a61e78597e6ad942adc044f765d",
+    "reverse_engineering/mgba/run-376aeda5b619/logs/runtime-process.json": "9e63f07108fdfd86ae54fa407389ee7a72f77dd87d35a4278b26a0ce375f84cb",
+    "reverse_engineering/mgba/run-376aeda5b619/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-376aeda5b619/saves/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/run-376aeda5b619/session.json": "67131bf98ccd0a36cfc085aab3fb74e2f171751d972b1baf227a7b9dd0fabaac",
+    "reverse_engineering/mgba/run-376aeda5b619/states/map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering/mgba/run-376aeda5b619/states/route-selection-stop.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering/mgba/run-3da22fc56cdb/logs/runtime-launch-command.json": "ec3d3e6f97489b2d9f3419242efda1595431540e9a71585d934bc9e3a436680f",
+    "reverse_engineering/mgba/run-3da22fc56cdb/logs/runtime-process.json": "b439034ef622e2552f4bc0f27dbacc7c4d4db4d76c91b1ddec2745abf7d6f831",
+    "reverse_engineering/mgba/run-3da22fc56cdb/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-3da22fc56cdb/saves/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/run-3da22fc56cdb/session.json": "4657fb63366ba54f512304e306db90c170916454846348dd3a1dedc4ec6908d7",
+    "reverse_engineering/mgba/run-3da22fc56cdb/states/map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "reverse_engineering/mgba/run-3da22fc56cdb/states/route-selection-stop.ss0": "4cd1b66dab75cb8d6bfa84c867427def623749d2b3683d8d142af804b1535bd3",
+    "reverse_engineering/mgba/run-45d355b68953/logs/runtime-launch-command.json": "21582746ef15c6f17d71a53704d85b5af9ac83b80f8eac6fd2b6e01e60b0a751",
+    "reverse_engineering/mgba/run-45d355b68953/logs/runtime-process.json": "b5dae5a3ae0506c680ec05435604849cdbc62ea2fec3d66510c237b2c9d7508f",
+    "reverse_engineering/mgba/run-45d355b68953/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-45d355b68953/saves/english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering/mgba/run-45d355b68953/session.json": "eb8fe1ed425bc7acce52a8558484a47e2e1a2d266fcd77242acbf77320ac8e1d",
+    "reverse_engineering/mgba/run-45d355b68953/states/experiment-stop.ss0": "079055064db34325edff27576977dbeca6fb6e93eebea6d5659d002da69058f3",
+    "reverse_engineering/mgba/run-45d355b68953/states/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/mgba/run-45d355b68953/states/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/mgba/run-6d783e19ca1b/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/mgba/run-6d783e19ca1b/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/mgba/run-6d783e19ca1b/logs/manual-launch.json": "6c64f9851ff8153bc2ab5d6ad2db76698a42323d086baa4c820430927dd901c8",
+    "reverse_engineering/mgba/run-6d783e19ca1b/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-6d783e19ca1b/saves/english.sav": "37f0efba33abc9f4b622166b3f2b124ef2144e99e510bfd39e346050982a6874",
+    "reverse_engineering/mgba/run-6d783e19ca1b/session.json": "41df6a3522ae3d6fdd12c5f4db731f4669d2bdec46ab8e92db504dfd74c78f1f",
+    "reverse_engineering/mgba/run-7f871ba72efc/logs/runtime-launch-command.json": "c12adca334db2845fe0083ae75aece96e01b504ae5b235f1f786dbc5fc8e7427",
+    "reverse_engineering/mgba/run-7f871ba72efc/logs/runtime-process.json": "885e01baff1a9317ec398ef0d5c79594dfa9c48731db7eba9165d1634258ad21",
+    "reverse_engineering/mgba/run-7f871ba72efc/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-7f871ba72efc/rom/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/run-7f871ba72efc/saves/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/run-7f871ba72efc/session.json": "e920d8b3be8e567d7e56b4a5d778bd320aee7d71913b00dd0e52f73b3df85e99",
+    "reverse_engineering/mgba/run-7f871ba72efc/states/entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "reverse_engineering/mgba/run-7f871ba72efc/states/source-node3.ss0": "d1e79a2f9cc39c33e2fea2f5256d14e98987158d763a58067f34a9ebadb798e9",
+    "reverse_engineering/mgba/run-8583a5fb3db2/logs/checkpoint-validation.json": "b0dba8aa54d23a7a19d5a86a0a13b6becaceb8c1abbb74cc1936617b0d346df0",
+    "reverse_engineering/mgba/run-8583a5fb3db2/logs/manual-launch-298a9f6b8eed4e42af3e1118d50853ca.json": "74f4c7dbf6ecaca3dd872a12f24ed0a2f5bc465a8659c1bbe1f49fd5bfc3b610",
+    "reverse_engineering/mgba/run-8583a5fb3db2/logs/manual-launch-5717be76184949f0a8174b01f3e7fd77.json": "74f4c7dbf6ecaca3dd872a12f24ed0a2f5bc465a8659c1bbe1f49fd5bfc3b610",
+    "reverse_engineering/mgba/run-8583a5fb3db2/logs/manual-launch-59c4daca6eea4e888953660220a5cd87.json": "74f4c7dbf6ecaca3dd872a12f24ed0a2f5bc465a8659c1bbe1f49fd5bfc3b610",
+    "reverse_engineering/mgba/run-8583a5fb3db2/logs/manual-launch-6caad0743b5c4fe78e3d75f67cf3e759.json": "74f4c7dbf6ecaca3dd872a12f24ed0a2f5bc465a8659c1bbe1f49fd5bfc3b610",
+    "reverse_engineering/mgba/run-8583a5fb3db2/logs/manual-launch.json": "74f4c7dbf6ecaca3dd872a12f24ed0a2f5bc465a8659c1bbe1f49fd5bfc3b610",
+    "reverse_engineering/mgba/run-8583a5fb3db2/rom/english.gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "reverse_engineering/mgba/run-8583a5fb3db2/saves/english.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "reverse_engineering/mgba/run-8583a5fb3db2/session.json": "618ec979f4de42a224e1ae3f2a126f04a4fba042380a3ce828dd91d3f2c9b453",
+    "reverse_engineering/mgba/run-8583a5fb3db2/states/gimmick_battle.ss0": "cd21cb39ce11ac7ab032982576e1bed13ab2864fa431e855a6bb209c125667c7",
+    "reverse_engineering/mgba/run-8583a5fb3db2/states/gimmick_menu.ss0": "570e17c82b6d3592a0b003d991a33b6bf320c04ff7322a339e735f6c65280230",
+    "reverse_engineering/mgba_setup.md": "94a2382839ffcd5ba0f02b7a119ae88620bed36fc211341f2a0883bddafda586",
+    "reverse_engineering/oystown_binky_readiness.md": "5fda8ece791a3734b8485e3d05df40057e5beb694fe3135735c88cd3c6d7a68a",
+    "reverse_engineering/palace_enemy_sprite_investigation.md": "22934b7c60434a7892ee8f2fd419570595710ccbc4310dc9af2c7446f01f95ae",
+    "reverse_engineering/pre_oystown_progression.md": "f7cc5d224fcce50b74142421d9e1bf85c87205b1a259742fb5f392016c901935",
+    "reverse_engineering/pre_oystown_progression_evidence.json": "353111fea6de91c68fa053b207b723729f8aef8ee9987dc5fa6e2749586da5ed",
+    "reverse_engineering/rom_verification.md": "c904df98c2e8355ea815f8225a9523d40f5eb9528e57bada0e0b96398bc708b0",
+    "reverse_engineering/symbols.md": "72f3f57f61595d6da55f2fb0c569dc792897895780e69211effa605432923125",
+    "reverse_engineering/translation_project_overview.md": "8e5bf31943f22be72b07ed59ece4d54498d3b0b14024755688631c4f5085ccd3",
+    "savestates/after_cyclooka_donation.ss0": "c301d6bae3643ae9f48a842460180f3e0dbefdb86c5f8e7952de5b4e8bb6f2e6",
+    "savestates/after_cyclooka_donation.ss1": "c3add431bc01f2c81820c708a21603fab7005ed84d0ae99edd94f833963b0aba",
+    "savestates/after_cyclooka_donation_94_binkies.ss0": "04bc011d616a62a48feea61823c68f523284d435e945051c70508f32b767b500",
+    "savestates/after_exchange_oystown.ss0": "aca4eb6751d66949e74a137217e92f79eaa0e85039f11f09d9821ea9a2cb5646",
+    "savestates/after_exchange_oystown_alessa_test.ss0": "85110875375c28ab412e4413e986d9cb65eb81353d1214f3b86e6d7b7a02f1cf",
+    "savestates/after_exchange_oystown_alessa_test_three_tiers_passed.ss0": "ad5042fb906a2c8105325b04acd9eb611593f6c8a2484543192f01891bf47017",
+    "savestates/after_hanzo5_awarded.ss0": "a60bc403db2f05bd8de88ca4de7a050c7dce1715254fe2166733a534ebbefaa7",
+    "savestates/after_hanzo6_awarded.ss0": "ccc08adea412159d613929abf5b42a48e0dcecd9b3cd998a1266c2f9510ee1f4",
+    "savestates/after_kaizo_100_complete.ss0": "37b33604e63dd874a1e11fb54a8d161526896b0a7ce0ca27ea6edff71169a682",
+    "savestates/after_rocket_kendama_bouncer_donation.ss0": "b7d5259c2bc8b0721acdf230619645878905bf5b75a86eb5d1dc100eefd161d8",
+    "savestates/before_kaizo_100_test.ss0": "b1a3980b2802a10d63798209237072074edf67998450ad1a8c30ffaa9153b9bd",
+    "savestates/before_kaizo_first_donation.ss1": "67a177a6c8f8a37f424183a2d2777ec59b296381d27e8790e411a7dde40f73d6",
+    "savestates/before_oystown.ss0": "d20fc78972641d76e1b56f23daa80c9fedd4c07fa22edb63e69d37371db21c53",
+    "savestates/entry-stop.ss0": "d700a4a002adcc9554064b03b36510a4589ce15fc1668988d27c940bbe999a29",
+    "savestates/map_pokypine.ss0": "1079f53c58187342856f405d9c18bc7d96cfc9ea7ba9c224569d7914d9841eb2",
+    "savestates/pokypine_forest.ss0": "2a2603842095aa3c4fe0f8a09381f897128afafdf36db7daa89e59da3250c886",
+    "savestates/relleck_initialized_guarded.ss0": "c3a01888ee451731f4d6f073a652d382c1e712ac1f3590622e54bec6654d3ba8",
+    "savestates/relleck_initialized_guarded_successful.ss0": "9de814b789f88989c1a4f0330ff024d4b0d81a7031e15d4c3c2c2bf55ec5ec9c",
+    "savestates/sofoubi_initialized_guarded.ss0": "9abd5427393c027bfd25ac50395e7546337e7331114b2d1a70ba9dcdf3ceebcf",
+    "savestates/sofoubi_initialized_guarded_confirmed.ss0": "c7a1fb18eea144858fe2982fd5441a24a0758dc3579792a98431db8807cacd30",
+    "savestates/sofoubi_initialized_guarded_confirmed_first.ss0": "4f63cd1d61486ad01f8004fc2141686c7819438e7c83c6d31d98267afe3f5f3a",
+    "savestates/sofoubi_initialized_guarded_confirmed_full.ss0": "f51ec4a4b3bd8c05bd1af01d6a00a4e8d9c2c8b6f80ddc5de3a9d3deef06197d",
+    "session_handoffs/SESSION_HANDOFF_1.md": "35d2d5f075fc582069d8b3970a8ca53933f3812081144059dfdc8441ffefc743",
+    "session_handoffs/SESSION_HANDOFF_2.md": "1cda734ea58938b23e2d34b574198f79bf864630618cc6bb1e530a832fe168f7",
+    "session_handoffs/SESSION_HANDOFF_3.md": "ad4bef6cde86ae4f67873cbf6ce8f0130db51337eb2aa547778de2c0618f262d",
+    "session_handoffs/SESSION_HANDOFF_4.md": "d2decb1a5885613b52262d81697364980c057761d3f80f82ae751e97f383d33d",
+    "session_handoffs/SESSION_HANDOFF_5.md": "721777a1de9cfe07a8263a7392c8121b2ffc9976603de4193e94c54fda71e8e5",
+    "session_handoffs/SESSION_HANDOFF_6.md": "cf1aa86dd44bca22bc76f888c75e8df5f20e51cf8fffca64bc1a4ff4746b8a62",
+    "session_handoffs/SESSION_HANDOFF_7.md": "77d7a38be99dc11f7232a1bc323fd74237ea8ad4b3cfa31031f9ff7866ec30c9",
+    "session_handoffs/SESSION_HANDOFF_8.md": "d02ff6ce11014ec2868bfaf1421fc86ec3d4b6ddeb53134490f04df4157e5192",
+    "Tomato Adventure (Japan) (patched).gba": "8d27aac43d50eab17d7ba8b4183cb7c70dbd74194d11b3f8c011c61d13b5adde",
+    "Tomato Adventure (Japan) (patched).sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "Tomato Adventure (Japan).gba": "0d44380a3eed065b6ca0992d80a248ab001b978e925f7687d5dfcf1ae70e5c12",
+    "tomatotrans-1.1.1/asm/battle_enemies.asm": "b92b644029eee853e9f8ed4e34764e8e276e4f689eb855cad978a39259d9999c",
+    "tomatotrans-1.1.1/asm/battle_levelup.asm": "82f716b3ab3308dc414774d81a751fa2b4802517551934d21f8e221002d8d461",
+    "tomatotrans-1.1.1/asm/battle_menu.asm": "8c087dfa81f76b7b54be3a74beacf3bd543460f73bfab24ab106335aeab1a85a",
+    "tomatotrans-1.1.1/asm/battle_message.asm": "e79d3c3d0b5addcdeb7f13ecfb335600e9cd87a5491b0a7783e45ebb03709732",
+    "tomatotrans-1.1.1/asm/battle_sleep.asm": "f9a34227bcc5df0701807637355aa289a42becaedb82507567f2d2735b38d51a",
+    "tomatotrans-1.1.1/asm/battle_spoils.asm": "5225227120be007c6aaf8ce35f166b4eea49b935dcbebbded3b2c41267c682e3",
+    "tomatotrans-1.1.1/asm/bug_nocash.asm": "32ed67ae9c9e0d665ec2e91b6381662fe7acbd6641041d7e552e22b91ba32bc8",
+    "tomatotrans-1.1.1/asm/credits.asm": "75eeb75318a258324f9ea247b5d2ddec8e5b7e5c9668a28cc7bd188cb414ca66",
+    "tomatotrans-1.1.1/asm/dialog_center.asm": "b56d2967341f253ee317d6e51e59429a45cf06b5fbc0654160dec8c8ed16b948",
+    "tomatotrans-1.1.1/asm/dialog_item.asm": "71669f9c8aec0b9962c2b3c0cc57386aa89ff28d7dc00184a852a90181bed750",
+    "tomatotrans-1.1.1/asm/dialog_name.asm": "ec59693509bf70562fb89e3f0657909db6d24a47296e816c26b8720e902a4010",
+    "tomatotrans-1.1.1/asm/dialog_speed.asm": "557f21efe5cd03bc2e48567c73f6291d8579adeb8397e3705f24b0d4fd8e376a",
+    "tomatotrans-1.1.1/asm/fontmap.asm": "0c658e47abae5796265b694cc95058ebc21b37464e4d1f087bad8be675dfbed4",
+    "tomatotrans-1.1.1/asm/gimica_text.asm": "334274c4ef6d6e76ed7033e32ca630de75c416edb4164421a74e0325af4d5a93",
+    "tomatotrans-1.1.1/asm/gimica_tutorial.asm": "22a75e5574dbb11debf236d6dd82daa3225a96688573374a2a80ad9eb5630487",
+    "tomatotrans-1.1.1/asm/gimmick_text.asm": "562e3dffa998a1709329af6d05bc34cefde895f3c0277a7e70100f4ccbe2fdc3",
+    "tomatotrans-1.1.1/asm/item_text.asm": "aba4ee4ad5a9dc4c28717eaef4ea2ec76ff48f6e946421036466ace1960bdb5a",
+    "tomatotrans-1.1.1/asm/map_text.asm": "70781a1c70380381c114e5a6ba1f119b687cbbce051da9add3a58562285005bf",
+    "tomatotrans-1.1.1/asm/mecha_text.asm": "940d6b59d8e8c15dbf47c436cd73456b92f6586cf00cea98227e38db21ae9248",
+    "tomatotrans-1.1.1/asm/menu.asm": "dfa2dfe3429743b532291902870de7e02bb9cef50bfae8b5974ca1271edb5da1",
+    "tomatotrans-1.1.1/asm/menu_equipment.asm": "07940585f04416502410b657f0f439d6df0b8df96259da50506feb1eab9ac6f4",
+    "tomatotrans-1.1.1/asm/menu_friends.asm": "4d9fdef477b2d4c6dcc354ee97f585efc268a41510d3a3fc6fd2bdebeaeb8a41",
+    "tomatotrans-1.1.1/asm/menu_gimmicks.asm": "80a2d86a586fd69a25b9033f04fdc9a0014f935d730d630d5aad0fa30e02cf75",
+    "tomatotrans-1.1.1/asm/menu_items.asm": "7eb5b45ba7d223e5a03c2763e82bdc9f72e51f95bae10085d0ad8307195fee06",
+    "tomatotrans-1.1.1/asm/name_long.asm": "618f5ebe1d7f6e70ed2a875aae97964a5e06f2b73cb6b86dc2de7d57522a5a11",
+    "tomatotrans-1.1.1/asm/naming_screen.asm": "645faca95d3b5ba8f1d18efdb0afd887505490ccdbe3daf2acb45b31e47802e4",
+    "tomatotrans-1.1.1/asm/saving_screen.asm": "855808a54525d36dade16ac724f58ed51eafe9f54fe78d40093ad9193936e2e8",
+    "tomatotrans-1.1.1/asm/shop_messages.asm": "78fd71ba33db734986a91fa3d4ae35823e4613349ccb8e62932a000d35430a33",
+    "tomatotrans-1.1.1/asm/title_screen.asm": "01c608612790028df13ef36c539d187c153070161fca9970159df87f7f3e1d34",
+    "tomatotrans-1.1.1/asm/vwf_8x8.asm": "7a1eea2b7db5998068ee964c9d67f95abf1b88568961150765fdf5e624d9b972",
+    "tools/analyze/alessa_wrapper_allocation.py": "7ecf8542a93619ec90ddb946307c23dd9487574723f82ce1f7bbbc70082174bb",
+    "tools/analyze/alessa_wrapper_preflight.py": "5659c905fdb8fc53118b18f1cd4a71605a3e33a556cdb3fe85f30d1acc3e469d",
+    "tools/analyze/awe_initialization.py": "df506734467e3c3a4e41cd17b6e6433220dacab121f0e9527cacd218e3d3408c",
+    "tools/analyze/binky_exchange_rate.py": "42af33b72b2472e2dde2b191ba2bbe2f1caec641006ab4b088b84716d9358c0a",
+    "tools/analyze/binky_remaining_tests.py": "fbdcadc522edcaa3bf52274ffb857ed53413fcc2b1423820b24608d2ce509c34",
+    "tools/analyze/extract_palace_enemy_sprites.py": "c6a714c8cedbf975b3fd7b53888138ac3b5e2c1ec1768553436f0cd2e52b9706",
+    "tools/analyze/ghidra/export_calculations.py": "b8ba7ecd61528dafc5c0e12c23a92be30edef58c426a468b6a0490c4716d9df3",
+    "tools/analyze/ghidra/export_trace.py": "353b6274afd5c4b94d0a1f6369c076b96267dea69bca81125e8cca49a77f72ee",
+    "tools/analyze/ghidra/README.md": "32d72573a9a07edb2a9e7aed80ddf72688ce6156e190f8b03e66840324603704",
+    "tools/analyze/hawker_dependency_resolution.py": "c5580d6edb7afd78be18b160d1b724a2ed533deeb2add7c906435357d7f92ba8",
+    "tools/analyze/hawker_final_gate.py": "88441150d6b59c849a98f6bf11842b2d317e16d6b9b877dc5c7c3795045dbf39",
+    "tools/analyze/hawker_placement_safety.py": "5c95501c9127eed6b4bfcb95f621b5fd9e7bcc1f8a35b4e8434ce73fb17ee6fa",
+    "tools/analyze/hawker_room_preview.py": "db3f37569e7269982ef020648b97491c6ebe4d8156a0e1b5155ce78d734af893",
+    "tools/analyze/hawker_stage1.py": "650e2b2284cd71f0246927239ed967a5966f32855ead30c1b6b25b2e2ca38059",
+    "tools/analyze/hawker_stage1_dialogue.py": "504c66141b8dfe97d7ccea2607078efcbd3bc57f52e5a8ff8fe8afb2c6e59efb",
+    "tools/analyze/hawker_stage1b.py": "ec1aa94eb13a1d5397cee5c60402f402909affd7ebfcc09aee88a48776b607b6",
+    "tools/analyze/hawker_stage1c.py": "142ad9a7418fe789723c53f6e5db12a532a5654ce22b52ac39b59e6f099e5ebf",
+    "tools/analyze/mgba/check_capture.py": "75385def24f048d998dbed154406ef9230858904abbb620ea9814f451a6eba7f",
+    "tools/analyze/mgba/inspect_checkpoint.py": "0eacae3fae3375c1c5ecb6fc9300868b7b2ca1648a25c68f52e6e1aede7b6211",
+    "tools/analyze/mgba/prepare_session.py": "90fea612d65128d7817602467037b2865747999b0efd9c3890ce6f7794aa7d1d",
+    "tools/analyze/mgba/probe_debugger.py": "7dae8d7f6e2c6d84407baa895ae362b86c4e508af5187641fec57630c52c819f",
+    "tools/analyze/mgba/README.md": "241453eafc2bd1492c230ab7193eabb53f23fd74c96f5d94d22057000b384010",
+    "tools/analyze/mgba/rsp.py": "fa2286367c6d65209037b410a9cb9c6c61e7763a9be375e220d3427b9e3d434d",
+    "tools/analyze/mgba/start_session.py": "7d64ffee6d9d5730f810ad951106f0d8e1dae7e023cb25fca16b37d69ba864ac",
+    "tools/analyze/oystown_completion.py": "f64263f3f6a9f9af2450604e819a18dc35ff161a9bad5f50d16821bc5ecface3",
+    "tools/analyze/oystown_shortcut.py": "c482adbef86e484e8227542d01c9a05839af337ab6401ec1d932aaf1740ba6ec",
+    "tools/analyze/pre_oystown_foundation.py": "5ec652b39b11f11c8f338c72acf2ebbbdba4d6e4513397bf33d6380fd90e9135",
+    "tools/analyze/pre_oystown_progression.py": "b7a471d9b0c6d664648827542d9fec95354651d69ac2b8e112e27334fe8c8764",
+    "tools/analyze/README.md": "0315b689ac9c3369976aa36b4883e5d19128b2a968c4dded9e12f3a23b77b38e",
+    "tools/analyze/thumb_inspect.py": "f05c61be172b348644f38643601ccb7e1dcf26ccfd8a095ba20bfd4cfac0b0e3",
+    "tools/analyze/verify_gimmick_roms.py": "dc7cadb0502c78a478863121183f19f17cd2577e16e74f66791239ec3431a2b6",
+    "tools/experiments/gearyo_attack_22.py": "d4add6e4a3f538e693c24e299be6bfe16306aae9d565551bdf18aec1404e21f2",
+    "tools/patch/alessa_recruitment_wrapper.py": "b09f84a1cc7a72916dd7940b41cea99dc60d4103ec7a102c9622a55ac10af078",
+    "tools/patch/binky_exchange_rate_two.py": "742c4bb7196cdef165c6bf07f47ffb1070627b4047e9d56ca931e2a0b97b5abe",
+    "tools/patch/detector_rebalance.py": "cb535133be897c4fbf5d7939dcc5d912bcf894de25b14c9c03186d775c59799c",
+    "tools/patch/gimmick_balance.py": "8603c4ad62bdb2530293cbdcde75f834bc63d7526254cc851673f4600c90814d",
+    "tools/patch/hanzo_dojo_pup.py": "5b05e21bd85e499b8ce28d5763a5f1bef9a111c129c635091c16bdf74aa3ac96",
+    "tools/patch/kaizo_binky_100.py": "aa281b2074574e2036caaa700b88598273c2e736013e9e355c149d3fe8b289c3",
+    "tools/patch/mayonen_caverns_music.py": "52592858157c960d6708a70bb819be40d190fe7ea0ece80e069e9fea8d8be362",
+    "tools/patch/output/alessa-recruitment-wrapper-38386dab64e249cb9dfb4b205620053f/alessa_recruitment_wrapper.gba": "3bba82ba6c581ca598aea1e21ecd654b41418f946e88ea6c5021d89b0357d7c6",
+    "tools/patch/output/alessa-recruitment-wrapper-38386dab64e249cb9dfb4b205620053f/alessa_recruitment_wrapper.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools/patch/output/alessa-recruitment-wrapper-38386dab64e249cb9dfb4b205620053f/manifest.json": "f263adbcef15e3ea954fb3d5a00922766a37c02450e64b975e405e21b21e271e",
+    "tools/patch/output/binky-rate-two-baseline-c4ec3611142c49cf93d891cbfc10f056/binky_exchange_rate_two.gba": "b9967b15193b5aec701032742d322a1040373e76b176b1aeb1e65ce2c06078b6",
+    "tools/patch/output/binky-rate-two-baseline-c4ec3611142c49cf93d891cbfc10f056/manifest.json": "7a174dcad9c009145288f398a8e020a57203051f65b0dd785b300cd3052fc3ef",
+    "tools/patch/output/binky-rate-two-recruitment-test-aaee9ff3918c42aabf6d9bec7cff611f/binky_exchange_rate_two.gba": "d356a6979c497524d1e94306989e09cf8dfe96334a22c664eb3a9570f3ab3ea3",
+    "tools/patch/output/binky-rate-two-recruitment-test-aaee9ff3918c42aabf6d9bec7cff611f/binky_exchange_rate_two.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools/patch/output/binky-rate-two-recruitment-test-aaee9ff3918c42aabf6d9bec7cff611f/manifest.json": "da734bd07e77d77ed9b734a061b2f36c8dad4827bf09e6613e419968227a3be2",
+    "tools/patch/output/detector-hp120-mit25/detector_rebalance.gba": "124c04798e3e9769381f6105fc602794a249c169290b4fc86d735592ae8d9db0",
+    "tools/patch/output/detector-hp120-mit25/independent_verification.json": "c509e36caa1b21c27182201eefd7c35aa7d30ef8961439d281f53e1fa58ce723",
+    "tools/patch/output/detector-hp120-mit25/manifest.json": "f5af92cca58537dcb82f20175f46617fdf4ab605993e5a3f57f68b99169aa938",
+    "tools/patch/output/gearyo-reference-validation/balanced.gba": "5cd1cc5c70dce892476d5162d49e0e1552600d37087181f79d0cc4e3d8120a8f",
+    "tools/patch/output/gearyo-reference-validation/manifest.json": "762603409c83973699ce97e2e21aa570d69a2b6d2f28480993d886ab3c1d1504",
+    "tools/patch/output/hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf/hanzo_dojo_pup.gba": "749762aa8c3c0fae433d46c0ebbcbf4f54646790baf4b6129414e6e5832cdfea",
+    "tools/patch/output/hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf/hanzo_dojo_pup.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools/patch/output/hanzo-dojo-pup-96034ad7bdfa4bd0b3e9313e3b617daf/manifest.json": "0ec869ba4a6556bcaa562ef4f84a6cd1fbd78bb6e61ea955be3745d956dc8451",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/byte_differences.json": "e55ca2003ef5005802002233e2d202ee263b49ae98facc22031ee1b9ccda1265",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/independent_verification.json": "93bfe669f9b4464cf425490cbab0304feac059b0974b96978ae77aeeed8efbb4",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/kaizo_binky_100.gba": "7e7603816afb0990eea51ed2c49ab4b4afd5596ff1c4211c656d608e94ed2aa2",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/kaizo_binky_100.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/manifest.json": "fece9d6ef8b096476656b5cad1cb9245bea0988d6a18e918a4c187cbc7cd7daf",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/protection_audit.json": "c4ede286e355570dfdf8c15801068cc54aa8309d12f29ba0402d9c379f24b731",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/README.md": "f9c8ec5536263fb9ed6e41cf84205eaacfaa1988e82ed249efc114d9bc05866c",
+    "tools/patch/output/kaizo-binky-100-438325e1b0dd4d74a3eda1d9672f9fde/test_results.json": "94540ddabced5c0a927bb32ec722ca2bbf151057be4f8ab76977b6b6532a0612",
+    "tools/patch/output/mayonen-caverns-map001e-86d6efb0c6824c9c851fb5602c4e4746/manifest.json": "f6d687918f922600fcbfdf9780cff23de4d271918f32414b6253d982c4ae1c75",
+    "tools/patch/output/mayonen-caverns-map001e-86d6efb0c6824c9c851fb5602c4e4746/mayonen_caverns_map001e.gba": "7fc50105e340510079158ca74e61f778b63b3276793ec9b6ffbe29c2af75c761",
+    "tools/patch/output/relleck-guarded-03b2ecfe70c84711b0afc63cf7a9a2dd/byte_differences.json": "f209950142a6cd3f2a8b1ea8041ce0cb2ec098d7661fd15a4aaebf400742abc9",
+    "tools/patch/output/relleck-guarded-03b2ecfe70c84711b0afc63cf7a9a2dd/manifest.json": "8310fec6f74f1e803f948bb083c1d2360a921255fa3d949707f060a5fd89f0e2",
+    "tools/patch/output/relleck-guarded-03b2ecfe70c84711b0afc63cf7a9a2dd/relleck_guarded_initialization.gba": "1ab6bc9c2be38c914f7d0780f21b2211d9f64ac34c5588b43da5e36d9f1fd5f8",
+    "tools/patch/output/relleck-guarded-03b2ecfe70c84711b0afc63cf7a9a2dd/relleck_guarded_initialization.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools/patch/output/sofoubi-guarded-07d5967f9fef40459f9cd2b94270404a/byte_differences.json": "4935421ccc64e5b6c1e850dabbe04e7cf9e9673e25aea898ed842ed7bd69f251",
+    "tools/patch/output/sofoubi-guarded-07d5967f9fef40459f9cd2b94270404a/manifest.json": "a7825a3baf280afe039b267f88101902a12f8443a759b9d681abb182f1ea9ef0",
+    "tools/patch/output/sofoubi-guarded-07d5967f9fef40459f9cd2b94270404a/sofoubi_guarded_initialization.gba": "f796526a8f7baa15edf844bf799d66b202cc8542bc8d5e694b52b53214c143f9",
+    "tools/patch/output/sofoubi-guarded-07d5967f9fef40459f9cd2b94270404a/sofoubi_guarded_initialization.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools/patch/output/sofoubi-initialization-e4b7345bcc1244dfa33d25548987441d/byte_differences.json": "faa1c981d1b134b08b62233f66dbb707bf241c1a9bd2a82e8382a124d60fa69e",
+    "tools/patch/output/sofoubi-initialization-e4b7345bcc1244dfa33d25548987441d/manifest.json": "bb34e5c35808fd656942d69b5ca15c7f5661552c805d567fae81ae6344faaca3",
+    "tools/patch/output/sofoubi-initialization-e4b7345bcc1244dfa33d25548987441d/sofoubi_initialization_wrapper.gba": "053d6a874af20c884d96bc99177d4b8f4364fb6dc7e43adce730b6dd79540d0c",
+    "tools/patch/output/sofoubi-initialization-e4b7345bcc1244dfa33d25548987441d/sofoubi_initialization_wrapper.sav": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f",
+    "tools/patch/README.md": "57b0ae559fd1e6708fd789b0684883b3dd521e1b23ca305a2853bf829eae427e",
+    "tools/patch/relleck_guarded_initialization.py": "1bd7ddca22da529dde302e36dd2885ba91020f5c3525ff226c6da1009ba40ca1",
+    "tools/patch/sofoubi_guarded_initialization.py": "fbf4aab38040b6d5c9278479540b74e04d929a6b67b65ce2746359a6e18876d4",
+    "tools/patch/sofoubi_initialization_wrapper.py": "bf041ae58fe887012065a849420852125bf31ff69e315c3176e85b239e369bee"
+  },
+  "protected_unchanged": true,
+  "ROM_writes": 0,
+  "runtime_performed": false
+}
